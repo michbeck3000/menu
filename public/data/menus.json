@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-24T20:37:18.969Z",
+  "updatedAt": "2026-02-24T21:53:11.499Z",
   "days": {
     "monday": [
       {
@@ -28,34 +28,6 @@
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Linseneintopf mit Bratwurstscheiben 1;3",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Vegan - Käsespätzle A1 mit Röstzwiebeln A1 und Salat",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Römerbraten mit Spiegelei, braune Sauce dazu Bratkartoffeln und marinierter Paprika",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Wildgulasch mit Rotkohl und kleine Kartoffelklöße",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
         "type": "meat"
       }
     ],
@@ -87,34 +59,6 @@
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
-      },
-      {
-        "name": "Leberknödelsuppe mit Kartoffel",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Vegan - Gemüsefrikadelle Kürbis+Steckrübe dazu Kartoffelstampf und Spinat",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Burger a1 mit Schweinefleischpatty; Barbecue sauce; Gurke und Zwiebel dazu Pommes frites",
-        "price": "8,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Thunfischragout A1, G mit Kapern dazu Reis und Brokkoli",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "fish"
       }
     ],
     "wednesday": [
@@ -145,34 +89,6 @@
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
-      },
-      {
-        "name": "Rosenkohleintopf mit Kartoffel und Möhre",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Vegetarisch - Pizza A1 mit Champignons, Spinat und Paprika, Mozzarella",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Dunkles Hähnchenragout mit Couscous A1 und Gemüsemischung",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Schweinefilet mit Morchelsauce dazu Kroketten A1 und grüne Bohnen",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
       }
     ],
     "thursday": [
@@ -196,34 +112,6 @@
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
-      },
-      {
-        "name": "Fischtopf mit Tomate",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "fish"
-      },
-      {
-        "name": "Vegan - Spaghetti A1 mit veganer Sauce Bolgnese Art (Weizen-Protein) A1 (vegetarisch geriebener Hartkäse G)",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Hirten Makkaroni A1 mit Salami 1,3 Hackfleisch, Tomate und Fetakäse G",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Kalbscurry mit Reis dazu Blumenkohl mit Sesam",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
       }
     ],
     "friday": [
@@ -246,34 +134,6 @@
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Vegan - Asia Suppe mit Edamame und Wakame",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Vegetarisch - Quornbratwurst mit brauner Sauce dazu Sauerkraut und Kartoffelstampf",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Seelachsfilet D in der Kartoffelkruste dazu Rahmspinat G mit Currykartoffeln",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Rinderhüfte mit Champignonragout dazu Pommes frites",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
         "type": "meat"
       }
     ]
