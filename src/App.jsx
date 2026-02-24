@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('/data/menus.json');
+        const response = await axios.get(`${import.meta.env.BASE_URL}data/menus.json`);
         setMenuData(response.data);
 
         // Auto-select current day if available
