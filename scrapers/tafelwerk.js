@@ -1,0 +1,96 @@
+
+const URL = 'https://www.tafelwerk-leipzig.de/weeklycard';
+
+export async function scrapeTafelwerk(browser) {
+    let page;
+    try {
+        page = await browser.newPage();
+        await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+
+        // Tafelwerk is an Angular SPA, so we need to wait for network idle
+        await page.goto(URL, { waitUntil: 'networkidle2', timeout: 60000 });
+
+        // Wait for the menu cards to render
+        try {
+            await page.waitForSelector('.row.day', { timeout: 10000 });
+        } catch (e) {
+            console.log('Tafelwerk menu selector .row.day not found or timed out.');
+            // Maybe take a screenshot or dump html if debugging was easier
+        }
+
+        const weeklyMenu = await page.evaluate(() => {
+            const menu = {};
+            const dayMapping = {
+                'montag': 'monday',
+                'dienstag': 'tuesday',
+                'mittwoch': 'wednesday',
+                'donnerstag': 'thursday',
+                'freitag': 'friday'
+            };
+
+            const dayBlocks = document.querySelectorAll('.row.day');
+            dayBlocks.forEach(dayBlock => {
+                const dateHeaderEl = dayBlock.querySelector('.day-date h3');
+                const dateHeader = dateHeaderEl ? dateHeaderEl.innerText.toLowerCase() : '';
+                let dayKey = null;
+
+                for (const [german, english] of Object.entries(dayMapping)) {
+                    if (dateHeader.includes(german)) {
+                        dayKey = english;
+                        break;
+                    }
+                }
+
+                if (dayKey) {
+                    const dishes = [];
+                    const cards = dayBlock.querySelectorAll('.card');
+
+                    cards.forEach(card => {
+                        const catEl = card.querySelector('.card-header h4');
+                        const titleEl = card.querySelector('.card-title h5');
+                        const descEl = card.querySelector('.card-text');
+                        const priceEl = card.querySelector('.card-footer span');
+
+                        const category = catEl ? catEl.innerText.split('|')[0].trim() : '';
+                        const title = titleEl ? titleEl.innerText.split('|')[0].trim() : '';
+                        const description = '';
+                        let price = priceEl ? priceEl.innerText.trim() : '';
+
+                        // Clean price (remove trailing pipe if present)
+                        price = price.replace(/\s*\|\s*$/, '');
+                        if (price === 'N/A') price = '';
+
+                        let type = 'meat';
+                        const lowerText = (title + ' ' + description + ' ' + category).toLowerCase();
+                        if (lowerText.includes('vegan')) type = 'vegan';
+                        else if (lowerText.includes('vegetarisch') || lowerText.includes('vegetarian')) type = 'vegetarian';
+                        else if (lowerText.includes('fisch') || lowerText.includes('fish')) type = 'fish';
+
+                        if (title) {
+                            dishes.push({
+                                name: title,
+                                description,
+                                price,
+                                bistro: 'Tafelwerk',
+                                type
+                            });
+                        }
+                    });
+
+                    if (dishes.length > 0) {
+                        menu[dayKey] = dishes;
+                    }
+                }
+            });
+            return menu;
+        });
+
+        return weeklyMenu;
+
+    } catch (error) {
+        console.warn('Tafelwerk scraper error:', error.message);
+        return {};
+    } finally {
+        if (page) await page.close();
+    }
+}
