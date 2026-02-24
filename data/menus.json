@@ -1,0 +1,141 @@
+{
+  "updatedAt": "2026-02-24T21:53:11.499Z",
+  "days": {
+    "monday": [
+      {
+        "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
+        "price": "€",
+        "description": "",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Blumenkohl-Brokkoli-Kartoffel Gratin mit Sauce Hollandaise",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Gebratenes Seelachsfilet mit Bandnudeln und Blattspinat",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Pastinakencremesuppe mit Croûtons",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      }
+    ],
+    "tuesday": [
+      {
+        "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
+        "price": "$7.95",
+        "description": "",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Rindfleisch Burger mit Pommes",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      }
+    ],
+    "wednesday": [
+      {
+        "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
+        "price": "€",
+        "description": "",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Süßkartoffel Rösti's mit gebackenen Kürbisspalten und Dip",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Marinierter Hering mit Kartoffeln",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Hackfleisch-Käse-Laucheintopf",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      }
+    ],
+    "thursday": [
+      {
+        "name": "Vollkorn Spaghetti mit veganer Bolognese",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Currywurst mit Pommes und Rohkostsalat",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Hefeklöße mit Kirschen und Vanillesoße",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      }
+    ],
+    "friday": [
+      {
+        "name": "Pide mit Gemüse und Käse",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Bratwurst mit Kartoffelpüree und Schmorzwiebeln",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Grützwurst mit Sauerkraut und Kartoffeln",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      }
+    ]
+  }
+}
