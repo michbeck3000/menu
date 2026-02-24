@@ -7,12 +7,15 @@ export async function scrapeTafelwerk(browser) {
         page = await browser.newPage();
         await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
-        // Tafelwerk is an Angular SPA, so we need to wait for network idle
-        await page.goto(URL, { waitUntil: 'networkidle2', timeout: 60000 });
+        // Tafelwerk is an Angular SPA. We navigate and wait for the base DOM, then wait for our selector.
+        // We avoid networkidle0/2 because some trackers keep the connection open and cause timeouts.
+        await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
         // Wait for the menu cards to render
         try {
-            await page.waitForSelector('.row.day', { timeout: 10000 });
+            await page.waitForSelector('.row.day', { timeout: 15000 });
+            // Angular might need an extra moment to render the rest of the days (e.g. Friday)
+            await new Promise(r => setTimeout(r, 3000));
         } catch (e) {
             console.log('Tafelwerk menu selector .row.day not found or timed out.');
             // Maybe take a screenshot or dump html if debugging was easier
