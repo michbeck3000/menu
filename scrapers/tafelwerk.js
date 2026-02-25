@@ -54,20 +54,28 @@ export async function scrapeTafelwerk(browser) {
                         const descEl = card.querySelector('.card-text');
                         const priceEl = card.querySelector('.card-footer span');
 
-                        const category = catEl ? catEl.textContent.split('|')[0].trim() : '';
-                        const title = titleEl ? titleEl.textContent.split('|')[0].trim() : '';
+                        let category = catEl ? catEl.textContent.split('|')[0].trim() : '';
+                        let title = titleEl ? titleEl.textContent.split('|')[0].trim() : '';
                         const description = '';
-                        let price = priceEl ? priceEl.textContent.trim() : '';
 
-                        // Clean price (remove trailing pipe if present)
-                        price = price.replace(/\s*\|\s*$/, '');
+                        // Extract first price if multiple exist like "4,50 € | 7,70 €"
+                        let price = priceEl ? priceEl.textContent.split('|')[0].trim() : '';
                         if (price === 'N/A') price = '';
 
+                        // Determine type and clean title
                         let type = 'meat';
                         const lowerText = (title + ' ' + description + ' ' + category).toLowerCase();
-                        if (lowerText.includes('vegan')) type = 'vegan';
-                        else if (lowerText.includes('vegetarisch') || lowerText.includes('vegetarian')) type = 'vegetarian';
-                        else if (lowerText.includes('fisch') || lowerText.includes('fish')) type = 'fish';
+                        if (lowerText.includes('vegan')) {
+                            type = 'vegan';
+                            title = title.replace(/^Vegan\s*-\s*/i, '').trim();
+                        }
+                        else if (lowerText.includes('vegetarisch') || lowerText.includes('vegetarian')) {
+                            type = 'vegetarian';
+                            title = title.replace(/^Vegetarisch\s*-\s*/i, '').trim();
+                        }
+                        else if (lowerText.includes('fisch') || lowerText.includes('fish')) {
+                            type = 'fish';
+                        }
 
                         if (title) {
                             dishes.push({
