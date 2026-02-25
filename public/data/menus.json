@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-25T08:01:39.693Z",
+  "updatedAt": "2026-02-25T08:27:18.874Z",
   "days": {
     "monday": [
       {
@@ -38,7 +38,7 @@
         "type": "meat"
       },
       {
-        "name": "Vegan - Gemüsefrikadelle Kürbis+Steckrübe dazu Kartoffelstampf und Spinat",
+        "name": "Gemüsefrikadelle Kürbis+Steckrübe dazu Kartoffelstampf und Spinat",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -96,7 +96,7 @@
         "type": "meat"
       },
       {
-        "name": "Vegetarisch - Pizza A1 mit Champignons, Spinat und Paprika, Mozzarella",
+        "name": "Pizza A1 mit Champignons, Spinat und Paprika, Mozzarella",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -154,7 +154,7 @@
         "type": "fish"
       },
       {
-        "name": "Vegan - Spaghetti A1 mit veganer Sauce Bolgnese Art (Weizen-Protein) A1  (vegetarisch geriebener Hartkäse G)",
+        "name": "Spaghetti A1 mit veganer Sauce Bolgnese Art (Weizen-Protein) A1  (vegetarisch geriebener Hartkäse G)",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -198,14 +198,14 @@
         "type": "meat"
       },
       {
-        "name": "Vegan - Asia Suppe mit Edamame und Wakame",
+        "name": "Asia Suppe mit Edamame und Wakame",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Vegetarisch - Quornbratwurst mit brauner Sauce dazu Sauerkraut und Kartoffelstampf",
+        "name": "Quornbratwurst mit brauner Sauce dazu Sauerkraut und Kartoffelstampf",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
