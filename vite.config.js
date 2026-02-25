@@ -12,7 +12,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['vite.svg'],
       manifest: {
-        name: 'Bundesbank Menü',
+        name: 'Menü',
         short_name: 'Menü',
         description: 'Wochenkarte für Fraunhofer, Tafelwerk und Bio-City',
         theme_color: '#0f172a', // Passt zum Dark Mode (slate-900)
@@ -20,12 +20,12 @@ export default defineConfig({
         display: 'standalone',
         icons: [
           {
-            src: 'vite.svg',
+            src: 'icon.svg',
             sizes: '192x192',
             type: 'image/svg+xml'
           },
           {
-            src: 'vite.svg',
+            src: 'icon.svg',
             sizes: '512x512',
             type: 'image/svg+xml'
           }

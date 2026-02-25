@@ -34,7 +34,7 @@ export async function scrapeTafelwerk(browser) {
             const dayBlocks = document.querySelectorAll('.row.day');
             dayBlocks.forEach(dayBlock => {
                 const dateHeaderEl = dayBlock.querySelector('.day-date h3');
-                const dateHeader = dateHeaderEl ? dateHeaderEl.innerText.toLowerCase() : '';
+                const dateHeader = dateHeaderEl ? dateHeaderEl.textContent.toLowerCase() : '';
                 let dayKey = null;
 
                 for (const [german, english] of Object.entries(dayMapping)) {
@@ -54,10 +54,10 @@ export async function scrapeTafelwerk(browser) {
                         const descEl = card.querySelector('.card-text');
                         const priceEl = card.querySelector('.card-footer span');
 
-                        const category = catEl ? catEl.innerText.split('|')[0].trim() : '';
-                        const title = titleEl ? titleEl.innerText.split('|')[0].trim() : '';
+                        const category = catEl ? catEl.textContent.split('|')[0].trim() : '';
+                        const title = titleEl ? titleEl.textContent.split('|')[0].trim() : '';
                         const description = '';
-                        let price = priceEl ? priceEl.innerText.trim() : '';
+                        let price = priceEl ? priceEl.textContent.trim() : '';
 
                         // Clean price (remove trailing pipe if present)
                         price = price.replace(/\s*\|\s*$/, '');
