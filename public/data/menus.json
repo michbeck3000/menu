@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-25T08:27:18.874Z",
+  "updatedAt": "2026-02-25T08:51:58.459Z",
   "days": {
     "monday": [
       {
@@ -25,6 +25,64 @@
       },
       {
         "name": "Pastinakencremesuppe mit Croûtons",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Linseneintopf mit Bratwurstscheiben 1;3",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Käsespätzle A1 mit Röstzwiebeln A1 und Salat",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Römerbraten mit Spiegelei, braune Sauce dazu Bratkartoffeln und marinierter Paprika",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Wildgulasch mit Rotkohl und kleine Kartoffelklöße",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      }
+    ],
+    "tuesday": [
+      {
+        "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
+        "price": "$7.95",
+        "description": "",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Rindfleisch Burger mit Pommes",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
@@ -59,30 +117,30 @@
         "type": "fish"
       }
     ],
-    "tuesday": [
+    "wednesday": [
       {
         "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
-        "price": "$7.95",
+        "price": "€",
         "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
+        "name": "Süßkartoffel Rösti's mit gebackenen Kürbisspalten und Dip",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Rindfleisch Burger mit Pommes",
+        "name": "Marinierter Hering mit Kartoffeln",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "name": "Hackfleisch-Käse-Laucheintopf",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
@@ -117,30 +175,23 @@
         "type": "meat"
       }
     ],
-    "wednesday": [
+    "thursday": [
       {
-        "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
-        "price": "€",
+        "name": "Vollkorn Spaghetti mit veganer Bolognese",
+        "price": "",
         "description": "",
-        "bistro": "Bio-City",
-        "type": "meat"
+        "bistro": "Fraunhofer",
+        "type": "vegan"
       },
       {
-        "name": "Süßkartoffel Rösti's mit gebackenen Kürbisspalten und Dip",
+        "name": "Currywurst mit Pommes und Rohkostsalat",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Marinierter Hering mit Kartoffeln",
-        "price": "",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Hackfleisch-Käse-Laucheintopf",
+        "name": "Hefeklöße mit Kirschen und Vanillesoße",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
@@ -175,23 +226,23 @@
         "type": "meat"
       }
     ],
-    "thursday": [
+    "friday": [
       {
-        "name": "Vollkorn Spaghetti mit veganer Bolognese",
-        "price": "",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegan"
-      },
-      {
-        "name": "Currywurst mit Pommes und Rohkostsalat",
+        "name": "Pide mit Gemüse und Käse",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Hefeklöße mit Kirschen und Vanillesoße",
+        "name": "Bratwurst mit Kartoffelpüree und Schmorzwiebeln",
+        "price": "",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Grützwurst mit Sauerkraut und Kartoffeln",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
@@ -223,29 +274,6 @@
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "meat"
-      }
-    ],
-    "friday": [
-      {
-        "name": "Pide mit Gemüse und Käse",
-        "price": "",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Bratwurst mit Kartoffelpüree und Schmorzwiebeln",
-        "price": "",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Grützwurst mit Sauerkraut und Kartoffeln",
-        "price": "",
-        "description": "",
-        "bistro": "Fraunhofer",
         "type": "meat"
       }
     ]
