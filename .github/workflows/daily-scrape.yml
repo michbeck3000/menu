@@ -30,7 +30,10 @@ jobs:
         run: npm ci
 
       - name: Run Scraper
+        env:
+          TZ: "Europe/Berlin"
         run: npm run scrape
+
       
       - name: Commit and Push Menu Data
         run: |
