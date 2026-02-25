@@ -57,11 +57,18 @@ export async function scrapeTafelwerk(browser) {
                         let category = catEl ? catEl.textContent.split('|')[0].trim() : '';
                         let title = titleEl ? titleEl.textContent.split('|')[0].trim() : '';
 
-                        // Remove allergen/additive categories (e.g., "(A1, G, D)" or "[A, B]" or ", A1, G")
-                        title = title.replace(/\s*[\(\[][A-Z0-9,\s]+[\)\]]/g, '').trim();
-                        title = title.replace(/(?:,\s*[A-Z][0-9]?)+\s*$/, '').trim();
-                        // Remove trailing numbers separated by semicolons/commas (e.g. " 1;3" or ", 1, 3")
-                        title = title.replace(/\s*[0-9]+(?:[;,]\s*[0-9]+)*\s*$/, '').trim();
+                        // Clean standalone allergens/additives like 'A1', 'G', '1,3'
+                        const token = "(?:[a-rA-R][0-9]?|[0-9]{1,2})";
+                        const regex = new RegExp(`(^|[\\s\\(\\)\\[\\]])(${token}(?:\\s*[,;]\\s*${token})*)(?=[\\s\\(\\)\\[\\],.]|$)`, 'g');
+                        let prevTitle;
+                        do {
+                            prevTitle = title;
+                            title = title.replace(regex, (match, prefix, block) => {
+                                if (block.toLowerCase() === 'a') return match;
+                                return prefix;
+                            });
+                        } while (title !== prevTitle);
+                        title = title.replace(/\(\s*\)/g, '');
                         title = title.replace(/\s+/g, ' ').trim();
                         const description = '';
 
