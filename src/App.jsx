@@ -11,20 +11,35 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const getTodayId = () => {
+      const currentDayIndex = new Date().getDay();
+      const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+      return days[currentDayIndex];
+    };
+
+    const fetchData = async (isManualRefresh = false) => {
       try {
-        const response = await axios.get(`${import.meta.env.BASE_URL}data/menus.json`);
+        // Use a timestamp as cache-buster to ensure we get the latest data from the server
+        const cacheBuster = `?t=${new Date().getTime()}`;
+        const response = await axios.get(`${import.meta.env.BASE_URL}data/menus.json${cacheBuster}`);
         setMenuData(response.data);
 
-        // Auto-select current day if available
-        const currentDayIndex = new Date().getDay();
-        const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
-        const today = days[currentDayIndex];
+        // Auto-select current day if it's a weekday and either:
+        // 1. It's the initial load
+        // 2. We're refreshing and the user hasn't manually navigated away from what was "today"
+        const today = getTodayId();
+        const isWeekday = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'].includes(today);
 
-        if (['monday', 'tuesday', 'wednesday', 'thursday', 'friday'].includes(today)) {
-          setActiveDay(today);
+        if (isWeekday) {
+          // If it's a manual refresh (visibility change), we only update if the day has actually changed
+          // or if we were already on a weekday. This prevents jumping around if the user is looking at something specific.
+          setActiveDay(prev => {
+            if (!isManualRefresh || prev === 'monday' || prev === 'tuesday' || prev === 'wednesday' || prev === 'thursday' || prev === 'friday') {
+              return today;
+            }
+            return prev;
+          });
         }
-
       } catch (err) {
         console.error('Error fetching menu data:', err);
         setError('Konnte Menüdaten nicht laden.');
@@ -34,6 +49,17 @@ function App() {
     };
 
     fetchData();
+
+    // Listen for visibility changes (e.g., app resumed from background)
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        console.log('App resumed, refreshing data...');
+        fetchData(true);
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
   }, []);
 
   const handleDaySelect = (dayId) => {
