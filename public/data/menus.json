@@ -1,14 +1,7 @@
 {
-  "updatedAt": "2026-02-27T06:18:26.000Z",
+  "updatedAt": "2026-02-28T10:02:22.272Z",
   "days": {
     "monday": [
-      {
-        "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
-        "price": "€",
-        "description": "",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
       {
         "name": "Blumenkohl-Brokkoli-Kartoffel Gratin mit Sauce Hollandaise",
         "price": "",
@@ -61,13 +54,6 @@
     ],
     "tuesday": [
       {
-        "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
-        "price": "$7.95",
-        "description": "",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
         "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
         "price": "",
         "description": "",
@@ -119,9 +105,23 @@
     ],
     "wednesday": [
       {
-        "name": "Das Bistro ist auf Grund der Übergabe an “ Geschmackswerk Leipzig bis zum\n\n03.03 geschlossen. Am 04.03.eröffnet das Bistro neu. Freut Euch auf frische Ideen, leckere Gerichte und eine gemütliche Amosphäre",
-        "price": "€",
-        "description": "",
+        "name": "Grillgemüse, Drillinge & Kräuterquark",
+        "price": "8,00 €",
+        "description": "Rosa gebratener Rinderrücken (live tranchiert) +2,50 €",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Falafel",
+        "price": "8,00 €",
+        "description": "Falafel mit Rote Bete · Apfelgemüse · Röstbrot",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Joghurt-Panna Cotta mit Waldbeeren",
+        "price": "0,00 €",
+        "description": "und ein Glas hausgemachte Limonade",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -177,6 +177,27 @@
     ],
     "thursday": [
       {
+        "name": "Lasagne",
+        "price": "8,80 €",
+        "description": "Lasagne vom Feldgemüse mit Mohn und Ingwer",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Penne mit Pilz-Sahne-Soße",
+        "price": "7,90 €",
+        "description": "alternativ Penne Pesto",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Penne mit Bolognese",
+        "price": "9,20 €",
+        "description": "",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
         "name": "Vollkorn Spaghetti mit veganer Bolognese",
         "price": "",
         "description": "",
@@ -227,6 +248,27 @@
       }
     ],
     "friday": [
+      {
+        "name": "Currywurst",
+        "price": "8,70 €",
+        "description": "Currywurst · Wedges · Pommes · Süßkartoffel",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Gefüllte Paprika",
+        "price": "8,20 €",
+        "description": "Mit Couscous gefüllte Paprikaschote · Bohnengemüse · Duftreis",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Pane Premio",
+        "price": "6,20 €",
+        "description": "Brie · Serrano · Zucchini (+3,00 € mit Salat)",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
       {
         "name": "Pide mit Gemüse und Käse",
         "price": "",
