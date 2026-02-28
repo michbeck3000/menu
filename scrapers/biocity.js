@@ -1,5 +1,5 @@
 
-const URL = 'https://bistro-biocity.de/wochenkarte';
+const URL = 'https://geschmackswerk-leipzig.de/';
 
 export async function scrapeBioCity(browser) {
     let page;
@@ -10,71 +10,85 @@ export async function scrapeBioCity(browser) {
 
         await page.goto(URL, { waitUntil: 'networkidle2', timeout: 30000 });
 
-        // Wait for the menu container
+        // Wait for the Elementor food menu items to load
         try {
-            await page.waitForSelector('.nova-food-menu', { timeout: 5000 });
+            await page.waitForSelector('.pt-food-menu-item', { timeout: 10000 });
         } catch (e) {
-            console.log('BioCity menu selector not found immediately, might differ or error page.');
+            console.log('Geschmackswerk menu selector not found, page structure may have changed.');
         }
 
         const weeklyMenu = await page.evaluate(() => {
             const menu = {};
             const dayMapping = {
-                'Montag': 'monday',
-                'Dienstag': 'tuesday',
-                'Mittwoch': 'wednesday',
-                'Donnerstag': 'thursday',
-                'Freitag': 'friday'
+                'montag': 'monday',
+                'dienstag': 'tuesday',
+                'mittwoch': 'wednesday',
+                'donnerstag': 'thursday',
+                'freitag': 'friday'
             };
 
-            const sections = document.querySelectorAll('.nova-food-menu__section');
-            sections.forEach(section => {
-                const titleEl = section.querySelector('.section-title');
-                const dayText = titleEl ? titleEl.innerText.trim().split('\n')[0] : '';
-                const dayKey = Object.keys(dayMapping).find(d => dayText.includes(d));
+            // REOPENING DATE: 2026-03-04 (Wednesday)
+            // We should only extract days that are >= this date.
+            const REOPENING_DATE = new Date('2026-03-04');
 
-                if (dayKey) {
-                    const dishes = [];
-                    const items = section.querySelectorAll('.nova-food-menu-item');
+            const columns = document.querySelectorAll('.elementor-widget-wrap');
 
-                    items.forEach(item => {
-                        const titleEl = item.querySelector('.item-title');
-                        const descEl = item.querySelector('.item-description');
-                        const priceEl = item.querySelector('.item-price');
+            columns.forEach(column => {
+                const titleEl = column.querySelector('.pt-title');
+                const subtitleEl = column.querySelector('.pt-subtitle');
+                if (!titleEl) return;
 
-                        const title = titleEl ? titleEl.innerText.trim() : '';
-                        const description = descEl ? descEl.innerText.trim() : '';
-                        const price = priceEl ? priceEl.innerText.trim() : '';
-
-                        if (title) {
-                            let type = 'meat';
-                            const lowerText = (title + ' ' + description).toLowerCase();
-                            if (lowerText.includes('vegan')) type = 'vegan';
-                            else if (lowerText.includes('vegetarisch') || lowerText.includes('vegetarian')) type = 'vegetarian';
-                            else if (lowerText.includes('fisch') || lowerText.includes('fish')) type = 'fish';
-
-                            dishes.push({
-                                name: title,
-                                description,
-                                price,
-                                bistro: 'Bio-City',
-                                type
-                            });
-                        }
-                    });
-
-                    if (dishes.length > 0) {
-                        menu[dayMapping[dayKey]] = dishes;
+                // Parse the date from the subtitle (e.g., "02.03.2026")
+                const dateText = subtitleEl ? subtitleEl.textContent.trim() : '';
+                if (dateText) {
+                    const parts = dateText.split('.');
+                    if (parts.length === 3) {
+                        const itemDate = new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
+                        // Skip if the date is before the reopening date
+                        if (itemDate < REOPENING_DATE) return;
                     }
                 }
+
+                // Match the day name
+                const dayText = titleEl.textContent.trim().toLowerCase();
+                const dayKey = Object.keys(dayMapping).find(d => dayText.includes(d));
+                if (!dayKey) return;
+
+                const dishes = [];
+                const items = column.querySelectorAll('.pt-food-menu-item');
+
+                items.forEach(item => {
+                    const nameEl = item.querySelector('.pt-food-menu-title .title-wrap');
+                    const descEl = item.querySelector('.pt-food-menu-details');
+                    const priceEl = item.querySelector('.pt-food-menu-price');
+
+                    const name = nameEl ? nameEl.textContent.trim() : '';
+                    const description = descEl ? descEl.textContent.trim() : '';
+                    const price = priceEl ? priceEl.textContent.trim() : '';
+
+                    if (name) {
+                        dishes.push({
+                            name,
+                            description,
+                            price,
+                            bistro: 'Bio-City',
+                            type: 'meat'
+                        });
+                    }
+                });
+
+                if (dishes.length > 0) {
+                    menu[dayMapping[dayKey]] = dishes;
+                }
             });
+
             return menu;
         });
 
         return weeklyMenu;
 
     } catch (error) {
-        console.error('Error scraping Bio-City:', error.message);
+        console.error('Error scraping Bio-City (Geschmackswerk):', error.message);
         return {};
     } finally {
         if (page) await page.close();
