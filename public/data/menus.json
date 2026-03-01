@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-01T11:40:25.600Z",
+  "updatedAt": "2026-03-01T13:05:55.968Z",
   "days": {
     "monday": [
       {
@@ -24,28 +24,28 @@
         "type": "meat"
       },
       {
-        "name": "Linseneintopf mit Bratwurstscheiben",
+        "name": "Currysuppe mit schwarzen Linsen",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Käsespätzle mit Röstzwiebeln und Salat",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Römerbraten mit Spiegelei, braune Sauce dazu Bratkartoffeln und marinierter Paprika",
+        "name": "Gemüseschnitzel mit Reis dazu Karotten-Wirsingragout mit Kürbiskernen",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hähnchenknusperfilet mit Backkartoffeln dazu Mais-Paprika-Gemüse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Wildgulasch mit Rotkohl und kleine Kartoffelklöße",
+        "name": "Schweinefilet mit Tomate und Mozzarella dazu Kroketten und Zucchinigemüse",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -75,32 +75,32 @@
         "type": "meat"
       },
       {
-        "name": "Leberknödelsuppe mit Kartoffel",
+        "name": "Italienischer Tomaten-Nudeltopf mit Salami und Bohnen",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Gemüsefrikadelle Kürbis+Steckrübe dazu Kartoffelstampf und Spinat",
-        "price": "8,30 €",
+        "name": "Focacciaburger mit Knusper Chick'n Patty dazu gebackene Zwiebelringe",
+        "price": "8,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Burger mit Schweinefleischpatty; Barbecue sauce; Gurke und Zwiebel dazu Pommes frites",
-        "price": "8,50 €",
+        "name": "Schweinegeschnetzeltes Mexikanische Art dazu Gabelspaghetti",
+        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Thunfischragout mit Kapern dazu Reis und Brokkoli",
+        "name": "Ausgelöste Ente mit Rotkohl dazu Miniknödel",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "fish"
+        "type": "meat"
       }
     ],
     "wednesday": [
@@ -147,28 +147,35 @@
         "type": "meat"
       },
       {
-        "name": "Rosenkohleintopf mit Kartoffel und Möhre",
+        "name": "Gulaschsuppe mit Paprika und Kartoffeln",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Pizza mit Champignons, Spinat und Paprika, Mozzarella",
+        "name": "Kürbis-Blumenkohl-Curry dazu Basmatireis",
         "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Hefeklöße mit Heidelbeeren",
+        "price": "4,90 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegetarian"
       },
       {
-        "name": "Dunkles Hähnchenragout mit Couscous und Gemüsemischung",
+        "name": "Salatteller mit Hähnchenbruststreifen dazu Baguette",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Schweinefilet mit Morchelsauce dazu Kroketten und grüne Bohnen",
+        "name": "Känguru Filet mit Kirsch-Pfeffer-Sauce dazu Dauphine-Kartoffeln und Mischgemüse",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -219,28 +226,28 @@
         "type": "meat"
       },
       {
-        "name": "Fischtopf mit Tomate",
+        "name": "Graupeneintopf mit Wurzelgemüse und Räuchertofu",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "fish"
+        "type": "vegan"
       },
       {
-        "name": "Spaghetti mit veganer Sauce Bolgnese Art (Weizen-Protein) (vegetarisch geriebener Hartkäse )",
+        "name": "Penne mit würzigem Tomatenragout mit Pesto dazu Beddakäse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Hirten Makkaroni mit Salami Hackfleisch, Tomate und Fetakäse",
+        "name": "Taxiteller - Currywurst, Gyros mit Tsaziki dazu Pommes frites",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Kalbscurry mit Reis dazu Blumenkohl mit Sesam",
+        "name": "Geschmorte Lammstücke in Balsamico dazu Couscous und Prinzessbohnen",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -284,28 +291,28 @@
         "type": "meat"
       },
       {
-        "name": "Asia Suppe mit Edamame und Wakame",
+        "name": "Minestrone - Gemüsesuppe mit Reisnudeln",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Quornbratwurst mit brauner Sauce dazu Sauerkraut und Kartoffelstampf",
+        "name": "Quornbällchen in Pilzsauce dazu Kartoffelstampf und Blumenkohl",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Seelachsfilet in der Kartoffelkruste dazu Rahmspinat mit Currykartoffeln",
+        "name": "Schweinebraten mit Schmorkraut dazu Semmelknödelscheiben",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Rinderhüfte mit Champignonragout dazu Pommes frites",
+        "name": "Zanderfilet mit Reis dazu Rahmspinat",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
