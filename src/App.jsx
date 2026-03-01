@@ -19,22 +19,22 @@ function App() {
 
     const fetchData = async (isManualRefresh = false) => {
       try {
-        // Use a timestamp as cache-buster to ensure we get the latest data from the server
         const cacheBuster = `?t=${new Date().getTime()}`;
         const response = await axios.get(`${import.meta.env.BASE_URL}data/menus.json${cacheBuster}`);
         setMenuData(response.data);
 
-        // Auto-select current day if it's a weekday and either:
-        // 1. It's the initial load
-        // 2. We're refreshing and the user hasn't manually navigated away from what was "today"
         const today = getTodayId();
         const isWeekday = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'].includes(today);
 
         if (isWeekday) {
-          // If it's a manual refresh (visibility change), we only update if the day has actually changed
-          // or if we were already on a weekday. This prevents jumping around if the user is looking at something specific.
+          // Always switch to today if it's a fresh (foreground) refresh or if we were on an invalid/non-weekday
           setActiveDay(prev => {
-            if (!isManualRefresh || prev === 'monday' || prev === 'tuesday' || prev === 'wednesday' || prev === 'thursday' || prev === 'friday') {
+            const wasWeekday = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'].includes(prev);
+            if (!isManualRefresh || !wasWeekday) {
+              return today;
+            }
+            // If it's a foreground refresh but we're already on a weekday, only update if the day actually changed
+            if (prev !== today) {
               return today;
             }
             return prev;
@@ -50,16 +50,20 @@ function App() {
 
     fetchData();
 
-    // Listen for visibility changes (e.g., app resumed from background)
-    const handleVisibilityChange = () => {
+    const handleRefresh = () => {
+      // Refresh whenever app comes to foreground or regains focus
       if (document.visibilityState === 'visible') {
-        console.log('App resumed, refreshing data...');
         fetchData(true);
       }
     };
 
-    document.addEventListener('visibilitychange', handleVisibilityChange);
-    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+    document.addEventListener('visibilitychange', handleRefresh);
+    window.addEventListener('focus', handleRefresh);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleRefresh);
+      window.removeEventListener('focus', handleRefresh);
+    };
   }, []);
 
   const handleDaySelect = (dayId) => {
