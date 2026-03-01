@@ -142,7 +142,7 @@ function App() {
         </div>
       </header>
 
-      <div key={activeDay} className="animate-fade-in space-y-6">
+      <div className="animate-fade-in space-y-6">
 
         {currentMenu.length === 0 ? (
           <div className="text-center py-20 bg-white/5 rounded-2xl border border-dashed border-white/10 transition-colors duration-300 backdrop-blur-sm">
