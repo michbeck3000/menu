@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import DaySelector from './components/DaySelector';
-import MenuCard from './components/MenuCard';
+import BistroCard from './components/BistroCard';
 import './App.css';
 
 function App() {
@@ -142,27 +142,17 @@ function App() {
             <p className="text-slate-400">Keine Menüdaten für diesen Tag verfügbar.</p>
           </div>
         ) : (
-          <div className="space-y-12">
+          <div className="space-y-6">
             {bistroOrder.map((bistroName) => {
               const dishes = dishesByBistro[bistroName];
               if (!dishes || dishes.length === 0) return null;
 
               return (
-                <section key={bistroName} className="animate-slide-up">
-                  <h2 className="text-2xl font-display font-bold text-slate-100 mb-4 border-b border-white/10 pb-2 transition-colors duration-300">
-                    {bistroName}
-                  </h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {dishes.map((dish, index) => (
-                      <div
-                        key={`${dish.bistro}-${index}`}
-                        className="h-full"
-                      >
-                        <MenuCard dish={dish} />
-                      </div>
-                    ))}
-                  </div>
-                </section>
+                <BistroCard
+                  key={bistroName}
+                  bistroName={bistroName}
+                  dishes={dishes}
+                />
               );
             })}
           </div>
