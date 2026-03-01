@@ -122,20 +122,23 @@ function App() {
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
-      <header className="mb-8 text-center animate-slide-up">
+      <header className="mb-8 text-center animate-slide-up glass-card p-8">
         <h1 className="text-4xl font-display font-bold text-slate-100 mb-2 transition-colors duration-300">
-          Bundesbank Menü
+          Wochenkarte
         </h1>
-        <p className="text-slate-400 transition-colors duration-300">
-          Wochenkarte für Fraunhofer, Tafelwerk und Bio-City
+        <p className="text-slate-100/80 transition-colors duration-300 max-w-lg mx-auto mb-1">
+          für Fraunhofer, Tafelwerk und Bio-City
         </p>
-        <div className="text-xs text-slate-500 mt-2 transition-colors duration-300">
+        <div className="text-[10px] uppercase tracking-wider text-slate-100/40 mb-6 transition-colors duration-300">
           Stand: {new Date(menuData.updatedAt).toLocaleString('de-DE')}
+        </div>
+
+        <div className="flex justify-center border-t border-white/10 pt-8">
+          <DaySelector activeDay={activeDay} onSelectDay={handleDaySelect} />
         </div>
       </header>
 
-      <div className="animate-fade-in">
-        <DaySelector activeDay={activeDay} onSelectDay={handleDaySelect} />
+      <div className="animate-fade-in space-y-6">
 
         {currentMenu.length === 0 ? (
           <div className="text-center py-20 bg-white/5 rounded-2xl border border-dashed border-white/10 transition-colors duration-300 backdrop-blur-sm">

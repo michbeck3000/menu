@@ -10,7 +10,7 @@ const days = [
 
 export default function DaySelector({ activeDay, onSelectDay }) {
     return (
-        <div className="flex justify-center space-x-2 mb-6 overflow-x-auto py-2 no-scrollbar">
+        <div className="flex justify-center space-x-2 overflow-x-auto py-2 no-scrollbar">
             {days.map((day) => (
                 <button
                     key={day.id}
