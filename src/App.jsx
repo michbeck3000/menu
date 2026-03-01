@@ -142,8 +142,7 @@ function App() {
         </div>
       </header>
 
-      <div className="animate-fade-in space-y-6">
-
+      <div className="space-y-6">
         {currentMenu.length === 0 ? (
           <div className="text-center py-20 bg-white/5 rounded-2xl border border-dashed border-white/10 transition-colors duration-300 backdrop-blur-sm">
             <p className="text-slate-400">Keine Menüdaten für diesen Tag verfügbar.</p>
