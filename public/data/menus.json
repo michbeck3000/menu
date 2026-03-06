@@ -1,48 +1,55 @@
 {
-  "updatedAt": "2026-03-06T22:08:44.114Z",
+  "updatedAt": "2026-03-06T22:02:22.280Z",
   "days": {
     "monday": [
       {
         "name": "Rührei mit Kartoffeln und Rahmspinat",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Hähnchenbrustschnitzel mit Pesto Spaghetti, Rucola und Hartkäse",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Tomatencremesuppe mit Croûtons",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
-        "name": "Vegetarisch - Kartoffelsuppe mit Bällchen aus Pilzeiweiß",
+        "name": "Kartoffelsuppe mit Bällchen aus Pilzeiweiß",
         "price": "4,50 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
       },
       {
-        "name": "Vegan - Kartoffelpuffer mit Blumenkohlragout (vegetarisch Reibekäse )",
+        "name": "Kartoffelpuffer mit Blumenkohlragout (vegetarisch Reibekäse )",
         "price": "8,30 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegan"
       },
       {
         "name": "Spaghetti mit Hähnchen-Bolognese dazu Reibekäse",
         "price": "8,30 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       },
       {
         "name": "Thunfischsteak mit Kapernsauce dazu Prinzessbohnen und Backkartoffeln",
         "price": "11,90 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "fish"
       }
     ],
     "tuesday": [
@@ -50,49 +57,57 @@
         "name": "Veganer Chick'n Crisp Burger mit Pommes",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "vegan"
       },
       {
         "name": "Hähnchenpfanne \"Chop Suey\" mit Reis",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Grießbrei mit Pflaumen und Zimtzucker",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Puszta Topf mit Wurstscheiben , Paprika und Couscous",
         "price": "4,50 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       },
       {
-        "name": "Vegetarisch - Milchreis mit Zimt-Pflaumen",
+        "name": "Milchreis mit Zimt-Pflaumen",
         "price": "7,40 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
       },
       {
-        "name": "Vegan - Süßkartoffel-Pommes mit Salat und Avocadodip",
+        "name": "Süßkartoffel-Pommes mit Salat und Avocadodip",
         "price": "8,50 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegan"
       },
       {
         "name": "Paprikaschote mit Schweinefleischfülle dazu Reis",
         "price": "8,50 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       },
       {
         "name": "Rindergulasch mit Röstiecken und Blumenkohl",
         "price": "11,90 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "wednesday": [
@@ -100,67 +115,78 @@
         "name": "Joghurt-Panna Cotta mit Waldbeeren",
         "price": "geschenkt!",
         "description": "und ein Glas hausgemachte Limonade (L)",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Grillgemüse, Drillinge & Kräuterquark",
         "price": "8,00 €",
         "description": "Rosa gebratener Rinderrücken (live tranchiert) +2,50 € (L)",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Falafel",
         "price": "8,00 €",
         "description": "Falafel mit Rote Bete · Apfelgemüse · Röstbrot (GL, Nu, Sm)",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Salat",
         "price": "2,90 €",
         "description": "wählen sie aus unserem Salatbuffet",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Gemüse Bratling mit Kartoffel-Sellerie Stampf und rote Beete-Salat",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Linseneintopf mit Bockwurstscheiben",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
-        "name": "Vegan - Kichererbsensuppe Orientalisch",
+        "name": "Kichererbsensuppe Orientalisch",
         "price": "4,50 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegan"
       },
       {
-        "name": "Vegan - Spinatlasagne dazu Rote Beete Ragout mit Sonnenblumenkerne",
+        "name": "Spinatlasagne dazu Rote Beete Ragout mit Sonnenblumenkerne",
         "price": "8,30 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegan"
       },
       {
         "name": "Schweinegulasch mit Eier-Spätzle",
         "price": "8,30 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       },
       {
         "name": "Kalbstafelspitz in Meerrettichsauce dazu Möhrengemüse und Mini-Kartoffelklöße",
         "price": "11,90 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "thursday": [
@@ -168,61 +194,71 @@
         "name": "Lasagne",
         "price": "8,80 €",
         "description": "Lasagne vom Feldgemüse mit Mohn und Ingwer",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Penne mit Pilz-Sahne-Soße",
         "price": "7,90 €",
         "description": "alternativ Penne Pesto",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Penne mit Bolognese",
         "price": "9,20 €",
         "description": "",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Salat-Gemüse Bowl mit gebackenem Hirtenkäse",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Boulette mit Spätzle und Rahmchampignons",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Eierkuchen mit Apfelmus und Zimtzucker",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
-        "name": "Vegan - Erbseneintopf mit Gemüse und Kartoffeln",
+        "name": "Erbseneintopf mit Gemüse und Kartoffeln",
         "price": "4,50 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegan"
       },
       {
-        "name": "Vegetarisch - Tortilla mit Gemüse-Käse-Fülle dazu Couscous und Sour Creme",
+        "name": "Tortilla mit Gemüse-Käse-Fülle dazu Couscous und Sour Creme",
         "price": "8,30 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
       },
       {
         "name": "Hähnchen Bowl mit Champignons Paprika und Mais dazu Steakhouse Pommes und chili cheese dip",
         "price": "8,50 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       },
       {
         "name": "Lammbraten mit Zucchini-Mix und Kartoffelgratin",
         "price": "11,90 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "friday": [
@@ -230,55 +266,64 @@
         "name": "Currywurst",
         "price": "8,70 €",
         "description": "Currywurst · Wedges · Pommes · Süßkartoffel",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Gefüllte Paprika",
         "price": "8,20 €",
         "description": "Mit Couscous gefüllte Paprikaschote · Bohnengemüse · Duftreis",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Pane Premio",
         "price": "6,20 €",
         "description": "Brie · Serrano · Zucchini (+2,20 € mit Salat)",
-        "bistro": "Bio-City"
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Backcamembert mit Wedges und Kräuterquark",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
         "name": "Chili con Carne mit Baguette",
         "price": "",
         "description": "",
-        "bistro": "Fraunhofer"
+        "bistro": "Fraunhofer",
+        "type": "meat"
       },
       {
-        "name": "Vegan - Mexikanischer Gemüsetopf",
+        "name": "Mexikanischer Gemüsetopf",
         "price": "4,50 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegan"
       },
       {
-        "name": "Vegetarisch - Polenta-Pizza mit Spinat, Paprika und Mozzarella",
+        "name": "Polenta-Pizza mit Spinat, Paprika und Mozzarella",
         "price": "8,30 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
       },
       {
         "name": "Kasslerbraten mit Zwiebelsauce dazu Sauerkraut und Erbsenpüree",
         "price": "8,30 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       },
       {
         "name": "Hähnchenschnitzel mit Mischgemüse dazu Herzoginkartoffeln",
         "price": "11,90 €",
         "description": "",
-        "bistro": "Tafelwerk"
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ]
   }
