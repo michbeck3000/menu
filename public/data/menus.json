@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-01T13:44:00.803Z",
+  "updatedAt": "2026-03-06T09:19:09.554Z",
   "days": {
     "monday": [
       {
@@ -105,23 +105,30 @@
     ],
     "wednesday": [
       {
+        "name": "Joghurt-Panna Cotta mit Waldbeeren",
+        "price": "geschenkt!",
+        "description": "und ein Glas hausgemachte Limonade (L)",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
         "name": "Grillgemüse, Drillinge & Kräuterquark",
         "price": "8,00 €",
-        "description": "Rosa gebratener Rinderrücken (live tranchiert) +2,50 €",
+        "description": "Rosa gebratener Rinderrücken (live tranchiert) +2,50 € (L)",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
         "name": "Falafel",
         "price": "8,00 €",
-        "description": "Falafel mit Rote Bete · Apfelgemüse · Röstbrot",
+        "description": "Falafel mit Rote Bete · Apfelgemüse · Röstbrot (GL, Nu, Sm)",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Joghurt-Panna Cotta mit Waldbeeren",
-        "price": "0,00 €",
-        "description": "und ein Glas hausgemachte Limonade",
+        "name": "Salat",
+        "price": "2,90 €",
+        "description": "wählen sie aus unserem Salatbuffet",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -195,7 +202,7 @@
         "price": "7,90 €",
         "description": "alternativ Penne Pesto",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Penne mit Bolognese",
@@ -267,12 +274,12 @@
         "price": "8,20 €",
         "description": "Mit Couscous gefüllte Paprikaschote · Bohnengemüse · Duftreis",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Pane Premio",
         "price": "6,20 €",
-        "description": "Brie · Serrano · Zucchini (+3,00 € mit Salat)",
+        "description": "Brie · Serrano · Zucchini (+2,20 € mit Salat)",
         "bistro": "Bio-City",
         "type": "meat"
       },

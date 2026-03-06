@@ -67,12 +67,30 @@ export async function scrapeBioCity(browser) {
                     const price = priceEl ? priceEl.textContent.trim() : '';
 
                     if (name) {
+                        let type = 'meat';
+                        const labelEl = item.querySelector('.menu-label');
+                        const labelText = labelEl ? labelEl.textContent.trim().toLowerCase() : '';
+
+                        if (labelText.includes('vegan')) {
+                            type = 'vegan';
+                        } else if (labelText.includes('vegi') || labelText.includes('vegetarisch')) {
+                            type = 'vegetarian';
+                        } else {
+                            // Fallback to name/desc check
+                            const lowerText = (name + ' ' + description).toLowerCase();
+                            if (lowerText.includes('vegan')) {
+                                type = 'vegan';
+                            } else if (lowerText.includes('vegetarisch') || lowerText.includes('vegi') || lowerText.includes('vegetarian')) {
+                                type = 'vegetarian';
+                            }
+                        }
+
                         dishes.push({
                             name,
                             description,
                             price,
                             bistro: 'Bio-City',
-                            type: 'meat'
+                            type
                         });
                     }
                 });
