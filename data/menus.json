@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-06T06:15:31.019Z",
+  "updatedAt": "2026-03-06T12:11:45.184Z",
   "days": {
     "monday": [
       {
@@ -123,7 +123,7 @@
         "price": "8,00 €",
         "description": "Falafel mit Rote Bete · Apfelgemüse · Röstbrot (GL, Nu, Sm)",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Salat",
@@ -202,7 +202,7 @@
         "price": "7,90 €",
         "description": "alternativ Penne Pesto",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Penne mit Bolognese",
@@ -274,7 +274,7 @@
         "price": "8,20 €",
         "description": "Mit Couscous gefüllte Paprikaschote · Bohnengemüse · Duftreis",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Pane Premio",
