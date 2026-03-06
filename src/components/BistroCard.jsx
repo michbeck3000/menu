@@ -16,13 +16,13 @@ export default function BistroCard({ bistroName, dishes }) {
                             <li className="group">
                                 <h3 className="text-base font-semibold text-slate-100 leading-snug transition-colors duration-300">
                                     {dish.name}
-                                    {!dish.description && isVegan && (
-                                        <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-emerald-600 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
+                                    {(bistroName === 'Bio-City' || !dish.description) && isVegan && (
+                                        <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-primary-600 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
                                             VEGAN
                                         </span>
                                     )}
-                                    {!dish.description && isVegie && !isVegan && (
-                                        <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-amber-500 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
+                                    {(bistroName === 'Bio-City' || !dish.description) && isVegie && !isVegan && (
+                                        <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-primary-600 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
                                             VEGI
                                         </span>
                                     )}
@@ -30,13 +30,13 @@ export default function BistroCard({ bistroName, dishes }) {
                                 {dish.description && (
                                     <p className="text-sm text-slate-100 mt-1 transition-colors duration-300">
                                         {dish.description}
-                                        {isVegan && (
-                                            <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-emerald-600 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
+                                        {bistroName !== 'Bio-City' && isVegan && (
+                                            <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-primary-600 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
                                                 VEGAN
                                             </span>
                                         )}
-                                        {isVegie && !isVegan && (
-                                            <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-amber-500 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
+                                        {bistroName !== 'Bio-City' && isVegie && !isVegan && (
+                                            <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-primary-600 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
                                                 VEGI
                                             </span>
                                         )}
