@@ -76,28 +76,12 @@ export async function scrapeTafelwerk(browser) {
                         let price = priceEl ? priceEl.textContent.split('|')[0].trim() : '';
                         if (price === 'N/A') price = '';
 
-                        // Determine type and clean title
-                        let type = 'meat';
-                        const lowerText = (title + ' ' + description + ' ' + category).toLowerCase();
-                        if (lowerText.includes('vegan')) {
-                            type = 'vegan';
-                            title = title.replace(/^Vegan\s*-\s*/i, '').trim();
-                        }
-                        else if (lowerText.includes('vegetarisch') || lowerText.includes('vegetarian')) {
-                            type = 'vegetarian';
-                            title = title.replace(/^Vegetarisch\s*-\s*/i, '').trim();
-                        }
-                        else if (lowerText.includes('fisch') || lowerText.includes('fish')) {
-                            type = 'fish';
-                        }
-
                         if (title) {
                             dishes.push({
                                 name: title,
                                 description,
                                 price,
-                                bistro: 'Tafelwerk',
-                                type
+                                bistro: 'Tafelwerk'
                             });
                         }
                     });

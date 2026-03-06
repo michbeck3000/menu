@@ -69,24 +69,17 @@ export async function scrapeFraunhofer(browser) {
                         menu[currentDay].push({
                             name: text,
                             price: "",
-                            bistro: 'Fraunhofer',
-                            type: 'meat' // Default
+                            bistro: 'Fraunhofer'
                         });
                         return;
                     }
-
-                    let type = 'meat';
-                    if (lowerText.includes('vegan')) type = 'vegan';
-                    else if (lowerText.includes('vegetarisch') || lowerText.includes('vegetarian')) type = 'vegetarian';
-                    else if (lowerText.includes('fisch') || lowerText.includes('fish')) type = 'fish';
 
                     // Ensure it's not a price-only line if they exist separate (unlikely here)
                     if (text.length > 3) {
                         menu[currentDay].push({
                             name: text,
                             price: "",
-                            bistro: 'Fraunhofer',
-                            type: type
+                            bistro: 'Fraunhofer'
                         });
                     }
                 }

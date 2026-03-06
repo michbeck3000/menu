@@ -71,8 +71,7 @@ export async function scrapeBioCity(browser) {
                             name,
                             description,
                             price,
-                            bistro: 'Bio-City',
-                            type: 'meat'
+                            bistro: 'Bio-City'
                         });
                     }
                 });
