@@ -22,7 +22,7 @@ export default function BistroCard({ bistroName, dishes }) {
                                         </span>
                                     )}
                                     {!dish.description && isVegie && !isVegan && (
-                                        <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-amber-500 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
+                                        <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-emerald-600 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
                                             VEGI
                                         </span>
                                     )}
@@ -36,7 +36,7 @@ export default function BistroCard({ bistroName, dishes }) {
                                             </span>
                                         )}
                                         {isVegie && !isVegan && (
-                                            <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-amber-500 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
+                                            <span className="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-emerald-600 rounded-full shadow-sm align-middle mb-0.5 whitespace-nowrap">
                                                 VEGI
                                             </span>
                                         )}
