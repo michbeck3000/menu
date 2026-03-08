@@ -1,7 +1,25 @@
 {
-  "updatedAt": "2026-03-06T22:11:09.740Z",
+  "updatedAt": "2026-03-08T07:24:18.486Z",
   "days": {
     "monday": [
+      {
+        "name": "Kichererbsen - Curry",
+        "price": "8,40 €",
+        "description": "Grünes Gemüse - Kokos - Duftreis (Sj, Sm)",
+        "bistro": "Bio-City"
+      },
+      {
+        "name": "Nudelauflauf",
+        "price": "8,50 €",
+        "description": "mit Pestorahm",
+        "bistro": "Bio-City"
+      },
+      {
+        "name": "Laugenbrezel",
+        "price": "5,60 €",
+        "description": "mit Butter gefüllt – Radieschen & Käse Salat (Gl,L,)",
+        "bistro": "Bio-City"
+      },
       {
         "name": "Rührei mit Kartoffeln und Rahmspinat",
         "price": "",
@@ -46,6 +64,24 @@
       }
     ],
     "tuesday": [
+      {
+        "name": "3 Stück Semmelknödel",
+        "price": "8,50 €",
+        "description": "Ricotta - Pilzrahmsoße - Rote Beete   (Gl,Ei,L)",
+        "bistro": "Bio-City"
+      },
+      {
+        "name": "Wurstgulasch",
+        "price": "8,50 €",
+        "description": "Schmelztomate – Reibekäse – Penne (Gl, L, Sl)",
+        "bistro": "Bio-City"
+      },
+      {
+        "name": "Wrap",
+        "price": "6,30 €",
+        "description": "Senf Frischkäse – Thunfisch - Salatherzen (Gl,F,Sf,L)",
+        "bistro": "Bio-City"
+      },
       {
         "name": "Veganer Chick'n Crisp Burger mit Pommes",
         "price": "",
@@ -97,27 +133,21 @@
     ],
     "wednesday": [
       {
-        "name": "Joghurt-Panna Cotta mit Waldbeeren",
-        "price": "geschenkt!",
-        "description": "und ein Glas hausgemachte Limonade (L)",
+        "name": "Hirtenrolle griechische Art",
+        "price": "9,40 €",
+        "description": "Spitzkohl – Risoni – Walbeeren Ketchup (Gl,Sl,Ei,Sf,Sm)",
         "bistro": "Bio-City"
       },
       {
-        "name": "Grillgemüse, Drillinge & Kräuterquark",
-        "price": "8,00 €",
-        "description": "Rosa gebratener Rinderrücken (live tranchiert) +2,50 € (L)",
+        "name": "2 gedämpfte Germknödel",
+        "price": "7,90 €",
+        "description": "Vanillesoße - und ein Lassi als Getränk - (Nu,L,Sj)",
         "bistro": "Bio-City"
       },
       {
-        "name": "Falafel",
-        "price": "8,00 €",
-        "description": "Falafel mit Rote Bete · Apfelgemüse · Röstbrot (GL, Nu, Sm)",
-        "bistro": "Bio-City"
-      },
-      {
-        "name": "Salat",
-        "price": "2,90 €",
-        "description": "wählen sie aus unserem Salatbuffet",
+        "name": "Ciabatta",
+        "price": "5,90 €",
+        "description": "Körniger Frischkäse – Apfel – Gurke – Sprossen (Gl,L,Sj)",
         "bistro": "Bio-City"
       },
       {
@@ -165,21 +195,21 @@
     ],
     "thursday": [
       {
-        "name": "Lasagne",
-        "price": "8,80 €",
-        "description": "Lasagne vom Feldgemüse mit Mohn und Ingwer",
+        "name": "gebackener Camembert",
+        "price": "8,50 €",
+        "description": "Kürbiskerne - Kräuterbrot - und Salat vom Buffet (L,Nu,Gl,Ei)",
         "bistro": "Bio-City"
       },
       {
-        "name": "Penne mit Pilz-Sahne-Soße",
-        "price": "7,90 €",
-        "description": "alternativ Penne Pesto",
+        "name": "Chili Con Carne",
+        "price": "8,60 €",
+        "description": "Mais - Bohnen - Reis",
         "bistro": "Bio-City"
       },
       {
-        "name": "Penne mit Bolognese",
-        "price": "9,20 €",
-        "description": "",
+        "name": "Holzfällerbrot",
+        "price": "5,80 €",
+        "description": "Käse hoch 3 (Gl,L)",
         "bistro": "Bio-City"
       },
       {
@@ -227,21 +257,21 @@
     ],
     "friday": [
       {
-        "name": "Currywurst",
-        "price": "8,70 €",
-        "description": "Currywurst · Wedges · Pommes · Süßkartoffel",
+        "name": "Schupfnudelpfanne",
+        "price": "8,00 €",
+        "description": "buntes Gemüse - Kürbissoße",
         "bistro": "Bio-City"
       },
       {
-        "name": "Gefüllte Paprika",
-        "price": "8,20 €",
-        "description": "Mit Couscous gefüllte Paprikaschote · Bohnengemüse · Duftreis",
+        "name": "Matjesfilet",
+        "price": "8,60 €",
+        "description": "Hausfrauen Art - Salzkartoffeln (F,L,Sf)",
         "bistro": "Bio-City"
       },
       {
-        "name": "Pane Premio",
-        "price": "6,20 €",
-        "description": "Brie · Serrano · Zucchini (+2,20 € mit Salat)",
+        "name": "Focaccia",
+        "price": "5,90 €",
+        "description": "Tomaten Frischkäse – Rucola – italienische Salami (Gl,L,Nu)",
         "bistro": "Bio-City"
       },
       {
