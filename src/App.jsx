@@ -20,7 +20,9 @@ function App() {
     const fetchData = async (isManualRefresh = false) => {
       try {
         const cacheBuster = `?t=${new Date().getTime()}`;
-        const response = await axios.get(`${import.meta.env.BASE_URL}data/menus.json${cacheBuster}`);
+        // DIE NEUE ZEILE: Wir laden direkt aus dem main-Branch, nicht vom GitHub Pages Server
+        const liveDataUrl = 'https://raw.githubusercontent.com/michbeck3000/menu/main/public/data/menus.json';
+        const response = await axios.get(`${liveDataUrl}${cacheBuster}`);
         setMenuData(response.data);
 
         const today = getTodayId();
