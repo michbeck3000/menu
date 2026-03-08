@@ -61,17 +61,33 @@ export async function scrapeBioCity(browser) {
                     const nameEl = item.querySelector('.pt-food-menu-title .title-wrap');
                     const descEl = item.querySelector('.pt-food-menu-details');
                     const priceEl = item.querySelector('.pt-food-menu-price');
+                    const labelEl = item.querySelector('.menu-label');
 
-                    const name = nameEl ? nameEl.textContent.trim() : '';
-                    const description = descEl ? descEl.textContent.trim() : '';
+                    let name = nameEl ? nameEl.textContent.trim() : '';
+                    let description = descEl ? descEl.textContent.trim() : '';
                     const price = priceEl ? priceEl.textContent.trim() : '';
+
+                    // Parse type from label (e.g., "vegan" or "vegetarisch")
+                    let type = 'meat';
+                    if (labelEl) {
+                        const labelText = labelEl.textContent.trim().toLowerCase();
+                        if (labelText.includes('vegan')) type = 'vegan';
+                    else if (labelText.includes('vegi') || labelText.includes('vegetari')) type = 'vegetarian';
+                    }
+
+                    // Remove allergen strings like "(Sj, Sm)" or "(Gl,Ei,L)" from the end of name or description
+                    // Regex looks for a space followed by parentheses containing only letters, commas, and spaces.
+                    const allergenRegex = /\s*\([a-zA-Z,\s]+\)$/;
+                    name = name.replace(allergenRegex, '').trim();
+                    description = description.replace(allergenRegex, '').trim();
 
                     if (name) {
                         dishes.push({
                             name,
                             description,
                             price,
-                            bistro: 'Bio-City'
+                            bistro: 'Bio-City',
+                            type
                         });
                     }
                 });

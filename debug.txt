@@ -1,0 +1,40 @@
+DEBUG ROW: left_text='09.03.2026 - 13.03.2026' prices=[] eng=False head=<re.Match object; span=(0, 10), match='09.03.2026'>
+DEBUG ROW: left_text='Montag:' prices=[] eng=False head=False
+DEBUG ROW: left_text='Rote Beete SticksF mit SüßkartoffelpüreeD und Möhrengemüse' prices=['6,00 €', '7,00 €'] eng=False head=False
+DEBUG ROW: left_text='Beetroot sticks with sweet potato purée and carrots Vegetarisch' prices=[] eng=True head=False
+DEBUG ROW: left_text='Seelachsfilet in Cornflakspanade mit Bratkartoffeln und Remoulade1,3,4' prices=['7,00 €', '8,00 €'] eng=True head=False
+DEBUG ROW: left_text='Pollock fillet in cornflake breadcrumbs with fried potatoes and remoulade1,3,4' prices=[] eng=True head=False
+DEBUG ROW: left_text='Karotten-Ingwercremesuppe' prices=['2,00 €', '2,70 €'] eng=False head=False
+DEBUG ROW: left_text='Carrot and ginger cream soup Vegan' prices=['4,50 €', '5,00 €'] eng=True head=False
+DEBUG ROW: left_text='Dienstag:' prices=[] eng=False head=False
+DEBUG ROW: left_text='Italienische Kartoffel-Gemüsepfanne mit Hirtenkäse und Rucola' prices=['6,00 €', '7,00 €'] eng=False head=False
+DEBUG ROW: left_text='Italian potato and vegetable stir-fry with sheep's cheese and rocket Vegetarisch' prices=[] eng=True head=False
+DEBUG ROW: left_text='Steak au FourD mit Pommes und Erbsen' prices=['7,00 €', '8,00 €'] eng=False head=False
+DEBUG ROW: left_text='Steak au Four with chips and peas' prices=[] eng=True head=False
+DEBUG ROW: left_text='Quarkkeulchen mit Apfelmus3 und Zimtzucker' prices=['2,00 €', '2,70 €'] eng=False head=False
+DEBUG ROW: left_text='Quarkkeulchen with apple sauce and cinnamon sugar Vegetarisch' prices=['4,50 €', '5,00 €'] eng=True head=False
+DEBUG ROW: left_text='Mittwoch:' prices=[] eng=False head=False
+DEBUG ROW: left_text='Kartoffeltaschen gefüllt mit Frischkäse, dazu Blattspinat und Käsesoße' prices=['6,00 €', '7,00 €'] eng=False head=False
+DEBUG ROW: left_text='Potato pockets filled with cream cheese, served with leaf spinach and cheese sauce Vegetarisch' prices=[] eng=True head=False
+DEBUG ROW: left_text='HähnchengeschnetzeltesD mit Röstiecken und Bohnen' prices=[] eng=False head=False
+DEBUG ROW: left_text='' prices=['7,00 €', '8,00 €'] eng=False head=False
+DEBUG ROW: left_text='Chicken strips with rösti and beans' prices=[] eng=True head=False
+DEBUG ROW: left_text='Kartoffelsuppe mit Bockwurstscheiben1,3,E' prices=['2,00 €', '2,70 €'] eng=False head=False
+DEBUG ROW: left_text='Potato soup with slices of bockwurst sausage' prices=['4,50 €', '5,00 €'] eng=True head=False
+DEBUG ROW: left_text='Donnerstag:' prices=[] eng=False head=False
+DEBUG ROW: left_text='Veganes rotes Linsen-Gemüse Dal mit Reis' prices=['6,00 €', '7,00 €'] eng=False head=False
+DEBUG ROW: left_text='Vegan red lentil and vegetable dal with rice Vegan' prices=[] eng=True head=False
+DEBUG ROW: left_text='Nudeln mit Wurstgulasch1,3 und Reibekäse' prices=['6,00 €', '7,00 €'] eng=False head=False
+DEBUG ROW: left_text='Pasta with sausage goulash and grated cheese' prices=[] eng=True head=False
+DEBUG ROW: left_text='Apfel CrumbleD,F mit Vanillesoße' prices=['2,00 €', '2,50 €'] eng=True head=False
+DEBUG ROW: left_text='Apple crumble with vanilla sauce Vegetarisch' prices=[] eng=True head=False
+DEBUG ROW: left_text='Freitag:' prices=[] eng=False head=False
+DEBUG ROW: left_text='Schupfnudeln mit Schmorkraut und Sour Cream' prices=['6,00 €', '7,00 €'] eng=False head=False
+DEBUG ROW: left_text='Potato noodles with braised cabbage and sour cream Vegetarisch' prices=[] eng=True head=False
+DEBUG ROW: left_text='Königsberger KlopseA,F,H mit Kartoffeln und Buttergemüse' prices=['7,00 €', '8,00 €'] eng=False head=False
+DEBUG ROW: left_text='Königsberg meatballs with potatoes and buttered vegetables' prices=[] eng=True head=False
+DEBUG ROW: left_text='Kenntlichmachungspflichtige Zusatzstoffe: 1 mit Konservierungsstoff, 2 mit Farbstoff, 3 mit Antioxidationsmittel ,4 mit' prices=[] eng=False head=True
+DEBUG ROW: left_text='Allergene (*und daraus gewonnene Erzeugnisse): (A)Eier*,(B)Sesam*,(C)Soja*,(D)Milch*,(E)Sellerie*,(F)Getreide aus Weizen*' prices=[] eng=False head=True
+DEBUG ROW: left_text='6 geschwefelt, 7 mit Geschmacksverstärker, 8 geschwärzt, 9 gewachst,10 gentechnisch verändert' prices=[] eng=False head=True
+DEBUG ROW: left_text='(H)Senf*,(I)Fisch*,(J)Erdnüsse*,(K)Knoblauch*,(L)Nüsse*,(M)Weichtiere*,(N)Schwefeltioxit/Sulphite*,(O)Lupine*, (P) Krebstiere' prices=[] eng=False head=True
+DEBUG ROW: left_text='Speiseplan Fraunhofer' prices=[] eng=False head=True

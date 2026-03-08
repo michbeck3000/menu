@@ -10,8 +10,18 @@ export default function BistroCard({ bistroName, dishes }) {
                 {dishes.map((dish, index) => (
                     <React.Fragment key={`${dish.bistro}-${index}`}>
                         <li className="group">
-                            <h3 className="text-base font-semibold text-slate-100 leading-snug transition-colors duration-300">
-                                {dish.name}
+                            <h3 className="text-base font-semibold text-slate-100 leading-snug transition-colors duration-300 flex items-center justify-center gap-2 flex-wrap">
+                                <span>{dish.name}</span>
+                                {dish.type === 'vegan' && (
+                                    <span className="px-2 py-0.5 text-[10px] font-bold tracking-wider text-white bg-amber-500 rounded-full uppercase shadow-sm">
+                                        Vegan
+                                    </span>
+                                )}
+                                {dish.type === 'vegetarian' && (
+                                    <span className="px-2 py-0.5 text-[10px] font-bold tracking-wider text-white bg-amber-500 rounded-full uppercase shadow-sm">
+                                        VEGI
+                                    </span>
+                                )}
                             </h3>
                             {dish.description && (
                                 <p className="text-sm text-slate-100 mt-0.5 transition-colors duration-300">

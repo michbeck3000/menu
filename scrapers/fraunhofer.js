@@ -1,5 +1,8 @@
+import { execSync } from 'child_process';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 
-const URL = 'https://www.cafeteria-leipzig.de/cafeteria-fraunhofer-izi/';
+const PAGE_URL = 'https://www.cafeteria-leipzig.de/cafeteria-fraunhofer-izi/';
 
 export async function scrapeFraunhofer(browser) {
     let page;
@@ -7,88 +10,76 @@ export async function scrapeFraunhofer(browser) {
         page = await browser.newPage();
         await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
-        await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        // Step 1: Find the PDF download link on the page
+        await page.goto(PAGE_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await new Promise(r => setTimeout(r, 1500));
 
-        // Wait a bit for potential JS redirects or rendering
-        // Fraunhofer site seemed static from chunk analysis but might have bot checks
-        await new Promise(r => setTimeout(r, 2000));
-
-        const weeklyMenu = await page.evaluate(() => {
-            const menu = {};
-            const dayMapping = {
-                'montag': 'monday',
-                'dienstag': 'tuesday',
-                'mittwoch': 'wednesday',
-                'donnerstag': 'thursday',
-                'freitag': 'friday'
-            };
-
-            let currentDay = null;
-            const paragraphs = document.querySelectorAll('p'); // Get all paragraphs
-
-            paragraphs.forEach(p => {
-                const text = p.innerText.trim();
-                if (!text) return;
-
-                const lowerText = text.toLowerCase();
-                let foundDay = null;
-
-                // Check if line is a day
-                for (const [german, english] of Object.entries(dayMapping)) {
-                    if (lowerText.startsWith(german.toLowerCase())) {
-                        foundDay = english;
-                        break;
-                    }
-                }
-
-                if (foundDay) {
-                    currentDay = foundDay;
-                    if (!menu[currentDay]) menu[currentDay] = [];
-                } else if (currentDay) {
-                    // Logic to exclude non-dishes
-                    if (text.match(/^\d{2}\.\d{2}/)) return; // Date like 09.01.
-                    if (lowerText.includes('änderungen vorbehalten')) return;
-                    if (lowerText.includes('speiseplan')) return;
-
-                    // Exclude garbage
-                    if (lowerText.includes('cookie')) return;
-                    if (lowerText.includes('datenschutzerklärung')) return;
-                    if (lowerText.includes('impressum')) return;
-                    if (lowerText.includes('anbieter:')) return;
-                    if (lowerText.includes('perlickstraße')) return;
-                    if (lowerText.includes('leipzig')) return;
-                    if (lowerText.includes('tel:')) return;
-                    if (lowerText.includes('haema')) return;
-                    if (lowerText.includes('jimdo')) return;
-                    if (lowerText.includes('google')) return;
-                    if (text.length > 200) return; // Likely legal text
-
-                    if (lowerText.includes('betriebsferien')) {
-                        // Special handling for closed days?
-                        // For now just add as dish or note
-                        menu[currentDay].push({
-                            name: text,
-                            price: "",
-                            bistro: 'Fraunhofer'
-                        });
-                        return;
-                    }
-
-                    // Ensure it's not a price-only line if they exist separate (unlikely here)
-                    if (text.length > 3) {
-                        menu[currentDay].push({
-                            name: text,
-                            price: "",
-                            bistro: 'Fraunhofer'
-                        });
-                    }
-                }
-            });
-            return menu;
+        const pdfUrl = await page.evaluate(() => {
+            const links = Array.from(document.querySelectorAll('a[href]'));
+            const pdfLink = links.find(a =>
+                a.href.toLowerCase().includes('.pdf') ||
+                a.href.toLowerCase().includes('speiseplan')
+            );
+            return pdfLink ? pdfLink.href : null;
         });
 
-        return weeklyMenu;
+        if (!pdfUrl) {
+            console.warn('Fraunhofer: No PDF link found on page');
+            return {};
+        }
 
+        console.log('Fraunhofer: Found PDF URL:', pdfUrl);
+
+        // Step 2: Use Python script to parse the PDF
+        // Try to find a python executable that has pdfplumber installed
+        const pythonCandidates = [
+            'python3',
+            'python',
+            '/Library/Developer/CommandLineTools/usr/bin/python3',
+            '/usr/bin/python3',
+            '/opt/homebrew/bin/python3'
+        ];
+
+        let pythonCmd = null;
+        for (const cmd of pythonCandidates) {
+            try {
+                // Check if this python has pdfplumber
+                execSync(`${cmd} -c "import pdfplumber"`, { stdio: 'ignore' });
+                pythonCmd = cmd;
+                break;
+            } catch (e) {
+                // Ignore and try next
+            }
+        }
+
+        if (!pythonCmd) {
+            console.warn('Fraunhofer: Could not find a Python executable with pdfplumber installed.');
+            console.warn('Please run: pip3 install pdfplumber requests');
+            return {};
+        }
+
+        console.log(`Fraunhofer: Executing Python script via ${pythonCmd}...`);
+
+        // Execute the script and capture stdout
+        const __filename = fileURLToPath(import.meta.url);
+        const __dirname = dirname(__filename);
+        const scriptPath = join(__dirname, 'fraunhofer.py');
+
+        const resultBuffer = execSync(`${pythonCmd} "${scriptPath}" "${pdfUrl}"`);
+        const resultRaw = resultBuffer.toString().trim();
+
+        // Step 3: Parse JSON result
+        try {
+            const menuData = JSON.parse(resultRaw);
+            if (menuData.error) {
+                console.warn('Fraunhofer python script error:', menuData.error);
+                return {};
+            }
+            return menuData;
+        } catch (parseError) {
+            console.warn('Fraunhofer: Failed to parse Python script output:', resultRaw.substring(0, 100));
+            return {};
+        }
     } catch (error) {
         console.warn('Fraunhofer scraper error:', error.message);
         return {};
