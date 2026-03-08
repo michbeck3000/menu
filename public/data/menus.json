@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-08T07:24:18.486Z",
+  "updatedAt": "2026-03-08T08:51:45.882Z",
   "days": {
     "monday": [
       {
@@ -21,19 +21,19 @@
         "bistro": "Bio-City"
       },
       {
-        "name": "Rührei mit Kartoffeln und Rahmspinat",
+        "name": "Rote Beete Sticks mit Süßkartoffelpüree und Möhrengemüse",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Hähnchenbrustschnitzel mit Pesto Spaghetti, Rucola und Hartkäse",
+        "name": "Seelachsfilet in Cornflakespanade mit Remoulade",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Tomatencremesuppe mit Croûtons",
+        "name": "Karotten-Ingwercremesuppe",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
@@ -83,19 +83,19 @@
         "bistro": "Bio-City"
       },
       {
-        "name": "Veganer Chick'n Crisp Burger mit Pommes",
+        "name": "Italienische Kartoffel-Gemüsepfanne mit Hirtenkäse und Rucola",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Hähnchenpfanne \"Chop Suey\" mit Reis",
+        "name": "Steak au Four mit Pommes und Erbsen",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Grießbrei mit Pflaumen und Zimtzucker",
+        "name": "Quarkkeulchen mit Apfelmus und Zimtzucker",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
@@ -151,19 +151,19 @@
         "bistro": "Bio-City"
       },
       {
-        "name": "Gemüse Bratling mit Kartoffel-Sellerie Stampf und rote Beete-Salat",
+        "name": "Kartoffeltaschen gefüllt mit Frischkäse, dazu Blattspinat und Käsesoße",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
+        "name": "Hähnchengeschnetzeltes mit Röstiecken und Bohnen",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Linseneintopf mit Bockwurstscheiben",
+        "name": "Kartoffelsuppe mit Bockwurstscheiben",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
@@ -213,19 +213,19 @@
         "bistro": "Bio-City"
       },
       {
-        "name": "Salat-Gemüse Bowl mit gebackenem Hirtenkäse",
+        "name": "Veganes rotes Linsen-Gemüse Dal mit Reis",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Boulette mit Spätzle und Rahmchampignons",
+        "name": "Nudeln mit Wurstgulasch und Reibekäse",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
+        "name": "Apfel Crumble mit Vanillesoße",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
@@ -275,13 +275,13 @@
         "bistro": "Bio-City"
       },
       {
-        "name": "Backcamembert mit Wedges und Kräuterquark",
+        "name": "Schupfnudeln mit Schmorkraut und Sour Cream",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
       },
       {
-        "name": "Chili con Carne mit Baguette",
+        "name": "Königsberger Klopse mit Kartoffeln und Buttergemüse",
         "price": "",
         "description": "",
         "bistro": "Fraunhofer"
