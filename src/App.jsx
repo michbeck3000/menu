@@ -135,7 +135,7 @@ function App() {
         <p className="text-slate-100/80 transition-colors duration-300 max-w-lg mx-auto mb-1">
           für Fraunhofer, Tafelwerk und Bio-City
         </p>
-        <div className="text-[10px] uppercase tracking-wider text-slate-100/40 mb-6 transition-colors duration-300">
+        <div className="text-[10px] uppercase tracking-wider text-slate-100/80 mb-6 transition-colors duration-300">
           Stand: {new Date(menuData.updatedAt).toLocaleString('de-DE')}
         </div>
 
