@@ -6,6 +6,7 @@ import './App.css';
 
 function App() {
   const [menuData, setMenuData] = useState(null);
+  const [appVersion, setAppVersion] = useState('');
   const [activeDay, setActiveDay] = useState('monday');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -20,22 +21,23 @@ function App() {
     const fetchData = async (isManualRefresh = false) => {
       try {
         const cacheBuster = `?t=${new Date().getTime()}`;
-        // DIE NEUE ZEILE: Wir laden direkt aus dem main-Branch, nicht vom GitHub Pages Server
         const liveDataUrl = 'https://raw.githubusercontent.com/michbeck3000/menu/main/public/data/menus.json';
-        const response = await axios.get(`${liveDataUrl}${cacheBuster}`);
-        setMenuData(response.data);
+        const [menuResponse, versionResponse] = await Promise.all([
+          axios.get(`${liveDataUrl}${cacheBuster}`),
+          axios.get(`${import.meta.env.BASE_URL}version.json`)
+        ]);
+        setMenuData(menuResponse.data);
+        setAppVersion(versionResponse.data.version);
 
         const today = getTodayId();
         const isWeekday = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'].includes(today);
 
         if (isWeekday) {
-          // Always switch to today if it's a fresh (foreground) refresh or if we were on an invalid/non-weekday
           setActiveDay(prev => {
             const wasWeekday = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'].includes(prev);
             if (!isManualRefresh || !wasWeekday) {
               return today;
             }
-            // If it's a foreground refresh but we're already on a weekday, only update if the day actually changed
             if (prev !== today) {
               return today;
             }
@@ -135,8 +137,8 @@ function App() {
         <p className="text-slate-100/80 transition-colors duration-300 max-w-lg mx-auto mb-1">
           für Fraunhofer, Tafelwerk und Bio-City
         </p>
-        <div className="text-[10px] uppercase tracking-wider text-slate-100/80 mb-6 transition-colors duration-300">
-          Stand: {new Date(menuData.updatedAt).toLocaleString('de-DE')}
+        <div className="text-[10px] uppercase tracking-wider text-slate-100/70 mb-6 transition-colors duration-300">
+          Stand: {new Date(menuData.updatedAt).toLocaleString('de-DE')}, v{appVersion}
         </div>
 
         <div className="flex justify-center border-t border-white/10 pt-8">
