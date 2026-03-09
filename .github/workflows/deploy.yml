@@ -26,9 +26,8 @@ jobs:
 
       - name: Set version from Git tag
         run: |
-          # For release triggers, use release tag_name; for push triggers use GITHUB_REF
           if [ "${{ github.event_name }}" == "release" ]; then
-            TAG_VERSION=${GITHUB_REF#refs/tags/v}
+            TAG_VERSION=${{ github.event.release.tag_name }}
           else
             TAG_VERSION=${GITHUB_REF#refs/tags/v}
           fi
