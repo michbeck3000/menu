@@ -24,7 +24,7 @@ function App() {
         const liveDataUrl = 'https://raw.githubusercontent.com/michbeck3000/menu/main/public/data/menus.json';
         const [menuResponse, versionResponse] = await Promise.all([
           axios.get(`${liveDataUrl}${cacheBuster}`),
-          axios.get(`https://raw.githubusercontent.com/michbeck3000/menu/main/public/version.json`)
+          axios.get(`${import.meta.env.BASE_URL}version.json`)
         ]);
         setMenuData(menuResponse.data);
         setAppVersion(versionResponse.data.version);
