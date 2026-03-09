@@ -1,11 +1,11 @@
 {
   "name": "bundesbank-menue",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.5",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node -e \"const p=require('./package.json');require('fs').writeFileSync('public/version.json',JSON.stringify({version:p.version}))\"",
+    "prebuild": "node scripts/generate-version.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",

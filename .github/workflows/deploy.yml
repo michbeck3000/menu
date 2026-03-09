@@ -2,7 +2,10 @@ name: Deploy on Release
 
 on:
   release:
-    types: [published] # Triggert nur bei einem neuen Release
+    types: [published]
+  push:
+    tags:
+      - 'v*'
 
 permissions:
   contents: write
@@ -20,6 +23,19 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+
+      - name: Set version from Git tag
+        run: |
+          # For release triggers, use release tag_name; for push triggers use GITHUB_REF
+          if [ "${{ github.event_name }}" == "release" ]; then
+            TAG_VERSION=${GITHUB_REF#refs/tags/v}
+          else
+            TAG_VERSION=${GITHUB_REF#refs/tags/v}
+          fi
+          echo "Version: $TAG_VERSION"
+          npm version $TAG_VERSION --no-git-tag-version
+        env:
+          GITHUB_REF: ${{ github.ref }}
 
       - name: Install dependencies
         run: npm ci
