@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T06:20:32.700Z",
+  "updatedAt": "2026-03-10T06:13:31.157Z",
   "days": {
     "monday": [
       {
@@ -14,7 +14,7 @@
         "price": "8,50 €",
         "description": "mit Pestorahm",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Laugenbrezel",
@@ -163,7 +163,7 @@
       {
         "name": "2 gedämpfte Germknödel",
         "price": "7,90 €",
-        "description": "Vanillesoße - und ein Lassi als Getränk -",
+        "description": "Vanillesoße",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -302,7 +302,7 @@
         "price": "8,00 €",
         "description": "buntes Gemüse - Kürbissoße",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Matjesfilet",
