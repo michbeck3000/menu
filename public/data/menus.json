@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T06:15:06.878Z",
+  "updatedAt": "2026-03-12T06:16:37.192Z",
   "days": {
     "monday": [
       {
@@ -176,8 +176,8 @@
       },
       {
         "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "",
+        "price": "6,00 €",
+        "description": "Duett von Brie und Gouda - Weißkohl und Couscous",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -249,7 +249,7 @@
       {
         "name": "Wrap des Tages",
         "price": "6,30 €",
-        "description": "",
+        "description": "Tomate Mozzarella mit Rucola",
         "bistro": "Bio-City",
         "type": "meat"
       },
