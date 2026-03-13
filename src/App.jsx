@@ -116,7 +116,7 @@ function App() {
 
   const currentMenu = menuData?.days[activeDay] || [];
 
-  const bistroOrder = ['Fraunhofer', 'Tafelwerk', 'Bio-City'];
+  const bistroOrder = ['Nationalbibliothek', 'Fraunhofer', 'Tafelwerk', 'Bio-City'];
 
   // Helper to group dishes by bistro
   const dishesByBistro = currentMenu.reduce((acc, dish) => {
