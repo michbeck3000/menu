@@ -116,7 +116,7 @@ function App() {
 
   const currentMenu = menuData?.days[activeDay] || [];
 
-  const bistroOrder = ['Nationalbibliothek', 'Fraunhofer', 'Tafelwerk', 'Bio-City'];
+  const bistroOrder = ['Fraunhofer', 'Tafelwerk', 'Bio-City', 'Nationalbibliothek'];
 
   // Helper to group dishes by bistro
   const dishesByBistro = currentMenu.reduce((acc, dish) => {
@@ -135,7 +135,7 @@ function App() {
           Wochenkarte
         </h1>
         <p className="text-slate-100/80 transition-colors duration-300 max-w-lg mx-auto mb-1">
-          für Fraunhofer, Tafelwerk und Bio-City
+          für Fraunhofer, Tafelwerk, Bio-City und Nationalbibliothek
         </p>
         <div className="text-[10px] uppercase tracking-wider text-slate-100/70 mb-6 transition-colors duration-300">
           Stand: {new Date(menuData.updatedAt).toLocaleString('de-DE')}, v{appVersion}

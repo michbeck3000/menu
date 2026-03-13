@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-13T06:15:42.272Z",
+  "updatedAt": "2026-03-13T17:24:34.501Z",
   "days": {
     "monday": [
       {
@@ -321,7 +321,7 @@
       {
         "name": "Ein gebackener Camembert",
         "price": "7,00 €",
-        "description": "mit Brot und Salat (L,Nu,Gl,Ei) - Nachhaltigkeits - Essen",
+        "description": "mit Brot und Salat",
         "bistro": "Bio-City",
         "type": "meat"
       },
