@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T06:20:32.700Z",
+  "updatedAt": "2026-03-13T06:15:42.272Z",
   "days": {
     "monday": [
       {
@@ -14,7 +14,7 @@
         "price": "8,50 €",
         "description": "mit Pestorahm",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Laugenbrezel",
@@ -154,25 +154,32 @@
     ],
     "wednesday": [
       {
-        "name": "Hirtenrolle griechische Art",
+        "name": "2 Hirtenrollen griechische Art",
         "price": "9,40 €",
-        "description": "Spitzkohl – Risoni – Walbeeren Ketchup",
+        "description": "Spitzkohl – Risoni – Waldbeeren Ketchup",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
         "name": "2 gedämpfte Germknödel",
         "price": "7,90 €",
-        "description": "Vanillesoße - und ein Lassi als Getränk -",
+        "description": "Vanillesoße",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Ciabatta",
-        "price": "5,90 €",
-        "description": "Körniger Frischkäse – Apfel – Gurke – Sprossen",
+        "name": "Pasta mit Wurstgulasch",
+        "price": "6,90 €",
+        "description": "Der Natur zur Liebe - nachhaltiges Essen",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "meat"
+      },
+      {
+        "name": "Wrap des Tages",
+        "price": "6,00 €",
+        "description": "Duett von Brie und Gouda - Weißkohl und Couscous",
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Kartoffeltaschen gefüllt mit Frischkäse, dazu Blattspinat und Käsesoße",
@@ -227,7 +234,7 @@
     "thursday": [
       {
         "name": "gebackener Camembert",
-        "price": "8,50 €",
+        "price": "8,20 €",
         "description": "Kürbiskerne - Kräuterbrot - und Salat vom Buffet",
         "bistro": "Bio-City",
         "type": "vegetarian"
@@ -240,11 +247,11 @@
         "type": "meat"
       },
       {
-        "name": "Holzfällerbrot",
-        "price": "5,80 €",
-        "description": "Käse hoch 3",
+        "name": "Wrap des Tages",
+        "price": "6,30 €",
+        "description": "Tomate Mozzarella mit Rucola",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "Veganes rotes Linsen-Gemüse Dal mit Reis",
@@ -302,7 +309,7 @@
         "price": "8,00 €",
         "description": "buntes Gemüse - Kürbissoße",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Matjesfilet",
@@ -312,9 +319,9 @@
         "type": "meat"
       },
       {
-        "name": "Focaccia",
-        "price": "5,90 €",
-        "description": "Tomaten Frischkäse – Rucola – italienische Salami",
+        "name": "Ein gebackener Camembert",
+        "price": "7,00 €",
+        "description": "mit Brot und Salat (L,Nu,Gl,Ei) - Nachhaltigkeits - Essen",
         "bistro": "Bio-City",
         "type": "meat"
       },
