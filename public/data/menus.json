@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T06:16:37.192Z",
+  "updatedAt": "2026-03-13T06:15:42.272Z",
   "days": {
     "monday": [
       {
@@ -234,7 +234,7 @@
     "thursday": [
       {
         "name": "gebackener Camembert",
-        "price": "8,50 €",
+        "price": "8,20 €",
         "description": "Kürbiskerne - Kräuterbrot - und Salat vom Buffet",
         "bistro": "Bio-City",
         "type": "vegetarian"
@@ -319,9 +319,9 @@
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "",
+        "name": "Ein gebackener Camembert",
+        "price": "7,00 €",
+        "description": "mit Brot und Salat (L,Nu,Gl,Ei) - Nachhaltigkeits - Essen",
         "bistro": "Bio-City",
         "type": "meat"
       },
