@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-13T17:24:34.501Z",
+  "updatedAt": "2026-03-13T17:55:47.714Z",
   "days": {
     "monday": [
       {
@@ -43,6 +43,34 @@
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
+      },
+      {
+        "name": "Vegetarische Bauernpfanne",
+        "price": "7,55 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hähnchenragout mit mediterranen Gemüse und Reis",
+        "price": "8,05 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Gebratener Kassler auf Fass-Sauerkraut, Senfkartoffeln und Bratensoße",
+        "price": "8,75 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Eintopf der Woche",
+        "price": "5,57 €",
+        "description": "Feuriger Kichererbseneintopf",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
       },
       {
         "name": "Kartoffelsuppe mit Bällchen aus Pilzeiweiß",
@@ -115,6 +143,34 @@
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
+      },
+      {
+        "name": "Shepherd’s Pie mit Soja",
+        "price": "7,55 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Mexikanischehackpfanne mit Hummus, dazu Tortilla",
+        "price": "8,05 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Mozzarella-Hähnchen Basilikum-Sahnesauce auf Pasta",
+        "price": "8,75 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Eintopf der Woche",
+        "price": "5,57 €",
+        "description": "Feuriger Kichererbseneintopf",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
       },
       {
         "name": "Puszta Topf mit Wurstscheiben , Paprika und Couscous",
@@ -203,6 +259,34 @@
         "type": "meat"
       },
       {
+        "name": "Rosenkohl-Kartoffelpfanne mit Tofu, Möhre und Röstzwiebeln",
+        "price": "7,55 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegan"
+      },
+      {
+        "name": "Pasta, dazu Schweinegeschnetzeltes mit Champignons, Tomate und Lauchzwiebeln",
+        "price": "8,05 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Zitronen-Kräuterhähnchen an Tabbouleh",
+        "price": "8,75 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Eintopf der Woche",
+        "price": "5,57 €",
+        "description": "Feuriger Kichererbseneintopf",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
         "name": "Kichererbsensuppe Orientalisch",
         "price": "4,50 €",
         "description": "",
@@ -275,6 +359,34 @@
         "type": "vegetarian"
       },
       {
+        "name": "Blumenkohlcurry auf roten Linsen und Kaiserschoten",
+        "price": "7,55 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hähnchen-Schupfnudel-Pfanne mit Rahmchampignons",
+        "price": "8,05 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Schnitzel Braumeister Art, dazu Buttererbsen und Salzkartoffeln",
+        "price": "8,75 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Eintopf der Woche",
+        "price": "5,57 €",
+        "description": "Feuriger Kichererbseneintopf",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
         "name": "Erbseneintopf mit Gemüse und Kartoffeln",
         "price": "4,50 €",
         "description": "",
@@ -337,6 +449,34 @@
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Pasta mit Gorgonzalosoße mit Salatbeilage",
+        "price": "7,55 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Cajun-Huhn mit Salsa und Rosmarin-Kartoffelpüree",
+        "price": "8,05 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Gebratenes Fischfilet des Tages mit Ingwer, Kurkuma-Dillrahm & Chili dazu Reis",
+        "price": "8,75 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
+        "name": "Eintopf der Woche",
+        "price": "5,57 €",
+        "description": "Feuriger Kichererbseneintopf",
+        "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
