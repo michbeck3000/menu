@@ -268,17 +268,21 @@ def parse_pdf(pdf_bytes):
                     cols[2].append((x, y, text))
             
             # Extract dish from each column
+            # Column 1 (VeggieZauber) is always vegetarian
+            # Column 2+3: use automatic detection
             col_prices = ['7,55 €', '8,05 €', '8,75 €']
             for col_idx, col_words in enumerate(cols):
                 result = get_dish_from_column(col_words)
                 if result:
                     dish, dish_type = result
+                    # Override type for column 1 (always vegetarian)
+                    final_type = 'vegetarian' if col_idx == 0 else dish_type
                     menu[current_day].append({
                         'name': dish,
                         'price': col_prices[col_idx],
                         'description': '',
                         'bistro': 'Nationalbibliothek',
-                        'type': dish_type
+                        'type': final_type
                     })
             
             # Add Eintopf at the end of each day
