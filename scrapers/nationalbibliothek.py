@@ -27,8 +27,8 @@ DAY_MAP = {
 
 def get_current_kw():
     today = datetime.now()
-    if today.weekday() == 6:
-        today = today + timedelta(days=1)
+    if today.weekday() >= 5:  # Samstag = 5, Sonntag = 6
+        today = today + timedelta(days=(7 - today.weekday()))  # Nächsten Montag
     return today.isocalendar()[1], today.year
 
 def find_week_page(pdf):
