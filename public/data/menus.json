@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-14T17:46:29.538Z",
+  "updatedAt": "2026-03-14T18:05:14.052Z",
   "days": {
     "monday": [
       {
@@ -49,7 +49,7 @@
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Pasta mit Hackfleischsahnesauce",
@@ -263,7 +263,7 @@
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Salat Gebratene Schweinefleischstreifen deftiger Sauce mit Gemüse und Spätzle",
@@ -456,7 +456,7 @@
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Geflügelbällchen Paprikasoße und Kartoffelpüree",
