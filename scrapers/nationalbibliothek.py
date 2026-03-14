@@ -211,19 +211,26 @@ def parse_pdf(pdf_bytes):
             text = w['text']
             if 'eintopf' in text.lower():
                 x, y = w['x0'], w['top']
-                nearby = [(ww['x0'], ww['top'], ww['text']) for ww in words if abs(ww['top'] - y) < 30 and abs(ww['x0'] - x) < 150]
+                nearby = [(ww['x0'], ww['top'], ww['text']) for ww in words if abs(ww['top'] - y) < 40 and abs(ww['x0'] - x) < 200]
                 price = '5,57 €'
-                description = ''
+                description_parts = []
                 for px, py, ptext in nearby:
                     m = re.search(r'([\d]+[.,][\d]+)\s*€', ptext)
                     if m:
                         price = m.group(1) + ' €'
-                    if px > x and abs(py - y) < 15 and 'eintopf' not in ptext.lower() and 'woche' not in ptext.lower() and '€' not in ptext and '/' not in ptext and 'staff' not in ptext.lower() and 'guest' not in ptext.lower() and 'der' not in ptext.lower():
-                        if re.match(r'^[A-Za-z]', ptext):
-                            if description:
-                                description = description + ' ' + ptext
-                            else:
-                                description = ptext
+                    # Skip nutrition, allergen, and price-related text
+                    if any(x in ptext.lower() for x in ['kcal', 'f:', 'kh:', 'ew:', 'bs:', 'g,', 'g ', ', g']):
+                        continue
+                    if re.match(r'^[\d]+[.,]?[\d]*g?$', ptext):
+                        continue
+                    # Look for description - can be left or right of "Eintopf"
+                    if abs(px - x) < 150 and abs(py - y) < 30 and 'eintopf' not in ptext.lower() and 'woche' not in ptext.lower() and '€' not in ptext and '/' not in ptext and 'staff' not in ptext.lower() and 'guest' not in ptext.lower():
+                        if re.match(r'^[A-Za-zÄÖÜäöüß]', ptext):
+                            if ptext.lower() not in ['der', 'g']:
+                                description_parts.append((px, py, ptext))
+                # Sort by position (top to bottom, left to right)
+                description_parts.sort(key=lambda t: (t[1], t[0]))
+                description = ' '.join([t[2] for t in description_parts]) if description_parts else ''
                 if not description:
                     description = 'Feuriger Kichererbseneintopf'
                 eintopf_data = {
