@@ -2,8 +2,8 @@ name: Daily Scrape
 
 on:
   schedule:
-    # Run at 06:00 UTC every Monday through Friday
-    - cron: '0 6 * * 1-5'
+    # Run at 06:00 UTC every Monday through Sunday
+    - cron: '0 6 * * 1-7'
   workflow_dispatch:
     # Allow manual trigger
 
