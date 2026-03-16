@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "updatedAt": "2026-03-16T12:24:23.657Z",
-=======
-  "updatedAt": "2026-03-16T12:06:21.581Z",
->>>>>>> 202602418f6afb6acec1f99f092d8b2c9eb04beb
+  "updatedAt": "2026-03-16T12:47:54.345Z",
   "days": {
     "monday": [
       {
@@ -26,6 +22,27 @@
         "description": "italienische Salami - Paprika - Rucola",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "Bandnudeln mit Rahmchampinons und geriebenem Hartkäse",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Fleischkäse mit Spiegelei, Bratkartoffeln und Bohnen",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Kürbiscremesuppe mit Croutons",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
       },
       {
         "name": "Fruchtig-scharfes Gemüsecurry mit Basmatireis",
@@ -107,6 +124,27 @@
         "type": "meat"
       },
       {
+        "name": "Käse Spätzle mit Röstzwiebeln und Rohkostsalat",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hähnchenbrustschnitzel mit Pfannengemüse und Kroketten",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Grießbrei mit Kirschen und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
         "name": "Grillgemüse mit gebackenem Hirtenkäse, dazu Baguette",
         "price": "7,55 €",
         "description": "",
@@ -186,6 +224,34 @@
         "type": "meat"
       },
       {
+        "name": "Gekochte Eier mit Kartoffeln und Frankfurter SoßeD, dazu Rote Beete Salat",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Seelachsfilet \"Bordelaiser\"D,F mit Brokkoli-Blumenkohlgemüse und Reis",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Soljanka",
+        "price": "2,70 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Solyanka",
+        "price": "5,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
         "name": "Gemüseschnitzel mit Kräutersauce, Kartoffeln und",
         "price": "7,55 €",
         "description": "",
@@ -249,6 +315,34 @@
         "description": "Bunte Auswahl an Speisen - von  Kohlroulade,vegetarische Alternativen, gemischtes Gemüse, viele Beilagen!\n ---\nSalate und Dessert stehen zur freien Auswahl",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "Salat-Gemüse Bowl mit Blumenkohl Falafel und Joghurtdip",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hackfleischspieß mit Pommes, Tzaziki und Weißkrautsalat",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Joghurt Pfannkuchen mit Apfelmus und Zimtzucker",
+        "price": "3,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Joghurt Pfannkuchen mit Apfelmus und Zimtzucker Vegetarisch",
+        "price": "5,00 € (klein 4,00 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
       },
       {
         "name": "Frühlings-Bowl mit Couscous, Hummus, Ei und knackigem Salat",
@@ -327,6 +421,20 @@
         "price": "6,20 €",
         "description": "",
         "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Gratiniertes Tortellini-Gemüsepfännchen mit Pesto",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hühnerfrikassee mit Reis und Erbsen",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
