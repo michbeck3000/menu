@@ -3,6 +3,7 @@ import sys
 import json
 import re
 import io
+import ssl
 import urllib.request
 import urllib.error
 
@@ -65,19 +66,19 @@ def is_allergen_superscript(char_dict):
     pass
 
 def strip_allergens(text):
-    # Remove allergens like D, F, G, etc. at the end of words
-    # Also remove patterns like "D,F" or "1,3,4" that appear after words
-    # More aggressive pattern: remove any uppercase letter or number sequence at word boundaries
+    # Handle pattern: "Bordelaiser"D,F - allergen AFTER closing quote
+    text = re.sub(r'"([^"]+)"([A-Z][A-Z0-9,]*)', r'\1', text)
     
-    # Remove patterns like "SoßeD" -> "Soße", "Bordelaiser"D,F -> "Bordelaiser"
-    text = re.sub(r'([a-zäöüA-ZÄÖÜß])([A-Z](?:,[A-Z0-9])*)(?=\s|$|,|"|$|\))', r'\1', text)
+    # Handle Soljanka1,3, - numbers with commas at end
+    text = re.sub(r'(\w+)(\d+(?:,\d+)*),?\s*$', r'\1', text)
+    text = re.sub(r'(\w+),+\s*$', r'\1', text)
     
-    # Also remove trailing numbers like "123" at end of words
-    text = re.sub(r'(\d+)(?=\s|$)', '', text)
+    # Also handle just D,F at end (no quotes)
+    text = re.sub(r'(\w+)\s*([A-Z]),([A-Z])$', r'\1', text)
+    text = re.sub(r'(\w+)\s*([A-Z])$', r'\1', text)
     
-    # Clean up any double spaces or trailing punctuation
+    # Clean up
     text = re.sub(r'\s+', ' ', text)
-    text = re.sub(r'\s,[,\s]*', ', ', text)
     
     return text.strip()
 
@@ -85,7 +86,10 @@ def strip_allergens(text):
 def fetch_pdf(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
-        with urllib.request.urlopen(req) as response:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        with urllib.request.urlopen(req, context=ctx) as response:
             return response.read()
     except Exception as e:
         print(f"Error downloading PDF: {e}", file=sys.stderr)
