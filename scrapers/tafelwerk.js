@@ -52,7 +52,7 @@ export async function scrapeTafelwerk(browser) {
                         const catEl = card.querySelector('.card-header h4');
                         const titleEl = card.querySelector('.card-title h5');
                         const descEl = card.querySelector('.card-text');
-                        const priceEls = card.querySelectorAll('.card-footer span');
+                        const priceEl = card.querySelector('.card-footer span');
 
                         let category = catEl ? catEl.textContent.split('|')[0].trim() : '';
                         let title = titleEl ? titleEl.textContent.split('|')[0].trim() : '';
@@ -72,30 +72,9 @@ export async function scrapeTafelwerk(browser) {
                         title = title.replace(/\s+/g, ' ').trim();
                         const description = '';
 
-                        // Extract prices - format: "4,50 €" and "7,70 €" in separate elements, or single price
-                        let price = '';
-                        const priceTexts = Array.from(priceEls).map(el => el.textContent.trim()).filter(t => t && t !== 'N/A');
-                        
-                        if (priceTexts.length >= 2) {
-                            // Parse prices to find larger/smaller
-                            const parsePrice = (p) => {
-                                const match = p.replace(',', '.').match(/[\d.]+/);
-                                return match ? parseFloat(match[0]) : 0;
-                            };
-                            const prices = priceTexts.map(p => ({ raw: p.replace('|', '').trim(), value: parsePrice(p) }));
-                            prices.sort((a, b) => b.value - a.value); // Descending
-                            
-                            const larger = prices[0].raw;
-                            const smaller = prices[1] ? prices[1].raw : null;
-                            
-                            if (smaller) {
-                                price = `${larger} (klein: ${smaller})`;
-                            } else {
-                                price = larger;
-                            }
-                        } else if (priceTexts.length === 1) {
-                            price = priceTexts[0].replace('|', '').trim();
-                        }
+                        // Extract first price if multiple exist like "4,50 € | 7,70 €"
+                        let price = priceEl ? priceEl.textContent.split('|')[0].trim() : '';
+                        if (price === 'N/A') price = '';
 
                         // Determine type (keep original title as-is)
                         let type = 'meat';

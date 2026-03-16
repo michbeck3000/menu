@@ -3,7 +3,6 @@ import sys
 import json
 import re
 import io
-import ssl
 import urllib.request
 import urllib.error
 
@@ -25,7 +24,7 @@ DAY_MAP = {
 # English detection words
 ENGLISH_WORDS = [' with ', ' and ', ' stir-fry', ' fillet ', ' strips',
                  'meatballs', ' noodles', ' soup', ' sticks with ', ' purée ', ' cream sauce',
-                 ' braised ', ' chicken', ' pork ', ' grated', ' fried ', ' filled with ', ' served with ', ' breadcrumbs', ' chips ', ' solyanka ', ' peas']
+                 ' braised ', ' chicken', ' pork ', ' grated', ' fried ', ' filled with ', ' served with ', ' breadcrumbs', ' chips ', ' peas']
 
 def is_day_marker(text):
     t = text.lower().strip().replace(':', '')
@@ -66,30 +65,17 @@ def is_allergen_superscript(char_dict):
     pass
 
 def strip_allergens(text):
-    # Handle pattern: "Bordelaiser"D,F - allergen AFTER closing quote
-    text = re.sub(r'"([^"]+)"([A-Z][A-Z0-9,]*)', r'\1', text)
-    
-    # Handle Soljanka1,3, - numbers with commas at end
-    text = re.sub(r'(\w+)(\d+(?:,\d+)*),?\s*$', r'\1', text)
-    text = re.sub(r'(\w+),+\s*$', r'\1', text)
-    
-    # Also handle just D,F at end (no quotes)
-    text = re.sub(r'(\w+)\s*([A-Z]),([A-Z])$', r'\1', text)
-    text = re.sub(r'(\w+)\s*([A-Z])$', r'\1', text)
-    
-    # Clean up
-    text = re.sub(r'\s+', ' ', text)
-    
-    return text.strip()
+    # Remove things like "SticksF" -> "Sticks", "Remoulade1,3,4" -> "Remoulade"
+    # Matches a lowercase/uppercase/umlaut letter followed immediately by A-P or digits with commas
+    # The allergen part must be at the end of a word.
+    pattern = r'([a-zäöüA-ZÄÖÜß])([A-P](?:,[A-P0-9])*|[0-9]+(?:,[0-9A-P]+)*)(?=\s|$)'
+    return re.sub(pattern, r'\1', text)
 
 
 def fetch_pdf(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
-        ctx = ssl.create_default_context()
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
-        with urllib.request.urlopen(req, context=ctx) as response:
+        with urllib.request.urlopen(req) as response:
             return response.read()
     except Exception as e:
         print(f"Error downloading PDF: {e}", file=sys.stderr)

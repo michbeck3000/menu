@@ -22,25 +22,10 @@ function App() {
       try {
         const cacheBuster = `?t=${new Date().getTime()}`;
         const liveDataUrl = 'https://raw.githubusercontent.com/michbeck3000/menu/main/public/data/menus.json';
-        
-        let menuResponse;
-        try {
-          menuResponse = await axios.get(`${liveDataUrl}${cacheBuster}`);
-        } catch (githubErr) {
-          console.warn('GitHub fetch failed, trying local data:', githubErr.message);
-          menuResponse = await axios.get(`${import.meta.env.BASE_URL}data/menus.json${cacheBuster}`);
-        }
-        
-        const versionResponse = await axios.get(`${import.meta.env.BASE_URL}version.json`);
-        
-        // Validate data structure
-        if (!menuResponse.data?.days) {
-          console.error('Invalid menu data structure:', menuResponse.data);
-          setError('Ungültige Menüdaten.');
-          setLoading(false);
-          return;
-        }
-        
+        const [menuResponse, versionResponse] = await Promise.all([
+          axios.get(`${liveDataUrl}${cacheBuster}`),
+          axios.get(`${import.meta.env.BASE_URL}version.json`)
+        ]);
         setMenuData(menuResponse.data);
         setAppVersion(versionResponse.data.version);
 
@@ -129,7 +114,7 @@ function App() {
     );
   }
 
-  const currentMenu = menuData?.days?.[activeDay] || [];
+  const currentMenu = menuData?.days[activeDay] || [];
 
   const bistroOrder = ['Fraunhofer', 'Tafelwerk', 'Bio-City', 'Nationalbibliothek'];
 
