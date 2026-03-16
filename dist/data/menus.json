@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-14T07:20:13.766Z",
+  "updatedAt": "2026-03-14T17:46:29.538Z",
   "days": {
     "monday": [
       {
@@ -45,21 +45,21 @@
         "type": "vegan"
       },
       {
-        "name": "Vegetarische Bauernpfanne",
+        "name": "Fruchtig-scharfes Gemüsecurry mit Basmatireis",
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
-        "name": "Hähnchenragout mit mediterranen Gemüse und Reis",
+        "name": "Pasta mit Hackfleischsahnesauce",
         "price": "8,05 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
-        "name": "Gebratener Kassler auf Fass-Sauerkraut, Senfkartoffeln und Bratensoße",
+        "name": "Geflügelleber Rotweinsauce mit Zwiebeln, dazu Stampfkartoffeln",
         "price": "8,75 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -68,7 +68,7 @@
       {
         "name": "Eintopf der Woche",
         "price": "5,57 €",
-        "description": "Feuriger Kichererbseneintopf",
+        "description": "Curry-Gemüsesuppe mit Hähnchen und Kokosmilch",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
@@ -145,21 +145,21 @@
         "type": "vegetarian"
       },
       {
-        "name": "Shepherd’s Pie mit Soja",
+        "name": "Grillgemüse mit gebackenem Hirtenkäse, dazu Baguette",
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Mexikanischehackpfanne mit Hummus, dazu Tortilla",
+        "name": "Bunter Nudel-Gemüseauflauf mit Hähnchenstreifen und Sahnesoße",
         "price": "8,05 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
-        "name": "Mozzarella-Hähnchen Basilikum-Sahnesauce auf Pasta",
+        "name": "Bauernroulade mit Gemüse, dazu Knödel und Rahmsoße",
         "price": "8,75 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -168,7 +168,7 @@
       {
         "name": "Eintopf der Woche",
         "price": "5,57 €",
-        "description": "Feuriger Kichererbseneintopf",
+        "description": "Curry-Gemüsesuppe mit Hähnchen und Kokosmilch",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
@@ -259,21 +259,21 @@
         "type": "meat"
       },
       {
-        "name": "Rosenkohl-Kartoffelpfanne mit Tofu, Möhre und Röstzwiebeln",
+        "name": "Gemüseschnitzel mit Kräutersauce, Kartoffeln und",
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegan"
+        "type": "meat"
       },
       {
-        "name": "Pasta, dazu Schweinegeschnetzeltes mit Champignons, Tomate und Lauchzwiebeln",
+        "name": "Salat Gebratene Schweinefleischstreifen deftiger Sauce mit Gemüse und Spätzle",
         "price": "8,05 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
-        "name": "Zitronen-Kräuterhähnchen an Tabbouleh",
+        "name": "Hähnchenbrust „Hawaii“ mit Currysauce, Wedges und Salat",
         "price": "8,75 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -282,7 +282,7 @@
       {
         "name": "Eintopf der Woche",
         "price": "5,57 €",
-        "description": "Feuriger Kichererbseneintopf",
+        "description": "Curry-Gemüsesuppe mit Hähnchen und Kokosmilch",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
@@ -359,21 +359,21 @@
         "type": "vegetarian"
       },
       {
-        "name": "Blumenkohlcurry auf roten Linsen und Kaiserschoten",
+        "name": "Frühlings-Bowl mit Couscous, Hummus, Ei und knackigem Salat",
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchen-Schupfnudel-Pfanne mit Rahmchampignons",
+        "name": "Honig-Hähnchen Kokoscurry, dazu Reis",
         "price": "8,05 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
-        "name": "Schnitzel Braumeister Art, dazu Buttererbsen und Salzkartoffeln",
+        "name": "Schnitzel Spreewälder Art, überbacken mit Meerrettich, Gewürzgurke & Käse, dazu Bratkartoffeln & Krautsalat",
         "price": "8,75 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -382,7 +382,7 @@
       {
         "name": "Eintopf der Woche",
         "price": "5,57 €",
-        "description": "Feuriger Kichererbseneintopf",
+        "description": "Curry-Gemüsesuppe mit Hähnchen und Kokosmilch",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
@@ -452,21 +452,21 @@
         "type": "meat"
       },
       {
-        "name": "Pasta mit Gorgonzalosoße mit Salatbeilage",
+        "name": "Gekochte Eier grüner Sauce, dazu Kartoffel-Möhren-Ragout",
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
-        "name": "Cajun-Huhn mit Salsa und Rosmarin-Kartoffelpüree",
+        "name": "Geflügelbällchen Paprikasoße und Kartoffelpüree",
         "price": "8,05 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
-        "name": "Gebratenes Fischfilet des Tages mit Ingwer, Kurkuma-Dillrahm & Chili dazu Reis",
+        "name": "Schlemmer-Seelachsfilet \"Bordelaise\" mit Tomatensoße und Reis",
         "price": "8,75 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -475,7 +475,7 @@
       {
         "name": "Eintopf der Woche",
         "price": "5,57 €",
-        "description": "Feuriger Kichererbseneintopf",
+        "description": "Curry-Gemüsesuppe mit Hähnchen und Kokosmilch",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },

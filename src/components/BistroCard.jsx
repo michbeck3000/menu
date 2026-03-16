@@ -1,11 +1,32 @@
 import React from 'react';
 
+const bistroUrls = {
+  'Bio-City': 'https://geschmackswerk-leipzig.de/#wochenkarte',
+  'Fraunhofer': 'https://www.cafeteria-leipzig.de/cafeteria-fraunhofer-izi/',
+  'Tafelwerk': 'https://www.tafelwerk-leipzig.de/weeklycard',
+  'Nationalbibliothek': 'https://saxonia-catering.de/saxonia-catering-betriebsrestaurants.html'
+};
+
 export default function BistroCard({ bistroName, dishes }) {
-    return (
-        <div className="glass-card p-6 animate-slide-up text-center">
-            <h2 className="text-2xl font-display font-bold text-slate-100 mb-5 pb-3 border-b border-white/10 transition-colors duration-300">
-                {bistroName}
-            </h2>
+  const url = bistroUrls[bistroName];
+  
+  return (
+    <div className="glass-card p-6 animate-slide-up text-center">
+      <h2 className="text-2xl font-display font-bold text-slate-100 mb-5 pb-3 border-b border-white/10 transition-colors duration-300">
+        {url ? (
+          <a 
+            href={url} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-slate-100 hover:text-primary-400 transition-colors duration-300"
+            title={url}
+          >
+            {bistroName}
+          </a>
+        ) : (
+          bistroName
+        )}
+      </h2>
             <ul className="">
                 {dishes.map((dish, index) => (
                     <React.Fragment key={`${dish.bistro}-${index}`}>
