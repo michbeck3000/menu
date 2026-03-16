@@ -24,7 +24,7 @@ DAY_MAP = {
 # English detection words
 ENGLISH_WORDS = [' with ', ' and ', ' stir-fry', ' fillet ', ' strips',
                  'meatballs', ' noodles', ' soup', ' sticks with ', ' purée ', ' cream sauce',
-                 ' braised ', ' chicken', ' pork ', ' grated', ' fried ', ' filled with ', ' served with ', ' breadcrumbs', ' chips ', ' peas']
+                 ' braised ', ' chicken', ' pork ', ' grated', ' fried ', ' filled with ', ' served with ', ' breadcrumbs', ' chips ', ' peas', ' solyanka ']
 
 def is_day_marker(text):
     t = text.lower().strip().replace(':', '')
