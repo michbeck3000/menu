@@ -65,11 +65,21 @@ def is_allergen_superscript(char_dict):
     pass
 
 def strip_allergens(text):
-    # Remove things like "SticksF" -> "Sticks", "Remoulade1,3,4" -> "Remoulade"
-    # Matches a lowercase/uppercase/umlaut letter followed immediately by A-P or digits with commas
-    # The allergen part must be at the end of a word.
-    pattern = r'([a-zäöüA-ZÄÖÜß])([A-P](?:,[A-P0-9])*|[0-9]+(?:,[0-9A-P]+)*)(?=\s|$)'
-    return re.sub(pattern, r'\1', text)
+    # Remove allergens like D, F, G, etc. at the end of words
+    # Also remove patterns like "D,F" or "1,3,4" that appear after words
+    # More aggressive pattern: remove any uppercase letter or number sequence at word boundaries
+    
+    # Remove patterns like "SoßeD" -> "Soße", "Bordelaiser"D,F -> "Bordelaiser"
+    text = re.sub(r'([a-zäöüA-ZÄÖÜß])([A-Z](?:,[A-Z0-9])*)(?=\s|$|,|"|$|\))', r'\1', text)
+    
+    # Also remove trailing numbers like "123" at end of words
+    text = re.sub(r'(\d+)(?=\s|$)', '', text)
+    
+    # Clean up any double spaces or trailing punctuation
+    text = re.sub(r'\s+', ' ', text)
+    text = re.sub(r'\s,[,\s]*', ', ', text)
+    
+    return text.strip()
 
 
 def fetch_pdf(url):
