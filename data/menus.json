@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T11:59:38.034Z",
+  "updatedAt": "2026-03-18T05:32:49.597Z",
   "days": {
     "monday": [
       {
@@ -103,7 +103,7 @@
     ],
     "tuesday": [
       {
-        "name": "Frühlingsrolle",
+        "name": "2 Frühlingsrollen",
         "price": "8,20 €",
         "description": "Glasnudelsalat - Gurke - Sweet Chili und Sojadip",
         "bistro": "Bio-City",
@@ -117,9 +117,16 @@
         "type": "meat"
       },
       {
-        "name": "belegtes Ciabatta",
-        "price": "4,90 €",
-        "description": "mit Kochschinken - Gouda und knackigen Salat",
+        "name": "Matjes",
+        "price": "8,20 €",
+        "description": "Grillkartoffel - Kräuterquark",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Wrap des Tages",
+        "price": "6,30 €",
+        "description": "italienische Salami - Paprika - Rucola",
         "bistro": "Bio-City",
         "type": "meat"
       },
