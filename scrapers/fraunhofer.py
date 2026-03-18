@@ -6,7 +6,7 @@ import io
 import urllib.request
 import urllib.error
 
-# We must handle the import gracefully to give clear errors if missing
+# We must handle the import gracefully to give clear errors if missing.
 try:
     import pdfplumber
 except ImportError:
