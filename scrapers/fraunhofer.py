@@ -65,20 +65,21 @@ def is_allergen_superscript(char_dict):
     pass
 
 def strip_allergens(text):
-    # Remove things like "SticksF" -> "Sticks", "Remoulade1,3,4" -> "Remoulade"
-    # First remove quotes and special characters
+    # Remove allergens like "SticksF" -> "Sticks", "Hackfleischspieß,F,H" -> "Hackfleischspieß"
     text = text.replace('"', '').replace("'", '')
     
     # Multiple passes to catch all patterns
-    for _ in range(3):
-        # Single uppercase letter attached to word (e.g., SoßeD, BordelaiserD)
-        text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P](?=\s|$|,|.)', r'\1', text)
+    for _ in range(5):
+        # Allergens in middle: "Hackfleischspieß,F,H" or "Joghurt,D,F" -> keep word
+        text = re.sub(r'(\w+),[A-P](,[A-P])*', r'\1', text)
         
-        # Letter with comma and more letters: BordelaiserD,F -> Bordelaiser
-        text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P],[A-P](?=\s|$|,|.)', r'\1', text)
+        # Single letter at end: "SoßeD" -> "Soße"
+        text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P]$', r'\1', text)
+        text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P](?=\s)', r'\1', text)
         
-        # Standard allergen pattern: letter/number combos
-        text = re.sub(r'([a-zäöüA-ZÄÖÜß])([A-P](?:,[A-P0-9])*|[0-9]+(?:,[0-9A-P]+)*)(?=\s|$)', r'\1', text)
+        # Standard allergen pattern at end
+        text = re.sub(r'([a-zäöüA-ZÄÖÜß])([A-P](?:,[A-P0-9])*|[0-9]+(?:,[0-9A-P]+)*)$', r'\1', text)
+        text = re.sub(r'([a-zäöüA-ZÄÖÜß])([A-P](?:,[A-P0-9])*|[0-9]+(?:,[0-9A-P]+)*)(?=\s)', r'\1', text)
     
     return text
 
@@ -94,8 +95,10 @@ def fetch_pdf(url):
 
 def normalize_dish_name(name):
     import unicodedata
-    # Remove type markers before normalizing
+    # Remove type markers before normalizing (vegan, vegetarisch, vge, vg)
     cleaned = re.sub(r'\s+(vegan|vegetarisch|vge|vg)$', '', name.lower(), flags=re.IGNORECASE)
+    # Also remove allergens from the middle: "Joghurt Pfannkuchen,D,F" -> "Joghurt Pfannkuchen"
+    cleaned = re.sub(r',[A-P](,[A-P])*(?=\s|$|,|\))', '', cleaned, flags=re.IGNORECASE)
     n = unicodedata.normalize('NFKD', cleaned)
     return ''.join(c for c in n if c.isalnum())
 
