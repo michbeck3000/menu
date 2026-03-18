@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-03-18T05:32:49.597Z",
-=======
-  "updatedAt": "2026-03-18T08:47:00.311Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-03-18T09:01:23.883Z",
   "days": {
     "monday": [
       {
@@ -124,16 +120,6 @@
         "name": "Matjes",
         "price": "8,20 €",
         "description": "Grillkartoffel - Kräuterquark",
-<<<<<<< Updated upstream
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "italienische Salami - Paprika - Rucola",
-=======
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
