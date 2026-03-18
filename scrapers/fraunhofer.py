@@ -24,7 +24,7 @@ DAY_MAP = {
 # English detection words
 ENGLISH_WORDS = [' with ', ' and ', ' stir-fry', ' fillet ', ' strips',
                  'meatballs', ' noodles', ' soup', ' sticks with ', ' purée ', ' cream sauce',
-                 ' braised ', ' chicken', ' pork ', ' grated', ' fried ', ' filled with ', ' served with ', ' breadcrumbs', ' chips ', ' peas', ' solyanka ']
+                 ' braised ', ' chicken', ' pork ', 'grated', ' fried ', ' filled with ', ' served with ', ' breadcrumbs', ' chips ', ' peas', 'solyanka']
 
 def is_day_marker(text):
     t = text.lower().strip().replace(':', '')
@@ -66,10 +66,21 @@ def is_allergen_superscript(char_dict):
 
 def strip_allergens(text):
     # Remove things like "SticksF" -> "Sticks", "Remoulade1,3,4" -> "Remoulade"
-    # Matches a lowercase/uppercase/umlaut letter followed immediately by A-P or digits with commas
-    # The allergen part must be at the end of a word.
-    pattern = r'([a-zäöüA-ZÄÖÜß])([A-P](?:,[A-P0-9])*|[0-9]+(?:,[0-9A-P]+)*)(?=\s|$)'
-    return re.sub(pattern, r'\1', text)
+    # First remove quotes and special characters
+    text = text.replace('"', '').replace("'", '')
+    
+    # Multiple passes to catch all patterns
+    for _ in range(3):
+        # Single uppercase letter attached to word (e.g., SoßeD, BordelaiserD)
+        text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P](?=\s|$|,|.)', r'\1', text)
+        
+        # Letter with comma and more letters: BordelaiserD,F -> Bordelaiser
+        text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P],[A-P](?=\s|$|,|.)', r'\1', text)
+        
+        # Standard allergen pattern: letter/number combos
+        text = re.sub(r'([a-zäöüA-ZÄÖÜß])([A-P](?:,[A-P0-9])*|[0-9]+(?:,[0-9A-P]+)*)(?=\s|$)', r'\1', text)
+    
+    return text
 
 
 def fetch_pdf(url):
@@ -80,6 +91,51 @@ def fetch_pdf(url):
     except Exception as e:
         print(f"Error downloading PDF: {e}", file=sys.stderr)
         sys.exit(1)
+
+def normalize_dish_name(name):
+    import unicodedata
+    # Remove type markers before normalizing
+    cleaned = re.sub(r'\s+(vegan|vegetarisch|vge|vg)$', '', name.lower(), flags=re.IGNORECASE)
+    n = unicodedata.normalize('NFKD', cleaned)
+    return ''.join(c for c in n if c.isalnum())
+
+def is_subset(key1, key2):
+    # Check if one normalized name is contained in the other
+    return key1 in key2 or key2 in key1
+
+def filter_duplicates(menu):
+    for day in menu:
+        dishes = menu[day]
+        seen = {}
+        unique_dishes = []
+        for dish in dishes:
+            key = normalize_dish_name(dish['name'])
+            if key and len(key) > 5:
+                # Check for existing key that's a subset
+                found = None
+                for existing_key in seen:
+                    if is_subset(key, existing_key):
+                        found = existing_key
+                        break
+                
+                if not found:
+                    seen[key] = dish
+                    unique_dishes.append(dish)
+                else:
+                    # Compare and keep the better one (more info, better price)
+                    existing = seen[found]
+                    # Prefer entry with more text or has complete price info
+                    if len(dish['name']) > len(existing['name']):
+                        # Replace in unique_dishes
+                        for i, d in enumerate(unique_dishes):
+                            if normalize_dish_name(d['name']) == found:
+                                unique_dishes[i] = dish
+                                seen[found] = dish
+                                break
+            else:
+                unique_dishes.append(dish)
+        menu[day] = unique_dishes
+    return menu
 
 def parse_pdf(pdf_bytes):
     menu = {}
@@ -228,6 +284,9 @@ def parse_pdf(pdf_bytes):
                         # We found a new price on the English line, which is the "groß" price!
                         current_dish['price'] = f"{external_price} (klein {old_price})"
 
+    # Filter duplicate dishes
+    menu = filter_duplicates(menu)
+    
     return menu
 
 if __name__ == "__main__":

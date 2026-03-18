@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T14:57:04.813Z",
+  "updatedAt": "2026-03-18T08:32:49.595Z",
   "days": {
     "monday": [
       {
@@ -103,7 +103,7 @@
     ],
     "tuesday": [
       {
-        "name": "Frühlingsrolle",
+        "name": "2 Frühlingsrollen",
         "price": "8,20 €",
         "description": "Glasnudelsalat - Gurke - Sweet Chili und Sojadip",
         "bistro": "Bio-City",
@@ -117,9 +117,16 @@
         "type": "meat"
       },
       {
-        "name": "belegtes Ciabatta",
-        "price": "4,90 €",
-        "description": "mit Kochschinken - Gouda und knackigen Salat",
+        "name": "Matjes",
+        "price": "8,20 €",
+        "description": "Grillkartoffel - Kräuterquark",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Wrap des Tages",
+        "price": "6,30 €",
+        "description": "italienische Salami - Paprika - Rucola",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -217,11 +224,11 @@
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,20 €",
-        "description": "",
+        "name": "Ciabatta",
+        "price": "4,90 €",
+        "description": "Alpenkäse, Sprossen, Rucola",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Gekochte Eier mit Kartoffeln und Frankfurter SoßeD, dazu Rote Beete Salat",
@@ -239,14 +246,7 @@
       },
       {
         "name": "Soljanka",
-        "price": "2,70 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Solyanka",
-        "price": "5,00 €",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
@@ -329,13 +329,6 @@
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
-      },
-      {
-        "name": "Joghurt Pfannkuchen mit Apfelmus und Zimtzucker",
-        "price": "3,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
       },
       {
         "name": "Joghurt Pfannkuchen mit Apfelmus und Zimtzucker Vegetarisch",

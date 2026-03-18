@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-03-18T05:32:49.597Z",
+=======
+  "updatedAt": "2026-03-18T08:47:00.311Z",
+>>>>>>> Stashed changes
   "days": {
     "monday": [
       {
@@ -120,6 +124,16 @@
         "name": "Matjes",
         "price": "8,20 €",
         "description": "Grillkartoffel - Kräuterquark",
+<<<<<<< Updated upstream
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Wrap des Tages",
+        "price": "6,30 €",
+        "description": "italienische Salami - Paprika - Rucola",
+=======
+>>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -131,14 +145,14 @@
         "type": "meat"
       },
       {
-        "name": "Käse Spätzle mit Röstzwiebeln und Rohkostsalat",
+        "name": "Käse Spätzle,F mit Röstzwiebeln und Rohkostsalat",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchenbrustschnitzel mit Pfannengemüse und Kroketten",
+        "name": "Hähnchenbrustschnitzel,F mit Pfannengemüse und Kroketten",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
@@ -224,21 +238,21 @@
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,20 €",
-        "description": "",
+        "name": "Ciabatta",
+        "price": "4,90 €",
+        "description": "Alpenkäse, Sprossen, Rucola",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Gekochte Eier mit Kartoffeln und Frankfurter SoßeD, dazu Rote Beete Salat",
+        "name": "Gekochte Eier mit Kartoffeln und Frankfurter Soße, dazu Rote Beete Salat",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Seelachsfilet \"Bordelaiser\"D,F mit Brokkoli-Blumenkohlgemüse und Reis",
+        "name": "Seelachsfilet Bordelaiser,F mit Brokkoli-Blumenkohlgemüse und Reis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
@@ -246,14 +260,7 @@
       },
       {
         "name": "Soljanka",
-        "price": "2,70 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Solyanka",
-        "price": "5,00 €",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
@@ -331,14 +338,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Hackfleischspieß mit Pommes, Tzaziki und Weißkrautsalat",
+        "name": "Hackfleischspieß,F,H mit Pommes, Tzaziki und Weißkrautsalat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Joghurt Pfannkuchen mit Apfelmus und Zimtzucker",
+        "name": "Joghurt Pfannkuchen,D,F mit Apfelmus und Zimtzucker",
         "price": "3,00 €",
         "description": "",
         "bistro": "Fraunhofer",
@@ -431,14 +438,14 @@
         "type": "meat"
       },
       {
-        "name": "Gratiniertes Tortellini-Gemüsepfännchen mit Pesto",
+        "name": "Gratiniertes Tortellini-Gemüsepfännchen,F mit Pesto,K",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hühnerfrikassee mit Reis und Erbsen",
+        "name": "Hühnerfrikassee,E mit Reis und Erbsen",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
