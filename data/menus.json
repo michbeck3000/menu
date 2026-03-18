@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T05:32:49.597Z",
+  "updatedAt": "2026-03-18T08:53:38.484Z",
   "days": {
     "monday": [
       {
@@ -224,11 +224,11 @@
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,20 €",
-        "description": "",
+        "name": "Ciabatta",
+        "price": "4,90 €",
+        "description": "Alpenkäse, Sprossen, Rucola",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Gekochte Eier mit Kartoffeln und Frankfurter SoßeD, dazu Rote Beete Salat",
