@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T10:11:40.650Z",
+  "updatedAt": "2026-03-19T05:30:59.659Z",
   "days": {
     "monday": [
       {
@@ -312,7 +312,28 @@
       {
         "name": "Lunch Buffet",
         "price": "11,50 €",
-        "description": "Bunte Auswahl an Speisen - von  Kohlroulade,vegetarische Alternativen, gemischtes Gemüse, viele Beilagen!\n ---\nSalate und Dessert stehen zur freien Auswahl",
+        "description": "Stelle dein persönliches 3-Gang-Menü zusammen! - solange der Vorrat reicht!",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Vorspeise (wähle 1)",
+        "price": "",
+        "description": "- Bunte Auswahl an Salaten ua.Kichererbsen-Gurkensalat, Rotkohl-Feta-Salat, Blattsalate",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Hauptgericht (Wähle 1):",
+        "price": "",
+        "description": "- verschiedene Gerichte ua. Geschwenkte Pasta „Carbonara“, Gemüse-Auflauf, Kohlroulade, Hirtenrolle, Gemüsereis, Semmelknödel, Allerlei Gemüse",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Dessert (Wähle 1):",
+        "price": "",
+        "description": "- Zitronencreme, Vanille-Quark, Grießpudding",
         "bistro": "Bio-City",
         "type": "meat"
       },
