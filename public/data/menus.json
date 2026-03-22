@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-22T07:51:37.050Z",
+  "updatedAt": "2026-03-22T09:40:32.670Z",
   "days": {
     "monday": [
       {
@@ -24,22 +24,22 @@
         "type": "meat"
       },
       {
-        "name": "Bandnudeln mit Rahmchampinons und geriebenem Hartkäse",
-        "price": "7,00 €",
+        "name": "Brokkoli-Nuss Bratling mit Süßkartoffelpüree und Möhrengemüse",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Fleischkäse mit Spiegelei, Bratkartoffeln und Bohnen",
+        "name": "Hähnchenbrust Piccata Milanese mit Bandnudeln und Tomaten-Käsesoße",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Kürbiscremesuppe mit Croutons",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Apfel Crumble mit Vanillesoße",
+        "price": "2,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -124,21 +124,21 @@
         "type": "meat"
       },
       {
-        "name": "Käse Spätzle mit Röstzwiebeln und Rohkostsalat",
+        "name": "Kartoffel-Kürbis Röstis mit Salat und Honig-Senfdressing",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchenbrustschnitzel mit Pfannengemüse und Kroketten",
+        "name": "Hähnchen Burger mit Pommes",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Grießbrei mit Kirschen und Zimtzucker",
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -224,21 +224,21 @@
         "type": "meat"
       },
       {
-        "name": "Gekochte Eier mit Kartoffeln und Frankfurter SoßeD, dazu Rote Beete Salat",
-        "price": "7,00 €",
+        "name": "Hafer-Vollkorn-Käse Bratlinge mit Rahmgemüse",
+        "price": "6,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Seelachsfilet Bordelaiser mit Brokkoli-Blumenkohlgemüse und Reis",
+        "name": "Spaghetti Bolognese mit Reibekäse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Soljanka",
+        "name": "Erbseneintopf mit Kasseler",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -324,22 +324,22 @@
         "type": "meat"
       },
       {
-        "name": "Salat-Gemüse Bowl mit Blumenkohl Falafel und Joghurtdip",
-        "price": "7,00 €",
+        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hackfleischspieß mit Pommes, Tzaziki und Weißkrautsalat",
-        "price": "8,00 €",
+        "name": "Wildschweingulasch mit Rotkohl und Spätzle",
+        "price": "8,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Joghurt Pfannkuchen mit Apfelmus und Zimtzucker Vegetarisch",
-        "price": "5,00 € (klein 4,00 €)",
+        "name": "Kaiserschmarrn mit Apfelmus und Puderzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -424,14 +424,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gratiniertes Tortellini-Gemüsepfännchen mit Pesto",
-        "price": "7,00 €",
+        "name": "Spaghetti Pesto mit Rucola und Hartkäse (opt. mit Hähnchenschnitzel +2,00€)",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hühnerfrikassee mit Reis und Erbsen",
+        "name": "Putenleber mit Kartoffelpüree und Schmorzwiebeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
