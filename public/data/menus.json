@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-03-22T05:27:43.802Z",
+  "updatedAt": "2026-03-22T07:51:37.050Z",
   "days": {
     "monday": [
       {
-        "name": "Mac´n´ Cheese",
-        "price": "8,20 €",
-        "description": "Chili - Nudelauflauf",
+        "name": "3 Stück Quarkkäulchen",
+        "price": "7,90 €",
+        "description": "Apfelmus – Zimt – Vanille Limettensoße",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "geschmorte Hähnchenkeule",
-        "price": "8,90 €",
-        "description": "Letschogemüse - Reis",
+        "name": "Gyros",
+        "price": "8,80 €",
+        "description": "Gemüse Reis - Tzatziki - Weißkrautsalat",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
         "name": "Wrap des Tages",
         "price": "6,30 €",
-        "description": "italienische Salami - Paprika - Rucola",
+        "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -103,30 +103,23 @@
     ],
     "tuesday": [
       {
-        "name": "2 Frühlingsrollen",
-        "price": "8,20 €",
-        "description": "Glasnudelsalat - Gurke - Sweet Chili und Sojadip",
+        "name": "Eier in Senfsoße",
+        "price": "8,60 €",
+        "description": "Kartoffel - Blumenkohlstampf - Karottensalat",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "im Zwiebelsud gegarter Kasseler",
-        "price": "8,80 €",
-        "description": "Bohnengemüse und Kartoffelstampf",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Matjes",
-        "price": "8,20 €",
-        "description": "Grillkartoffel - Kräuterquark",
+        "name": "Szegediner Gulasch",
+        "price": "9,40 €",
+        "description": "Sauerkraut - Böhmische Knödel",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
         "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "italienische Salami - Paprika - Rucola",
+        "price": "6,80 €",
+        "description": "Pulled Truthahn - BBQ Aromen - Coleslaw",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -210,25 +203,25 @@
     ],
     "wednesday": [
       {
-        "name": "Burrito",
-        "price": "8,20 €",
-        "description": "Bohnen – Mais – Avocado Frühlingslauch Schmand",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Jägerschnitzel wie früher",
-        "price": "8,70 €",
-        "description": "Jagdwurst – Spirelli –   Tomatensoße",
+        "name": "Grünzeug & Suppenkaspar - Tag",
+        "price": "8,00 €",
+        "description": "1x Suppe + 1x Salat vom Buffet",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Ciabatta",
-        "price": "4,90 €",
-        "description": "Alpenkäse, Sprossen, Rucola",
+        "name": "Suppen:",
+        "price": "",
+        "description": "Kartoffelsuppe mit Bockwurst --- Rote Bete -  Kokos Suppe ---  Sellerie - Apfelsuppe  & Brotauswahl",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "meat"
+      },
+      {
+        "name": "Salate:",
+        "price": "",
+        "description": "Kichererbsensalat --- Tomaten - Mozzarellasalat --- Anti Pasti --- Paprika-Fetasalat --- Pastasalat",
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Gekochte Eier mit Kartoffeln und Frankfurter SoßeD, dazu Rote Beete Salat",
@@ -310,30 +303,23 @@
     ],
     "thursday": [
       {
-        "name": "Lunch Buffet",
-        "price": "11,50 €",
-        "description": "Stelle dein persönliches 3-Gang-Menü zusammen! - solange der Vorrat reicht!",
+        "name": "Gebackener Käse",
+        "price": "8,80 €",
+        "description": "Blumenkohl - Sour Cream und Süßkartoffel",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hühnerfrikassee",
+        "price": "9,20 €",
+        "description": "Pilze – Karotten –                    Kräuter Reis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Vorspeise (wähle 1)",
-        "price": "",
-        "description": "- Bunte Auswahl an Salaten ua.Kichererbsen-Gurkensalat, Rotkohl-Feta-Salat, Blattsalate",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Hauptgericht (Wähle 1):",
-        "price": "",
-        "description": "- verschiedene Gerichte ua. Geschwenkte Pasta „Carbonara“, Gemüse-Auflauf, Kohlroulade, Hirtenrolle, Gemüsereis, Semmelknödel, Allerlei Gemüse",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Dessert (Wähle 1):",
-        "price": "",
-        "description": "- Zitronencreme, Vanille-Quark, Grießpudding",
+        "name": "Wrap des Tages",
+        "price": "6,30 €",
+        "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -417,23 +403,23 @@
     ],
     "friday": [
       {
-        "name": "Asiatische Reispfanne",
-        "price": "7,20€",
-        "description": "Grillgemüse & Dip",
+        "name": "Bratreis",
+        "price": "8,30€",
+        "description": "Gemüse - Soja - Ei und Lauch",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Seelachsfilet im Backteig",
-        "price": "8,90 €",
-        "description": "Kartoffel - Gurkensalat und Remoulade",
+        "name": "Cordon Bleu",
+        "price": "9,40 €",
+        "description": "buntes Gemüse -  Herzoginkartoffeln - Sauce Hollandaise",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
         "name": "Wrap des Tages",
-        "price": "6,20 €",
-        "description": "Brie - Blattsalat - Frucht",
+        "price": "6,30 €",
+        "description": "Orientalische Reise                       Tahin – Aubergine – Dattel -  Schafskäse",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
