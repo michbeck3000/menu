@@ -21,7 +21,10 @@ function App() {
     const fetchData = async (isManualRefresh = false) => {
       try {
         const cacheBuster = `?t=${new Date().getTime()}`;
-        const liveDataUrl = 'https://raw.githubusercontent.com/michbeck3000/menu/main/public/data/menus.json';
+        const isLocalDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        const liveDataUrl = isLocalDev 
+          ? `${import.meta.env.BASE_URL}data/menus.json` 
+          : 'https://raw.githubusercontent.com/michbeck3000/menu/main/public/data/menus.json';
         const [menuResponse, versionResponse] = await Promise.all([
           axios.get(`${liveDataUrl}${cacheBuster}`),
           axios.get(`${import.meta.env.BASE_URL}version.json`)
@@ -116,7 +119,7 @@ function App() {
 
   const currentMenu = menuData?.days[activeDay] || [];
 
-  const bistroOrder = ['Fraunhofer', 'Tafelwerk', 'Bio-City', 'Nationalbibliothek'];
+  const bistroOrder = ['Fraunhofer', 'Tafelwerk', 'Bio-City', 'Porta', 'Nationalbibliothek'];
 
   // Helper to group dishes by bistro
   const dishesByBistro = currentMenu.reduce((acc, dish) => {
@@ -135,7 +138,7 @@ function App() {
           Wochenkarte
         </h1>
         <p className="text-slate-100/80 transition-colors duration-300 max-w-lg mx-auto mb-1">
-          für Fraunhofer, Tafelwerk, Bio-City und Nationalbibliothek
+          für Fraunhofer, Tafelwerk, Bio-City, Porta und Nationalbibliothek
         </p>
         <div className="text-[10px] uppercase tracking-wider text-slate-100/70 mb-6 transition-colors duration-300">
           Stand: {new Date(menuData.updatedAt).toLocaleString('de-DE')}, v{appVersion}

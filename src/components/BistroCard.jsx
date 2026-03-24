@@ -4,6 +4,7 @@ const bistroUrls = {
   'Bio-City': 'https://geschmackswerk-leipzig.de/#wochenkarte',
   'Fraunhofer': 'https://www.cafeteria-leipzig.de/cafeteria-fraunhofer-izi/',
   'Tafelwerk': 'https://www.tafelwerk-leipzig.de/weeklycard',
+  'Porta': 'https://porta.de/einrichtungshaeuser/leipzig',
   'Nationalbibliothek': 'https://saxonia-catering.de/saxonia-catering-betriebsrestaurants.html'
 };
 
@@ -31,6 +32,11 @@ export default function BistroCard({ bistroName, dishes }) {
                 {dishes.map((dish, index) => (
                     <React.Fragment key={`${dish.bistro}-${index}`}>
                         <li className="group">
+                            {bistroName === 'Porta' && dish.name.toLowerCase().includes('schnitzel') && (
+                                <p className="text-sm text-slate-100/70 mb-0.5 transition-colors duration-300">
+                                    Aktionsangebot
+                                </p>
+                            )}
                             <h3 className="text-base font-semibold text-slate-100 leading-snug transition-colors duration-300 flex items-center justify-center gap-2 flex-wrap">
                                 <span>{dish.name}</span>
                                 {dish.type === 'vegan' && (

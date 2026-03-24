@@ -6,6 +6,7 @@ import { scrapeBioCity } from './biocity.js';
 import { scrapeFraunhofer } from './fraunhofer.js';
 import { scrapeTafelwerk } from './tafelwerk.js';
 import { scrapeNationalbibliothek } from './nationalbibliothek.js';
+import { scrapePorta } from './porta.js';
 import { z } from 'zod';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -37,7 +38,8 @@ async function runScrapers() {
             scrapeBioCity(browser),
             scrapeFraunhofer(browser),
             scrapeTafelwerk(browser),
-            scrapeNationalbibliothek(browser)
+            scrapeNationalbibliothek(browser),
+            scrapePorta(browser)
         ]);
 
         const biocity = scrapeResults[0].status === 'fulfilled' ? scrapeResults[0].value : null;
@@ -52,11 +54,14 @@ async function runScrapers() {
         const nationalbibliothek = scrapeResults[3].status === 'fulfilled' ? scrapeResults[3].value : null;
         if (scrapeResults[3].status === 'rejected') console.error('Nationalbibliothek scraper failed:', scrapeResults[3].reason);
 
+        const porta = scrapeResults[4].status === 'fulfilled' ? scrapeResults[4].value : null;
+        if (scrapeResults[4].status === 'rejected') console.error('Porta scraper failed:', scrapeResults[4].reason);
+
         const DishSchema = z.object({
             name: z.string().min(1),
             price: z.string(),
             description: z.string().optional().default(''),
-            bistro: z.enum(['Bio-City', 'Fraunhofer', 'Tafelwerk', 'Nationalbibliothek']),
+            bistro: z.enum(['Bio-City', 'Fraunhofer', 'Tafelwerk', 'Nationalbibliothek', 'Porta']),
             type: z.string().optional()
         });
 
@@ -89,6 +94,7 @@ async function runScrapers() {
         if (fraunhofer) mergeData(fraunhofer, 'Fraunhofer');
         if (tafelwerk) mergeData(tafelwerk, 'Tafelwerk');
         if (nationalbibliothek) mergeData(nationalbibliothek, 'Nationalbibliothek');
+        if (porta) mergeData(porta, 'Porta');
 
         // ... existing sorting and saving logic ...
         // Sort dishes by bistro name within each day
