@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-03-24T05:31:48.967Z",
-=======
-  "updatedAt": "2026-03-24T13:53:16.333Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-03-24T15:12:16.341Z",
   "days": {
     "monday": [
       {
@@ -77,8 +73,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-=======
         "name": "BUTTER CHICKEN",
         "price": "7,50 €",
         "description": "Hähnchenbruststreifen in Tomaten-Kokossauce mit Zitronengras auf Langkornreis",
@@ -93,7 +87,6 @@
         "type": "meat"
       },
       {
->>>>>>> Stashed changes
         "name": "Champignonsuppe",
         "price": "4,50 €",
         "description": "",
@@ -134,8 +127,6 @@
         "name": "Szegediner Gulasch",
         "price": "9,40 €",
         "description": "Sauerkraut - Böhmische Knödel",
-<<<<<<< Updated upstream
-=======
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -143,7 +134,6 @@
         "name": "3 Stück Matjes",
         "price": "8,30 €",
         "description": "gebratene Kartoffeln - Kräuterquark",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -155,8 +145,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-=======
         "name": "Wrap des Tages",
         "price": "6,80 €",
         "description": "Feta - BBQ Aromen - Coleslaw",
@@ -164,7 +152,6 @@
         "type": "vegetarian"
       },
       {
->>>>>>> Stashed changes
         "name": "Kartoffel-Kürbis Röstis mit Salat und Honig-Senfdressing",
         "price": "7,00 €",
         "description": "",
@@ -214,8 +201,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-=======
         "name": "TAGLIATELLE MIT TOMATENSAUCE",
         "price": "7,50 €",
         "description": "dazu frischer Basilikum und Hartkäsehobel",
@@ -230,7 +215,6 @@
         "type": "meat"
       },
       {
->>>>>>> Stashed changes
         "name": "Paprikasuppe mit Maisgrieß",
         "price": "4,50 €",
         "description": "",
@@ -331,15 +315,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Grüner Bohneneintopf mit Seitan",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-=======
         "name": "CURRYWURST MIT POMMES FRITES",
         "price": "7,50 €",
         "description": "",
@@ -361,7 +336,6 @@
         "type": "vegan"
       },
       {
->>>>>>> Stashed changes
         "name": "Gemüseschnitzel mit Cous cous dazu Bohnenragout",
         "price": "8,30 €",
         "description": "",
@@ -455,8 +429,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-=======
         "name": "CAESAR SALAD MIT HÄHNCHENSTREIFEN",
         "price": "7,50 €",
         "description": "Römersalat mit Caesar- Dressing, sowie Croûtons und Hartkäsehobel 7.50",
@@ -471,7 +443,6 @@
         "type": "meat"
       },
       {
->>>>>>> Stashed changes
         "name": "Nudeltopf mit Hähnchenfleisch und Gemüse",
         "price": "4,50 €",
         "description": "",
@@ -565,8 +536,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-=======
         "name": "SEELACHSFILET MIT KARTOFFELN",
         "price": "7,50 €",
         "description": "BRAT- dazu Remoulade",
@@ -581,7 +550,6 @@
         "type": "meat"
       },
       {
->>>>>>> Stashed changes
         "name": "Italienische Linsensuppe mit Tomate",
         "price": "4,50 €",
         "description": "",
