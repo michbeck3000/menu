@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-23T05:34:08.665Z",
+  "updatedAt": "2026-03-24T05:31:48.967Z",
   "days": {
     "monday": [
       {
@@ -19,9 +19,9 @@
       {
         "name": "Wrap des Tages",
         "price": "6,30 €",
-        "description": "",
+        "description": "Grillgemüse, Feta und Eisbergsalat",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Brokkoli-Nuss Bratling mit Süßkartoffelpüree und Möhrengemüse",
@@ -339,7 +339,7 @@
       },
       {
         "name": "Kaiserschmarrn mit Apfelmus und Puderzucker",
-        "price": "5,00 € (klein 2,70 €)",
+        "price": "6,00 € (klein 4,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
