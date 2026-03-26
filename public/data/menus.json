@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-25T05:31:43.473Z",
+  "updatedAt": "2026-03-26T05:34:32.337Z",
   "days": {
     "monday": [
       {
@@ -262,6 +262,13 @@
         "name": "Salate:",
         "price": "",
         "description": "Kichererbsensalat --- Tomaten - Mozzarellasalat --- Anti Pasti --- Paprika-Fetasalat --- Pastasalat",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Szegediner Gulasch",
+        "price": "8,40 €",
+        "description": "Sauerkraut - Böhmische Knödel",
         "bistro": "Bio-City",
         "type": "meat"
       },
