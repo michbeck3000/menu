@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-26T05:34:32.337Z",
+  "updatedAt": "2026-03-27T05:35:09.523Z",
   "days": {
     "monday": [
       {
@@ -380,11 +380,18 @@
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "",
+        "name": "Kartoffelcremesuppe",
+        "price": "5,50 €",
+        "description": "mit Bockwurst & Brot",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "Wrap des Tages",
+        "price": "6,30 €",
+        "description": "Alpenkäse - Fenchel - Tomate - Rucola",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
       },
       {
         "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
