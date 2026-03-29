@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-03-27T05:35:09.523Z",
-=======
-  "updatedAt": "2026-03-29T15:05:17.119Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-03-29T15:18:17.968Z",
   "days": {
     "monday": [
       {
@@ -84,18 +80,14 @@
         "type": "meat"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Champignonsuppe",
-=======
         "name": "Kartoffel-Brokkoli-Suppe",
->>>>>>> Stashed changes
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -132,57 +124,28 @@
         "type": "vegetarian"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Szegediner Gulasch",
-        "price": "9,40 €",
-        "description": "Sauerkraut - Böhmische Knödel",
-=======
         "name": "gebratener Leberkäse",
         "price": "8,90 €",
         "description": "bayrisch Kraut - Kräuterkartoffelstampf",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "3 Stück Matjes",
-        "price": "8,30 €",
-        "description": "gebratene Kartoffeln - Kräuterquark",
-=======
         "name": "Holzfällerbrot",
         "price": "6,00 €",
         "description": "3 Käse Hoch - mit Paprikaquark",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Wrap des Tages",
-        "price": "6,80 €",
-        "description": "Pulled Truthahn - BBQ Aromen - Coleslaw",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Wrap des Tages",
-        "price": "6,80 €",
-        "description": "Feta - BBQ Aromen - Coleslaw",
-=======
         "name": "Salat klein / groß",
         "price": "3,10 / 6,50 €",
         "description": "Wählen sie aus unserer leckeren Salatbar",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Kartoffel-Kürbis Röstis mit Salat und Honig-Senfdressing",
-=======
         "name": "Vegane Frühlingsrolle mit gebratenen Asia-Gemüse-Nudeln",
->>>>>>> Stashed changes
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
@@ -231,18 +194,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Paprikasuppe mit Maisgrieß",
-=======
         "name": "Pilzcremesuppe mit Bärlauch",
->>>>>>> Stashed changes
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -276,37 +235,6 @@
         "price": "8,50 €",
         "description": "Linsenbolognese - Reibekäse",
         "bistro": "Bio-City",
-<<<<<<< Updated upstream
-        "type": "meat"
-      },
-      {
-        "name": "Suppen:",
-        "price": "",
-        "description": "Kartoffelsuppe mit Bockwurst --- Rote Bete -  Kokos Suppe ---  Sellerie - Apfelsuppe  & Brotauswahl",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Salate:",
-        "price": "",
-        "description": "Kichererbsensalat --- Tomaten - Mozzarellasalat --- Anti Pasti --- Paprika-Fetasalat --- Pastasalat",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Szegediner Gulasch",
-        "price": "8,40 €",
-        "description": "Sauerkraut - Böhmische Knödel",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Hafer-Vollkorn-Käse Bratlinge mit Rahmgemüse",
-        "price": "6,50 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-=======
->>>>>>> Stashed changes
         "type": "vegetarian"
       },
       {
@@ -359,23 +287,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Mexikanische Chicken-Pfanne, dazu Reis",
-        "price": "8,75 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Eintopf der Woche",
-        "price": "5,57 €",
-        "description": "mit Bauchspeck gebratenen Bockwurstscheiben",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-=======
->>>>>>> Stashed changes
         "name": "CURRYWURST MIT POMMES FRITES",
         "price": "7,50 €",
         "description": "",
@@ -383,9 +294,9 @@
         "type": "meat"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
@@ -397,11 +308,7 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Gemüseschnitzel mit Cous cous dazu Bohnenragout",
-=======
         "name": "Jackfrucht Bratwurst mit Zwiebelsauce dazu Sauerkraut und Stampfkartoffeln",
->>>>>>> Stashed changes
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -424,46 +331,7 @@
     ],
     "thursday": [
       {
-<<<<<<< Updated upstream
-        "name": "Gebackener Käse",
-        "price": "8,80 €",
-        "description": "Blumenkohl - Sour Cream und Süßkartoffel",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Hühnerfrikassee",
-        "price": "9,20 €",
-        "description": "Pilze – Karotten –                    Kräuter Reis",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Kartoffelcremesuppe",
-        "price": "5,50 €",
-        "description": "mit Bockwurst & Brot",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "Alpenkäse - Fenchel - Tomate - Rucola",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
-        "price": "6,80 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Wildschweingulasch mit Rotkohl und Spätzle",
-=======
         "name": "Piroggen",
->>>>>>> Stashed changes
         "price": "8,50 €",
         "description": "Rote Bete - Bohne - Zwiebel - Śmietana",
         "bistro": "Bio-City",
@@ -519,23 +387,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Schnitzel „Jäger Art“ mit Champignons und Kroketten",
-        "price": "8,75 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Eintopf der Woche",
-        "price": "5,57 €",
-        "description": "mit Bauchspeck gebratenen Bockwurstscheiben",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-=======
->>>>>>> Stashed changes
         "name": "CAESAR SALAD MIT HÄHNCHENSTREIFEN",
         "price": "7,50 €",
         "description": "Römersalat mit Caesar- Dressing, sowie Croûtons und Hartkäsehobel 7.50",
@@ -543,18 +394,14 @@
         "type": "meat"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Nudeltopf mit Hähnchenfleisch und Gemüse",
-=======
         "name": "Thai-Kokos-Mais-Suppe",
->>>>>>> Stashed changes
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -605,23 +452,6 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Gebratenes Fischfilet des Tages auf Pesto-Nudeln und Gemüse VIId",
-        "price": "8,75 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Eintopf der Woche",
-        "price": "5,57 €",
-        "description": "mit Bauchspeck gebratenen Bockwurstscheiben",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-=======
->>>>>>> Stashed changes
         "name": "SEELACHSFILET MIT KARTOFFELN",
         "price": "7,50 €",
         "description": "BRAT- dazu Remoulade",
@@ -629,42 +459,11 @@
         "type": "meat"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
-<<<<<<< Updated upstream
-      },
-      {
-        "name": "Italienische Linsensuppe mit Tomate",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Schupfnudel Gemüse Pfanne mit Käsesauce",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Lasagne mit Hähnchenfleisch dazu Tomaten-Zucchini-Sauce",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Schweine Cordon bleu mit Pommes frites und Salat",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-=======
->>>>>>> Stashed changes
       }
     ]
   }
