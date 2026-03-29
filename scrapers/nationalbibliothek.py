@@ -275,6 +275,12 @@ def parse_pdf(pdf_bytes):
                 result = get_dish_from_column(col_words)
                 if result:
                     dish, dish_type = result
+                    # Skip if dish name is null, None, or empty
+                    if not dish or not dish.strip():
+                        continue
+                    # Skip placeholder/dash entries
+                    if dish.strip().startswith('-') or re.match(r'^[\s\-/€]+$', dish):
+                        continue
                     # Override type for column 1 (always vegetarian)
                     final_type = 'vegetarian' if col_idx == 0 else dish_type
                     menu[current_day].append({
@@ -288,6 +294,18 @@ def parse_pdf(pdf_bytes):
             # Add Eintopf at the end of each day
             if eintopf_data:
                 menu[current_day].append(eintopf_data)
+    
+    # Add placeholder for missing days
+    all_days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+    for day in all_days:
+        if day not in menu or len(menu[day]) == 0:
+            menu[day] = [{
+                'name': 'Keine Daten vorhanden',
+                'price': '',
+                'description': '',
+                'bistro': 'Nationalbibliothek',
+                'type': 'meat'
+            }]
     
     return menu
 

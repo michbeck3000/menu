@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Schnitzel mit Schmorzwiebeln",
-    "description": "dazu Pommes Frites",
-    "price": "4,90 €"
+    "dish": "Schweinelachssteak mit Pilzsauce",
+    "description": "dazu Herzoginkartoffeln",
+    "price": "6,90 €"
 }
 
 def detect_type(text):
