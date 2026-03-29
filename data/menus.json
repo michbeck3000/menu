@@ -1,70 +1,70 @@
 {
 <<<<<<< Updated upstream
-  "updatedAt": "2026-03-24T05:31:48.967Z",
+  "updatedAt": "2026-03-27T05:35:09.523Z",
 =======
-  "updatedAt": "2026-03-24T13:53:16.333Z",
+  "updatedAt": "2026-03-29T15:05:17.119Z",
 >>>>>>> Stashed changes
   "days": {
     "monday": [
       {
-        "name": "3 Stück Quarkkäulchen",
-        "price": "7,90 €",
-        "description": "Apfelmus – Zimt – Vanille Limettensoße",
+        "name": "Vegi Burger",
+        "price": "8,90 €",
+        "description": "Chinakohl - asiastische Aromen - Wedges",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Gyros",
-        "price": "8,80 €",
+        "name": "Brokkoli Nuss Ecke",
+        "price": "8,70 €",
         "description": "Gemüse Reis - Tzatziki - Weißkrautsalat",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Pulled Chicken Wrap",
+        "price": "6,80 €",
+        "description": "BBQ - Kohl und Cranberry",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "Grillgemüse, Feta und Eisbergsalat",
+        "name": "Salat klein / groß",
+        "price": "3,10  / 6,50 €",
+        "description": "Wählen Sie aus unserer leckeren  Salatbar",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Brokkoli-Nuss Bratling mit Süßkartoffelpüree und Möhrengemüse",
+        "name": "Spaghetti mit veganer Bolognese und geriebenem Hartkäse",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hähnchenbrust Piccata Milanese mit Bandnudeln und Tomaten-Käsesoße",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Apfel Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Hausgemachte Kohlroulade mit Kartoffeln",
+        "price": "7,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Falafel auf Tomaten-Paprikasauce, dazu Reis II, VI, – vegan",
+        "name": "Vegetarische Kartoffelsuppe",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Zucchini-Möhren-Puffer an Bulgursalat und Joghurt-Minz-Dip",
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Toskanische Geflügelpfanne mit kleinen Kartoffeln und Blattsalat",
+        "name": "Hühnerfrikassee „Gärtnerin“ mit Reis",
         "price": "8,05 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Senfrostbraten mit grünen Bohnen und böhmischen Knödeln",
-        "price": "8,75 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -72,13 +72,11 @@
       {
         "name": "Eintopf der Woche",
         "price": "5,57 €",
-        "description": "mit Bauchspeck gebratenen Bockwurstscheiben",
+        "description": "mit Schweinefleisch und Kartoffeln",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-=======
         "name": "BUTTER CHICKEN",
         "price": "7,50 €",
         "description": "Hähnchenbruststreifen in Tomaten-Kokossauce mit Zitronengras auf Langkornreis",
@@ -93,30 +91,33 @@
         "type": "meat"
       },
       {
->>>>>>> Stashed changes
+<<<<<<< Updated upstream
         "name": "Champignonsuppe",
+=======
+        "name": "Kartoffel-Brokkoli-Suppe",
+>>>>>>> Stashed changes
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Gnocchi mit Tomatenragout ( Mozzarella )",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Seelachs Schlemmerfilet Bordelaise dazu Kartoffelpüree und Möhren-Lauch-Gemüse",
+        "name": "Nudeln mit grünem Spargel und Champignons dazu Käsesauce",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Wildbratwurst mit Rotkohl und Kroketten",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Schweinefilet mit Waldpilzsauce dazu Kroketten und grüne Bohnen",
-        "price": "10,90 €",
+        "name": "Gekochter Tafelspitz in Meerrettichsauce dazu Schnittlauchkartoffeln und Mischgemüse",
+        "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
@@ -124,30 +125,40 @@
     ],
     "tuesday": [
       {
-        "name": "Eier in Senfsoße",
-        "price": "8,60 €",
-        "description": "Kartoffel - Blumenkohlstampf - Karottensalat",
+        "name": "gebackener Gemüsestrudel",
+        "price": "8,90 €",
+        "description": "Sesam Reis - Mango Hollandaise",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
+<<<<<<< Updated upstream
         "name": "Szegediner Gulasch",
         "price": "9,40 €",
         "description": "Sauerkraut - Böhmische Knödel",
-<<<<<<< Updated upstream
 =======
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "3 Stück Matjes",
-        "price": "8,30 €",
-        "description": "gebratene Kartoffeln - Kräuterquark",
+        "name": "gebratener Leberkäse",
+        "price": "8,90 €",
+        "description": "bayrisch Kraut - Kräuterkartoffelstampf",
 >>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
+<<<<<<< Updated upstream
+        "name": "3 Stück Matjes",
+        "price": "8,30 €",
+        "description": "gebratene Kartoffeln - Kräuterquark",
+=======
+        "name": "Holzfällerbrot",
+        "price": "6,00 €",
+        "description": "3 Käse Hoch - mit Paprikaquark",
+>>>>>>> Stashed changes
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+<<<<<<< Updated upstream
         "name": "Wrap des Tages",
         "price": "6,80 €",
         "description": "Pulled Truthahn - BBQ Aromen - Coleslaw",
@@ -155,53 +166,52 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-=======
         "name": "Wrap des Tages",
         "price": "6,80 €",
         "description": "Feta - BBQ Aromen - Coleslaw",
+=======
+        "name": "Salat klein / groß",
+        "price": "3,10 / 6,50 €",
+        "description": "Wählen sie aus unserer leckeren Salatbar",
+>>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
->>>>>>> Stashed changes
+<<<<<<< Updated upstream
         "name": "Kartoffel-Kürbis Röstis mit Salat und Honig-Senfdressing",
+=======
+        "name": "Vegane Frühlingsrolle mit gebratenen Asia-Gemüse-Nudeln",
+>>>>>>> Stashed changes
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hähnchen Burger mit Pommes",
+        "name": "Braumeister Schnitzel mit Kroketten und Erbsen",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Milchreis mit Apfelmus und Zimtzucker",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Hefeklöße mit Kirschen und Vanillesoße",
+        "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Pfannkuchen gefüllt mit Blattspinat und Hirtenkäse",
+        "name": "Teigtaschen mit Gemüserahm, dazu Reibekäse",
         "price": "7,55 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "dazu Geflügelfleischkäse mit Champignon-Lauchrahm an gebackenen Drillingen",
+        "name": "Szegediner Gulasch mit böhmischen Knödeln",
         "price": "8,05 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Zwiebel-Sahne-Schnitzel, dazu Tomatenreis",
-        "price": "8,75 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -209,13 +219,11 @@
       {
         "name": "Eintopf der Woche",
         "price": "5,57 €",
-        "description": "mit Bauchspeck gebratenen Bockwurstscheiben",
+        "description": "mit Schweinefleisch und Kartoffeln",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-=======
         "name": "TAGLIATELLE MIT TOMATENSAUCE",
         "price": "7,50 €",
         "description": "dazu frischer Basilikum und Hartkäsehobel",
@@ -230,29 +238,32 @@
         "type": "meat"
       },
       {
->>>>>>> Stashed changes
+<<<<<<< Updated upstream
         "name": "Paprikasuppe mit Maisgrieß",
+=======
+        "name": "Pilzcremesuppe mit Bärlauch",
+>>>>>>> Stashed changes
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Süßkartoffelgratin mit Blattspinatvegetarian - sweet potato gratin served with leaf spinach",
-        "price": "8,30 €",
+        "name": "Halloumi Burger dazu Salat",
+        "price": "8,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchen Curry mit Basmati Reis",
-        "price": "8,30 €",
+        "name": "Chicken nuggets mit Pommes frites",
+        "price": "8,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Rindergulasch mit Spätzle und Rosenkohl",
+        "name": "Wildschweinbraten mit Knödelscheiben dazu Rosenkohl",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -261,10 +272,11 @@
     ],
     "wednesday": [
       {
-        "name": "Grünzeug & Suppenkaspar - Tag",
-        "price": "8,00 €",
-        "description": "1x Suppe + 1x Salat vom Buffet",
+        "name": "Pasta",
+        "price": "8,50 €",
+        "description": "Linsenbolognese - Reibekäse",
         "bistro": "Bio-City",
+<<<<<<< Updated upstream
         "type": "meat"
       },
       {
@@ -282,41 +294,72 @@
         "type": "meat"
       },
       {
+        "name": "Szegediner Gulasch",
+        "price": "8,40 €",
+        "description": "Sauerkraut - Böhmische Knödel",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
         "name": "Hafer-Vollkorn-Käse Bratlinge mit Rahmgemüse",
         "price": "6,50 €",
         "description": "",
         "bistro": "Fraunhofer",
+=======
+>>>>>>> Stashed changes
         "type": "vegetarian"
       },
       {
-        "name": "Spaghetti Bolognese mit Reibekäse",
-        "price": "8,00 €",
+        "name": "\"Zürcher Geschnetzeltes\"",
+        "price": "9,50 €",
+        "description": "Hähnchenbrust - Pilze - Röstinchen",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Wrap des Tages",
+        "price": "6,30 €",
+        "description": "",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Salat klein / groß",
+        "price": "3,10 € / 6,50 €",
+        "description": "Wählen sie aus unserer leckeren Salatbar",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Veganes rotes Linsen-Gemüse Dal mit Reis",
+        "price": "6,80 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Marinierter Hering mit Kartoffeln",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Erbseneintopf mit Kasseler",
+        "name": "Hackfleisch-Käse-Laucheintopf",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Rührei mit Gurkensalat und Salzkartoffeln",
-        "price": "7,55 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Jägerschnitzel mit Tomatensoße und Pasta",
-        "price": "8,05 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
+<<<<<<< Updated upstream
         "name": "Mexikanische Chicken-Pfanne, dazu Reis",
         "price": "8,75 €",
         "description": "",
@@ -331,15 +374,8 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Grüner Bohneneintopf mit Seitan",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
 =======
+>>>>>>> Stashed changes
         "name": "CURRYWURST MIT POMMES FRITES",
         "price": "7,50 €",
         "description": "",
@@ -354,30 +390,33 @@
         "type": "meat"
       },
       {
-        "name": "Grüner Bohneneintopf mit Seitan",
+        "name": "Tomatensuppe mit Tortellini und Fleischbällchen",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegan"
+        "type": "meat"
       },
       {
->>>>>>> Stashed changes
+<<<<<<< Updated upstream
         "name": "Gemüseschnitzel mit Cous cous dazu Bohnenragout",
+=======
+        "name": "Jackfrucht Bratwurst mit Zwiebelsauce dazu Sauerkraut und Stampfkartoffeln",
+>>>>>>> Stashed changes
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Nudeln mit Fleischbällchen in Paprikasauce",
+        "name": "Gyros mit Tzaziki dazu Griechische Kartoffeln und Weißkohlsalat",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Rinderroulade mit Rotkohl dazu Klöße",
-        "price": "10,90 €",
+        "name": "Garnelenspieße mit Tomaten-Reis und Zucchinimix",
+        "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
@@ -385,6 +424,7 @@
     ],
     "thursday": [
       {
+<<<<<<< Updated upstream
         "name": "Gebackener Käse",
         "price": "8,80 €",
         "description": "Blumenkohl - Sour Cream und Süßkartoffel",
@@ -399,11 +439,18 @@
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "",
+        "name": "Kartoffelcremesuppe",
+        "price": "5,50 €",
+        "description": "mit Bockwurst & Brot",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "Wrap des Tages",
+        "price": "6,30 €",
+        "description": "Alpenkäse - Fenchel - Tomate - Rucola",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
       },
       {
         "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
@@ -414,33 +461,65 @@
       },
       {
         "name": "Wildschweingulasch mit Rotkohl und Spätzle",
+=======
+        "name": "Piroggen",
+>>>>>>> Stashed changes
         "price": "8,50 €",
+        "description": "Rote Bete - Bohne - Zwiebel - Śmietana",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Königsberger Klopse",
+        "price": "9,40 €",
+        "description": "Kapernsoße - Kartoffel - Karottenpüree",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Chicken Caesar Wrap",
+        "price": "6,80 €",
+        "description": "Hähnchen - Parmesan - Kapern - Römersalat",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Salat klein / groß",
+        "price": "3,10 € / 6,50 €",
+        "description": "Wählen sie aus unserer leckeren Salatbar",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Gebackener Hirtenkäse mit Couscous-Gemüsesalat und Aiolidip",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Kaiserschmarrn mit Apfelmus und Puderzucker",
-        "price": "6,00 € (klein 4,00 €)",
+        "name": "Tomatencremesuppe mit Croutons",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Vegetarische Königsberger Klopse, dazu Kapernsauce und Petersilienkartoffeln",
-        "price": "7,55 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Hähnchenbrust Käsesauce, dazu Spinatknödel und Rauke",
-        "price": "8,05 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
+<<<<<<< Updated upstream
         "name": "Schnitzel „Jäger Art“ mit Champignons und Kroketten",
         "price": "8,75 €",
         "description": "",
@@ -455,8 +534,8 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
 =======
+>>>>>>> Stashed changes
         "name": "CAESAR SALAD MIT HÄHNCHENSTREIFEN",
         "price": "7,50 €",
         "description": "Römersalat mit Caesar- Dressing, sowie Croûtons und Hartkäsehobel 7.50",
@@ -471,29 +550,32 @@
         "type": "meat"
       },
       {
->>>>>>> Stashed changes
+<<<<<<< Updated upstream
         "name": "Nudeltopf mit Hähnchenfleisch und Gemüse",
+=======
+        "name": "Thai-Kokos-Mais-Suppe",
+>>>>>>> Stashed changes
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Blumenkohlcurry mit Kichererbsen und Spinat dazu Reis",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Chili con carne dazu Baguettebrot",
+        "name": "Pochierte Eier mit Senfsauce dazu Kartoffeln und rote Beete Salat",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Spirelli mit Schweinegulasch dazu Reibekäse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Lachsfilet mit Kartoffelpüree dazu Brokkoli",
+        "name": "Gebratene Entenkeule mit Rotkohl dazu Kartoffelgnocchi",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -502,55 +584,28 @@
     ],
     "friday": [
       {
-        "name": "Bratreis",
-        "price": "8,30€",
-        "description": "Gemüse - Soja - Ei und Lauch",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Cordon Bleu",
-        "price": "9,40 €",
-        "description": "buntes Gemüse -  Herzoginkartoffeln - Sauce Hollandaise",
+        "name": "Frohe Ostern!",
+        "price": "",
+        "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "Orientalische Reise                       Tahin – Aubergine – Dattel -  Schafskäse",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Spaghetti Pesto mit Rucola und Hartkäse (opt. mit Hähnchenschnitzel +2,00€)",
-        "price": "6,80 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Putenleber mit Kartoffelpüree und Schmorzwiebeln",
-        "price": "8,00 €",
+        "name": "Feiertag",
+        "price": "",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Blumenkohl-Käse-Knuspermedaillon, dazu Hollandaise, Kartoffeln und Salatbeilage",
-        "price": "7,55 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Bauernfrühstück, dazu Gewürzgurke und Salat",
-        "price": "8,05 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
+<<<<<<< Updated upstream
         "name": "Gebratenes Fischfilet des Tages auf Pesto-Nudeln und Gemüse VIId",
         "price": "8,75 €",
         "description": "",
@@ -565,8 +620,8 @@
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
 =======
+>>>>>>> Stashed changes
         "name": "SEELACHSFILET MIT KARTOFFELN",
         "price": "7,50 €",
         "description": "BRAT- dazu Remoulade",
@@ -579,9 +634,9 @@
         "description": "dazu Pommes Frites",
         "bistro": "Porta",
         "type": "meat"
+<<<<<<< Updated upstream
       },
       {
->>>>>>> Stashed changes
         "name": "Italienische Linsensuppe mit Tomate",
         "price": "4,50 €",
         "description": "",
@@ -608,6 +663,8 @@
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
+=======
+>>>>>>> Stashed changes
       }
     ]
   }
