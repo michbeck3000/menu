@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T15:05:17.119Z",
+  "updatedAt": "2026-03-29T15:23:55.356Z",
   "days": {
     "monday": [
       {
@@ -31,27 +31,6 @@
         "type": "vegetarian"
       },
       {
-        "name": "Spaghetti mit veganer Bolognese und geriebenem Hartkäse",
-        "price": "6,80 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegan"
-      },
-      {
-        "name": "Hausgemachte Kohlroulade mit Kartoffeln",
-        "price": "7,80 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Vegetarische Kartoffelsuppe",
-        "price": "5,00 € (klein 2,70 €)",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
         "name": "Zucchini-Möhren-Puffer an Bulgursalat und Joghurt-Minz-Dip",
         "price": "7,55 €",
         "description": "",
@@ -80,9 +59,9 @@
         "type": "meat"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
@@ -145,27 +124,6 @@
         "type": "vegetarian"
       },
       {
-        "name": "Vegane Frühlingsrolle mit gebratenen Asia-Gemüse-Nudeln",
-        "price": "7,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegan"
-      },
-      {
-        "name": "Braumeister Schnitzel mit Kroketten und Erbsen",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Hefeklöße mit Kirschen und Vanillesoße",
-        "price": "4,00 € (klein 3,00 €)",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
         "name": "Teigtaschen mit Gemüserahm, dazu Reibekäse",
         "price": "7,55 €",
         "description": "",
@@ -194,9 +152,9 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
@@ -259,27 +217,6 @@
         "type": "vegetarian"
       },
       {
-        "name": "Veganes rotes Linsen-Gemüse Dal mit Reis",
-        "price": "6,80 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegan"
-      },
-      {
-        "name": "Marinierter Hering mit Kartoffeln",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Hackfleisch-Käse-Laucheintopf",
-        "price": "5,00 € (klein 2,70 €)",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
         "name": "Keine Daten vorhanden",
         "price": "",
         "description": "",
@@ -294,9 +231,9 @@
         "type": "meat"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
@@ -359,27 +296,6 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gebackener Hirtenkäse mit Couscous-Gemüsesalat und Aiolidip",
-        "price": "7,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegan"
-      },
-      {
-        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
-        "price": "7,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Tomatencremesuppe mit Croutons",
-        "price": "5,00 € (klein 2,70 €)",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
         "name": "Keine Daten vorhanden",
         "price": "",
         "description": "",
@@ -394,9 +310,9 @@
         "type": "meat"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
@@ -438,13 +354,6 @@
         "type": "meat"
       },
       {
-        "name": "Feiertag",
-        "price": "",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
         "name": "Keine Daten vorhanden",
         "price": "",
         "description": "",
@@ -459,9 +368,9 @@
         "type": "meat"
       },
       {
-        "name": "Schnitzel mit Schmorzwiebeln",
-        "price": "4,90 €",
-        "description": "dazu Pommes Frites",
+        "name": "Schweinelachssteak mit Pilzsauce",
+        "price": "6,90 €",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       }
