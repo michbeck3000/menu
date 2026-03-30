@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T15:23:55.356Z",
+  "updatedAt": "2026-03-30T05:45:19.485Z",
   "days": {
     "monday": [
       {
@@ -12,7 +12,7 @@
       {
         "name": "Brokkoli Nuss Ecke",
         "price": "8,70 €",
-        "description": "Gemüse Reis - Tzatziki - Weißkrautsalat",
+        "description": "Blumenkohl Couscous – Kräuterquark",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -31,25 +31,25 @@
         "type": "vegetarian"
       },
       {
-        "name": "Zucchini-Möhren-Puffer an Bulgursalat und Joghurt-Minz-Dip",
-        "price": "7,55 €",
+        "name": "Spaghetti mit veganer Bolognese und geriebenem Hartkäse",
+        "price": "6,80 €",
         "description": "",
-        "bistro": "Nationalbibliothek",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Hausgemachte Kohlroulade mit Kartoffeln",
+        "price": "7,80 €",
+        "description": "",
+        "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hühnerfrikassee „Gärtnerin“ mit Reis",
-        "price": "8,05 €",
+        "name": "Vegetarische Kartoffelsuppe",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Eintopf der Woche",
-        "price": "5,57 €",
-        "description": "mit Schweinefleisch und Kartoffeln",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
       },
       {
         "name": "BUTTER CHICKEN",
@@ -124,25 +124,25 @@
         "type": "vegetarian"
       },
       {
-        "name": "Teigtaschen mit Gemüserahm, dazu Reibekäse",
-        "price": "7,55 €",
+        "name": "Vegane Frühlingsrolle mit gebratenen Asia-Gemüse-Nudeln",
+        "price": "7,00 €",
         "description": "",
-        "bistro": "Nationalbibliothek",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Braumeister Schnitzel mit Kroketten und Erbsen",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Hefeklöße mit Kirschen und Vanillesoße",
+        "price": "4,00 € (klein 3,00 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
         "type": "vegetarian"
-      },
-      {
-        "name": "Szegediner Gulasch mit böhmischen Knödeln",
-        "price": "8,05 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Eintopf der Woche",
-        "price": "5,57 €",
-        "description": "mit Schweinefleisch und Kartoffeln",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
       },
       {
         "name": "TAGLIATELLE MIT TOMATENSAUCE",
@@ -217,10 +217,24 @@
         "type": "vegetarian"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
+        "name": "Veganes rotes Linsen-Gemüse Dal mit Reis",
+        "price": "6,80 €",
         "description": "",
-        "bistro": "Nationalbibliothek",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Marinierter Hering mit Kartoffeln",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Hackfleisch-Käse-Laucheintopf",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
@@ -296,11 +310,25 @@
         "type": "vegetarian"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
+        "name": "Gebackener Hirtenkäse mit Couscous-Gemüsesalat und Aiolidip",
+        "price": "7,00 €",
         "description": "",
-        "bistro": "Nationalbibliothek",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
         "type": "meat"
+      },
+      {
+        "name": "Tomatencremesuppe mit Croutons",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
       },
       {
         "name": "CAESAR SALAD MIT HÄHNCHENSTREIFEN",
@@ -354,10 +382,10 @@
         "type": "meat"
       },
       {
-        "name": "Keine Daten vorhanden",
+        "name": "Feiertag",
         "price": "",
         "description": "",
-        "bistro": "Nationalbibliothek",
+        "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
