@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T15:29:14.557Z",
+  "updatedAt": "2026-03-30T05:45:19.485Z",
   "days": {
     "monday": [
       {
@@ -12,7 +12,7 @@
       {
         "name": "Brokkoli Nuss Ecke",
         "price": "8,70 €",
-        "description": "Gemüse Reis - Tzatziki - Weißkrautsalat",
+        "description": "Blumenkohl Couscous – Kräuterquark",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -50,27 +50,6 @@
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
-      },
-      {
-        "name": "Zucchini-Möhren-Puffer an Bulgursalat und Joghurt-Minz-Dip",
-        "price": "7,55 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Hühnerfrikassee „Gärtnerin“ mit Reis",
-        "price": "8,05 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Eintopf der Woche",
-        "price": "5,57 €",
-        "description": "mit Schweinefleisch und Kartoffeln",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
       },
       {
         "name": "BUTTER CHICKEN",
@@ -166,27 +145,6 @@
         "type": "vegetarian"
       },
       {
-        "name": "Teigtaschen mit Gemüserahm, dazu Reibekäse",
-        "price": "7,55 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Szegediner Gulasch mit böhmischen Knödeln",
-        "price": "8,05 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Eintopf der Woche",
-        "price": "5,57 €",
-        "description": "mit Schweinefleisch und Kartoffeln",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
         "name": "TAGLIATELLE MIT TOMATENSAUCE",
         "price": "7,50 €",
         "description": "dazu frischer Basilikum und Hartkäsehobel",
@@ -277,13 +235,6 @@
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Keine Daten vorhanden",
-        "price": "",
-        "description": "",
-        "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
@@ -380,13 +331,6 @@
         "type": "vegetarian"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
         "name": "CAESAR SALAD MIT HÄHNCHENSTREIFEN",
         "price": "7,50 €",
         "description": "Römersalat mit Caesar- Dressing, sowie Croûtons und Hartkäsehobel 7.50",
@@ -442,13 +386,6 @@
         "price": "",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Keine Daten vorhanden",
-        "price": "",
-        "description": "",
-        "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
