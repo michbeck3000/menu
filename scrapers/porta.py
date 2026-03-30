@@ -27,7 +27,8 @@ DAY_MAP = {
 WEEKLY_SPECIAL = {
     "dish": "Schweinelachssteak mit Pilzsauce",
     "description": "dazu Herzoginkartoffeln",
-    "price": "6,90 €"
+    "price": "6,90 €",
+    "isWeeklySpecial": True
 }
 
 def detect_type(text):
@@ -73,7 +74,8 @@ def parse_pdf(pdf_bytes):
             'price': WEEKLY_SPECIAL.get('price', ''),
             'description': WEEKLY_SPECIAL.get('description', ''),
             'bistro': 'Porta',
-            'type': 'meat'
+            'type': 'meat',
+            'isWeeklySpecial': WEEKLY_SPECIAL.get('isWeeklySpecial', False)
         }
     
     with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:

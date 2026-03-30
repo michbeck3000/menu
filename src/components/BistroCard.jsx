@@ -32,7 +32,7 @@ export default function BistroCard({ bistroName, dishes }) {
                 {dishes.map((dish, index) => (
                     <React.Fragment key={`${dish.bistro}-${index}`}>
                         <li className="group">
-                            {bistroName === 'Porta' && dish.name.toLowerCase().includes('schnitzel') && (
+                            {bistroName === 'Porta' && dish.isWeeklySpecial && (
                                 <p className="text-sm text-slate-100/70 mb-0.5 transition-colors duration-300">
                                     Aktionsangebot
                                 </p>

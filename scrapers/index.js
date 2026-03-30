@@ -62,7 +62,8 @@ async function runScrapers() {
             price: z.string(),
             description: z.string().optional().default(''),
             bistro: z.enum(['Bio-City', 'Fraunhofer', 'Tafelwerk', 'Nationalbibliothek', 'Porta']),
-            type: z.string().optional()
+            type: z.string().optional(),
+            isWeeklySpecial: z.boolean().optional()
         });
 
         // Helper to merge data
