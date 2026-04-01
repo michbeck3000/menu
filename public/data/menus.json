@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-03-31T04:49:52.295Z",
+  "updatedAt": "2026-04-01T04:59:15.396Z",
   "days": {
     "monday": [
       {
-        "name": "Vegi Burger",
+        "name": "Vegi-Burger",
         "price": "8,90 €",
         "description": "Chinakohl - asiastische Aromen - Wedges",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Brokkoli Nuss Ecke",
+        "name": "Brokkoli-Nussecke",
         "price": "8,70 €",
-        "description": "Blumenkohl Couscous – Kräuterquark",
+        "description": "Blumenkohl - Couscous - Kräuterquark",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -24,9 +24,9 @@
         "type": "meat"
       },
       {
-        "name": "Salat klein / groß",
-        "price": "3,10  / 6,50 €",
-        "description": "Wählen Sie aus unserer leckeren  Salatbar",
+        "name": "Salat klein/groß",
+        "price": "3,10 /6,50 €",
+        "description": "Wählen Sie aus unserer leckeren  Salatbar.",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -111,16 +111,30 @@
         "type": "meat"
       },
       {
-        "name": "Holzfällerbrot",
-        "price": "6,00 €",
-        "description": "3 Käse Hoch - mit Paprikaquark",
+        "name": "Vegi-Burger",
+        "price": "8,00 €",
+        "description": "Chinakohl - asiatische Aromen - Wedges",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Pulled Chicken Wrap",
+        "price": "6,30 €",
+        "description": "Chicken - Chinakohl BBQ & Frischkäse",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Salat klein / groß",
-        "price": "3,10 / 6,50 €",
-        "description": "Wählen sie aus unserer leckeren Salatbar",
+        "name": "Französischer Wrap",
+        "price": "6,30 €",
+        "description": "Brie, Rucola, Gurke und Paprika",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Salat klein/groß",
+        "price": "3,10/6,50 €",
+        "description": "Wählen Sie aus unserer leckeren Salatbar.",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -212,9 +226,9 @@
         "type": "meat"
       },
       {
-        "name": "Salat klein / groß",
-        "price": "3,10 € / 6,50 €",
-        "description": "Wählen sie aus unserer leckeren Salatbar",
+        "name": "Salat klein/groß",
+        "price": "3,10 €/6,50 €",
+        "description": "Wählen Sie aus unserer leckeren Salatbar.",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -306,9 +320,9 @@
         "type": "meat"
       },
       {
-        "name": "Salat klein / groß",
-        "price": "3,10 € / 6,50 €",
-        "description": "Wählen sie aus unserer leckeren Salatbar",
+        "name": "Salat klein/groß",
+        "price": "3,10 €/6,50 €",
+        "description": "Wählen Sie aus unserer leckeren Salatbar.",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
