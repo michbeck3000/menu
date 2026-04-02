@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-01T04:59:15.396Z",
+  "updatedAt": "2026-04-02T04:46:23.384Z",
   "days": {
     "monday": [
       {
@@ -219,11 +219,11 @@
         "type": "meat"
       },
       {
-        "name": "Wrap des Tages",
-        "price": "6,30 €",
-        "description": "",
+        "name": "gebackener Gemüsestrudel",
+        "price": "8,20 €",
+        "description": "Sesam Reis - Kürbissoße",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
