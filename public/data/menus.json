@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-02T04:46:23.384Z",
+  "updatedAt": "2026-04-03T04:47:21.321Z",
   "days": {
     "monday": [
       {
@@ -31,25 +31,11 @@
         "type": "vegetarian"
       },
       {
-        "name": "Spaghetti mit veganer Bolognese und geriebenem Hartkäse",
-        "price": "6,80 €",
+        "name": "Feiertag",
+        "price": "",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
-      },
-      {
-        "name": "Hausgemachte Kohlroulade mit Kartoffeln",
-        "price": "7,80 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Vegetarische Kartoffelsuppe",
-        "price": "5,00 € (klein 2,70 €)",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "BUTTER CHICKEN",
@@ -139,22 +125,22 @@
         "type": "vegetarian"
       },
       {
-        "name": "Vegane Frühlingsrolle mit gebratenen Asia-Gemüse-Nudeln",
-        "price": "7,00 €",
+        "name": "Blumenkohl-Käse Medaillon mit Kartoffelpüree",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Braumeister Schnitzel mit Kroketten und Erbsen",
+        "name": "Seelachsfilet in Cornflakspanade mit Pommes und Remoulade",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Hefeklöße mit Kirschen und Vanillesoße",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Grießbrei mit Kirschen und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -233,21 +219,21 @@
         "type": "vegetarian"
       },
       {
-        "name": "Veganes rotes Linsen-Gemüse Dal mit Reis",
-        "price": "6,80 €",
+        "name": "Gemüse Lasagne mit Schnittlauchrahmsoße",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Marinierter Hering mit Kartoffeln",
-        "price": "7,50 €",
+        "name": "Hähnchengeschnetzeltes mit Röstiecken und Pfannengemüse",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Hackfleisch-Käse-Laucheintopf",
+        "name": "Kartoffelsuppe mit Bockwurstscheiben",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -299,9 +285,9 @@
     ],
     "thursday": [
       {
-        "name": "Piroggen",
-        "price": "8,50 €",
-        "description": "Rote Bete - Bohne - Zwiebel - Śmietana",
+        "name": "Geschwenkte Pasta",
+        "price": "7,90 €",
+        "description": "Tomatensoße und Reibekäse",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -313,11 +299,11 @@
         "type": "meat"
       },
       {
-        "name": "Chicken Caesar Wrap",
-        "price": "6,80 €",
-        "description": "Hähnchen - Parmesan - Kapern - Römersalat",
+        "name": "Wrap des Tages",
+        "price": "6,50 €",
+        "description": "Tomate Mozzarella - Rucola und Gouda",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
@@ -327,22 +313,22 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gebackener Hirtenkäse mit Couscous-Gemüsesalat und Aiolidip",
-        "price": "7,00 €",
+        "name": "Salat-Gemüse Bowl mit Hallomi und Knoblauchbrot",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
+        "name": "Spirelli mit Wurstgulasch und Reibekäse",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Tomatencremesuppe mit Croutons",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Quarkkeulchen mit Apfelmus und Zimtzucker",
+        "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -400,8 +386,15 @@
         "type": "meat"
       },
       {
-        "name": "Feiertag",
-        "price": "",
+        "name": "Backcamembert mit Wedges und Kräuterquark",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "HähnchenschnitzelD-Tomate-Mozzarella mit Bandnudeln und Tomatensoße",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
