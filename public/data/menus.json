@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T04:59:51.279Z",
+  "updatedAt": "2026-04-11T04:40:50.347Z",
   "days": {
     "monday": [
       {
@@ -96,34 +96,6 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
-      },
-      {
-        "name": "Brokkoli Curry Suppe mit roten Linsen",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Gemüsestrudel mit Kartoffelpüree mit Wirsing dazu Schnittlauchsauce",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Penne Arrabiata mit Kirschtomaten und scharfer Schinken Sauce",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Wildschweinbraten mit Schupfnudeln dazu Pilzsauce",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
       }
     ],
     "wednesday": [
@@ -190,41 +162,6 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
-      },
-      {
-        "name": "Mexikanischer Feuertopf - Rindfleisch mit Kidney und Mais",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Hefeklöße mit Beerenmischung dazu Vanillecreme",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Tagliatelle mit Spinat-Erdnuss-Sauce ( geriebener Hartkäse )",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Hähnchen Barbecue Drum Sticks mit Wedges und Mais-Bohnengemüse",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Schweinefilet in Gorgozolasauce dazu Brokkoli und Gnocchi",
-        "price": "10,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
       }
     ],
     "thursday": [
@@ -291,34 +228,6 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
-      },
-      {
-        "name": "Nudeltopf mit Hähnchenfleisch und Gemüse",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Palak Paneer Indischer Spinattopf mit Paneer Käse dazu Reis",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Schweineschnitzel mit Spiegelei dazu Kartoffelsalat",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Gekochte Rinderbrust mit Spargelragout dazu Petersilienkartoffeln",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
       }
     ],
     "friday": [
@@ -338,7 +247,14 @@
       },
       {
         "name": "Holzfällerbrot",
-        "price": "6,50 €",
+        "price": "5,50 €",
+        "description": "Käse hoch 3",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Holzfällerbrot mit kleinem Salat",
+        "price": "7,50 €",
         "description": "Käse hoch 3",
         "bistro": "Bio-City",
         "type": "vegetarian"
@@ -378,34 +294,6 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
-      },
-      {
-        "name": "Erbseneintopf mit Wurzelgemüse",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Backkäse dazu Bulgur und Zucchiniragout",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Kasseler mit Kartoffel-Selleriestampf dazu Karotten-Lauch-Gemüse",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Rinderhüftsteak mit Bärlauchbutter dazu Pommes frites und Salat",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
       }
     ]
   }
