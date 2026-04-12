@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-12T04:58:49.002Z",
+  "updatedAt": "2026-04-12T10:41:07.083Z",
   "days": {
     "monday": [
       {
@@ -10,11 +10,25 @@
         "type": "meat"
       },
       {
-        "name": "Feiertag",
-        "price": "",
+        "name": "Italienische Kartoffel-Gemüsepfanne mit Hirtenkäse und Rucola",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Steak Strindberg mit Bratkartoffeln und Rohkostsalat",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
+      },
+      {
+        "name": "Karotten-Ingwercremesuppe",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
       },
       {
         "name": "BUTTER CHICKEN",
@@ -62,22 +76,22 @@
         "type": "vegetarian"
       },
       {
-        "name": "Blumenkohl-Käse Medaillon mit Kartoffelpüree",
-        "price": "6,80 €",
+        "name": "Tellerrösti gratiniert mit Gemüse, dazu Salat und Aiolidip",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Seelachsfilet in Cornflakspanade mit Pommes und Remoulade",
+        "name": "Currywurst mit Pommes und Salat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Grießbrei mit Kirschen und Zimtzucker",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Pflaumen Crumble mit Vanillesoße",
+        "price": "2,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -128,21 +142,21 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gemüse Lasagne mit Schnittlauchrahmsoße",
+        "name": "Spaghetti mit Tomatensoße und veganen Hackbällchen",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hähnchengeschnetzeltes mit Röstiecken und Pfannengemüse",
+        "name": "Hähnchen Cordon Bleu mit Rissolekartoffeln, Kräuterquark und Salat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Kartoffelsuppe mit Bockwurstscheiben",
+        "name": "Linseneintopf mit Rauchwurst",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -194,21 +208,21 @@
         "type": "vegetarian"
       },
       {
-        "name": "Salat-Gemüse Bowl mit Hallomi und Knoblauchbrot",
+        "name": "Veganer Kürbis Chiasamen Burger mit Pommes",
         "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Spirelli mit Wurstgulasch und Reibekäse",
-        "price": "7,00 €",
+        "name": "Schweinegulasch mit Böhmischen Knödeln und Sauerkraut",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Quarkkeulchen mit Apfelmus und Zimtzucker",
+        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
         "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -267,14 +281,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Backcamembert mit Wedges und Kräuterquark",
-        "price": "7,50 €",
+        "name": "Mac&Cheese mit Rohkostsalat",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "HähnchenschnitzelD-Tomate-Mozzarella mit Bandnudeln und Tomatensoße",
+        "name": "Römerbraten mit Setzei, Kartoffelpüree und Rohkostsalat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
