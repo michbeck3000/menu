@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Schweinelachssteak mit Pilzsauce",
-    "description": "dazu Herzoginkartoffeln",
-    "price": "6,90 €",
+    "dish": "Fleischbällchen in Pfefferrahmsauce",
+    "description": "mit Tagliatelle",
+    "price": "7,50 €",
     "isWeeklySpecial": True
 }
 
