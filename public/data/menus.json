@@ -1,13 +1,34 @@
 {
-  "updatedAt": "2026-04-12T10:41:07.083Z",
+  "updatedAt": "2026-04-13T05:05:12.545Z",
   "days": {
     "monday": [
       {
-        "name": "Frohes Osterfest!",
-        "price": "",
-        "description": "Familie, Freunde & Sonne.",
+        "name": "Rührei",
+        "price": "8,80 €",
+        "description": "Kartoffeln - Rahmspinat",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Saltimbocca von der\nHähnchenbrust",
+        "price": "9,40 €",
+        "description": "Kartoffel - Gemüsepfanne",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "2 Quarkkeulchen",
+        "price": "4,90 €",
+        "description": "Vanillesoße – Apfelmus",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Salat klein/groß",
+        "price": "3,10/6,50 €",
+        "description": "Wählen Sie aus unserer leckeren Salatbar.",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
       },
       {
         "name": "Italienische Kartoffel-Gemüsepfanne mit Hirtenkäse und Rucola",
@@ -48,23 +69,23 @@
     ],
     "tuesday": [
       {
-        "name": "Mac and Chesse - Nudelauflauf",
-        "price": "8,50 €",
-        "description": "Spinat und Frischkäse",
+        "name": "3 Stück Semmelknödel",
+        "price": "8,40 €",
+        "description": "Pilzrahmsoße",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Chili con Carne",
-        "price": "9,00 €",
-        "description": "Paprika Reis",
+        "name": "Hackbraten",
+        "price": "9,40 €",
+        "description": "Rahmgemüse –\nHerzoginkartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Linseneintopf",
-        "price": "6,70 €",
-        "description": "Kassler - verschiedene  Kräuter und Brot",
+        "name": "2 Stück gebackener Käse",
+        "price": "8,50 €",
+        "description": "Couscous - geschmorte Paprika",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -114,23 +135,23 @@
     ],
     "wednesday": [
       {
-        "name": "Nudel-Gemüse-Auflauf",
-        "price": "8,90 €",
-        "description": "Ziegenkäse - Mandeln",
+        "name": "Piroggen - Pfanne",
+        "price": "8,50 €",
+        "description": "grüne Bohnen -\nSchmand -",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "geschmorte Hähnchenkeule",
-        "price": "9,00 €",
-        "description": "Paprikagemüse und Kartoffel - Röstzwiebelpüree",
+        "name": "Kohlroualde",
+        "price": "9,10 €",
+        "description": "Möhren -\nSalzkartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "gebratener Leberkäse",
-        "price": "8,50 €",
-        "description": "Bayrisch Kraut und Kartoffel- Röstzwiebelpüree",
+        "name": "Hühnerfrikassee",
+        "price": "8,90 €",
+        "description": "Reis",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -180,25 +201,25 @@
     ],
     "thursday": [
       {
-        "name": "Gemüsecurry",
-        "price": "8,70 €",
-        "description": "Kichererbsen - Süßkartoffel - Kokos und Couscous",
+        "name": "Käsespätzle",
+        "price": "8,40 €",
+        "description": "Ofenblumenkohl - Röstzwiebeln",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Pasta Bolognese",
-        "price": "8,90 €",
-        "description": "Reibekäse",
+        "name": "Pasta Napoli",
+        "price": "8,50 €",
+        "description": "gebratene  Jagdwurst  oder  Tofu  – Reibekäse",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gefüllter Germknödel",
-        "price": "4,90 €",
-        "description": "Apfelmus und Vanillesoße",
+        "name": "Fischragout",
+        "price": "8,80 €",
+        "description": "Senf –\nGemüseallerlei –\nKräuterreis",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "Salat klein/groß",
@@ -246,39 +267,11 @@
     ],
     "friday": [
       {
-        "name": "gekochte Landeier in Senfsoße",
-        "price": "9,00 €",
-        "description": "Kartoffelstampf - Rote Bete Salat",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "gefüllte Hirtenrolle",
-        "price": "9,60 €",
-        "description": "allerlei Kohl - Tomatenreis",
+        "name": "Schlemmerbuffet",
+        "price": "8,50 €",
+        "description": "Wählen sie aus unserem breiten Angebot und stellen sie sich ihren Genussteller eigenständig zusammen. Es ist für jeden Geschmack etwas dabei.",
         "bistro": "Bio-City",
         "type": "meat"
-      },
-      {
-        "name": "Holzfällerbrot",
-        "price": "5,50 €",
-        "description": "Käse hoch 3",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Holzfällerbrot mit kleinem Salat",
-        "price": "7,50 €",
-        "description": "Käse hoch 3",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Salat klein/groß",
-        "price": "3,10 €/6,50 €",
-        "description": "",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
       },
       {
         "name": "Mac&Cheese mit Rohkostsalat",
