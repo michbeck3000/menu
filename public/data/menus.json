@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-13T05:05:12.545Z",
+  "updatedAt": "2026-04-13T06:25:02.510Z",
   "days": {
     "monday": [
       {
@@ -59,12 +59,40 @@
         "type": "meat"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
-        "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "name": "Fleischbällchen in Pfefferrahmsauce",
+        "price": "7,50 €",
+        "description": "mit Tagliatelle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Italienische Minestrone mit Reis",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Tortilla mit Gemüse-Käsefülle dazu gebackene Kartoffelecken und Barbecue-Dip",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Schweineroulade dazu Mischgemüse und Kartoffelpüree",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Panierte Hähnchenbrust mit Frischkäsefülle dazu Blattspinat und Bulgur",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "tuesday": [
@@ -125,12 +153,40 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
-        "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "name": "Fleischbällchen in Pfefferrahmsauce",
+        "price": "7,50 €",
+        "description": "mit Tagliatelle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Grüne Bohneneintopf mit Rindfleisch und Kartoffeln",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Gebackene Champignons auf Salatbowl dazu Remouladensauce",
+        "price": "8,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Putengeschnetzeltes mit Pilzen dazu Gemüse-Spätzle",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Zanderfilet mit Sauce Hollandaise dazu Reis und Spargel",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "wednesday": [
@@ -191,12 +247,40 @@
         "type": "meat"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
-        "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "name": "Fleischbällchen in Pfefferrahmsauce",
+        "price": "7,50 €",
+        "description": "mit Tagliatelle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Kichererbsen - Tomaten - Suppe",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Penne mit Rucola, Kirschtomaten dazu Gorgonzolasauce",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "DDR Burger mit panierter Jagdwurstscheibe und Käse dazu Kartoffelbällchen",
+        "price": "8,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Ausgelöste Ente mit Rotkohl dazu Schupfnudeln",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "thursday": [
@@ -257,12 +341,40 @@
         "type": "meat"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
-        "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "name": "Fleischbällchen in Pfefferrahmsauce",
+        "price": "7,50 €",
+        "description": "mit Tagliatelle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Thai-Kokos-Curry-Suppe",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "/ - Maultaschen Gemüse Pfanne",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Gebratene Leberkässcheibe mit Zwiebelsauce dazu Bratkartoffeln und Krautsalat",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Gebratene Entenkeule mit Rotkohl dazu Kartoffelgnocchi",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "friday": [
@@ -295,12 +407,40 @@
         "type": "meat"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
-        "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "name": "Fleischbällchen in Pfefferrahmsauce",
+        "price": "7,50 €",
+        "description": "mit Tagliatelle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Tomatensuppe mit weißen Bohnen und Nudeln",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Rote Beete Sticks mit Kartoffelgratin und Blattspinat",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Geflügelbratwurst mit Stampfkartoffeln und Möhrengemüse in Rahm",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Schweinefilet mit Pilz-Bärlauch-Ragout dazu Kroketten",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ]
   }
