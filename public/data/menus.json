@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15T04:58:43.260Z",
+  "updatedAt": "2026-04-16T05:02:33.267Z",
   "days": {
     "monday": [
       {
@@ -219,6 +219,13 @@
         "type": "vegetarian"
       },
       {
+        "name": "Buffet",
+        "price": "",
+        "description": "Stellen sie sich ihren individuellen Teller nach ihrem Geschmack zusammen. Fairer Preis garantiert.",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
         "name": "Spaghetti mit Tomatensoße und veganen Hackbällchen",
         "price": "7,00 €",
         "description": "",
@@ -311,6 +318,13 @@
         "description": "Wählen Sie aus unserer leckeren Salatbar.",
         "bistro": "Bio-City",
         "type": "vegetarian"
+      },
+      {
+        "name": "Buffet",
+        "price": "",
+        "description": "Stellen sie sich ihren individuellen Teller nach ihrem Geschmack zusammen. Fairer Preis garantiert.",
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Veganer Kürbis Chiasamen Burger mit Pommes",
