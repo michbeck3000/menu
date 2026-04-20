@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Fleischbällchen in Pfefferrahmsauce",
-    "description": "mit Tagliatelle",
-    "price": "7,50 €",
+    "dish": "Weißer Spargel",
+    "description": "mit mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
+    "price": "8,90 €",
     "isWeeklySpecial": True
 }
 
