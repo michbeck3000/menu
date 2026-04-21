@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-21T05:00:29.184Z",
+  "updatedAt": "2026-04-21T07:05:14.018Z",
   "days": {
     "monday": [
       {
@@ -72,6 +72,34 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Kartoffelsuppe mit Kasseler und Wurzelgemüse",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Quorn Bällchen mit Kapernsauce dazu Kartoffeln und Möhrensalat",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Hackfleischröllchen Cevacici mit Ajvar dazu Balkangemüsemischung und Reis",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Hähnchenbrustschnitzel mit grünem Spargel und Mozzarrella überbacken mit Tomatensauce und Spinat dazu Risotto",
+        "price": "10,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "tuesday": [
@@ -145,6 +173,34 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Nudelsuppe mit Fleischbällchen",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Spinatgnocchi mit rote Pestosauce mit Champignons",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Schinkennudeln mit Frühlingslauch dazu gehobelter Parmesankäse",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Rinderhüftsteak mit Baked beans und Pommes frites",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "wednesday": [
@@ -218,6 +274,34 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Eintopf mit gemischten Bohnen",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Grünkohl Hanf Bällchen dazu Bulgur dazu Paprikaragout",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Pilzragout mit Schinken dazu Maultaschen mit Fleischfülle",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Lachsfilet mit Sauce Hollandaise dazu Spargelragout und Schnittlauchkartoffeln",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "thursday": [
@@ -291,6 +375,34 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Linseneintopf mit Bockwurstscheiben",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Süßkartoffelcurry mit Schoten, Rucola und Erdnüsse dazu Basmati Reis",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Barsch (Egli) Filet in Schnittlauchsauce mit Reis dazu Rote Beete Gemüse",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Hähnchenbrust in Parmesan Ei Hülle dazu Tomaten-Olivensauce und Spaghetti",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ],
     "friday": [
@@ -329,6 +441,34 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
+      },
+      {
+        "name": "Gulaschtopf Ungarische Art",
+        "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Spaghetti mit Linsenbolognese ( Reibekäse)",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Schweineroulade mit Kartoffeln und Blumenkohl",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Hirschbraten mit Schupfnudeln und Rosenkohl",
+        "price": "11,90 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
       }
     ]
   }
