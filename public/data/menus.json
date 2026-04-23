@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-22T04:58:46.049Z",
+  "updatedAt": "2026-04-23T05:02:05.025Z",
   "days": {
     "monday": [
       {
@@ -125,6 +125,13 @@
         "type": "vegetarian"
       },
       {
+        "name": "Wraps / Bowls",
+        "price": "6,50/7,50 €",
+        "description": "Täglich frische Wraps & Bowls.",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
         "name": "Salat klein/groß",
         "price": "3,10/6,50 €",
         "description": "Wählen Sie aus unserer leckeren Salatbar.",
@@ -226,6 +233,13 @@
         "type": "vegetarian"
       },
       {
+        "name": "Wraps / Bowls",
+        "price": "6,50 €/7,50 €",
+        "description": "Täglich frische Wraps & Bowls.",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
         "name": "Salat klein/groß",
         "price": "3,10 €/6,50 €",
         "description": "Wählen Sie aus unserer leckeren Salatbar.",
@@ -323,6 +337,13 @@
         "name": "Soljanka",
         "price": "6,60 €",
         "description": "Zitronendip & Brot",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Wraps / Bowls",
+        "price": "6,50/7,50 €",
+        "description": "Täglich frische Wraps & Bowls.",
         "bistro": "Bio-City",
         "type": "meat"
       },
