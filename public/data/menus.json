@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-24T05:03:42.622Z",
+  "updatedAt": "2026-04-25T04:50:55.911Z",
   "days": {
     "monday": [
       {
@@ -74,29 +74,29 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Kartoffelsuppe mit Kasseler und Wurzelgemüse",
+        "name": "Kichererbsensuppe Orientalisch",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Quorn Bällchen mit Kapernsauce dazu Kartoffeln und Möhrensalat",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Hackfleischröllchen Cevacici mit Ajvar dazu Balkangemüsemischung und Reis",
+        "name": "Gemüsefrikadelle mit Kartoffelstampf dazu Bohnen-ragout",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hacksteak mit Weichkäse gefüllt dazu Reisnudeln und Zucchinigemüse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Hähnchenbrustschnitzel mit grünem Spargel und Mozzarrella überbacken mit Tomatensauce und Spinat dazu Risotto",
-        "price": "10,90 €",
+        "name": "Lammrücken mit Bulgur und Grilltomaten mit Käse",
+        "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
@@ -182,28 +182,35 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Nudelsuppe mit Fleischbällchen",
+        "name": "Kartoffelsuppe mit Bockwurstscheiben",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Spinatgnocchi mit rote Pestosauce mit Champignons",
-        "price": "8,30 €",
+        "name": "Milchreis mit Apfelkompott",
+        "price": "8,20 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Schinkennudeln mit Frühlingslauch dazu gehobelter Parmesankäse",
+        "name": "Falafelburger dazu rustikale Pommes",
+        "price": "8,60 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Bandnudeln mit Fischragout Finkenwerder Art",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "meat"
+        "type": "fish"
       },
       {
-        "name": "Rinderhüftsteak mit Baked beans und Pommes frites",
+        "name": "Rindergulasch mit Böhmische Knödelscheiben dazu Möhrengemüse",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -290,28 +297,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Eintopf mit gemischten Bohnen",
+        "name": "Kürbis-Bohnen-Topf",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Grünkohl Hanf Bällchen dazu Bulgur dazu Paprikaragout",
+        "name": "Spinat-Semmelknödel mit Wirsinggemüse dazu Gorgonzolasauce",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Pilzragout mit Schinken dazu Maultaschen mit Fleischfülle",
+        "name": "Schweineschnitzel mit Schinken und Käse überbacken",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Lachsfilet mit Sauce Hollandaise dazu Spargelragout und Schnittlauchkartoffeln",
+        "name": "Zanderfilet mit Reis dazu Spargel",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -398,28 +405,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Linseneintopf mit Bockwurstscheiben",
+        "name": "Erbseneintopf mit Jackfruchtwurstscheiben",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Süßkartoffelcurry mit Schoten, Rucola und Erdnüsse dazu Basmati Reis",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Barsch (Egli) Filet in Schnittlauchsauce mit Reis dazu Rote Beete Gemüse",
+        "name": "Palak Paneer Indischer Spinattopf mit Paneer Käse",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Fleischbulette mit Spiegelei dazu Kartoffelsalat",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Hähnchenbrust in Parmesan Ei Hülle dazu Tomaten-Olivensauce und Spaghetti",
+        "name": "Rinderfilet mit Kartoffelgratin und Salat",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -431,6 +438,13 @@
         "name": "Schlemmerbuffet",
         "price": "8,50 €",
         "description": "Wählen sie aus unserem breiten Angebot und stellen sie sich ihren Genussteller eigenständig zusammen. Es ist für jeden Geschmack etwas dabei.",
+        "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Wraps / Bowls",
+        "price": "6,50/7,50 €",
+        "description": "Täglich frische Wraps & Bowls.",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -462,34 +476,6 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
-      },
-      {
-        "name": "Gulaschtopf Ungarische Art",
-        "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Spaghetti mit Linsenbolognese ( Reibekäse)",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Schweineroulade mit Kartoffeln und Blumenkohl",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Hirschbraten mit Schupfnudeln und Rosenkohl",
-        "price": "11,90 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
       }
     ]
   }
