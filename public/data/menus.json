@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-04-26T05:04:05.267Z",
+  "updatedAt": "2026-04-27T05:06:56.370Z",
   "days": {
     "monday": [
       {
-        "name": "3 Eier",
-        "price": "8,80 €",
-        "description": "Kartoffeln - Karotten - grüne Soße mit Kapern",
+        "name": "Indischer Dal",
+        "price": "8,50 €",
+        "description": "Linsen - Kartoffeln - Reis",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Gemüse - Kartoffelpfanne",
-        "price": "8,90 €",
-        "description": "Pulled Chicken - Kräuterquark",
+        "name": "Hähnchengeschnetzeltes",
+        "price": "9,10 €",
+        "description": "Mischgemüse - Reis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Milchreis",
-        "price": "6,60 €",
-        "description": "Geschmorte Apfelspalten",
+        "name": "Soja - Bolognese",
+        "price": "8,80 €",
+        "description": "Rigatoni - Mozzarella",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -38,25 +38,25 @@
         "type": "meat"
       },
       {
-        "name": "Blumenkohl-Käse Medaillon mit Kartoffeln und Sauce Hollandaise",
-        "price": "7,00 €",
+        "name": "Veganes rotes Linsen-Gemüse Dal mit Reis",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hähnchen-Gemüsecurry mit Reis",
+        "name": "Hähnchenbrust Piccata mit Röstiecken und Salatbeilage",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Apfel Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Blumenkohlcremesuppe mit Croutons",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "HÄHNCHENSCHNITZEL IN KÜRBISPANADE",
@@ -104,23 +104,23 @@
     ],
     "tuesday": [
       {
-        "name": "Pasta La Spinaci",
-        "price": "8,90 €",
-        "description": "Kräuterschafskäse - Spinatsoße & Tomaten",
+        "name": "Spinat Ricotta Knödel",
+        "price": "9,20 €",
+        "description": "Tomatensugo - Zucchini",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Geflügelschnitzel",
-        "price": "9,50 €",
-        "description": "Kartoffelpüree - Rahmerbsen",
+        "name": "Rostbratwurst",
+        "price": "8,90 €",
+        "description": "Schmorkohl - Kartoffelpüree",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gemüsebratling",
+        "name": "Bauernomlette",
         "price": "8,60 €",
-        "description": "Kartoffelpüree - Kürbis - Paprikasoße",
+        "description": "Ei - Kartoffeln - Erdgemüse",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -146,21 +146,21 @@
         "type": "meat"
       },
       {
-        "name": "Rote Beete Sticks mit Süßkartoffelpüree und Salatbeilage",
+        "name": "Spaghetti mit Bärlauchpesto Rucola und geriebenem Hartkäse",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Schnitzel mit Pommes und Rahmchampignons",
+        "name": "Hähnchenschnitzel mit Kroketten und Buttererbsen",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "name": "Grießbrei mit Kirschen und Zimtzucker",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -219,25 +219,25 @@
     ],
     "wednesday": [
       {
-        "name": "Falafelbällchen",
-        "price": "8,80 €",
-        "description": "Orientalischer Couscous - Auberginen - Tomatenragout",
+        "name": "Gnocchi-Basilikum-Pfanne",
+        "price": "8,90 €",
+        "description": "Ratatouille - Schafskäse",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Szegedinder Gulasch",
-        "price": "9,10 €",
-        "description": "Böhmische Knödel",
+        "name": "Nudelauflauf",
+        "price": "8,50 €",
+        "description": "Schinken-Käsesoße - Erbsen",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Pilzgulasch",
-        "price": "8,60 €",
-        "description": "Räuchertofu - Böhmische Knödel",
+        "name": "Gebackenes Schollenfilet",
+        "price": "9,20 €",
+        "description": "Kartoffeln - Gurkensalat - Leichte Remoulade",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "Wraps / Bowls",
@@ -261,25 +261,25 @@
         "type": "meat"
       },
       {
-        "name": "Gebratene Asia-Gemüse-Nudeln mit Sweet Chili Soße und Röstzwiebeln",
+        "name": "Spinat-Gemüse-Lasagne mit Schnittlauchrahmsoße",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Backfisch mit Bratkartoffeln und Remoulade",
+        "name": "Kap-Seehechtfilet mit Möhrengemüse, Kartoffelstampf und Limettensoße",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Tomatencremesuppe mit Croutons",
+        "name": "Soljanka",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "meat"
       },
       {
         "name": "CURRYWURST MIT POMMES FRITES",
@@ -327,23 +327,9 @@
     ],
     "thursday": [
       {
-        "name": "Schupfnudelpfanne",
+        "name": "Schlemmerbuffet",
         "price": "8,50 €",
-        "description": "Kaisergemüse - Kräuterquark",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Fischcurry",
-        "price": "8,90 €",
-        "description": "Wok-Gemüse, Süßkartoffeln, Erdnüsse",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Soljanka",
-        "price": "6,60 €",
-        "description": "Zitronendip & Brot",
+        "description": "Wählen Sie aus unserem breiten Angebot und stellen Sie sich Ihren Genussteller eigenständig zusammen. Es ist für jeden Geschmack etwas dabei.",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -355,36 +341,22 @@
         "type": "meat"
       },
       {
-        "name": "Salat klein/groß",
-        "price": "3,10 €/6,50 €",
-        "description": "Wählen Sie aus unserer leckeren Salatbar.",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
+        "name": "Veganer Buritto mit Rohkostsalat",
+        "price": "6,80 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
       },
       {
-        "name": "Buffet",
-        "price": "",
-        "description": "Stellen sie sich ihren individuellen Teller nach ihrem Geschmack zusammen. Fairer Preis garantiert.",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Gebratener Hirtenkäse mit Couscous-Salat und Joghurtdip",
+        "name": "Spirelli mit Wurstgulasch und Reibekäse",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Spaghetti Bolognese mit Reibekäse",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Joghurtpfannkuchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Pflaumen Crumble mit Vanillesoße",
+        "price": "2,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -435,29 +407,15 @@
     ],
     "friday": [
       {
-        "name": "Schlemmerbuffet",
-        "price": "8,50 €",
-        "description": "Wählen sie aus unserem breiten Angebot und stellen sie sich ihren Genussteller eigenständig zusammen. Es ist für jeden Geschmack etwas dabei.",
+        "name": "Leider aufgrund des Feiertages geschlossen.",
+        "price": "",
+        "description": "Wir sind ab Montag wieder für euch da.",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Wraps / Bowls",
-        "price": "6,50/7,50 €",
-        "description": "Täglich frische Wraps & Bowls.",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Gebratene Schupfnudeln mit Schmorkraut und Sourcream",
-        "price": "7,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Boulette mit Kartoffelpüree und Bohnen",
-        "price": "8,00 €",
+        "name": "Feiertag",
+        "price": "",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
