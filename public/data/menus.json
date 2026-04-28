@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T05:06:56.370Z",
+  "updatedAt": "2026-04-28T05:09:19.491Z",
   "days": {
     "monday": [
       {
@@ -20,6 +20,13 @@
         "name": "Soja - Bolognese",
         "price": "8,80 €",
         "description": "Rigatoni - Mozzarella",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Wraps / Bowls",
+        "price": "6,50/7,50 €",
+        "description": "Täglich frische Wraps & Bowls.",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
