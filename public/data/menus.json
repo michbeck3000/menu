@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-01T05:18:03.190Z",
+  "updatedAt": "2026-05-02T05:04:00.875Z",
   "days": {
     "monday": [
       {
@@ -45,25 +45,25 @@
         "type": "meat"
       },
       {
-        "name": "Veganes rotes Linsen-Gemüse Dal mit Reis",
+        "name": "Vegane Frikadelle mit Kartoffel-Karottenpüree und Rohkostsalat",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Hähnchenbrust Piccata mit Röstiecken und Salatbeilage",
+        "name": "Schweinegulasch mit Spätzle",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Blumenkohlcremesuppe mit Croutons",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Apfel Crumble mit Vanillesoße",
+        "price": "2,50 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "HÄHNCHENSCHNITZEL IN KÜRBISPANADE",
@@ -153,21 +153,14 @@
         "type": "meat"
       },
       {
-        "name": "Spaghetti mit Bärlauchpesto Rucola und geriebenem Hartkäse",
-        "price": "7,00 €",
+        "name": "Brokkoli-Nussecke mit Kartoffel-Gemüsepfanne und Tomatensoße",
+        "price": "8,00 € (klein 6,80 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hähnchenschnitzel mit Kroketten und Buttererbsen",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Grießbrei mit Kirschen und Zimtzucker",
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -261,21 +254,21 @@
         "type": "meat"
       },
       {
-        "name": "Spinat-Gemüse-Lasagne mit Schnittlauchrahmsoße",
+        "name": "Süßkartoffel Röstis mit Salat",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Kap-Seehechtfilet mit Möhrengemüse, Kartoffelstampf und Limettensoße",
+        "name": "Hähnchen Cordon Bleu mit Rissole Kartoffeln und Kräuterquarkdip",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Soljanka",
+        "name": "Hackfleisch-Käse-Laucheintopf",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -341,22 +334,22 @@
         "type": "meat"
       },
       {
-        "name": "Veganer Buritto mit Rohkostsalat",
-        "price": "6,80 €",
+        "name": "Bandnudeln mit Tomatensoße und geriebenem Mozzarella",
+        "price": "6,50 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Spirelli mit Wurstgulasch und Reibekäse",
-        "price": "7,00 €",
+        "name": "Rindfleisch Burger mit Pommes und Salatbeilage",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Pflaumen Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
+        "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -414,8 +407,22 @@
         "type": "meat"
       },
       {
-        "name": "Feiertag",
-        "price": "",
+        "name": "Kartoffeltaschen mit Frischkäsefüllung, dazu Blattspinat",
+        "price": "6,80 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Marinierter Hering mit Kartoffeln",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Bratwurst mit Sauerkraut und Kartoffeln",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
