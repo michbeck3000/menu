@@ -1,21 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-05-03T05:09:27.392Z",
-  "days": {
-    "monday": [
-      {
-        "name": "Indischer Dal",
-        "price": "8,50 €",
-        "description": "Linsen - Kartoffeln - Reis",
-        "bistro": "Bio-City",
-        "type": "vegan"
-      },
-      {
-        "name": "Hähnchengeschnetzeltes",
-        "price": "9,10 €",
-        "description": "Mischgemüse - Reis",
-=======
-  "updatedAt": "2026-05-03T13:09:40.186Z",
+  "updatedAt": "2026-05-03T13:36:27.057Z",
   "days": {
     "monday": [
       {
@@ -29,20 +13,13 @@
         "name": "Thunfisch „Puttanesca“",
         "price": "8,90 €",
         "description": "Tomaten-Oliven-Kapern - \nVollkornpasta",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Soja - Bolognese",
-        "price": "8,80 €",
-        "description": "Rigatoni - Mozzarella",
-=======
         "name": "Gebackener Käse",
         "price": "8,60 €",
         "description": "Gemüsepfanne mit Hollandaise & Drillingskartoffel",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -51,7 +28,6 @@
         "price": "6,50/7,50 €",
         "description": "Täglich frische Wraps & Bowls.",
         "bistro": "Bio-City",
-<<<<<<< Updated upstream
         "type": "vegetarian"
       },
       {
@@ -90,27 +66,7 @@
         "type": "vegetarian"
       },
       {
-        "name": "HÄHNCHENSCHNITZEL IN KÜRBISPANADE",
-=======
-        "type": "vegetarian"
-      },
-      {
-        "name": "Salat klein/groß",
-        "price": "3,10/6,50 €",
-        "description": "Wählen Sie aus unserer leckeren Salatbar.",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Buffet",
-        "price": "",
-        "description": "Stellen sie sich ihren individuellen Teller nach ihrem Geschmack zusammen. Fairer Preis garantiert.",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "BUTTER CHICKEN",
->>>>>>> Stashed changes
+        "name": "Hähnchenschnitzel in Kürbispanade",
         "price": "7,50 €",
         "description": "mit Sauce Hollandaise und Petersilienkartoffeln",
         "bistro": "Porta",
@@ -155,41 +111,23 @@
     ],
     "tuesday": [
       {
-<<<<<<< Updated upstream
-        "name": "Spinat Ricotta Knödel",
-        "price": "9,20 €",
-        "description": "Tomatensugo - Zucchini",
-=======
         "name": "Erdnuss - Gemüsecurry",
         "price": "8,80 €",
         "description": "Süßkartoffel, Edamame & Basmati",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Rostbratwurst",
-        "price": "8,90 €",
-        "description": "Schmorkohl - Kartoffelpüree",
-=======
         "name": "Geschmortes Schweinesteak",
         "price": "8,90 €",
         "description": "„Mutzbraten Art“ - Bratkartoffeln - Grüne Bohnen",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Bauernomlette",
-        "price": "8,60 €",
-        "description": "Ei - Kartoffeln - Erdgemüse",
-=======
         "name": "Mildes Chili sin Carne",
         "price": "8,50 €",
         "description": "Sojaschnetzel - \nBasmatireis",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -198,7 +136,6 @@
         "price": "6,50/7,50 €",
         "description": "Täglich frische Wraps & Bowls.",
         "bistro": "Bio-City",
-<<<<<<< Updated upstream
         "type": "meat"
       },
       {
@@ -230,7 +167,7 @@
         "type": "vegetarian"
       },
       {
-        "name": "OFENKARTOFFEL MIT FRÜHLINGSQUARK",
+        "name": "Ofenkartoffel mit Frühlingsquark",
         "price": "7,50 €",
         "description": "mit Hähnchenstreifen",
         "bistro": "Porta",
@@ -240,35 +177,6 @@
         "name": "Weißer Spargel",
         "price": "8,90 €",
         "description": "mit mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
-=======
-        "type": "meat"
-      },
-      {
-        "name": "Salat klein/groß",
-        "price": "3,10/6,50 €",
-        "description": "Wählen Sie aus unserer leckeren Salatbar.",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Buffet",
-        "price": "",
-        "description": "Stellen sie sich ihren individuellen Teller nach ihrem Geschmack zusammen. Fairer Preis garantiert.",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "TAGLIATELLE MIT TOMATENSAUCE",
-        "price": "7,50 €",
-        "description": "dazu frischer Basilikum und Hartkäsehobel",
-        "bistro": "Porta",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Schweinelachssteak mit Pilzsauce",
-        "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
->>>>>>> Stashed changes
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -304,24 +212,13 @@
     ],
     "wednesday": [
       {
-<<<<<<< Updated upstream
-        "name": "Gnocchi-Basilikum-Pfanne",
-        "price": "8,90 €",
-        "description": "Ratatouille - Schafskäse",
-=======
         "name": "Mediterranes Gemüseragout",
         "price": "8,80 €",
         "description": "gebratene Kartoffelnocken & Mozzarella",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Nudelauflauf",
-        "price": "8,50 €",
-        "description": "Schinken-Käsesoße - Erbsen",
-=======
         "name": "Hähnchengeschnetzeltes",
         "price": "9,10 €",
         "description": "„Züricher Art“ - Ebly",
@@ -332,36 +229,6 @@
         "name": "Gemüsefrikadellen",
         "price": "8,50 €",
         "description": "Mediterranes Gemüseragout - \ngebratene Kartoffelnocken",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Wraps / Bowls",
-        "price": "6,50 €/7,50 €",
-        "description": "Täglich frische Wraps & Bowls.",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Salat klein/groß",
-        "price": "3,10 €/6,50 €",
-        "description": "Wählen Sie aus unserer leckeren Salatbar.",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Buffet",
-        "price": "",
-        "description": "Stellen sie sich ihren individuellen Teller nach ihrem Geschmack zusammen. Fairer Preis garantiert.",
->>>>>>> Stashed changes
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-<<<<<<< Updated upstream
-        "name": "Gebackenes Schollenfilet",
-        "price": "9,20 €",
-        "description": "Kartoffeln - Gurkensalat - Leichte Remoulade",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -408,9 +275,7 @@
         "type": "meat"
       },
       {
-=======
->>>>>>> Stashed changes
-        "name": "CURRYWURST MIT POMMES FRITES",
+        "name": "Currywurst mit Pommes Frites",
         "price": "7,50 €",
         "description": "",
         "bistro": "Porta",
@@ -455,58 +320,20 @@
     ],
     "thursday": [
       {
-<<<<<<< Updated upstream
-        "name": "Schlemmerbuffet",
-        "price": "8,50 €",
-        "description": "Wählen Sie aus unserem breiten Angebot und stellen Sie sich Ihren Genussteller eigenständig zusammen. Es ist für jeden Geschmack etwas dabei.",
-=======
         "name": "Falafelbällchen",
         "price": "8,60 €",
         "description": "Gemüse-Couscous\nHummus",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Wraps / Bowls",
-        "price": "6,50/7,50 €",
-        "description": "Täglich frische Wraps & Bowls.",
-=======
         "name": "Lasagne Bolognese",
         "price": "8,90 €",
         "description": "Bechamelsoße - Mediterranes Gemüse",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
-        "name": "Bandnudeln mit Tomatensoße und geriebenem Mozzarella",
-        "price": "6,50 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Rindfleisch Burger mit Pommes und Salatbeilage",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "BUNTER SALAT",
-        "price": "7,50 €",
-        "description": "„MEDITERRAN“mit Hirtenkäse und Oliven 7.50 je",
-=======
         "name": "Paprika-Tofu-Gulasch",
         "price": "8,80 €",
         "description": "Gemüse-Couscous - Sonnenblumenkerne",
@@ -535,10 +362,30 @@
         "type": "meat"
       },
       {
-        "name": "CAESAR SALAD MIT HÄHNCHENSTREIFEN",
+        "name": "Bandnudeln mit Tomatensoße und geriebenem Mozzarella",
+        "price": "6,50 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Rindfleisch Burger mit Pommes und Salatbeilage",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
+        "price": "4,00 € (klein 3,00 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Bunter Salat „Mediterran“",
         "price": "7,50 €",
-        "description": "Römersalat mit Caesar-Dressing, sowie Croûtons und Hartkäsehobel",
->>>>>>> Stashed changes
+        "description": "mit Hirtenkäse und Oliven",
         "bistro": "Porta",
         "type": "vegetarian"
       },
@@ -581,20 +428,13 @@
     ],
     "friday": [
       {
-<<<<<<< Updated upstream
-        "name": "Leider aufgrund des Feiertages geschlossen.",
-        "price": "",
-        "description": "Wir sind ab Montag wieder für euch da.",
-=======
         "name": "Schlemmerbuffet",
         "price": "8,50 €",
         "description": "Wählen Sie aus unserem breiten Angebot und stellen Sie sich Ihren Genussteller eigenständig zusammen. Es ist für jeden Geschmack etwas dabei.",
->>>>>>> Stashed changes
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-<<<<<<< Updated upstream
         "name": "Kartoffeltaschen mit Frischkäsefüllung, dazu Blattspinat",
         "price": "6,80 €",
         "description": "",
@@ -616,14 +456,9 @@
         "type": "meat"
       },
       {
-        "name": "SEELACHSFILET MIT GURKENSALAT",
+        "name": "Seelachsfilet mit Kartoffel-Gurkensalat",
         "price": "7,50 €",
-        "description": "KARTOFFEL-",
-=======
-        "name": "SEELACHSFILET MIT BRATKARTOFFELN",
-        "price": "7,50 €",
-        "description": "dazu Remoulade",
->>>>>>> Stashed changes
+        "description": "",
         "bistro": "Porta",
         "type": "meat"
       },
