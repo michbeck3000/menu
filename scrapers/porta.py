@@ -4,7 +4,7 @@ import json
 
 WEEKLY_SPECIAL = {
     "dish": "Weißer Spargel",
-    "description": "mit mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
+    "description": "mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
     "price": "8,90 €",
     "isWeeklySpecial": True
 }
