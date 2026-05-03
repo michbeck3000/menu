@@ -24,7 +24,7 @@ function App() {
         const isLocalDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
         const liveDataUrl = isLocalDev 
           ? `${import.meta.env.BASE_URL}data/menus.json` 
-          : 'https://raw.githubusercontent.com/michbeck3000/menu/main/public/data/menus.json';
+          : 'https://michbeck3000.github.io/menu/data/menus.json';
         const [menuResponse, versionResponse] = await Promise.all([
           axios.get(`${liveDataUrl}${cacheBuster}`),
           axios.get(`${import.meta.env.BASE_URL}version.json`)
