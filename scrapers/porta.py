@@ -3,9 +3,9 @@ import sys
 import json
 
 WEEKLY_SPECIAL = {
-    "dish": "Weißer Spargel",
-    "description": "mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
-    "price": "8,90 €",
+    "dish": "Schollenfilet",
+    "description": "mit mit Kartoffel-Gurkensalat und Remoulade",
+    "price": "6,90 €",
     "isWeeklySpecial": True
 }
 
