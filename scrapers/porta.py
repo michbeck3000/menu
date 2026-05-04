@@ -4,7 +4,7 @@ import json
 
 WEEKLY_SPECIAL = {
     "dish": "Schollenfilet",
-    "description": "mit mit Kartoffel-Gurkensalat und Remoulade",
+    "description": "mit Kartoffel-Gurkensalat und Remoulade",
     "price": "6,90 €",
     "isWeeklySpecial": True
 }
