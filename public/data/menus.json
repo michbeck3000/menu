@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04T05:10:48.170Z",
+  "updatedAt": "2026-05-04T06:15:07.217Z",
   "days": {
     "monday": [
       {
@@ -73,9 +73,9 @@
         "type": "meat"
       },
       {
-        "name": "Weißer Spargel",
-        "price": "8,90 €",
-        "description": "mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
+        "name": "Schollenfilet",
+        "price": "6,90 €",
+        "description": "mit mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -174,9 +174,9 @@
         "type": "meat"
       },
       {
-        "name": "Weißer Spargel",
-        "price": "8,90 €",
-        "description": "mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
+        "name": "Schollenfilet",
+        "price": "6,90 €",
+        "description": "mit mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -227,7 +227,7 @@
       },
       {
         "name": "Gemüsefrikadellen",
-        "price": "8,50 €",
+        "price": "8,80 €",
         "description": "Mediterranes Gemüseragout - \ngebratene Kartoffelnocken",
         "bistro": "Bio-City",
         "type": "meat"
@@ -282,9 +282,9 @@
         "type": "meat"
       },
       {
-        "name": "Weißer Spargel",
-        "price": "8,90 €",
-        "description": "mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
+        "name": "Schollenfilet",
+        "price": "6,90 €",
+        "description": "mit mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -390,9 +390,9 @@
         "type": "vegetarian"
       },
       {
-        "name": "Weißer Spargel",
-        "price": "8,90 €",
-        "description": "mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
+        "name": "Schollenfilet",
+        "price": "6,90 €",
+        "description": "mit mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -463,9 +463,9 @@
         "type": "meat"
       },
       {
-        "name": "Weißer Spargel",
-        "price": "8,90 €",
-        "description": "mit Sauce Hollandaise, Hinterschinken und Butterkartoffeln",
+        "name": "Schollenfilet",
+        "price": "6,90 €",
+        "description": "mit mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
