@@ -7,6 +7,6 @@ const rootDir = path.join(__dirname, '..');
 const pkg = JSON.parse(fs.readFileSync(path.join(rootDir, 'package.json'), 'utf8'));
 
 fs.writeFileSync(
-  path.join(rootDir, 'public', 'version.json'),
+  path.join(rootDir, 'docs', 'version.json'),
   JSON.stringify({ version: pkg.version })
 );

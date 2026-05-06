@@ -40,11 +40,14 @@ jobs:
           TZ: "Europe/Berlin"
         run: npm run scrape
 
+      - name: Build App
+        run: npm run build
+
       - name: Commit and Push Menu Data
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add public/data/menus.json
+          git add public/data/menus.json dist/data/menus.json
           # Only commit if there are changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update menu data [skip ci]" && git push)
         env:

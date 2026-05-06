@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .card { fill: #ffffff; stroke: #334155; stroke-width: 4; }
+    .line { fill: #cbd5e1; stroke-linecap: round; }
+    .accent { fill: #0284c7; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #1e293b; stroke: #94a3b8; }
+      .line { fill: #475569; }
+      .accent { fill: #38bdf8; }
+    }
+  </style>
+  <!-- Background Card -->
+  <rect class="card" x="15" y="10" width="70" height="80" rx="6" />
+  
+  <!-- Content Lines representing a menu -->
+  <rect class="line" x="25" y="25" width="50" height="4" rx="2" />
+  
+  <!-- Dish 1 -->
+  <circle class="accent" cx="28" cy="40" r="3" />
+  <rect class="line" x="35" y="38" width="40" height="4" rx="2" />
+  
+  <!-- Dish 2 -->
+  <circle class="accent" cx="28" cy="55" r="3" />
+  <rect class="line" x="35" y="53" width="30" height="4" rx="2" />
+  
+  <!-- Dish 3 -->
+  <circle class="accent" cx="28" cy="70" r="3" />
+  <rect class="line" x="35" y="68" width="35" height="4" rx="2" />
+</svg>
