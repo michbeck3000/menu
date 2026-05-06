@@ -6,6 +6,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 // https://vite.dev/config/
 export default defineConfig({
   base: '/menu/', // Wichtig für GitHub Pages: Der Name deines Repositories
+  build: {
+    outDir: 'docs'
+  },
   plugins: [
     react(),
     VitePWA({
