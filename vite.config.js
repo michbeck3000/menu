@@ -53,7 +53,7 @@ export default defineConfig({
       manifest: {
         name: 'Menü',
         short_name: 'Menü',
-        description: 'Wochenkarte für Fraunhofer, Tafelwerk und Bio-City',
+        description: 'Wochenkarte für Fraunhofer, Tafelwerk, Bio-City und Porta',
         theme_color: '#0f172a', // Passt zum Dark Mode (slate-900)
         background_color: '#f8fafc',
         display: 'standalone',
