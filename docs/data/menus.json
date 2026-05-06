@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T05:07:14.703Z",
+  "updatedAt": "2026-05-06T08:02:08.494Z",
   "days": {
     "monday": [
       {
@@ -66,16 +66,16 @@
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchenschnitzel in Kürbispanade",
+        "name": "HÄHNCHENSCHNITZEL IN KÜRBISPANADE",
         "price": "7,50 €",
         "description": "mit Sauce Hollandaise und Petersilienkartoffeln",
         "bistro": "Porta",
         "type": "meat"
       },
       {
-        "name": "Schollenfilet",
+        "name": "Schweinelachssteak mit Pilzsauce",
         "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -167,16 +167,16 @@
         "type": "vegetarian"
       },
       {
-        "name": "Ofenkartoffel mit Frühlingsquark",
+        "name": "OFENKARTOFFEL MIT FRÜHLINGSQUARK",
         "price": "7,50 €",
         "description": "mit Hähnchenstreifen",
         "bistro": "Porta",
         "type": "meat"
       },
       {
-        "name": "Schollenfilet",
+        "name": "Schweinelachssteak mit Pilzsauce",
         "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -275,16 +275,16 @@
         "type": "meat"
       },
       {
-        "name": "Currywurst mit Pommes Frites",
+        "name": "CURRYWURST MIT POMMES FRITES",
         "price": "7,50 €",
         "description": "",
         "bistro": "Porta",
         "type": "meat"
       },
       {
-        "name": "Schollenfilet",
+        "name": "Schweinelachssteak mit Pilzsauce",
         "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -383,16 +383,16 @@
         "type": "vegetarian"
       },
       {
-        "name": "Bunter Salat „Mediterran“",
+        "name": "BUNTER SALAT",
         "price": "7,50 €",
-        "description": "mit Hirtenkäse und Oliven",
+        "description": "„MEDITERRAN“mit Hirtenkäse und Oliven 7.50 je",
         "bistro": "Porta",
         "type": "vegetarian"
       },
       {
-        "name": "Schollenfilet",
+        "name": "Schweinelachssteak mit Pilzsauce",
         "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -456,16 +456,16 @@
         "type": "meat"
       },
       {
-        "name": "Seelachsfilet mit Kartoffel-Gurkensalat",
+        "name": "SEELACHSFILET MIT GURKENSALAT",
         "price": "7,50 €",
-        "description": "",
+        "description": "KARTOFFEL-",
         "bistro": "Porta",
         "type": "meat"
       },
       {
-        "name": "Schollenfilet",
+        "name": "Schweinelachssteak mit Pilzsauce",
         "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "description": "dazu Herzoginkartoffeln",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
