@@ -31,6 +31,7 @@ jobs:
           else
             TAG_VERSION=${GITHUB_REF#refs/tags/v}
           fi
+          TAG_VERSION=${TAG_VERSION#v}
           echo "Version: $TAG_VERSION"
           npm version $TAG_VERSION --no-git-tag-version
         env:
