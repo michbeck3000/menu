@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T08:02:08.494Z",
+  "updatedAt": "2026-05-06T09:15:50.951Z",
   "days": {
     "monday": [
       {
@@ -73,9 +73,9 @@
         "type": "meat"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
+        "name": "Schollenfilet",
         "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "description": "mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -174,9 +174,9 @@
         "type": "meat"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
+        "name": "Schollenfilet",
         "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "description": "mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -282,9 +282,9 @@
         "type": "meat"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
+        "name": "Schollenfilet",
         "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "description": "mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -390,9 +390,9 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
+        "name": "Schollenfilet",
         "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "description": "mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -463,9 +463,9 @@
         "type": "meat"
       },
       {
-        "name": "Schweinelachssteak mit Pilzsauce",
+        "name": "Schollenfilet",
         "price": "6,90 €",
-        "description": "dazu Herzoginkartoffeln",
+        "description": "mit Kartoffel-Gurkensalat und Remoulade",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
