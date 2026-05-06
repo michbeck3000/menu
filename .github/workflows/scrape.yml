@@ -40,6 +40,9 @@ jobs:
           TZ: "Europe/Berlin"
         run: npm run scrape
 
+      - name: Build App
+        run: npm run build
+
       - name: Commit and Push Menu Data
         run: |
           git config --global user.name 'GitHub Action'
