@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Schollenfilet",
-    "description": "mit Kartoffel-Gurkensalat und Remoulade",
-    "price": "6,90 €",
+    "dish": "Rhabarber-Streuselkuchen",
+    "description": "",
+    "price": "2,90 €",
     "isWeeklySpecial": True
 }
 
