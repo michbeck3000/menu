@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T05:21:07.961Z",
+  "updatedAt": "2026-05-12T05:15:17.156Z",
   "days": {
     "monday": [
       {
@@ -73,9 +73,9 @@
         "type": "meat"
       },
       {
-        "name": "Schollenfilet",
-        "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "name": "Rhabarber-Streuselkuchen",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -181,9 +181,9 @@
         "type": "meat"
       },
       {
-        "name": "Schollenfilet",
-        "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "name": "Rhabarber-Streuselkuchen",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -228,7 +228,7 @@
       {
         "name": "Spargel-Erbsen-Ragout",
         "price": "8,80 €",
-        "description": "Mit Reis & Falafel Bällchen",
+        "description": "Mit Reis & Gemüseköttbullar",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -296,9 +296,9 @@
         "type": "meat"
       },
       {
-        "name": "Schollenfilet",
-        "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "name": "Rhabarber-Streuselkuchen",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -355,9 +355,9 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schollenfilet",
-        "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "name": "Rhabarber-Streuselkuchen",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -365,9 +365,9 @@
     ],
     "friday": [
       {
-        "name": "Leider aufgrund des Feiertags geschlossen.",
-        "price": "",
-        "description": "",
+        "name": "Schlemmerbuffet",
+        "price": "8,50 €",
+        "description": "Aufgrund des Wunsches mehrerer sehr geschätzter Gäste haben wir es für euch auch möglich gemacht an diesem Freitag  da zu sein. Genießt unser leckeres Schlemmerbuffet.",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -386,9 +386,9 @@
         "type": "meat"
       },
       {
-        "name": "Schollenfilet",
-        "price": "6,90 €",
-        "description": "mit Kartoffel-Gurkensalat und Remoulade",
+        "name": "Rhabarber-Streuselkuchen",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
