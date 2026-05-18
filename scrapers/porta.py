@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Rhabarber-Streuselkuchen",
-    "description": "",
-    "price": "2,90 €",
+    "dish": "Hähnchenschnitzel",
+    "description": "mit Sauce Hollandaise und Pommes frites",
+    "price": "6,90 €",
     "isWeeklySpecial": True
 }
 
