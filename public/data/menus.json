@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T05:24:54.372Z",
+  "updatedAt": "2026-05-18T06:25:25.402Z",
   "days": {
     "monday": [
       {
@@ -73,9 +73,9 @@
         "type": "meat"
       },
       {
-        "name": "Rhabarber-Streuselkuchen",
-        "price": "2,90 €",
-        "description": "",
+        "name": "Hähnchenschnitzel",
+        "price": "6,90 €",
+        "description": "mit Sauce Hollandaise und Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -125,9 +125,9 @@
         "type": "meat"
       },
       {
-        "name": "Frischkäse-Lauchragout",
+        "name": "Cremiges Frischkäse-Ragout",
         "price": "8,50 €",
-        "description": "Spätzle - Kernemix",
+        "description": "Spätzle - gerösteter Kernemix",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -181,9 +181,9 @@
         "type": "meat"
       },
       {
-        "name": "Rhabarber-Streuselkuchen",
-        "price": "2,90 €",
-        "description": "",
+        "name": "Hähnchenschnitzel",
+        "price": "6,90 €",
+        "description": "mit Sauce Hollandaise und Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -289,9 +289,9 @@
         "type": "meat"
       },
       {
-        "name": "Rhabarber-Streuselkuchen",
-        "price": "2,90 €",
-        "description": "",
+        "name": "Hähnchenschnitzel",
+        "price": "6,90 €",
+        "description": "mit Sauce Hollandaise und Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -397,9 +397,9 @@
         "type": "vegetarian"
       },
       {
-        "name": "Rhabarber-Streuselkuchen",
-        "price": "2,90 €",
-        "description": "",
+        "name": "Hähnchenschnitzel",
+        "price": "6,90 €",
+        "description": "mit Sauce Hollandaise und Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -463,9 +463,9 @@
         "type": "meat"
       },
       {
-        "name": "Rhabarber-Streuselkuchen",
-        "price": "2,90 €",
-        "description": "",
+        "name": "Hähnchenschnitzel",
+        "price": "6,90 €",
+        "description": "mit Sauce Hollandaise und Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
