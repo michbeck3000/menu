@@ -25,10 +25,32 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Hähnchenschnitzel",
-    "description": "mit Sauce Hollandaise und Pommes frites",
-    "price": "6,90 €",
+    "dish": "Rhabarber-Streuselkuchen",
+    "description": "",
+    "price": "2,90 €",
     "isWeeklySpecial": True
+}
+
+# --- MANUELLE EINGABE SCHALTER ---
+# Setze diesen Schalter auf True, um manuell eingegebene Gerichte zu verwenden,
+# anstatt das PDF von der Webseite zu scrapen.
+MANUAL_MODE = False
+
+# Trage hier deine manuellen Gerichte für die jeweiligen Wochentage ein.
+# Jedes Gericht benötigt die Felder: 'name', 'price', 'description', 'type' ('meat', 'vegetarian' oder 'vegan')
+MANUAL_MENU = {
+    'monday': [
+        {
+            'name': 'Manuelles Gericht Montag 1',
+            'price': '7,50 €',
+            'description': 'Leckere Beschreibung für Gericht 1',
+            'type': 'meat'
+        }
+    ],
+    'tuesday': [],
+    'wednesday': [],
+    'thursday': [],
+    'friday': []
 }
 
 def detect_type(text):
@@ -167,7 +189,24 @@ def parse_pdf(pdf_bytes):
     return menu
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    if MANUAL_MODE:
+        # Bereite die manuellen Daten im erwarteten Format vor
+        menu_data = {}
+        for day, dishes in MANUAL_MENU.items():
+            menu_data[day] = []
+            for dish in dishes:
+                menu_data[day].append({
+                    'name': dish.get('name', ''),
+                    'price': dish.get('price', '7,50 €'),
+                    'description': dish.get('description', ''),
+                    'bistro': 'Porta',
+                    'type': dish.get('type', 'meat'),
+                    'isWeeklySpecial': dish.get('isWeeklySpecial', False)
+                })
+        print(json.dumps(menu_data, ensure_ascii=False))
+        sys.exit(0)
+
+    if len(sys.argv) < 2 or not sys.argv[1]:
         print("Usage: python3 porta.py <pdf_url>")
         sys.exit(1)
     

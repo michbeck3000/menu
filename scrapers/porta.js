@@ -21,11 +21,12 @@ export async function scrapePorta(browser) {
         });
 
         if (!pdfUrl) {
-            console.warn('Porta: No PDF link found with "Mittagsangebote"');
-            return {};
+            console.warn('Porta: No PDF link found with "Mittagsangebote". Proceeding anyway...');
+        } else {
+            console.log('Porta: Found PDF URL:', pdfUrl);
         }
 
-        console.log('Porta: Found PDF URL:', pdfUrl);
+        const urlArg = pdfUrl || "";
 
         const { execSync } = await import('child_process');
         
@@ -61,7 +62,7 @@ export async function scrapePorta(browser) {
         const __dirname = dirname(__filename);
         const scriptPath = join(__dirname, 'porta.py');
 
-        const resultBuffer = exec(`${pythonCmd} "${scriptPath}" "${pdfUrl}"`);
+        const resultBuffer = exec(`${pythonCmd} "${scriptPath}" "${urlArg}"`);
         const resultRaw = resultBuffer.toString().trim();
 
         try {
