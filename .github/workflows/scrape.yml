@@ -49,6 +49,6 @@ jobs:
           git config --global user.email 'action@github.com'
           git add public/data/menus.json docs/data/menus.json
           # Only commit if there are changes
-          git diff --staged --quiet || (git commit -m "chore: update menu data [skip ci]" && git push)
+          git diff --staged --quiet || (git commit -m "chore: update menu data [skip ci]" && git push origin HEAD:main)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

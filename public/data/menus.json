@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T19:36:35.582Z",
+  "updatedAt": "2026-05-31T19:47:03.202Z",
   "days": {
     "monday": [
       {
@@ -75,7 +75,7 @@
       },
       {
         "name": "Tortelloni-Gemüse-Pfanne",
-        "price": ",90 €",
+        "price": "5,90 €",
         "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
@@ -184,7 +184,7 @@
       },
       {
         "name": "Tortelloni-Gemüse-Pfanne",
-        "price": ",90 €",
+        "price": "5,90 €",
         "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
@@ -293,7 +293,7 @@
       },
       {
         "name": "Tortelloni-Gemüse-Pfanne",
-        "price": ",90 €",
+        "price": "5,90 €",
         "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
@@ -402,7 +402,7 @@
       },
       {
         "name": "Tortelloni-Gemüse-Pfanne",
-        "price": ",90 €",
+        "price": "5,90 €",
         "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
@@ -469,7 +469,7 @@
       },
       {
         "name": "Tortelloni-Gemüse-Pfanne",
-        "price": ",90 €",
+        "price": "5,90 €",
         "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",

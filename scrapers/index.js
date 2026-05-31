@@ -116,6 +116,7 @@ async function runScrapers() {
 
     } catch (error) {
         console.error('Error running scrapers:', error);
+        process.exit(1);
     } finally {
         if (browser) await browser.close();
     }
