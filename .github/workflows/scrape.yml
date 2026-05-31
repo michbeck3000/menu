@@ -27,10 +27,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Chrome for Puppeteer
+      - name: Find system Chrome
         run: |
-          rm -rf ~/.cache/puppeteer
-          npx puppeteer browsers install chrome
+          CHROME=$(which google-chrome-stable || which google-chrome || echo "")
+          echo "chrome-path=$CHROME" >> $GITHUB_OUTPUT
+        id: chrome
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -43,6 +44,7 @@ jobs:
       - name: Run Scraper
         env:
           TZ: "Europe/Berlin"
+          PUPPETEER_EXECUTABLE_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: npm run scrape
 
       - name: Copy menu data to docs
