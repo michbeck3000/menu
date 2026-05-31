@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T19:20:36.981Z",
+  "updatedAt": "2026-05-31T19:36:35.582Z",
   "days": {
     "monday": [
       {
@@ -72,6 +72,14 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": false
+      },
+      {
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": ",90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "bistro": "Porta",
+        "type": "meat",
+        "isWeeklySpecial": true
       },
       {
         "name": "Hähnchen Barbecue Suppe mit Nudeln",
@@ -175,6 +183,14 @@
         "isWeeklySpecial": false
       },
       {
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": ",90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "bistro": "Porta",
+        "type": "meat",
+        "isWeeklySpecial": true
+      },
+      {
         "name": "Asiatische Kokos - Gemüse mit Bandnudeln",
         "price": "4,50 €",
         "description": "",
@@ -274,6 +290,14 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": false
+      },
+      {
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": ",90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "bistro": "Porta",
+        "type": "meat",
+        "isWeeklySpecial": true
       },
       {
         "name": "Rote Beete Hummus Suppe mit Cous cous",
@@ -377,6 +401,14 @@
         "isWeeklySpecial": false
       },
       {
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": ",90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "bistro": "Porta",
+        "type": "meat",
+        "isWeeklySpecial": true
+      },
+      {
         "name": "Linseneintopf mit Bockwurstscheiben",
         "price": "4,50 €",
         "description": "",
@@ -434,6 +466,14 @@
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": false
+      },
+      {
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": ",90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "bistro": "Porta",
+        "type": "meat",
+        "isWeeklySpecial": true
       },
       {
         "name": "Kartoffel - Suppe mit Wurzelgemüse und Röstzwiebeln",

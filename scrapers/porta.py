@@ -219,6 +219,17 @@ def parse_pdf(pdf_bytes):
 if __name__ == "__main__":
     if MANUAL_MODE:
         # Bereite die manuellen Daten im erwarteten Format vor
+        weekly_special = None
+        if WEEKLY_SPECIAL.get('dish'):
+            weekly_special = {
+                'name': WEEKLY_SPECIAL['dish'],
+                'price': WEEKLY_SPECIAL.get('price', ''),
+                'description': WEEKLY_SPECIAL.get('description', ''),
+                'bistro': 'Porta',
+                'type': 'meat',
+                'isWeeklySpecial': WEEKLY_SPECIAL.get('isWeeklySpecial', False)
+            }
+
         menu_data = {}
         for day, dishes in MANUAL_MENU.items():
             menu_data[day] = []
@@ -231,6 +242,11 @@ if __name__ == "__main__":
                     'type': dish.get('type', 'meat'),
                     'isWeeklySpecial': dish.get('isWeeklySpecial', False)
                 })
+            
+            # Füge das Wochenangebot hinzu, falls definiert
+            if weekly_special:
+                menu_data[day].append(weekly_special)
+
         print(json.dumps(menu_data, ensure_ascii=False))
         sys.exit(0)
 
