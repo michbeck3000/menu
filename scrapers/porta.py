@@ -25,32 +25,61 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Rhabarber-Streuselkuchen",
-    "description": "",
-    "price": "2,90 €",
+    "dish": "Tortelloni-Gemüse-Pfanne",
+    "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra
+Hähnchenstreifen (+ 3 €)",
+    "price": ",90 €",
     "isWeeklySpecial": True
 }
 
 # --- MANUELLE EINGABE SCHALTER ---
 # Setze diesen Schalter auf True, um manuell eingegebene Gerichte zu verwenden,
 # anstatt das PDF von der Webseite zu scrapen.
-MANUAL_MODE = False
+MANUAL_MODE = True
 
 # Trage hier deine manuellen Gerichte für die jeweiligen Wochentage ein.
 # Jedes Gericht benötigt die Felder: 'name', 'price', 'description', 'type' ('meat', 'vegetarian' oder 'vegan')
 MANUAL_MENU = {
     'monday': [
         {
-            'name': 'Manuelles Gericht Montag 1',
+            'name': 'Hähnchenschnitzel in Kübispanade',
             'price': '7,50 €',
-            'description': 'Leckere Beschreibung für Gericht 1',
+            'description': 'mit Sauce Hollandaise und Petersilienkartoffeln',
             'type': 'meat'
         }
     ],
-    'tuesday': [],
-    'wednesday': [],
-    'thursday': [],
-    'friday': []
+    'tuesday': [
+        {
+            'name': 'Ofenkartoffel mit Frühlingsquark',
+            'price': '7,50 €',
+            'description': 'mit Hähnchenstreifen',
+            'type': 'meat'
+        }
+    ],
+    'wednesday': [
+        {
+            'name': 'Currywurst mit Pommes Frites',
+            'price': '7,50 €',
+            'description': '',
+            'type': 'meat'
+        }
+    ],
+    'thursday': [
+        {
+            'name': 'Bunter Salat „Mediterran“',
+            'price': '7,50 €',
+            'description': 'mit Hirtenkäse und Oliven',
+            'type': 'vegetarian'
+        }
+    ],
+    'friday': [
+        {
+            'name': 'Seelachsfilet',
+            'price': '7,50 €',
+            'description': 'mit Kartoffel-Gurkensalat',
+            'type': 'meat'
+        }
+    ]
 }
 
 def detect_type(text):
