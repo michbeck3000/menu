@@ -27,7 +27,7 @@ DAY_MAP = {
 WEEKLY_SPECIAL = {
     "dish": "Tortelloni-Gemüse-Pfanne",
     "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
-    "price": ",90 €",
+    "price": "5,90 €",
     "isWeeklySpecial": True
 }
 
