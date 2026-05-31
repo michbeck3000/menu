@@ -5,6 +5,11 @@ import re
 import io
 import urllib.request
 import urllib.error
+import ssl
+
+ssl_context = ssl.create_default_context()
+ssl_context.check_hostname = False
+ssl_context.verify_mode = ssl.CERT_NONE
 
 # We must handle the import gracefully to give clear errors if missing.
 try:
@@ -87,7 +92,7 @@ def strip_allergens(text):
 def fetch_pdf(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
-        with urllib.request.urlopen(req) as response:
+        with urllib.request.urlopen(req, context=ssl_context) as response:
             return response.read()
     except Exception as e:
         print(f"Error downloading PDF: {e}", file=sys.stderr)
