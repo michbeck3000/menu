@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T05:36:00.907Z",
+  "updatedAt": "2026-05-31T20:18:29.054Z",
   "days": {
     "monday": [
       {
@@ -96,7 +96,7 @@
         "type": "vegan"
       },
       {
-        "name": "Mutzbraten - marinierter Schweinebraten über Birkenholzfeuer gegart dazu Sauerkraut und Kartoffelstampf",
+        "name": "Hähnchenunterkeulen mit Pommes frites und Mexikanischem Gemüse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -220,13 +220,6 @@
       }
     ],
     "wednesday": [
-      {
-        "name": "Dein Geschmacksmoment",
-        "price": "1,00 €",
-        "description": "Entdecken Sie unser wechselndes Küchen-Special aus der Geschmackswerk - Küche - ideal zum Probieren, solange der Vorrat reicht.",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
       {
         "name": "Hirschgulasch",
         "price": "9,20 €",
@@ -449,13 +442,6 @@
         "name": "Schlemmerbuffet",
         "price": "8,50 €",
         "description": "Heute können sie aus einem breiten Angebot wählen. Stellen sie sich ihren individuellen Teller nach ihrem Geschmack zusammen.",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Dein Genussmoment",
-        "price": "1,00 €",
-        "description": "Kosten sie exklusive Geschmacks-Specials",
         "bistro": "Bio-City",
         "type": "meat"
       },
