@@ -141,7 +141,7 @@ function App() {
           für Fraunhofer, Tafelwerk, Bio-City und Porta
         </p>
         <div className="text-[10px] uppercase tracking-wider text-slate-100/70 mb-6 transition-colors duration-300">
-          Stand: {new Date(menuData.updatedAt).toLocaleString('de-DE')} Uhr
+          Stand: {new Date(menuData.updatedAt).toLocaleString('de-DE', { year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' })} Uhr
         </div>
 
         <div className="flex justify-center border-t border-white/10 pt-8">
