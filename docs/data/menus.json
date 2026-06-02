@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T06:31:24.250Z",
+  "updatedAt": "2026-06-02T05:36:00.907Z",
   "days": {
     "monday": [
       {
@@ -221,9 +221,9 @@
     ],
     "wednesday": [
       {
-        "name": "Dein Genussmoment",
+        "name": "Dein Geschmacksmoment",
         "price": "1,00 €",
-        "description": "Ein kleiner kulinarischer Impuls mit ausgewählten Aromen – jeden Mittwoch neu komponiert aus der Geschmackswerk-Küche.",
+        "description": "Entdecken Sie unser wechselndes Küchen-Special aus der Geschmackswerk - Küche - ideal zum Probieren, solange der Vorrat reicht.",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -455,7 +455,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Ein kleiner kulinarischer Impuls mit ausgewählten Aromen – jeden Freitag neu komponiert aus der Geschmackswerk-Küche.",
+        "description": "Kosten sie exklusive Geschmacks-Specials",
         "bistro": "Bio-City",
         "type": "meat"
       },
