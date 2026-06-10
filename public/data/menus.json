@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09T05:24:04.244Z",
+  "updatedAt": "2026-06-10T05:33:10.585Z",
   "days": {
     "monday": [
       {
@@ -330,9 +330,9 @@
         "type": "vegetarian"
       },
       {
-        "name": "Spinat-Frischkäse-Soße",
+        "name": "Schupfnudeln",
         "price": "8,60 €",
-        "description": "mit Hirtenkäse &\nSchupfnudeln",
+        "description": "mit Hirtenkäse &\ncremigem Spinat",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -418,7 +418,7 @@
     ],
     "friday": [
       {
-        "name": "Montreal smoked Sandwich",
+        "name": "Kanada: Montreal smoked Sandwich",
         "price": "8,60 €",
         "description": "mit geschmorter Rinderbrust, Djon-Senf, Roggenbrot & marinierten Gurken",
         "bistro": "Bio-City",
