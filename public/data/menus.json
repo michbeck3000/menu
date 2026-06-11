@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T05:33:10.585Z",
+  "updatedAt": "2026-06-11T05:36:22.086Z",
   "days": {
     "monday": [
       {
@@ -244,7 +244,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Eine kleine kulinarische Kreation mit ausgewählten Aromen.",
+        "description": "Eine kleine kulinarische Kreation mit ausgewählten Aromen.  heute:  AuberginenCreme mit Antipasti - eingelegter Senfkörner Kresse und Zitronenpfeffer",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -332,7 +332,7 @@
       {
         "name": "Schupfnudeln",
         "price": "8,60 €",
-        "description": "mit Hirtenkäse &\ncremigem Spinat",
+        "description": "mit Hirtenkäse &\nSpinat-Frischkäse-Soße",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -418,7 +418,7 @@
     ],
     "friday": [
       {
-        "name": "Kanada: Montreal smoked Sandwich",
+        "name": "Montreal smoked Sandwich",
         "price": "8,60 €",
         "description": "mit geschmorter Rinderbrust, Djon-Senf, Roggenbrot & marinierten Gurken",
         "bistro": "Bio-City",
