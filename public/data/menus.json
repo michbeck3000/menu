@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T05:36:09.515Z",
+  "updatedAt": "2026-06-12T09:02:28.097Z",
   "days": {
     "monday": [
       {
@@ -59,6 +59,20 @@
         "type": "vegetarian"
       },
       {
+        "name": "Ofenkartoffel mit Kräuterquark und Tomatensalat",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Würstchen im Schlafrock mit Nudelsalat",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
         "name": "Hähnchenschnitzel in Kübispanade",
         "price": "7,50 €",
         "description": "mit Sauce Hollandaise und Petersilienkartoffeln",
@@ -67,9 +81,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": "5,90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -161,6 +175,20 @@
         "type": "vegetarian"
       },
       {
+        "name": "Gurkensalat mit Kartoffeln und Rührei",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Zucchinihackpfanne",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
         "name": "Ofenkartoffel mit Frühlingsquark",
         "price": "7,50 €",
         "description": "mit Hähnchenstreifen",
@@ -169,9 +197,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": "5,90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -270,6 +298,20 @@
         "type": "meat"
       },
       {
+        "name": "Baguette mit Spinat und Käse überbacken",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Schweinesteak mit Letschogemüse und Kartoffeln",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
         "name": "Currywurst mit Pommes Frites",
         "price": "7,50 €",
         "description": "",
@@ -278,9 +320,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": "5,90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -372,6 +414,20 @@
         "type": "vegetarian"
       },
       {
+        "name": "Überbackene Semmelknödel mit Mischgemüse",
+        "price": "9,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Fischboulette mit Paprika-Zitronensoße und Reissalat",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
         "name": "Bunter Salat „Mediterran“",
         "price": "7,50 €",
         "description": "mit Hirtenkäse und Oliven",
@@ -380,9 +436,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": "5,90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -455,7 +511,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Eine kleine kulinarische Kreation mit ausgewählten Aromen.",
+        "description": "Gemüsegazpacho mit Mediterranen Brotchip -  Kresse und Zitronenpfeffer",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -481,6 +537,20 @@
         "type": "meat"
       },
       {
+        "name": "Reibekuchen mit Apfelmus",
+        "price": "6,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Gyrosreispfanne mit Tzaziki und Weißkrautsalat",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
+      },
+      {
         "name": "Seelachsfilet",
         "price": "7,50 €",
         "description": "mit Kartoffel-Gurkensalat",
@@ -489,9 +559,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Tortelloni-Gemüse-Pfanne",
+        "price": "5,90 €",
+        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true

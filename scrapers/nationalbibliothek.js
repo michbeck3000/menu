@@ -1,4 +1,4 @@
-const URL = 'https://saxonia-catering.de/saxonia-catering-betriebsrestaurants.html';
+const URL = 'https://www.dnb.de/DE/Benutzung/Leipzig/leipzig_node.html';
 
 export async function scrapeNationalbibliothek(browser) {
     let page;
@@ -11,8 +11,8 @@ export async function scrapeNationalbibliothek(browser) {
 
         const pdfUrl = await page.evaluate(() => {
             const links = Array.from(document.querySelectorAll('a[href]'));
-            const pdfLink = links.find(a => 
-                a.href && a.href.includes('DNB_') && a.href.toLowerCase().includes('.pdf')
+            const pdfLink = links.find(a =>
+                a.href && a.href.toLowerCase().includes('speiseplan') && a.href.toLowerCase().includes('.pdf')
             );
             return pdfLink ? pdfLink.href : null;
         });
