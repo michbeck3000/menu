@@ -5,7 +5,7 @@ const bistroUrls = {
   'Fraunhofer': 'https://www.cafeteria-leipzig.de/cafeteria-fraunhofer-izi/',
   'Tafelwerk': 'https://www.tafelwerk-leipzig.de/weeklycard',
   'Porta': 'https://porta.de/einrichtungshaeuser/leipzig',
-  'Nationalbibliothek': 'https://www.dnb.de/DE/Benutzung/Leipzig/leipzig_node.html'
+  'Nationalbibliothek': 'https://www.dnb.de/DE/Benutzung/Leipzig/leipzig_node.html#doc57420bodyText10'
 };
 
 export default function BistroCard({ bistroName, dishes }) {
