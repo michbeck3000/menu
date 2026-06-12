@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T05:36:22.086Z",
+  "updatedAt": "2026-06-12T05:36:09.515Z",
   "days": {
     "monday": [
       {
@@ -316,9 +316,9 @@
     ],
     "thursday": [
       {
-        "name": "WM-Special  Mexiko: Burrito",
+        "name": "WM-Special  Mexiko",
         "price": "8,90 €",
-        "description": "mit Chili con Carne vom Rind & \nAvocado-Dip",
+        "description": "Burrito  mit Chili con Carne vom Rind & \nAvocado-Dip",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -418,9 +418,9 @@
     ],
     "friday": [
       {
-        "name": "Montreal smoked Sandwich",
+        "name": "WM-Special Kanada",
         "price": "8,60 €",
-        "description": "mit geschmorter Rinderbrust, Djon-Senf, Roggenbrot & marinierten Gurken",
+        "description": "Montreal smoked Sandwich  mit geschmorter Rinderbrust, Dijon-Senf, Roggenbrot & marinierten Gurken",
         "bistro": "Bio-City",
         "type": "meat"
       },
