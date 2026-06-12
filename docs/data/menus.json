@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T09:02:28.097Z",
+  "updatedAt": "2026-06-12T11:13:04.603Z",
   "days": {
     "monday": [
       {
@@ -81,9 +81,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Tortelloni-Gemüse-Pfanne",
-        "price": "5,90 €",
-        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "name": "Matjesfilet",
+        "price": "8,90 €",
+        "description": "mit Bratkartoffeln und Sahnesauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -197,9 +197,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Tortelloni-Gemüse-Pfanne",
-        "price": "5,90 €",
-        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "name": "Matjesfilet",
+        "price": "8,90 €",
+        "description": "mit Bratkartoffeln und Sahnesauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -320,9 +320,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Tortelloni-Gemüse-Pfanne",
-        "price": "5,90 €",
-        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "name": "Matjesfilet",
+        "price": "8,90 €",
+        "description": "mit Bratkartoffeln und Sahnesauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -436,9 +436,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Tortelloni-Gemüse-Pfanne",
-        "price": "5,90 €",
-        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "name": "Matjesfilet",
+        "price": "8,90 €",
+        "description": "mit Bratkartoffeln und Sahnesauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -559,9 +559,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Tortelloni-Gemüse-Pfanne",
-        "price": "5,90 €",
-        "description": "Tortelloni mit einer Füllung aus Paprika, Zucchini und Tomaten in cremiger, veganer Sauce nach Käse-Sahne-Art mit Gemüse, auch mit extra Hähnchenstreifen (+ 3 €)",
+        "name": "Matjesfilet",
+        "price": "8,90 €",
+        "description": "mit Bratkartoffeln und Sahnesauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
