@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T05:48:52.320Z",
+  "updatedAt": "2026-06-15T05:58:50.651Z",
   "days": {
     "monday": [
       {
@@ -66,14 +66,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Ofenkartoffel mit Kräuterquark und Tomatensalat",
+        "name": "Schopskasalat",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
-        "name": "Würstchen im Schlafrock mit Nudelsalat",
+        "name": "Nürnberger Würstchen mit Schmorkraut und Kartoffelstampf",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -189,15 +189,15 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gurkensalat mit Kartoffeln und Rührei",
-        "price": "7,50 €",
+        "name": "Milchreis mit Apfelmus, Zucker und Zimt",
+        "price": "6,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Zucchinihackpfanne",
-        "price": "7,50 €",
+        "name": "Szegediner Gulasch mit Böhmischen Knödeln",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -312,14 +312,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Baguette mit Spinat und Käse überbacken",
+        "name": "Zucchini im Backteig mit Tomatenreis",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schweinesteak mit Letschogemüse und Kartoffeln",
+        "name": "Schweinesteak \"Hawaii\" mit Möhren & Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -442,14 +442,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Überbackene Semmelknödel mit Mischgemüse",
-        "price": "9,00 €",
+        "name": "Gnocchiauflauf mit Tomaten und Mozzarella",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Fischboulette mit Paprika-Zitronensoße und Reissalat",
+        "name": "Knusprig überbackenes Fischfilet mit Karottencreme & Vollkornreis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -558,14 +558,14 @@
         "type": "meat"
       },
       {
-        "name": "Reibekuchen mit Apfelmus",
-        "price": "6,50 €",
+        "name": "Baguette mit mediterranem Gemüse und Käse überbacken",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Gyrosreispfanne mit Tzaziki und Weißkrautsalat",
+        "name": "Hähnchenkeulen mit Rotkraut und Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
