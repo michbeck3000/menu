@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T05:58:50.651Z",
+  "updatedAt": "2026-06-16T05:51:49.498Z",
   "days": {
     "monday": [
       {
@@ -31,16 +31,16 @@
         "type": "meat"
       },
       {
-        "name": "Wrap Indian Harmony",
+        "name": "Wrap Caprese Basil",
         "price": "6,50 €",
-        "description": "",
+        "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Wassermelonenkaltschale",
+        "description": "Wassermelonen Gazpacho mit Minzöl und frittierten Glasnudeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -154,9 +154,9 @@
         "type": "meat"
       },
       {
-        "name": "Wrap Indian Harmony",
+        "name": "Wrap Caprese Basil",
         "price": "6,50 €",
-        "description": "",
+        "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -277,9 +277,9 @@
         "type": "meat"
       },
       {
-        "name": "Wrap Indian Harmony",
+        "name": "Wrap Caprese Basil",
         "price": "6,50 €",
-        "description": "",
+        "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -407,9 +407,9 @@
         "type": "meat"
       },
       {
-        "name": "Wrap Indian Harmony",
+        "name": "Wrap Caprese Basil",
         "price": "6,50 €",
-        "description": "",
+        "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -530,9 +530,9 @@
         "type": "meat"
       },
       {
-        "name": "Wrap Indian Harmony",
+        "name": "Wrap Caprese Basil",
         "price": "6,50 €",
-        "description": "",
+        "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
       },
