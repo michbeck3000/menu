@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Matjesfilet",
-    "description": "mit Bratkartoffeln und Sahnesauce",
-    "price": "8,90 €",
+    "dish": "Erdbeerschnitte",
+    "description": "mit Sahne",
+    "price": "3,90 €",
     "isWeeklySpecial": True
 }
 
