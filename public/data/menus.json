@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-06-21T05:38:32.794Z",
+  "updatedAt": "2026-06-21T15:32:53.298Z",
   "days": {
     "monday": [
       {
-        "name": "Spanisches Arroz con Pollo",
-        "price": "9,20 €",
-        "description": "Gewürzreis mit Hähnchenkeule &  Paprikagemüse",
+        "name": "Rinderhackfleischragout",
+        "price": "8,90 €",
+        "description": "mit Petersilienkartoffeln & Karotten",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Nudel-Käse-Auflauf",
-        "price": "8,70 €",
-        "description": "mit Bechmael, Gemüse & \n Gouda überbacken",
+        "name": "Österreichische Käsespätzle",
+        "price": "8,50 €",
+        "description": "mit Feldgemüse und Röstzwiebeln",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Pikanter Ofen-Tofu",
-        "price": "8,60 €",
-        "description": "mit Linsen-Tomarenragout & Backkartoffel",
+        "name": "Gefüllte Couscous-Paprika",
+        "price": "8,70 €",
+        "description": "mit Kartoffeln und Tomatensugo",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -45,22 +45,15 @@
         "type": "meat"
       },
       {
-        "name": "Rührei mit Kartoffeln und Gurken-Joghurtsalat",
+        "name": "Frühlingsrolle mit gebratene Asia-Nudeln, Sweet Chilisoße und Röstzwiebeln",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Paniertes Scholenfilet mit Kartoffelpüree und Buttermöhren",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Karotten-Ingwercremesuppe mit Croutons",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Nudeln mit Wurstgulasch und Reibekäse",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -88,9 +81,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Erdbeerschnitte",
+        "price": "3,90 €",
+        "description": "mit Sahne",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -126,25 +119,25 @@
     ],
     "tuesday": [
       {
-        "name": "Senegalesisches Poulet Yassa",
-        "price": "9,20 €",
-        "description": "Hähnchenbrust in Zwiebelsoße mit Gemüse-Couscous & Zitronen-Dip",
+        "name": "Teriyaki Chicken",
+        "price": "8,80 €",
+        "description": "mit Wok-Gemüse und Basmati-Reis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Vegetarisches Moussaka",
-        "price": "8,90 €",
-        "description": "Kartoffel, Aubegine, Tomate & Hirtenkäse",
+        "name": "Norwegische Kjøttkaker",
+        "price": "8,70 €",
+        "description": "Vegetarische „Fleischbällchen“ in Preiselbeersoße, mit Kartoffel-Erbsenpüree",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Erdnuss-Süßkartoffel-Curry",
-        "price": "8,90 €",
-        "description": "mit Pak Choi & Gemüse-Couscous",
+        "name": "Dinkel-Schnitzel",
+        "price": "8,60 €",
+        "description": "mit Kartoffel-Erbsenpüree und Rahmkarotten",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
@@ -163,30 +156,30 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Cheesecake im Glas",
+        "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Brokkoli Nussecke mit Süßkartoffelpüree und Salat",
+        "name": "Veganer Buritto mit Rohkostsalat",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
-        "price": "7,00 €",
+        "name": "Seelachs in Cornflakspanade mit Kartoffeln und Gurken-Joghurtsalat",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Hackfleisch-Käse- Laucheintopf",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "Milchreis mit Apfelmus, Zucker und Zimt",
@@ -211,9 +204,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Erdbeerschnitte",
+        "price": "3,90 €",
+        "description": "mit Sahne",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -249,23 +242,23 @@
     ],
     "wednesday": [
       {
-        "name": "WM-Special: Kroatisches Cevapcici",
-        "price": "9,10 €",
-        "description": "Rinderhackfleisch-Röllchen mit  Djuvec-Reis & mildes \nTsatsiki\n(Gl, L, Sf, 3, 8)",
+        "name": "Züricher Geschnetzeltes",
+        "price": "9,30 €",
+        "description": "Kalbsgeschnetzeltes in Champignon-Rahmsoße  mit Rösti-Ecken",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Rührei",
-        "price": "8,90 €",
-        "description": "mit Rahmspinat & Kartoffeln",
+        "name": "Eier in Senfrahm",
+        "price": "8,80 €",
+        "description": "mit Salzkartoffeln und Karotten-Apfel-Salat",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Vegetarisches Gyros",
-        "price": "9,00 €",
-        "description": "mit Djuvec-Reis & Tomaten-Zucchini-Ragout",
+        "name": "Toscana Burrito",
+        "price": "8,80 €",
+        "description": "mit Soja-Bolognese und Grillgemüse",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -286,26 +279,26 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Zander \"Thailand Style\" mit gegrillter Wassermelone",
+        "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Kichererbsen-Gemüse Curry mit Kokosmilch, dazu Reis",
+        "name": "Vegane Boulette mit Bandnudeln und Tomaten-Basilikum Sugo",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Hähnchenschnitzel mit Pesto Spaghetti und Rucola",
+        "name": "Schweinesteak gratiniert mit Champions, dazu Kroketten und Salat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Kartoffelsuppe mit Bockwurstscheiben",
+        "name": "Süßkartoffelsuppe mit Kokosmilch und Ingwer",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -334,9 +327,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Erdbeerschnitte",
+        "price": "3,90 €",
+        "description": "mit Sahne",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -379,23 +372,23 @@
     ],
     "thursday": [
       {
-        "name": "Südafrikanischer Süßkartoffelauflauf",
-        "price": "8,60 €",
-        "description": "mit weißen Bohnen, Kraut & Sojahack",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Gebackenes Schollenfilet",
-        "price": "9,10 €",
-        "description": "mit Kartoffel-Gurkensalat & Remoulade",
+        "name": "Berliner Currywurst",
+        "price": "8,90 €",
+        "description": "Geflügel-Rostbratwurst mit Currysoße & Kartoffelecken",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Semmelknödel",
-        "price": "8,90 €",
-        "description": "mit Rahmchampignons & Gemüse-Bällchen",
+        "name": "Käse Makkaroni",
+        "price": "8,50 €",
+        "description": "mit grünen Bohnen",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Gebackener Blumenkohl",
+        "price": "8,60 €",
+        "description": "mit Kartoffelecken und Kräuterquark",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -416,26 +409,26 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Mini Burger mit Pulled Chicken und Kraut",
+        "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Blumenkohl-Käse Medaillon mit Salat und Dip",
-        "price": "6,80 €",
+        "name": "Veganer Jackfruit Burger mit Pommes und Salatbeilage",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Currywurst mit Pommes und Rohkostsalat",
+        "name": "Spaghetti Bolognese mit Reibekäse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Grießbrei mit Kirschen und Zimtzucker",
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -464,9 +457,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Erdbeerschnitte",
+        "price": "3,90 €",
+        "description": "mit Sahne",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -502,23 +495,23 @@
     ],
     "friday": [
       {
-        "name": "Australischer Meat Pie",
-        "price": "9,20 €",
-        "description": "Rindfleischpastete dazu Erbsen & Kartoffelstampf",
+        "name": "Matjes „Hausfrauenart“",
+        "price": "9,10 €",
+        "description": "Matjes in Apfel-Gurken-Soße mit  Bratkartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gemüsefrikadelle",
-        "price": "8,70 €",
-        "description": "mit Kartoffelstampf & Rahmblumenkohl",
+        "name": "Japanisches Katsu Curry",
+        "price": "8,60 €",
+        "description": "Pflanzliches Schnitzel mit Reis & Karotten-Kartoffel-Curry",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Falafel Taler",
-        "price": "8,80 €",
-        "description": "mit Grillgemüse, Hummus & Taboule (Bulgursalat)",
+        "name": "Gnocchi al Forno",
+        "price": "8,50 €",
+        "description": "Gratinierter Tofu-Mozzarella mit Gnocchi und Tomaten-Gemüsesoße",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -539,19 +532,19 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Bruchetta mit Tomate, Pesto & Zwiebeln",
+        "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Spaghetti mit Rahmchampignons und Hartkäse",
-        "price": "6,80 €",
+        "name": "Flammkuchen mit Spinat und Käse",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Schweinegulasch mit Böhmischen Knödeln und Bohnen",
+        "name": "Hähnchengyros mit Reis, Tzaziki und Salat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
@@ -580,9 +573,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Matjesfilet",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffeln und Sahnesauce",
+        "name": "Erdbeerschnitte",
+        "price": "3,90 €",
+        "description": "mit Sahne",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
