@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T09:30:48.384Z",
+  "updatedAt": "2026-06-22T09:46:21.653Z",
   "days": {
     "monday": [
       {
@@ -36,6 +36,20 @@
         "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "Frühlingsrolle mit gebratene Asia-Nudeln, Sweet Chilisoße und Röstzwiebeln",
+        "price": "6,80 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Nudeln mit Wurstgulasch und Reibekäse",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
       },
       {
         "name": "Gemüsereispfanne mit Röstzwiebeln",
@@ -130,6 +144,27 @@
         "price": "6,50 €",
         "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Veganer Buritto mit Rohkostsalat",
+        "price": "6,80 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Seelachs in Cornflakspanade mit Kartoffeln und Gurken-Joghurtsalat",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Hackfleisch-Käse- Laucheintopf",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
@@ -235,6 +270,27 @@
         "type": "meat"
       },
       {
+        "name": "Vegane Boulette mit Bandnudeln und Tomaten-Basilikum Sugo",
+        "price": "6,80 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Schweinesteak gratiniert mit Champions, dazu Kroketten und Salat",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Süßkartoffelsuppe mit Kokosmilch und Ingwer",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
         "name": "Senfeier mit Kartoffeln",
         "price": "7,50 €",
         "description": "",
@@ -328,6 +384,27 @@
         "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "Veganer Jackfruit Burger mit Pommes und Salatbeilage",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Spaghetti Bolognese mit Reibekäse",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
       },
       {
         "name": "Blätterteig mit Spinat-Käse-Füllung, Joghurtdip und Reis",
@@ -429,6 +506,20 @@
         "price": "1,00 €",
         "description": "Pannacotta mit Orangenspiegel",
         "bistro": "Bio-City",
+        "type": "meat"
+      },
+      {
+        "name": "Flammkuchen mit Spinat und Käse",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hähnchengyros mit Reis, Tzaziki und Salat",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
