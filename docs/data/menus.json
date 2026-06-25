@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T05:21:32.133Z",
+  "updatedAt": "2026-06-25T05:22:13.310Z",
   "days": {
     "monday": [
       {
@@ -265,7 +265,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Gurkenkaltschaale mit Joghurtminze",
+        "description": "Panna Cotta mit einem Orangenspiegel als Genussmoment",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -504,7 +504,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,00 €",
-        "description": "Pannacotta mit Orangenspiegel",
+        "description": "Gurkenkaltschale mit Joghurt Minz Dip",
         "bistro": "Bio-City",
         "type": "meat"
       },
