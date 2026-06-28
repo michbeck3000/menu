@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Erdbeerschnitte",
-    "description": "mit Sahne",
-    "price": "3,90 €",
+    "dish": "Frikadelle mit Bacon",
+    "description": "dazu Sauce Hollandaise und Pommes frtes",
+    "price": "5,90 €",
     "isWeeklySpecial": True
 }
 
@@ -41,23 +41,23 @@ MANUAL_MODE = True
 MANUAL_MENU = {
     'monday': [
         {
-            'name': 'Hähnchenschnitzel in Kübispanade',
+            'name': 'HÄHNCHEN „SÜSS-SAUER“',
             'price': '7,50 €',
-            'description': 'mit Sauce Hollandaise und Petersilienkartoffeln',
+            'description': 'asiatisch abgeschmeckte Sauce mit Ananas undvBlack Fungus, dazu Langkornreis',
             'type': 'meat'
         }
     ],
     'tuesday': [
         {
-            'name': 'Ofenkartoffel mit Frühlingsquark',
+            'name': 'GNOCCHI MEDITERRANEO',
             'price': '7,50 €',
-            'description': 'mit Hähnchenstreifen',
-            'type': 'meat'
+            'description': 'Kartoffelgnocchis in Tomatensauce mit Zucchini, Gemüsepaprika, Zwiebeln und Oliven',
+            'type': 'vegetarian'
         }
     ],
     'wednesday': [
         {
-            'name': 'Currywurst mit Pommes Frites',
+            'name': 'Thüringer Currywurst mit Pommes Frites',
             'price': '7,50 €',
             'description': '',
             'type': 'meat'
@@ -65,10 +65,10 @@ MANUAL_MENU = {
     ],
     'thursday': [
         {
-            'name': 'Bunter Salat „Mediterran“',
+            'name': 'AVOCADO QUINOA BOWL“',
             'price': '7,50 €',
-            'description': 'mit Hirtenkäse und Oliven',
-            'type': 'vegetarian'
+            'description': 'Quinoa Mix, Avocado, Kichererbsen, Gurke und Lollo Bionda',
+            'type': 'vegan'
         }
     ],
     'friday': [
