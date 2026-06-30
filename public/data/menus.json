@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-29T05:36:25.321Z",
+  "updatedAt": "2026-06-30T05:24:43.834Z",
   "days": {
     "monday": [
       {
         "name": "Deutscher Geflügel-Wurstgulasch",
         "price": "8,70 €",
-        "description": "mit Paprika & Spirelli\n(Gl,L,Ei,1,2,3,8)",
+        "description": "mit Paprika & Spirelli",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -66,18 +66,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gemüsereispfanne mit Röstzwiebeln",
+        "name": "Reisnudelpfanne Olive und Feta mit Krautsalat",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Knacker mit Grünkohl und Kartoffeln",
+        "name": "Gebratene Blutwurst mit Zwiebel-Apfelragout und Kartoffelbrei",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "HÄHNCHEN „SÜSS-SAUER“",
@@ -189,18 +189,18 @@
         "type": "meat"
       },
       {
-        "name": "Hefeklöße mit Vanille-Mohnsoße",
+        "name": "Grießbrei mit Dicken Kirschen",
         "price": "6,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Königsberger Klopse mit Kartoffeln und Kapernsoße",
-        "price": "8,00 €",
+        "name": "Schinkensahnenudelauflauf",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "GNOCCHI MEDITERRANEO",
@@ -312,15 +312,15 @@
         "type": "vegan"
       },
       {
-        "name": "Senfeier mit Kartoffeln",
+        "name": "Gemüsefrikadellen mit fruchtigem Curryrisotto",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hühnerfrikassee mit Gemüse und Reis",
-        "price": "7,50 €",
+        "name": "Gefüllte Paprikaschote mit Kartoffeln",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
@@ -435,18 +435,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Blätterteig mit Spinat-Käse-Füllung, Joghurtdip und Reis",
+        "name": "Brokkoli-Nudelauflauf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
-        "name": "Sahnehering mit gebackenen Kartoffeln",
+        "name": "Backfisch mit Remoulade und Gemüsereis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "AVOCADO QUINOA BOWL“",
@@ -537,18 +537,18 @@
         "type": "meat"
       },
       {
-        "name": "Mais-Käsepuffer mit Pfeffersoße und Möhrensalat",
+        "name": "Maultaschen mit Gemüse",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Chili con Carne mit Reis",
-        "price": "7,50 €",
+        "name": "Kasseler mit Sauerkraut und Kartoffelragout",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "Seelachsfilet",
