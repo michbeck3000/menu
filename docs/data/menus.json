@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T05:20:02.023Z",
+  "updatedAt": "2026-07-03T06:58:22.448Z",
   "days": {
     "monday": [
       {
@@ -400,9 +400,9 @@
         "type": "meat"
       },
       {
-        "name": "Wrap Caprese Basil",
+        "name": "Wrap Indian Harmony",
         "price": "6,50 €",
-        "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
+        "description": "Hummus, Falafel, Karotte, Gurke, Granatapfel, Sesam, Sesamöl, Salat",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -505,13 +505,6 @@
         "name": "Salat klein/groß",
         "price": "3,10/6,50 €",
         "description": "Wählen Sie täglich aus unserer frischen Salatbar.",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Wrap Caprese Basil",
-        "price": "6,50 €",
-        "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
       },
