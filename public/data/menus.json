@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T06:58:22.448Z",
+  "updatedAt": "2026-07-04T06:44:07.700Z",
   "days": {
     "monday": [
       {
@@ -96,28 +96,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Scharfer Hähnchen-Reis-Topf",
+        "name": "Ungarische Gulaschsuppe mit Nudeln",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Frühlingsrolle mit Reis und Asia-Gemüse-Ragout",
+        "name": "Samoa Taschen mit Reisbandnudeln und Gemüsemix mit Kokos",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Paniertes Seelachsfilet mit Kartoffelpüree und Gurkensalat",
+        "name": "Hähnchenbrustschnitzel mit Kartoffelpüree dazu Blumenkohl",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Hähnchenbrustfilet mit Tomate und Mozzarella überbacken dazu Bandnudeln und Zucchini",
+        "name": "Rinderbraten mit Spätzle und Rotkohl",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -219,28 +219,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Spanischer Bohnentopf mit Chorizo",
+        "name": "Linseneintopf mit Bockwurstscheiben",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Bunte Spirelli mit Kichererbsen-Gemüse-Sauce ( Reibekäse )",
+        "name": "Orechiette Nudeln mit Bohnengulasch ( geriebener Hartkäse )",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Barbecue Chicken wings mit Pommes und Weißkohl-Karotten-Salat",
-        "price": "8,30 €",
+        "name": "Hähnchen-Bowl mit Pommes frites und Joghurtsauce",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Lammbraten mit Bohnenmix dazu Kartoffelröstiecken",
+        "name": "Lammhaxe in Balsamico Jus dazu Tomatenpolenta und breite Bohnen",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -342,28 +342,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Pilztopf mit Hackfleischbällchen",
+        "name": "Linsen-Curry-Topf mit Tofu",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Bohnen Curry dazu Basmati Reis",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Geflügelfrikasee , mit Kartoffeln und Möhren-Erbsengemüse",
-        "price": "8,30 €",
+        "name": "rote Beete - Kartoffel - Auflauf mit Blattspinat und Mozzarella",
+        "price": "8,60 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Paniertes Seelachsfilet dazu Pommes frites und Spitzkohlsalat mit Tsaziki",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Rinderhüftsteak mit baked beans und gebackenen Kartoffelscheiben",
+        "name": "Rinderschnetzeltes mit Steinpilze dazu Röstiecken und Gurkensalat",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -465,28 +465,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Soljanka mit Sauerrahm und Zitrone",
+        "name": "Asiatische Misosuppe",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Spätzle mit Röstzwiebel dazu Salat",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Wildlachsfilet mit Hollandaise dazu Brokkoli und Reis",
-        "price": "8,50 €",
+        "name": "Halloumi mit Paprika-Tomaten-Creme dazu Couscous und Salat",
+        "price": "8,60 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Schweinebraten in Zwiebelsauce dazu Sauerkraut und Kartoffelknödel",
+        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Rindergulasch mit Kroketten dazu Gemüsemischung",
+        "name": "Zanderfilet mit Zitronensauce dazu Blattspinat und Tomaten-Risotto",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -560,28 +560,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Kichererbsentopf dazu veganer Feta",
+        "name": "Tomatencremesuppe mit Suppenklößchen",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Blumenkohl-Käse-Medaillon mit Blattspinat und roten Linsen",
-        "price": "8,30 €",
+        "name": "Jackfrucht Bratwürste mit dunkler Sauce dazu Wirsinggemüse und Kartoffelkroketten",
+        "price": "8,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hähnchen-Fleischbällchen mit dunkler Sauce dazu KartoffelpüreeG und Mischgemüse",
+        "name": "Putengeschnetzeltes Hawaii dazu Reis und Mischgemüse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Schweinefilet mit Rahmchampignons dazu Spätzle",
+        "name": "Gekochte Rinderbrust mit Meerettichsauce dazu Kartoffelklöße und Möhrengemüse",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
