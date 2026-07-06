@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Frikadelle mit Bacon",
-    "description": "dazu Sauce Hollandaise und Pommes frtes",
-    "price": "5,90 €",
+    "dish": "HÄHNCHENBRUSTFILET MIT KRÄUTERBUTTER",
+    "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
+    "price": "8,90 €",
     "isWeeklySpecial": True
 }
 
@@ -41,7 +41,7 @@ MANUAL_MODE = True
 MANUAL_MENU = {
     'monday': [
         {
-            'name': 'HÄHNCHEN „SÜSS-SAUER“',
+            'name': 'HÄHNCHEN „SÜSS-SAUER"',
             'price': '7,50 €',
             'description': 'asiatisch abgeschmeckte Sauce mit Ananas undvBlack Fungus, dazu Langkornreis',
             'type': 'meat'
@@ -57,7 +57,7 @@ MANUAL_MENU = {
     ],
     'wednesday': [
         {
-            'name': 'Thüringer Currywurst mit Pommes Frites',
+            'name': 'THÜRINGER CURRYWURST MIT POMMES FRITES',
             'price': '7,50 €',
             'description': '',
             'type': 'meat'
@@ -65,7 +65,7 @@ MANUAL_MENU = {
     ],
     'thursday': [
         {
-            'name': 'AVOCADO QUINOA BOWL“',
+            'name': 'AVOCADO QUINOA BOWL',
             'price': '7,50 €',
             'description': 'Quinoa Mix, Avocado, Kichererbsen, Gurke und Lollo Bionda',
             'type': 'vegan'
@@ -73,9 +73,9 @@ MANUAL_MENU = {
     ],
     'friday': [
         {
-            'name': 'Seelachsfilet',
+            'name': 'SEELACHSFILET MIT KARTOFFEL-GURKENSALAT',
             'price': '7,50 €',
-            'description': 'mit Kartoffel-Gurkensalat',
+            'description': '',
             'type': 'meat'
         }
     ]
