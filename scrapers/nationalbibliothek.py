@@ -185,6 +185,11 @@ def parse_pdf(pdf_bytes):
                         if s:
                             current_name = s
                 elif current_name:
+                    if current_price is None:
+                        pm = re.search(r'(\d+,\d{2})\s*€', text)
+                        if pm:
+                            current_price = pm.group(0)
+                            text = re.sub(r'\d+,\d{2}\s*€', '', text).strip()
                     current_name += ' ' + text
 
             if current_name and current_price is not None:
