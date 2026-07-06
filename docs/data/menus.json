@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T08:16:06.268Z",
+  "updatedAt": "2026-07-06T08:26:38.610Z",
   "days": {
     "monday": [
       {
@@ -82,7 +82,7 @@
       {
         "name": "HÄHNCHEN „SÜSS-SAUER\"",
         "price": "7,50 €",
-        "description": "asiatisch abgeschmeckte Sauce mit Ananas undvBlack Fungus, dazu Langkornreis",
+        "description": "asiatisch abgeschmeckte Sauce mit Ananas und Black Fungus, dazu Langkornreis",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": false
@@ -535,6 +535,13 @@
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
+      },
+      {
+        "name": "Baguette mit Bolognese und Käse überbacken",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
       },
       {
         "name": "SEELACHSFILET MIT KARTOFFEL-GURKENSALAT",
