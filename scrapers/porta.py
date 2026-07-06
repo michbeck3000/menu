@@ -43,7 +43,7 @@ MANUAL_MENU = {
         {
             'name': 'HÄHNCHEN „SÜSS-SAUER"',
             'price': '7,50 €',
-            'description': 'asiatisch abgeschmeckte Sauce mit Ananas undvBlack Fungus, dazu Langkornreis',
+            'description': 'asiatisch abgeschmeckte Sauce mit Ananas und Black Fungus, dazu Langkornreis',
             'type': 'meat'
         }
     ],
