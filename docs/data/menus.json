@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T07:35:40.445Z",
+  "updatedAt": "2026-07-06T08:09:13.453Z",
   "days": {
     "monday": [
       {
@@ -80,7 +80,7 @@
         "type": "meat"
       },
       {
-        "name": "HÄHNCHEN „SÜSS-SAUER“",
+        "name": "HÄHNCHEN „SÜSS-SAUER\"",
         "price": "7,50 €",
         "description": "asiatisch abgeschmeckte Sauce mit Ananas undvBlack Fungus, dazu Langkornreis",
         "bistro": "Porta",
@@ -88,9 +88,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Frikadelle mit Bacon",
-        "price": "5,90 €",
-        "description": "dazu Sauce Hollandaise und Pommes frtes",
+        "name": "HÄHNCHENBRUSTFILET MIT KRÄUTERBUTTER",
+        "price": "8,90 €",
+        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -211,9 +211,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Frikadelle mit Bacon",
-        "price": "5,90 €",
-        "description": "dazu Sauce Hollandaise und Pommes frtes",
+        "name": "HÄHNCHENBRUSTFILET MIT KRÄUTERBUTTER",
+        "price": "8,90 €",
+        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -319,7 +319,7 @@
         "type": "meat"
       },
       {
-        "name": "Thüringer Currywurst mit Pommes Frites",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
         "price": "7,50 €",
         "description": "",
         "bistro": "Porta",
@@ -327,9 +327,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Frikadelle mit Bacon",
-        "price": "5,90 €",
-        "description": "dazu Sauce Hollandaise und Pommes frtes",
+        "name": "HÄHNCHENBRUSTFILET MIT KRÄUTERBUTTER",
+        "price": "8,90 €",
+        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -442,7 +442,7 @@
         "type": "meat"
       },
       {
-        "name": "AVOCADO QUINOA BOWL“",
+        "name": "AVOCADO QUINOA BOWL",
         "price": "7,50 €",
         "description": "Quinoa Mix, Avocado, Kichererbsen, Gurke und Lollo Bionda",
         "bistro": "Porta",
@@ -450,9 +450,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Frikadelle mit Bacon",
-        "price": "5,90 €",
-        "description": "dazu Sauce Hollandaise und Pommes frtes",
+        "name": "HÄHNCHENBRUSTFILET MIT KRÄUTERBUTTER",
+        "price": "8,90 €",
+        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -537,17 +537,17 @@
         "type": "meat"
       },
       {
-        "name": "Seelachsfilet",
+        "name": "SEELACHSFILET MIT KARTOFFEL-GURKENSALAT",
         "price": "7,50 €",
-        "description": "mit Kartoffel-Gurkensalat",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": false
       },
       {
-        "name": "Frikadelle mit Bacon",
-        "price": "5,90 €",
-        "description": "dazu Sauce Hollandaise und Pommes frtes",
+        "name": "HÄHNCHENBRUSTFILET MIT KRÄUTERBUTTER",
+        "price": "8,90 €",
+        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
