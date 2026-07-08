@@ -230,7 +230,7 @@ def parse_pdf(pdf_bytes):
                 
                 # Check if english
                 is_english = is_english_line(left_text)
-                is_standalone_label = is_type_marker(left_text) or row_portion in ['klein', 'groß']
+                is_standalone_label = is_type_marker(left_text) or left_text.strip().lower() in ['klein', 'groß']
                 
                 # Calculate external price (always the last one in the row)
                 external_price = ""

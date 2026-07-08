@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T05:49:31.078Z",
+  "updatedAt": "2026-07-08T07:20:11.765Z",
   "days": {
     "monday": [
       {
@@ -299,7 +299,14 @@
       },
       {
         "name": "Hähnchen Cordon Bleu mit Kroketten und Erbsen",
-        "price": "5,00 € (klein 8,00 €)",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "kleiner Salatteller mit Käse und Croutons",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
