@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T06:15:52.400Z",
+  "updatedAt": "2026-07-14T05:28:16.550Z",
   "days": {
     "monday": [
       {
@@ -40,7 +40,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,40 €",
-        "description": "",
+        "description": "Limette- Minzquark",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -66,15 +66,15 @@
         "type": "vegan"
       },
       {
-        "name": "Kartoffelgemüsepfanne",
+        "name": "Blumenkohl mit holländischer Soße und Kartoffeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Bratwurst mit Sauerkraut und Kartoffelbrei",
-        "price": "8,00 €",
+        "name": "Nudel-Wurstauflauf",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -163,7 +163,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,40 €",
-        "description": "",
+        "description": "Spanische Gazpacho",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -189,18 +189,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gurkensalat mit Kartoffeln und Rührei",
-        "price": "7,50 €",
+        "name": "Reibekuchen mit Apfelmus",
+        "price": "6,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Putengeschnetzeltes mit Pilzen und Spätzle",
-        "price": "8,00 €",
+        "name": "Lasagne",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "GNOCCHI MEDITERRANEO",
@@ -286,7 +286,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,40 €",
-        "description": "",
+        "description": "Englischer Pudding mit Crumble",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -312,14 +312,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "CousCous Taboulé mit gegrilltem Salat",
+        "name": "Spanischer Eierauflauf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Schweinebraten mit Mischgemüse und Semmelknödel",
+        "name": "Schweinesteak \"Hawaii\" mit Möhren & Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -409,7 +409,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,40 €",
-        "description": "",
+        "description": "Chiapudding mit Kokos",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -435,18 +435,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Quiche mit Spinat, Feta und Tomaten",
+        "name": "Schupfnudel-Gemüsepfanne",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hackbällchen mit Tomatensoße und Nudelsalat",
+        "name": "Seelachsfilet mit Tomate und Mozzarella überbacken und Reis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "AVOCADO QUINOA BOWL",
@@ -530,18 +530,18 @@
         "type": "meat"
       },
       {
-        "name": "Kaiserschmarrn Apfelkompott",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Baguette mit Bolognese und Käse überbacken",
+        "name": "Überbackene Semmelknödel mit Mischgemüse",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
+      },
+      {
+        "name": "Gehacktes Bauernpfanne",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
       },
       {
         "name": "SEELACHSFILET MIT KARTOFFEL-GURKENSALAT",
