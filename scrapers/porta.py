@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "HÄHNCHENBRUSTFILET MIT KRÄUTERBUTTER",
+    "dish": "Erdbeerschnitte mit Sahne",
     "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
-    "price": "8,90 €",
+    "price": "3,90 €",
     "isWeeklySpecial": True
 }
 
