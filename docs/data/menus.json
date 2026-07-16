@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T14:27:52.397Z",
+  "updatedAt": "2026-07-16T05:38:41.245Z",
   "days": {
     "monday": [
       {
@@ -90,7 +90,7 @@
       {
         "name": "Erdbeerschnitte mit Sahne",
         "price": "3,90 €",
-        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -213,7 +213,7 @@
       {
         "name": "Erdbeerschnitte mit Sahne",
         "price": "3,90 €",
-        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -336,7 +336,7 @@
       {
         "name": "Erdbeerschnitte mit Sahne",
         "price": "3,90 €",
-        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -459,7 +459,7 @@
       {
         "name": "Erdbeerschnitte mit Sahne",
         "price": "3,90 €",
-        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -554,7 +554,7 @@
       {
         "name": "Erdbeerschnitte mit Sahne",
         "price": "3,90 €",
-        "description": "dazu Kartoffel-Rosmarin-Wedges und Sour Cream",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
