@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "Erdbeerschnitte mit Sahne",
-    "description": "",
-    "price": "3,90 €",
+    "dish": "CEVAPCICI MIT POMMES FRITES",
+    "description": "mit Ajvar Dipp und Pommes Sauce",
+    "price": "5,90 €",
     "isWeeklySpecial": True
 }
 
