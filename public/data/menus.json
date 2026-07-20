@@ -1,27 +1,20 @@
 {
-  "updatedAt": "2026-07-19T05:50:35.796Z",
+  "updatedAt": "2026-07-20T03:04:02.070Z",
   "days": {
     "monday": [
       {
-        "name": "Kalbsragout",
-        "price": "9,20 €",
-        "description": "mit Champignons & Reis",
+        "name": "Hähnchen-Nudel-Auflauf",
+        "price": "8,90 €",
+        "description": "mit Tomatenragout & Käse\nüberbacken",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Rote Bete-Kokos-Ragout",
+        "name": "Griechische Champignonpfanne",
         "price": "8,50 €",
-        "description": "mit Erdnuss &  Reis",
+        "description": "mit Tofu und roten Zwiebeln in\nTomatensauce mit Reis",
         "bistro": "Bio-City",
         "type": "vegan"
-      },
-      {
-        "name": "Mediterrane Schupfnudel-Gemüsepfanne",
-        "price": "8,70 €",
-        "description": "mit Basilikumquark",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
@@ -34,13 +27,6 @@
         "name": "Wrap Caprese Basil",
         "price": "6,50 €",
         "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Dein Genussmoment",
-        "price": "1,40 €",
-        "description": "Limette- Minzquark",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -88,9 +74,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Erdbeerschnitte mit Sahne",
-        "price": "3,90 €",
-        "description": "",
+        "name": "CEVAPCICI MIT POMMES FRITES",
+        "price": "5,90 €",
+        "description": "mit Ajvar Dipp und Pommes Sauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -126,23 +112,16 @@
     ],
     "tuesday": [
       {
-        "name": "Rinderbraten",
-        "price": "9,30 €",
-        "description": "mit Salzkartoffeln & \nglasierten Karotten",
+        "name": "Hähnchen-Gyros",
+        "price": "9,10 €",
+        "description": "mit Bratkartoffeln, Tsatsiki &\nKrautsalat",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Rührei",
+        "name": "Zweierlei gebackener Käse",
         "price": "8,70 €",
-        "description": "mit Kartoffeln, Gurkensalat & Kräuterquark",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Gemüse-Lasagne",
-        "price": "8,60 €",
-        "description": "mit Hirtenkäse & Sonnenblumenkernen",
+        "description": "mit Gemüsecouscous & Hummus",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -163,7 +142,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,40 €",
-        "description": "Spanische Gazpacho",
+        "description": "Apfelcrumble",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -211,9 +190,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Erdbeerschnitte mit Sahne",
-        "price": "3,90 €",
-        "description": "",
+        "name": "CEVAPCICI MIT POMMES FRITES",
+        "price": "5,90 €",
+        "description": "mit Ajvar Dipp und Pommes Sauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -256,23 +235,16 @@
     ],
     "wednesday": [
       {
-        "name": "Hähnchen-Gemüse-Curry",
-        "price": "9,10 €",
-        "description": "mit Kokosmilch, Süßkartoffel & Bulgur",
+        "name": "Hähnchenragout „süß-sauer“",
+        "price": "8,90 €",
+        "description": "mit Reis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Soja-Pilzgulasch",
-        "price": "8,70 €",
-        "description": "mit Semmelknödel",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Vegetarische Paprikaschote",
-        "price": "8,90 €",
-        "description": "mit Auberginen-Tomaten-Ragout & Bulgur",
+        "name": "Sojagulasch „Szegediner Art“",
+        "price": "8,60 €",
+        "description": "mit\nKartoffelstampf",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -287,13 +259,6 @@
         "name": "Wrap Caprese Basil",
         "price": "6,50 €",
         "description": "Tomate, Mozzarella, Frischkäse, Basilikum, Rucola, Tomaten, getrocknete, Sonnenblumenkerne",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Dein Genussmoment",
-        "price": "1,40 €",
-        "description": "Englischer Pudding mit Crumble",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -341,9 +306,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Erdbeerschnitte mit Sahne",
-        "price": "3,90 €",
-        "description": "",
+        "name": "CEVAPCICI MIT POMMES FRITES",
+        "price": "5,90 €",
+        "description": "mit Ajvar Dipp und Pommes Sauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -379,23 +344,16 @@
     ],
     "thursday": [
       {
-        "name": "Gebratenes Seelachsfilet",
+        "name": "Gebackener Burrito",
         "price": "8,90 €",
-        "description": "Kartoffelstampf & Rahmerbsen",
+        "description": "mit Chili con Carne vom Rind &\nAvocado-Dip",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Röstis",
-        "price": "8,50 €",
-        "description": "mit Blumenkohl-Brokkoli-Ragout, Gemüseköttbullar & Granatapfelkernen",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Gnocchipfanne",
-        "price": "8,80 €",
-        "description": "mit Tomaten-Rucolapesto, \nGrillgemüse & \nHartkäse",
+        "name": "Spinat-Tomaten-Lasagne",
+        "price": "8,70 €",
+        "description": "mit Hirtenkäse",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -407,16 +365,9 @@
         "type": "meat"
       },
       {
-        "name": "Wrap BBQ Pulled Chicken",
+        "name": "Wrap Caprese Basil",
         "price": "6,50 €",
-        "description": "Pulled Chicken, Krautsalat, BBQ Soße",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Dein Genussmoment",
-        "price": "1,40 €",
-        "description": "Chiapudding mit Kokos",
+        "description": "Frischkäse, Basilikum, Mozzarella, Rucola, Tomaten, getrocknete Tomaten, Sonnenblumenkerne",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -464,9 +415,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Erdbeerschnitte mit Sahne",
-        "price": "3,90 €",
-        "description": "",
+        "name": "CEVAPCICI MIT POMMES FRITES",
+        "price": "5,90 €",
+        "description": "mit Ajvar Dipp und Pommes Sauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -516,13 +467,6 @@
         "type": "meat"
       },
       {
-        "name": "Dein Genussmoment",
-        "price": "1,40 €",
-        "description": "",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
         "name": "Omelette gefüllt mit Blattspinat, Gemüse und Käse",
         "price": "6,80 €",
         "description": "",
@@ -559,9 +503,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "Erdbeerschnitte mit Sahne",
-        "price": "3,90 €",
-        "description": "",
+        "name": "CEVAPCICI MIT POMMES FRITES",
+        "price": "5,90 €",
+        "description": "mit Ajvar Dipp und Pommes Sauce",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
