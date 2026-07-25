@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T05:49:15.599Z",
+  "updatedAt": "2026-07-25T05:41:44.332Z",
   "days": {
     "monday": [
       {
@@ -31,21 +31,21 @@
         "type": "meat"
       },
       {
-        "name": "Blumenkohl-Käse Medaillon mit Rissole Kartoffeln und Kräuterquark",
+        "name": "Vegane Frikadelle mit Setzei und Bratkartoffeln",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Kohlroulade mit Kartoffeln",
-        "price": "7,50 €",
+        "name": "Chili con Carne mit Reis/Baguette",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Karotten-Ingwercremesuppe mit Croutons",
+        "name": "Brokkolicremesuppe",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -147,22 +147,22 @@
         "type": "meat"
       },
       {
-        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
+        "name": "Gebratene Asia-Nudeln, Sweet Chilisoße und Röstzwiebeln",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Seelachs in Cornflakespanade mit Pommes und Remoulade",
+        "name": "Schnitzel in Sesam-Kräuterpanade mit Kartoffelsalat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Apfel Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -263,22 +263,22 @@
         "type": "meat"
       },
       {
-        "name": "Spaghetti/Vollkornspaghetti mit veganer Bolognese",
+        "name": "Rührei mit Rahmspinat und Kartoffeln",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Hähnchen-Gemüsecurry mit Reis",
+        "name": "Hackbällchen mit Champignon-Rahmsoße und Penne Nudeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "kleiner Salat mit Hirtenkäse",
-        "price": "4,50 €",
+        "name": "kleiner Salat mit Ei",
+        "price": "4,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -372,22 +372,22 @@
         "type": "meat"
       },
       {
-        "name": "Süßkartoffel-Rucola Bratling mit Salat und Dip",
+        "name": "Ofenkartoffel mit Kräuterquark und Salat",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
-        "price": "7,00 €",
+        "name": "Spaghetti Bolognese mit Reibekäse",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Grießbrei mit Pflaumen und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -467,14 +467,14 @@
         "type": "meat"
       },
       {
-        "name": "Omelette gefüllt mit Blattspinat, Gemüse und Käse",
+        "name": "Quinoa-Kürbis Bratling mit Salat und Tomatensugo",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Schweinegulasch mit Spätzle",
+        "name": "Hähnchenbruststreifen mit Bandnudeln und Brokkoli-Sahnesoße",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
