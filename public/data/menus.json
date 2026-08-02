@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-02T05:56:41.362Z",
+  "updatedAt": "2026-08-02T21:19:17.903Z",
   "days": {
     "monday": [
       {
-        "name": "Mutzbraten",
-        "price": "8,90 €",
-        "description": "mit Bratkartoffel & Sauerkraut",
+        "name": "Zartgebackene Hähnchenkeule",
+        "price": "9,20 €",
+        "description": "mit Risolee & Paprikagemüse",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Tikka Masala",
-        "price": "8,50 €",
-        "description": "mit Blumenkohlröschen, indischer Tomatensoße & Reis",
+        "name": "Knusperschnitzel",
+        "price": "8,70 €",
+        "description": "mit Rahmerbsen und Kräuterpüree",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
@@ -31,21 +31,21 @@
         "type": "meat"
       },
       {
-        "name": "Gratinierte Gemüse Teigtaschen mit Ratatoillegemüse",
+        "name": "Rührei mit Kartoffeln und Gurken-Joghurtsalat",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Römerbraten mit Setzei auf Schwarzbrot, dazu Spitzkohlsalat",
-        "price": "7,00 €",
+        "name": "Hähnchen Cordon Bleu mit Kroketten und Salatbeilage",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Tomatencremesuppe",
+        "name": "Süßkartoffelsuppe mit Brokkoli und Croutons",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -74,9 +74,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "CEVAPCICI MIT POMMES FRITES",
-        "price": "5,90 €",
-        "description": "mit Ajvar Dipp und Pommes Sauce",
+        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "price": "6,90 €",
+        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -112,18 +112,18 @@
     ],
     "tuesday": [
       {
-        "name": "Hähnchen-Cordon-Bleu",
+        "name": "Thailändisches Hähnchencurry",
         "price": "9,10 €",
-        "description": "mit Erbsen-Möhren-Gemüse & Kartoffelstampf",
+        "description": "mit Gemüse an Wildreis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Tomaten - Gnocchi",
-        "price": "8,70 €",
-        "description": "mit Karotten-Zucchini-Soße & Mozzarella",
+        "name": "Orient Taboule",
+        "price": "8,80 €",
+        "description": "mit gebackenen Soja-Meat Balls und Harissajoghurt",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -147,25 +147,25 @@
         "type": "meat"
       },
       {
-        "name": "Brokkoli Nussecke mit Süßkartoffelpüree und Salat",
-        "price": "6,80 €",
+        "name": "Salat-Gemüse Bowl mit Halloumi",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Spirelli mit Wurstgulasch und Reibekäse",
-        "price": "7,00 €",
+        "name": "Backfisch mit Pommes und Remoulade",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Pflaumen Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Linseneintopf mit Kasseler",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "Baguette mit mediterranem Gemüse und Käse überbacken",
@@ -190,9 +190,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "CEVAPCICI MIT POMMES FRITES",
-        "price": "5,90 €",
-        "description": "mit Ajvar Dipp und Pommes Sauce",
+        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "price": "6,90 €",
+        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -228,16 +228,16 @@
     ],
     "wednesday": [
       {
-        "name": "Hirschgulasch",
-        "price": "9,30 €",
-        "description": "mit Feldgemüse & Spätzle",
+        "name": "Mexikanische Lasagne",
+        "price": "8,90 €",
+        "description": "mit angemachten Tacosalat und Limettendip",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Erdnuss-Süßkartoffel-Curry",
-        "price": "8,80 €",
-        "description": "mit Pak Choi & Gemüse-Couscous",
+        "name": "Mediteraner Süßkartoffelauflauf",
+        "price": "8,70 €",
+        "description": "mit Grillgemüse und Tomatensauce",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -256,25 +256,25 @@
         "type": "meat"
       },
       {
-        "name": "Kartoffel-Gemüse Röstis mit Salat und Dip",
+        "name": "Gemüse Curry mit roten Linsen und Kokosmilch, dazu Reis",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hähnchenschnitzel mit Pesto Spaghetti und Rucola",
+        "name": "Szegediner Gulasch mit Böhmischen Knödel und Bohnen",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Kartoffelsuppe mit Bockwurstscheiben",
+        "name": "Kohlrabicremesuppe mit Kartoffelwürfel",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Gebackener Kürbis mit Erbsen-Kartoffelstampf",
@@ -299,9 +299,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "CEVAPCICI MIT POMMES FRITES",
-        "price": "5,90 €",
-        "description": "mit Ajvar Dipp und Pommes Sauce",
+        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "price": "6,90 €",
+        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -337,18 +337,18 @@
     ],
     "thursday": [
       {
-        "name": "Hähnchen-Reis-Pfanne",
-        "price": "8,90 €",
-        "description": "mit Hähnchenbrust, grüne Bohnen, Tomaten & Paprika",
+        "name": "Paniertes Schollenfilet",
+        "price": "9,20 €",
+        "description": "an Kartoffelstampf und Dillrahmsauce",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Nudel-Käse-Auflauf",
+        "name": "Veganes Sandwich",
         "price": "8,70 €",
-        "description": "mit Bechamel, Gemüse & Gouda überbacken",
+        "description": "mit Gemüsepatty, veganer Mayonaise, Rohkost und Wegdes",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -365,22 +365,22 @@
         "type": "meat"
       },
       {
-        "name": "Rote Beete Sticks mit Salat und Dip",
+        "name": "Kartoffeln mit Kräuterquark und Salatbeilage",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Currywurst mit Pommes und Salat",
+        "name": "Boulette mit Kartoffelpüree und Möhrengemüse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Milchreis mit Apfelmus und Zimtzucker",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Quarkkeulchen mit Apfelmus und Zimtzucker",
+        "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -408,9 +408,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "CEVAPCICI MIT POMMES FRITES",
-        "price": "5,90 €",
-        "description": "mit Ajvar Dipp und Pommes Sauce",
+        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "price": "6,90 €",
+        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -460,15 +460,15 @@
         "type": "meat"
       },
       {
-        "name": "Gratinierter Blumenkohl mit Kartoffeln und Sauce Hollandaise",
+        "name": "Ravioli Pomodoro mit Tomaten Sugo, Rucola und geriebenem Hartkäse",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Spaghetti mit Schinken-Sahnesoße",
-        "price": "7,00 €",
+        "name": "Burrito gefüllt mit Hackfleisch und Gemüse",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
@@ -496,9 +496,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "CEVAPCICI MIT POMMES FRITES",
-        "price": "5,90 €",
-        "description": "mit Ajvar Dipp und Pommes Sauce",
+        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "price": "6,90 €",
+        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
