@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "CEVAPCICI MIT POMMES FRITES",
-    "description": "mit Ajvar Dipp und Pommes Sauce",
-    "price": "5,90 €",
+    "dish": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+    "description": "dazu Grillgemüse, Drillinge und Sour Cream",
+    "price": "6,90 €",
     "isWeeklySpecial": True
 }
 
