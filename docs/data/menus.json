@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T06:21:44.393Z",
+  "updatedAt": "2026-08-03T07:00:32.564Z",
   "days": {
     "monday": [
       {
@@ -24,9 +24,9 @@
         "type": "meat"
       },
       {
-        "name": "Indian Summer Wrap",
+        "name": "Pulled Chicken Wrap",
         "price": "6,50 €",
-        "description": "",
+        "description": "mit Avocadokraut und gegrilltem Gemüse",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -52,18 +52,18 @@
         "type": "vegan"
       },
       {
-        "name": "Hefeklöße mit Beerenfrüchte",
-        "price": "6,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Chili con Carne mit Reis",
+        "name": "Gemüsereispfanne mit Röstzwiebeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
+      },
+      {
+        "name": "Geflügelbratwurst mit Currygemüse und Reis",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
       },
       {
         "name": "HÄHNCHEN „SÜSS-SAUER\"",
@@ -168,14 +168,14 @@
         "type": "meat"
       },
       {
-        "name": "Baguette mit mediterranem Gemüse und Käse überbacken",
-        "price": "7,50 €",
+        "name": "Milchreis mit Apfelmus, Zucker und Zimt",
+        "price": "6,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schweinesteak mit Letschogemüse und Kartoffeln",
+        "name": "Boulette mit Mischgemüse und Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -277,15 +277,15 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gebackener Kürbis mit Erbsen-Kartoffelstampf",
+        "name": "Senfeier mit Kartoffeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Gulasch mit Rotkraut und Knödeln",
-        "price": "8,50 €",
+        "name": "Hähnchenbrust gebraten mit Brokkoli und Kartoffeln",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -386,18 +386,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Ofenkartoffel mit Kräuterquark und Tomatensalat",
+        "name": "Quiche mit Pilzen",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
-        "name": "Hühnerleber mit Schmorzwiebeln und Kartoffelbrei",
-        "price": "8,00 €",
+        "name": "Knusprig überbackenes Fischfilet mit Karottencreme & Vollkornreis",
+        "price": "8,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "AVOCADO QUINOA BOWL",
@@ -474,18 +474,18 @@
         "type": "meat"
       },
       {
-        "name": "Schopskasalat",
+        "name": "Blumenkohl-Nudelauflauf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Hähnchenkeulen mit Krautsalat und Kartoffeln",
+        "name": "Leberkäse mit Erbsen und Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "SEELACHSFILET MIT KARTOFFEL-GURKENSALAT",
