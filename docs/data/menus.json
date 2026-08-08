@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-07T04:52:49.309Z",
+  "updatedAt": "2026-08-08T04:09:37.632Z",
   "days": {
     "monday": [
       {
-        "name": "Zartgebackene Hähnchenkeule",
-        "price": "9,20 €",
-        "description": "mit Rissolée & Paprikagemüse",
+        "name": "Rindergulasch",
+        "price": "9,40 €",
+        "description": "mit Spirellinudeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Vegetarisches Knusperschnitzel",
+        "name": "Asiatische Reispfanne",
         "price": "8,70 €",
-        "description": "mit Rahmerbsen und Kräuterpüree",
+        "description": "mit mariniertem Tofu, Wokgemüse, Sprossen und Röstzwiebeln",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -24,9 +24,9 @@
         "type": "meat"
       },
       {
-        "name": "Pulled Chicken Wrap",
-        "price": "6,80 €",
-        "description": "mit Avocadokraut und gegrilltem Gemüse",
+        "name": "Indian Summer Wrap",
+        "price": "6,50 €",
+        "description": "",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -105,16 +105,16 @@
     ],
     "tuesday": [
       {
-        "name": "Thailändisches Hähnchencurry",
+        "name": "Hähnchenbrustfilet \"Fuhrmann Art\"",
         "price": "9,10 €",
-        "description": "mit Gemüse an Wildreis",
+        "description": "an Butterrahmgemüse und Kroketten",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Orient Taboulé",
-        "price": "8,80 €",
-        "description": "mit gebackenen Soja-Meat Balls und Harissajoghurt",
+        "name": "Ofenkartoffel",
+        "price": "8,40 €",
+        "description": "1 Stk., mit Kräuterquark und Gurkensalat",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -135,7 +135,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,40 €",
-        "description": "Götterspeise mit Orangenfilet und Kokoszabaione",
+        "description": "Mandarinenmousse",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -221,16 +221,16 @@
     ],
     "wednesday": [
       {
-        "name": "Mexikanische Lasagne",
-        "price": "8,90 €",
-        "description": "mit angemachtem Tacosalat und Limettendip",
+        "name": "Kross gebackener Krustenbraten",
+        "price": "9,50 €",
+        "description": "an Weinkraut, herzhaften Klößen und Kümmeljus",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Mediterraner Süßkartoffelauflauf",
-        "price": "8,70 €",
-        "description": "mit Grillgemüse und Tomatensauce",
+        "name": "Vegane Bratwurst",
+        "price": "8,80 €",
+        "description": "mit gebackenen Drillingen und Paprikagemüse",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -323,18 +323,18 @@
     ],
     "thursday": [
       {
-        "name": "Paniertes Schollenfilet",
-        "price": "9,20 €",
-        "description": "an Kartoffelstampf und Dillrahmsauce",
+        "name": "Schlankwels",
+        "price": "9,60 €",
+        "description": "an Fenchelrahm und Petersilienkartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Veganes Sandwich",
+        "name": "Sojahack-Nudel-Auflauf",
         "price": "8,70 €",
-        "description": "mit Gemüsepatty, veganer Mayonnaise, Rohkost und Wedges",
+        "description": "mit Grillgemüse und Pesto",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
