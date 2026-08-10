@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T04:28:16.276Z",
+  "updatedAt": "2026-08-10T11:08:04.404Z",
   "days": {
     "monday": [
       {
@@ -52,14 +52,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gemüsereispfanne mit Röstzwiebeln",
+        "name": "Maultaschen mit Gemüse",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Geflügelbratwurst mit Currygemüse und Reis",
+        "name": "Nürnberger Würstchen mit Schmorkraut und Kartoffelstampf",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -74,9 +74,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
         "price": "6,90 €",
-        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
+        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -168,14 +168,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Milchreis mit Apfelmus, Zucker und Zimt",
-        "price": "6,50 €",
+        "name": "Gnocchiauflauf mit Tomaten und Mozzarella",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Boulette mit Mischgemüse und Kartoffeln",
+        "name": "Szegediner Gulasch mit Böhmischen Knödeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -190,9 +190,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
         "price": "6,90 €",
-        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
+        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -277,14 +277,14 @@
         "type": "meat"
       },
       {
-        "name": "Senfeier mit Kartoffeln",
+        "name": "Gurkensalat mit Kartoffeln und Rührei",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchenbrust gebraten mit Brokkoli und Kartoffeln",
+        "name": "Schweinesteak mit Rahm-Bohnen und Herzoginkartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -299,9 +299,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
         "price": "6,90 €",
-        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
+        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -386,14 +386,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Quiche mit Pilzen",
+        "name": "Tortelinisalat mit Brokkoli-Käsenuggets",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Knusprig überbackenes Fischfilet mit Karottencreme & Vollkornreis",
+        "name": "Hackbraten mit mediterranem Gemüse und Reisnudeln",
         "price": "8,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -408,9 +408,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
         "price": "6,90 €",
-        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
+        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -467,18 +467,18 @@
         "type": "meat"
       },
       {
-        "name": "Blumenkohl-Nudelauflauf",
+        "name": "Curry-Linsen-Gemüsepfanne mit Minz-Joghurtdip",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Leberkäse mit Erbsen und Kartoffeln",
-        "price": "8,00 €",
+        "name": "Schinken-Sahnenudelauflauf",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "SEELACHSFILET MIT KARTOFFEL-GURKENSALAT",
@@ -489,9 +489,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
+        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
         "price": "6,90 €",
-        "description": "dazu Grillgemüse, Drillinge und Sour Cream",
+        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
