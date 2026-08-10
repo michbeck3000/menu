@@ -25,8 +25,8 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "SCHWEINESTEAK MIT KRÄUTERBUTTER",
-    "description": "dazu Grillgemüse, Drillinge und Sour Cream",
+    "dish": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
+    "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
     "price": "6,90 €",
     "isWeeklySpecial": True
 }
