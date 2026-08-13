@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T04:45:35.994Z",
+  "updatedAt": "2026-08-13T04:49:11.207Z",
   "days": {
     "monday": [
       {
@@ -321,15 +321,8 @@
         "type": "vegan"
       },
       {
-        "name": "Hähnchenkeule mit Pommes frites und Coleslaw",
+        "name": "Schweinegulasch mit Kroketten und Blumenkohl",
         "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Rinderrouladen mit Steinpilzfülle dazu Klöße und Rotkohl",
-        "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
