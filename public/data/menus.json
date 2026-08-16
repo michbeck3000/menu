@@ -1,18 +1,25 @@
 {
-  "updatedAt": "2026-08-15T03:36:39.842Z",
+  "updatedAt": "2026-08-16T03:45:51.172Z",
   "days": {
     "monday": [
       {
-        "name": "Rindergulasch",
+        "name": "Hähnchen-Sahne-Bolognese",
         "price": "9,40 €",
-        "description": "mit Spirellinudeln",
+        "description": "mit Gemüse und Kartoffelpüree",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Asiatische Reispfanne",
+        "name": "Blumenkohl Falafel",
+        "price": "9,10 €",
+        "description": "an Zitronenreis und Korianderdip",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Klassisches Gemüsecurry",
         "price": "8,70 €",
-        "description": "mit mariniertem Tofu, Wokgemüse, Sprossen und Röstzwiebeln",
+        "description": "mit Zitronenreis",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -26,7 +33,7 @@
       {
         "name": "Indian Harmony Wrap",
         "price": "6,50 €",
-        "description": "",
+        "description": "Hummus · Falafel · Karotte · Gurke · Granatapfel · Sesam · Sesamöl · Romana",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -105,18 +112,25 @@
     ],
     "tuesday": [
       {
-        "name": "Hähnchenbrustfilet \"Fuhrmann Art\"",
-        "price": "9,10 €",
-        "description": "an Butterrahmgemüse und Kroketten",
+        "name": "Gebratenes Zanderfilet",
+        "price": "9,60 €",
+        "description": "an Wirsingrahm und Rissolée",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Ofenkartoffel",
-        "price": "8,40 €",
-        "description": "1 Stk., mit Kräuterquark und Gurkensalat",
+        "name": "Gemüsebratling",
+        "price": "8,70 €",
+        "description": "an herzhaften Nudelsalat",
         "bistro": "Bio-City",
         "type": "vegetarian"
+      },
+      {
+        "name": "Kartoffelpfanne",
+        "price": "9,30 €",
+        "description": "mit mediterranem Gemüse",
+        "bistro": "Bio-City",
+        "type": "meat"
       },
       {
         "name": "Salat klein/groß",
@@ -128,14 +142,14 @@
       {
         "name": "Indian Harmony Wrap",
         "price": "6,50 €",
-        "description": "",
+        "description": "Hummus · Falafel · Karotte · Gurke · Granatapfel · Sesam · Sesamöl · Romana",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
         "name": "Dein Genussmoment",
         "price": "1,40 €",
-        "description": "Vanille Panna Cotta mit Walnuss",
+        "description": "Tonkabohnen Creme Bruleé",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -221,16 +235,23 @@
     ],
     "wednesday": [
       {
-        "name": "Kross gebackener Krustenbraten",
+        "name": "Gebratene Schweineminutensteaks",
         "price": "9,50 €",
-        "description": "an Weinkraut, herzhaften Klößen und Kümmeljus",
+        "description": "mit einer Pilzpfanne und gebackene Drillinge",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Vegane Bratwurst",
+        "name": "Nudel-Auflauf",
         "price": "8,80 €",
-        "description": "mit gebackenen Drillingen und Paprikagemüse",
+        "description": "mit geräuchertem Tofu und Gemüse",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Kichererbsen-Falafel",
+        "price": "8,90 €",
+        "description": "mit Couscous Risotto",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -244,7 +265,7 @@
       {
         "name": "Indian Harmony Wrap",
         "price": "6,50 €",
-        "description": "",
+        "description": "Hummus · Falafel · Karotte · Gurke · Granatapfel · Sesam · Sesamöl · Romana",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -330,18 +351,25 @@
     ],
     "thursday": [
       {
-        "name": "Schlankwels",
+        "name": "Saftiges BBQ Pulled Chicken",
         "price": "9,60 €",
-        "description": "an Fenchelrahm und Petersilienkartoffeln",
+        "description": "an Krautsalat und Kartoffelecken",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Sojahack-Nudel-Auflauf",
-        "price": "8,70 €",
-        "description": "mit Grillgemüse und Pesto",
+        "name": "Soja Gyros",
+        "price": "8,90 €",
+        "description": "mit Krautsalat, griechischer Reis und Tzatziki",
         "bistro": "Bio-City",
         "type": "vegetarian"
+      },
+      {
+        "name": "Vegane Frikadelle",
+        "price": "9,20 €",
+        "description": "an Erbsen-Möhren Gemüse und Kartoffelecken",
+        "bistro": "Bio-City",
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -353,7 +381,7 @@
       {
         "name": "Indian Harmony Wrap",
         "price": "6,50 €",
-        "description": "",
+        "description": "Hummus · Falafel · Karotte · Gurke · Granatapfel · Sesam · Sesamöl · Romana",
         "bistro": "Bio-City",
         "type": "meat"
       },
