@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T03:45:51.172Z",
+  "updatedAt": "2026-08-17T03:48:20.996Z",
   "days": {
     "monday": [
       {
@@ -38,25 +38,25 @@
         "type": "meat"
       },
       {
-        "name": "Gemüserösti mit roten Linsen, dazu Grillgemüse und Quarkdip",
+        "name": "Rote Beete Sticks mit Süßkartoffelpüree und Salatbeilage",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchen-Gemüsecurry mit Reis",
-        "price": "8,00 €",
+        "name": "Spirelli mit Wurstgulasch und Reibekäse",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Blumenkohlcremesuppe",
+        "name": "Karotten-Ingwercremesuppe",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Maultaschen mit Gemüse",
@@ -154,22 +154,22 @@
         "type": "meat"
       },
       {
-        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
-        "price": "6,80 €",
+        "name": "Schupfnudel-Gemüsepfanne mit Rucola und Pesto",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
-        "price": "7,00 €",
+        "name": "Schweineschnitzel mit Pommes und Erbsen",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Apfel Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -270,21 +270,21 @@
         "type": "meat"
       },
       {
-        "name": "Gebackener Hirtenkäse mit Couscous-Gemüse Salat und Joghurtdip",
+        "name": "Blumenkohl-Käse Medaillon mit Kartoffel-Karottenpüree und Salatbeilage",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Gebratenes Hokifilet mit Rissolekartoffeln, Quarkdip und Salat",
-        "price": "8,00 €",
+        "name": "Marinierter Hering mit Kartoffeln",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Soljanka",
+        "name": "Kartoffelsuppe mit Bockwurstscheiben",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -386,22 +386,22 @@
         "type": "meat"
       },
       {
-        "name": "Kartoffel-Blumenkohl-Zucchiniauflauf",
-        "price": "6,80 €",
+        "name": "Salat-Gemüse-Bowl mit veganen BBQ-Hackbällchen",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Gefüllte Paprika mit HackfleischA, dazu Kartoffelpüree",
+        "name": "Spaghetti Bolognese mit Reibekäse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Pflaumen Crumble mit Vanillesoße",
+        "price": "2,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -474,14 +474,14 @@
         "type": "meat"
       },
       {
-        "name": "Flammkuchen mit Blattspinat, Tomate und Käse",
+        "name": "Omelette gefüllt mit Blattspinat, Gemüse und Käse",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Gebratene Mie-Nudeln mit Gemüse und Hähnchen",
+        "name": "Hühnerfrikassee mit Reis und Möhren-Erbsen Gemüse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
