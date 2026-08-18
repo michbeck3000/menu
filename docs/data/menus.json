@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T03:48:20.996Z",
+  "updatedAt": "2026-08-18T03:41:54.126Z",
   "days": {
     "monday": [
       {
@@ -59,18 +59,18 @@
         "type": "vegan"
       },
       {
-        "name": "Maultaschen mit Gemüse",
-        "price": "7,50 €",
+        "name": "Grießbrei mit Dicken Kirschen",
+        "price": "6,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Nürnberger Würstchen mit Schmorkraut und Kartoffelstampf",
+        "name": "Schmorpfanne mit Knacker, Wirsing und Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "HÄHNCHEN „SÜSS-SAUER\"",
@@ -130,7 +130,7 @@
         "price": "9,30 €",
         "description": "mit mediterranem Gemüse",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -149,7 +149,7 @@
       {
         "name": "Dein Genussmoment",
         "price": "1,40 €",
-        "description": "Tonkabohnen Creme Bruleé",
+        "description": "Erdbeercreme",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -175,18 +175,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gnocchiauflauf mit Tomaten und Mozzarella",
+        "name": "Eierfrikassee mit Gemüse und Reis",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Szegediner Gulasch mit Böhmischen Knödeln",
+        "name": "Gefüllte Paprikaschote mit Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "GNOCCHI MEDITERRANEO",
@@ -291,14 +291,14 @@
         "type": "meat"
       },
       {
-        "name": "Gurkensalat mit Kartoffeln und Rührei",
+        "name": "Überbackene Semmelknödel mit Mischgemüse",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schweinesteak mit Rahm-Bohnen und Herzoginkartoffeln",
+        "name": "Schweinebraten mit Mischgemüse und Spätzle",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -407,14 +407,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Tortelinisalat mit Brokkoli-Käsenuggets",
+        "name": "Gemüselasagne",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hackbraten mit mediterranem Gemüse und Reisnudeln",
+        "name": "Fischboulette mit Paprika-Zitronensoße und Reissalat",
         "price": "8,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -488,14 +488,14 @@
         "type": "meat"
       },
       {
-        "name": "Curry-Linsen-Gemüsepfanne mit Minz-Joghurtdip",
+        "name": "Baguette mit Spinat und Käse überbacken",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schinken-Sahnenudelauflauf",
+        "name": "Speck-Lauchkuchen",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
