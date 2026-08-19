@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
-    "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
-    "price": "6,90 €",
+    "dish": "THÜRINGER BRATWURST",
+    "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+    "price": "5,90 €",
     "isWeeklySpecial": True
 }
 
