@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T03:43:53.977Z",
+  "updatedAt": "2026-08-19T09:24:47.037Z",
   "days": {
     "monday": [
       {
@@ -81,9 +81,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
-        "price": "6,90 €",
-        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
+        "name": "THÜRINGER BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -197,9 +197,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
-        "price": "6,90 €",
-        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
+        "name": "THÜRINGER BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -313,9 +313,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
-        "price": "6,90 €",
-        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
+        "name": "THÜRINGER BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -429,9 +429,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
-        "price": "6,90 €",
-        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
+        "name": "THÜRINGER BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -510,9 +510,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "HÜHNER-FRIKASSEE GÄRTNERIN ART",
-        "price": "6,90 €",
-        "description": "Rahmsauce mit Karotten, Spargelstückchen, Erbsen und Champignons, dazu Reis",
+        "name": "THÜRINGER BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
