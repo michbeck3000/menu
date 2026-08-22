@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T03:48:41.670Z",
+  "updatedAt": "2026-08-22T03:39:58.563Z",
   "days": {
     "monday": [
       {
@@ -89,22 +89,29 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Linseneintopf mit Bockwurstscheiben",
+        "name": "Linseneintopf mit Scheiben aus Pflanzenprotein",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Tortellini mit Gemüse und Tomatenfülle dazu Kichererbsen-Tomatenragout und Bedda-Käse",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Schweineschnitzel mit Champignonrahm dazu Petersilienkartoffeln",
+        "name": "Gemüseschnitzel mit Kartoffelstampf dazu rote Beete Gemüse",
         "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Canneloni mit Fleischfülle dazu Käsesauce",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Hähnchenbrustfilet mit Kroketten dazu Wirsinggemüse in Kokos",
+        "price": "10,90 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
@@ -205,28 +212,35 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Meeresfrüchte Topf",
+        "name": "Blumenkohl - Curry - Suppe",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Quorn-Curry-Wurst dazu Pommes frites",
-        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Geflügelfrikassee mit Reis und Mischgemüse",
-        "price": "8,30 €",
+        "name": "Vanille-Grießbrei mit Beerenmischung",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Halloumi-Zucchini-Burger dazu gebackene Zwiebelringe",
+        "price": "8,60 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Schlemmerfilet mit Brokkoli und Kartoffelpüree",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Kalbsrollbraten mit Möhrengemüse dazu Gnocchi",
+        "name": "Schweinefilet mit Pilzrahm dazu rustikales Pommes und Salatgarnitur",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -321,28 +335,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "gelber Erbsentopf mit Röstzwiebeln",
+        "name": "Scharfer Reistopf mit Hähnchenfleisch",
         "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Tortilla gefüllt mit Gemüse und Weizenprotein dazu Spinatkartoffeln",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Hirtentasche mit Weichkase und Spinat gefüllt dazu Reis und Paprika Ragout",
-        "price": "8,60 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Reispfanne mit Hähnchenfleisch, Staudensellerie, Paprika und Chorizo",
+        "name": "Spirelli mit Wurstgulasch dazu Reibekäse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Schweinefilet mit Tomate und Mozzarella dazu Brokkoli und Kroketten",
+        "name": "Entrecote mit Zwiebelringe und Käse überbacken dazu Bratkartoffeln und Salatgarnitur",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -437,28 +451,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Kürbis-Curry-Suppe mit Tofu",
+        "name": "weißer Bohnen Eintopf mit Räuchertofu",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Rote Beete Sticks mit Kürbiskern Panade dazu Kartoffelpüree mit Wirsing",
+        "name": "Muschelnudeln mit Kürbis und Tomate ( geriebener Hartkäse )",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Spirelli mit gebratener Jagdwurstscheibe dazu Tomatensauce und Reibekäse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Chicken nuggets mit Salat dazu Laugengebäck",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Hirschgulasch mit Rotkohl und Klöße",
+        "name": "Lammcurry mit Reis und Aubergine",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -518,21 +532,21 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Tomatensuppe mit Zucchini und Halloumiwürfel",
+        "name": "Nudelsuppe mit Geflügelfleischklößchen",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
-        "name": "Süßkartoffel - Amaranth Patty mit Gemüsekartoffeln in Kräuter-Creme-Sauce",
+        "name": "/ - Kartoffel-Linsen-Dal mit Minzjoghurt",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Putengulasch in Paprikarahm dazu Pasta",
+        "name": "Schweineschnitzel mit Spiegelei dazu Bratkartoffeln und Krautsalat",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
