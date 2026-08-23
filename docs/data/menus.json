@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-22T03:39:58.563Z",
+  "updatedAt": "2026-08-23T03:48:45.347Z",
   "days": {
     "monday": [
       {
-        "name": "Hähnchen-Sahne-Bolognese",
-        "price": "9,40 €",
-        "description": "mit Gemüse und Kartoffelpüree",
+        "name": "Gebratene Bratwurst",
+        "price": "9,70 €",
+        "description": "mit Erbsen-Möhren Gemüse und Kartoffelstampf",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Blumenkohl Falafel",
-        "price": "9,10 €",
-        "description": "an Zitronenreis und Korianderdip",
+        "name": "Gnocchipfanne",
+        "price": "9,40 €",
+        "description": "mit mediteranen Gemüse und Kräuterdip",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Klassisches Gemüsecurry",
-        "price": "8,70 €",
-        "description": "mit Zitronenreis",
+        "name": "Vegane Bratwurst",
+        "price": "8,90 €",
+        "description": "mit Erbsen Möhren und Kartoffelstampf",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -119,23 +119,23 @@
     ],
     "tuesday": [
       {
-        "name": "Gebratenes Zanderfilet",
-        "price": "9,60 €",
-        "description": "an Wirsingrahm und Rissolée",
+        "name": "Mutzbraten",
+        "price": "9,50 €",
+        "description": "an Weinsauerkraut und Salzkartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gemüsebratling",
-        "price": "8,70 €",
-        "description": "an herzhaften Nudelsalat",
+        "name": "Gebratener Halloumi Käse",
+        "price": "9,10 €",
+        "description": "mit herzhaften Gemüse Bulgur",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Kartoffelpfanne",
-        "price": "9,30 €",
-        "description": "mit mediterranem Gemüse",
+        "name": "Gemüsepuffer",
+        "price": "8,90 €",
+        "description": "an Salzkartoffeln und Karottensalat",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -249,23 +249,23 @@
     ],
     "wednesday": [
       {
-        "name": "Gebratene Schweineminutensteaks",
+        "name": "Thailändisches Hähnchencurry",
         "price": "9,50 €",
-        "description": "mit einer Pilzpfanne und gebackene Drillinge",
+        "description": "mit Gemüse und Limettenreis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Nudel-Auflauf",
-        "price": "8,80 €",
-        "description": "mit geräuchertem Tofu und Gemüse",
+        "name": "Herzhafte Gemüselasagne",
+        "price": "8,70 €",
+        "description": "",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Kichererbsen-Falafel",
-        "price": "8,90 €",
-        "description": "mit Couscous Risotto",
+        "name": "Gebackene Meat Balls",
+        "price": "9,20 €",
+        "description": "an franzöisches Ratatouille und Langkornreis",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -365,25 +365,25 @@
     ],
     "thursday": [
       {
-        "name": "Saftiges BBQ Pulled Chicken",
-        "price": "9,60 €",
-        "description": "an Krautsalat und Kartoffelecken",
+        "name": "Schlemmerfilet ''Bordelaise''",
+        "price": "9,80 €",
+        "description": "mit Petersilienkartoffen und Dillquark",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Soja Gyros",
-        "price": "8,90 €",
-        "description": "mit Krautsalat, griechischer Reis und Tzatziki",
+        "name": "Falafelbällchen",
+        "price": "9,20 €",
+        "description": "an Gemüse Couscous und Tomatenquark",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Vegane Frikadelle",
-        "price": "9,20 €",
-        "description": "an Erbsen-Möhren Gemüse und Kartoffelecken",
+        "name": "Orientalisches Sojageschneltzes",
+        "price": "8,90 €",
+        "description": "mit Gemüse Couscous",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "meat"
       },
       {
         "name": "Salat klein/groß",
@@ -483,7 +483,7 @@
       {
         "name": "Schlemmerbuffet",
         "price": "8,50 €",
-        "description": "",
+        "description": "Freitags schlemmen Sie sich durch unser großes Buffet — mit mehr Auswahl als sonst.",
         "bistro": "Bio-City",
         "type": "meat"
       },
