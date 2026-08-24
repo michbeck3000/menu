@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T03:48:45.347Z",
+  "updatedAt": "2026-08-24T03:52:57.934Z",
   "days": {
     "monday": [
       {
@@ -38,25 +38,25 @@
         "type": "meat"
       },
       {
-        "name": "Rote Beete Sticks mit Süßkartoffelpüree und Salatbeilage",
-        "price": "6,80 €",
+        "name": "Kartoffel-Kürbisrösti mit Salat und Quarkdip",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Spirelli mit Wurstgulasch und Reibekäse",
-        "price": "7,00 €",
+        "name": "Römerbraten mit Setzei, Bratkartoffeln und Bohnen",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Karotten-Ingwercremesuppe",
+        "name": "Hefeklöße mit Pflaumen und Vanillesoße",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Grießbrei mit Dicken Kirschen",
@@ -154,28 +154,21 @@
         "type": "meat"
       },
       {
-        "name": "Dein Genussmoment",
-        "price": "1,40 €",
-        "description": "Panna Cotta mit Erdbeerspiegel",
-        "bistro": "Bio-City",
-        "type": "meat"
-      },
-      {
-        "name": "Schupfnudel-Gemüsepfanne mit Rucola und Pesto",
-        "price": "7,00 €",
+        "name": "Gemüseschnitzel mit Kartoffelpüree und Schnittlauch-Hollandaise",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Schweineschnitzel mit Pommes und Erbsen",
+        "name": "Braumeister Schnitzel mit Kroketten und Pfannengemüse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "name": "Grießbrei mit Kirschen und Zimtzucker",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -284,21 +277,21 @@
         "type": "meat"
       },
       {
-        "name": "Blumenkohl-Käse Medaillon mit Kartoffel-Karottenpüree und Salatbeilage",
+        "name": "Mac&Cheese mit RöstzwiebelnF, dazu Krautsalat",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Marinierter Hering mit Kartoffeln",
-        "price": "7,50 €",
+        "name": "Seelachfilet Bruscetta mit Reis, Limettensoße und Rote Beete Salat",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Kartoffelsuppe mit Bockwurstscheiben",
+        "name": "Hackfleisch-Käse Laucheintopf",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -400,22 +393,22 @@
         "type": "meat"
       },
       {
-        "name": "Salat-Gemüse-Bowl mit veganen BBQ-Hackbällchen",
-        "price": "7,00 €",
+        "name": "Veganer Crispy Burger mit Pommes",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Spaghetti Bolognese mit Reibekäse",
+        "name": "Schweinegulasch mit Champignons und Spätzle",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Pflaumen Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
+        "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -488,14 +481,14 @@
         "type": "meat"
       },
       {
-        "name": "Omelette gefüllt mit Blattspinat, Gemüse und Käse",
-        "price": "7,00 €",
+        "name": "Pesto Spaghetti mit Rucola und Hartkäse",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hühnerfrikassee mit Reis und Möhren-Erbsen Gemüse",
+        "name": "Königsberger Klopse mit Kartoffeln und Erbsen",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
