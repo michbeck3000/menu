@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T03:52:57.934Z",
+  "updatedAt": "2026-08-25T03:46:20.135Z",
   "days": {
     "monday": [
       {
@@ -59,18 +59,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Grießbrei mit Dicken Kirschen",
+        "name": "Reibekuchen mit Apfelmus",
         "price": "6,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schmorpfanne mit Knacker, Wirsing und Kartoffeln",
-        "price": "8,00 €",
+        "name": "Brokkoli-Nudelauflauf",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "HÄHNCHEN „SÜSS-SAUER\"",
@@ -175,18 +175,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Eierfrikassee mit Gemüse und Reis",
+        "name": "Rührei mit Spinat und Kartoffeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Gefüllte Paprikaschote mit Kartoffeln",
+        "name": "Zucchinihackpfanne",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "GNOCCHI MEDITERRANEO",
@@ -298,14 +298,14 @@
         "type": "meat"
       },
       {
-        "name": "Überbackene Semmelknödel mit Mischgemüse",
+        "name": "Semmelknödel mit cremigem Blumenkohl",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schweinebraten mit Mischgemüse und Spätzle",
+        "name": "Chili-Kokos-Hähnchen mit Mungosprossen und Kräuterreis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -414,14 +414,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gemüselasagne",
+        "name": "Schupfnudel-Gemüsepfanne",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Fischboulette mit Paprika-Zitronensoße und Reissalat",
+        "name": "Kasseler mit Sauerkraut und Kartoffelragout",
         "price": "8,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -495,15 +495,15 @@
         "type": "meat"
       },
       {
-        "name": "Baguette mit Spinat und Käse überbacken",
+        "name": "Spanischer Eierauflauf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Speck-Lauchkuchen",
-        "price": "7,50 €",
+        "name": "Rosenkohl-Gnocchiauflauf mit Speck",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
