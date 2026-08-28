@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T13:46:14.777Z",
+  "updatedAt": "2026-08-28T14:53:27.189Z",
   "days": {
     "monday": [
       {
@@ -89,29 +89,22 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Linseneintopf mit Scheiben aus Pflanzenprotein",
+        "name": "Wirsingsuppe mit Hähnchen und Kokos",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegan"
-      },
-      {
-        "name": "Gemüseschnitzel mit Kartoffelstampf dazu rote Beete Gemüse",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Canneloni mit Fleischfülle dazu Käsesauce",
-        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Hähnchenbrustfilet mit Kroketten dazu Wirsinggemüse in Kokos",
-        "price": "10,90 €",
+        "name": "Gnocchi mit Champignons und Blattspinat",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Frikadelle mit brauner Sauce dazu Kartoffelpüree und grüne Bohnen",
+        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
@@ -205,35 +198,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Blumenkohl - Curry - Suppe",
+        "name": "Meeresfrüchte Topf",
         "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Weizenproteinbällchen in pikanter Tomaten-Gemüsesauce dazu Reis gemischt mit grünen Bohnen",
+        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Vanille-Grießbrei mit Beerenmischung",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Halloumi-Zucchini-Burger dazu gebackene Zwiebelringe",
-        "price": "8,60 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Schlemmerfilet mit Brokkoli und Kartoffelpüree",
+        "name": "Cheeseburger mit Pommes frites",
         "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Schweinefilet mit Pilzrahm dazu rustikales Pommes und Salatgarnitur",
+        "name": "Kalbsrollbraten mit Mischgemüse dazu Eierspätzle",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -328,28 +314,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Scharfer Reistopf mit Hähnchenfleisch",
+        "name": "Süßkartoffel Kichererbsen Suppe",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Tortilla gefüllt mit Gemüse und Weizenprotein dazu Spinatkartoffeln",
-        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Spirelli mit Wurstgulasch dazu Reibekäse",
-        "price": "8,30 €",
+        "name": "Gebackener Camembert mit Preiselbeeren dazu Salat und Minibrötchen",
+        "price": "8,60 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Chilenischer Rindfleischtopf mit schwarze Bohnen, Kartoffeln und Mangold",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Entrecote mit Zwiebelringe und Käse überbacken dazu Bratkartoffeln und Salatgarnitur",
+        "name": "Wildschweinbraten mit Möhrengemüse und Klöße",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -444,28 +430,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "weißer Bohnen Eintopf mit Räuchertofu",
+        "name": "Linseneintopf mit Bockwurstscheiben",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegan"
+        "type": "meat"
       },
       {
-        "name": "Muschelnudeln mit Kürbis und Tomate ( geriebener Hartkäse )",
-        "price": "8,30 €",
+        "name": "Dinkelspirelli mit Kirschtomaten und Brokkoli in Pestosauce",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Spirelli mit gebratener Jagdwurstscheibe dazu Tomatensauce und Reibekäse",
+        "name": "Wildbratwurst mit Rotkohl und Kartoffelpüree",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Lammcurry mit Reis und Aubergine",
+        "name": "Hokifilet mit Shrimpssauce dazu Reis und Brokkoli",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -525,21 +511,21 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Nudelsuppe mit Geflügelfleischklößchen",
+        "name": "/ - Rote Beete - Karotten - Suppe dazu Halloumiwürfel",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "meat"
+        "type": "vegan"
       },
       {
-        "name": "/ - Kartoffel-Linsen-Dal mit Minzjoghurt",
+        "name": "Gemüsecurry mit Basmatireis",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Schweineschnitzel mit Spiegelei dazu Bratkartoffeln und Krautsalat",
+        "name": "Königsberger Klopse in Kapernsauce dazu Petersilienkartoffeln und Karottensalat",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
