@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "THÜRINGER BRATWURST",
-    "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
-    "price": "5,90 €",
+    "dish": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+    "description": "",
+    "price": "2,90 €",
     "isWeeklySpecial": True
 }
 
