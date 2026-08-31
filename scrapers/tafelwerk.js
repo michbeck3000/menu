@@ -85,8 +85,8 @@ export async function scrapeTafelwerk(browser) {
 
                         // Remove vegan/vegetarian from title since we now show badges
                         title = title.replace(/\b(vegan|vegetarisch|vegetarian)\b/gi, '').replace(/\s+/g, ' ').trim();
-                        // Clean up leading dashes or pipes
-                        title = title.replace(/^[\s-|]+/, '').trim();
+                        // Clean up leading dashes, slashes or pipes
+                        title = title.replace(/^[\s\-|\/]+/, '').trim();
 
                         if (title) {
                             dishes.push({
