@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T08:55:00.823Z",
+  "updatedAt": "2026-08-31T07:38:08.852Z",
   "days": {
     "monday": [
       {
@@ -14,14 +14,14 @@
         "price": "9,10 €",
         "description": "mit Gurkensalat und Kräuterquark",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Rote Linsencurry",
         "price": "8,90 €",
         "description": "an Gewürzreis",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -59,15 +59,15 @@
         "type": "vegetarian"
       },
       {
-        "name": "Reibekuchen mit Apfelmus",
-        "price": "6,50 €",
+        "name": "Kartoffelgemüsepfanne",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Brokkoli-Nudelauflauf",
-        "price": "7,50 €",
+        "name": "Bratwurst mit Sauerkraut und Kartoffelbrei",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -81,9 +81,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -123,14 +123,14 @@
         "price": "8,70 €",
         "description": "mit Karottensalat und Salzkartoffeln",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Asiatische Reispfanne",
         "price": "9,30 €",
         "description": "mit Wokgemüse, Sprossen und mariniertem Tofu",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -168,18 +168,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Rührei mit Spinat und Kartoffeln",
+        "name": "Reisnudelpfanne Olive und Feta mit Krautsalat",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Zucchinihackpfanne",
+        "name": "Lasagne",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "GNOCCHI MEDITERRANEO",
@@ -190,9 +190,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -239,14 +239,14 @@
         "price": "8,70 €",
         "description": "mit Petersilienkartoffeln",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Sojabolognese ' Arrabiata '",
         "price": "8,70 €",
         "description": "mit Nudeln",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -284,18 +284,18 @@
         "type": "meat"
       },
       {
-        "name": "Semmelknödel mit cremigem Blumenkohl",
+        "name": "Ofenkartoffel mit Kräuterquark und Tomatensalat",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Chili-Kokos-Hähnchen mit Mungosprossen und Kräuterreis",
-        "price": "8,00 €",
+        "name": "Hühnerfrikassee mit Gemüse und Reis",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
@@ -306,9 +306,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -355,14 +355,14 @@
         "price": "9,40 €",
         "description": "mit Basilikumdip",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Meat-Balls 'Köfte'",
         "price": "8,90 €",
         "description": "mit Tomatensauce und Langkornreis",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -400,18 +400,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schupfnudel-Gemüsepfanne",
+        "name": "Tortelinisalat mit Brokkoli-Käsenuggets",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Kasseler mit Sauerkraut und Kartoffelragout",
+        "name": "Matjes mit Hausfrauensoße und Drillingskartoffeln",
         "price": "8,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "AVOCADO QUINOA BOWL",
@@ -422,9 +422,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -481,18 +481,18 @@
         "type": "meat"
       },
       {
-        "name": "Spanischer Eierauflauf",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Rosenkohl-Gnocchiauflauf mit Speck",
-        "price": "8,00 €",
+        "name": "Hefeklöße mit Pfirsichragout",
+        "price": "6,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
+      },
+      {
+        "name": "Chinakohlpfanne mit Hühnchen und Gemüse",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
       },
       {
         "name": "SEELACHSFILET MIT KARTOFFEL-GURKENSALAT",
@@ -503,15 +503,15 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
       },
       {
-        "name": "/ - Rote Beete - Karotten - Suppe dazu Halloumiwürfel",
+        "name": "Rote Beete - Karotten - Suppe dazu Halloumiwürfel",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
