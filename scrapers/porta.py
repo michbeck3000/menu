@@ -41,23 +41,23 @@ MANUAL_MODE = True
 MANUAL_MENU = {
     'monday': [
         {
-            'name': 'HÄHNCHEN „SÜSS-SAUER"',
+            'name': 'SCHNITZEL „WIENER ART“ MIT WALDPILZ-RAHMSAUCE',
             'price': '7,50 €',
-            'description': 'asiatisch abgeschmeckte Sauce mit Ananas und Black Fungus, dazu Langkornreis',
+            'description': 'dazu Salzkartoffeln und eine Salatbeilage',
             'type': 'meat'
         }
     ],
     'tuesday': [
         {
-            'name': 'GNOCCHI MEDITERRANEO',
+            'name': 'PAPPARDELLE „WALLNUSS & PESTO“',
             'price': '7,50 €',
-            'description': 'Kartoffelgnocchis in Tomatensauce mit Zucchini, Gemüsepaprika, Zwiebeln und Oliven',
+            'description': 'mit Kirschtomaten und grünem Pesto a la Genovese',
             'type': 'vegetarian'
         }
     ],
     'wednesday': [
         {
-            'name': 'THÜRINGER CURRYWURST MIT POMMES FRITES',
+            'name': 'CURRYWURST MIT POMMES FRITES',
             'price': '7,50 €',
             'description': '',
             'type': 'meat'
@@ -65,15 +65,15 @@ MANUAL_MENU = {
     ],
     'thursday': [
         {
-            'name': 'AVOCADO QUINOA BOWL',
+            'name': 'HERBST-BOWL MIT KÜRBIS-FALAFEL',
             'price': '7,50 €',
-            'description': 'Quinoa Mix, Avocado, Kichererbsen, Gurke und Lollo Bionda',
+            'description': 'Salatmix mit nussig-aromatischer Vinaigrette, dazu Quinoa-Mix mit Tomatenwürfeln, dicken Bohnen, Kichererbsen, grünem Curry, Paprikawürfeln und Kürbiskernen',
             'type': 'vegan'
         }
     ],
     'friday': [
         {
-            'name': 'SEELACHSFILET MIT KARTOFFEL-GURKENSALAT',
+            'name': 'SEELACHSFILET MIT POMMES FRITES UND REMOULADE',
             'price': '7,50 €',
             'description': '',
             'type': 'meat'
