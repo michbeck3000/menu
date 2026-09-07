@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "THÜRINGER CURRYWURST MIT POMMES FRITES",
-    "description": "",
-    "price": "2,90 €",
+    "dish": "ORIGINAL NÜRNBERGER ROSTBRATWÜRSTE",
+    "description": "mit Sauerkraut und Kartoffelstampf",
+    "price": "4,90 €",
     "isWeeklySpecial": True
 }
 
