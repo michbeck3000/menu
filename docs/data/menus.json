@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T08:42:16.552Z",
+  "updatedAt": "2026-09-16T08:36:57.422Z",
   "days": {
     "monday": [
       {
@@ -59,15 +59,8 @@
         "type": "vegan"
       },
       {
-        "name": "Gebratene Schupfnudeln mit Pilz-Sahnesoße",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Wiener Würstchen mit Kartoffelsalat",
-        "price": "8,00 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -168,15 +161,8 @@
         "type": "vegetarian"
       },
       {
-        "name": "Maultaschen mit Gemüse",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Hähnchengeschnetzeltes mit Pilzen und Spätzle",
-        "price": "8,00 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -284,15 +270,8 @@
         "type": "meat"
       },
       {
-        "name": "Ofengebackner Brokkoli mit Kartoffeln und Knoblauchdip",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Hackbällchen mit Tomatensoße und Nudelsalat",
-        "price": "8,00 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -400,15 +379,8 @@
         "type": "vegetarian"
       },
       {
-        "name": "Ratatouille-Nudelauflauf",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "meat"
-      },
-      {
-        "name": "Backfisch mit Remoulade und Gemüsereis",
-        "price": "8,00 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -481,15 +453,8 @@
         "type": "meat"
       },
       {
-        "name": "Gefülltes Fladenbrot mit Käse und Gemüse",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Gefülltes Fladenbrot mit Pulled Pork und Krautsalat",
-        "price": "8,50 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
