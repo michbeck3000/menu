@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T08:36:57.422Z",
+  "updatedAt": "2026-09-17T08:41:14.477Z",
   "days": {
     "monday": [
       {
@@ -59,8 +59,15 @@
         "type": "vegan"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
+        "name": "Blumenkohl mit holländischer Soße und Kartoffeln",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Grützwurst mit Sauerkraut und Kartoffeln",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -161,11 +168,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
+        "name": "Rote Linsenragout mit gebratenem Blumenkohl, Joghurtdip und Baguette",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
+      },
+      {
+        "name": "Königsberger Klopse mit Kartoffeln und Kapernsoße",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
       },
       {
         "name": "PAPPARDELLE „WALLNUSS & PESTO“",
@@ -270,8 +284,15 @@
         "type": "meat"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
+        "name": "Mais-Käsepuffer mit Pfeffersoße und Möhrensalat",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Rinderbraten mit Meerrettichsoße, Buttermöhren und Klößen",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -453,8 +474,22 @@
         "type": "meat"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
+        "name": "Milchreis mit Apfelmus, Zucker und Zimt",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Glasnudelsalat mit Frühlingsrollen und Knoblauch-Chilisoße",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Glasnudelsalat mit Hähnchenbrust und Knoblauch-Chilisoße",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
