@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-09-19T08:04:42.090Z",
+  "updatedAt": "2026-09-20T08:36:52.558Z",
   "days": {
     "monday": [
       {
-        "name": "Mutzbraten",
+        "name": "Rinderroulade",
         "price": "9,20 €",
-        "description": "mit Bratkartoffel & Sauerkraut",
+        "description": "mit Petersilienkartoffeln und Rotkraut",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Sojahack-Nudel-Auflauf",
+        "name": "Ofenkartoffeln",
         "price": "8,60 €",
-        "description": "mit Grillgemüse und Pesto",
+        "description": "mit Gurkensalat und Kräuterdip",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Falafelbällchen",
+        "name": "Nudel-Auflauf",
         "price": "8,90 €",
-        "description": "mit orientalischem Bulgur und veganem Minzdip",
+        "description": "mit geräuchertem Tofu und veganem Käse überbacken",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -31,9 +31,9 @@
         "type": "meat"
       },
       {
-        "name": "Indian Harmony Wrap",
+        "name": "Wrap Caprese Basil",
         "price": "6,50 €",
-        "description": "Hummus · Falafel · Karotte · Gurke · Granatapfel · Sesam · Sesamöl · Romana /",
+        "description": "Basilikum-Frischkäse · Mozzarella · Tomate · Getrocknete Tomate · Rucola · Sonnenblumenkerne /",
         "bistro": "Bio-City",
         "type": "meat"
       },
@@ -112,23 +112,23 @@
     ],
     "tuesday": [
       {
-        "name": "Hähnchen-Cordon-Bleu",
+        "name": "Königsberger Klöpse",
         "price": "9,20 €",
-        "description": "mit Erbsen-Möhren-Gemüse und Kartoffelecken",
+        "description": "mit Salzkartoffeln und Kapernsauce",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Knusperschnitzel",
+        "name": "Zweierlei gebackener Käse",
         "price": "8,60 €",
-        "description": "mit Erbsen-Möhren-Gemüse und Kartoffelecken",
+        "description": "mit Zitronencouscous und Limettendip",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Vegane Bratwurst",
+        "name": "Gemüsepuffer",
         "price": "8,90 €",
-        "description": "mit gebackenen Drillingen und Paprikagemüse",
+        "description": "an Salzkartoffeln und Karottensalat",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -228,23 +228,23 @@
     ],
     "wednesday": [
       {
-        "name": "Rheinischer Sauerbraten",
+        "name": "Herzhafte Bulette",
         "price": "9,20 €",
-        "description": "mit Blaukraut und Klößen",
+        "description": "an Kartoffelsalat",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gnocchipfanne",
+        "name": "Gebratener Halloumi Käse",
         "price": "8,60 €",
-        "description": "mit mediterranem Gemüse und mariniertem Tofu",
+        "description": "mit herzhaftem Gemüse Bulgur",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Mediterraner Süßkartoffelauflauf",
+        "name": "Asiatische Reispfanne",
         "price": "8,90 €",
-        "description": "mit Grillgemüse und Tomatensauce",
+        "description": "mit Wokgemüse, Sprossen und mariniertem Tofu",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -344,23 +344,23 @@
     ],
     "thursday": [
       {
-        "name": "Schlemmerfilet 'Italiano'",
+        "name": "Schlankwels",
         "price": "9,20 €",
-        "description": "mit Zitronenbutterreis",
+        "description": "an Fenchelrahm und Erbsenreis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gemüselasagne",
+        "name": "Polentaschnitte",
         "price": "8,60 €",
-        "description": "mit Tomatenragout",
+        "description": "an einem Blumenkohl-Brokkoli Ragout",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
       {
-        "name": "Meat-Balls 'Jäger Art'",
+        "name": "Tikka Masala",
         "price": "8,90 €",
-        "description": "mit Langkornreis",
+        "description": "mit Blumenkohlröschen, indischer Tomatensoße und Reis",
         "bistro": "Bio-City",
         "type": "vegan"
       },
