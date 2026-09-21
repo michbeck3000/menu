@@ -49,7 +49,7 @@ async function runScrapers() {
                     if (d.length) fb[day] = d;
                 }
                 if (Object.keys(fb).length) {
-                    console.log(`${bistroName}: Fallback auf Daten vom ${new Date(oldMenusData.updatedAt).toLocaleDateString('de-DE')}`);
+                    console.error(`${bistroName}: Fallback auf Daten vom ${new Date(oldMenusData.updatedAt).toLocaleDateString('de-DE')}`);
                     return fb;
                 }
             }

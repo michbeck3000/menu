@@ -25,7 +25,7 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "PUTENGESCHNETZELTES „ZÜRICHER ART"",
+    "dish": "PUTENGESCHNETZELTES \u201EZÜRICHER ART\u201C",
     "description": "mit Butterspätzle",
     "price": "8,90 €",
     "isWeeklySpecial": True
