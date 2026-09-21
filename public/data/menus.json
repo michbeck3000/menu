@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-30T08:55:00.823Z",
+  "updatedAt": "2026-09-21T08:44:54.379Z",
   "days": {
     "monday": [
       {
-        "name": "Hähnchenragout",
-        "price": "9,70 €",
-        "description": "mit mediteranen Gemüse und Gewürzreis",
+        "name": "Rinderroulade",
+        "price": "9,20 €",
+        "description": "mit Petersilienkartoffeln und Rotkraut",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
         "name": "Ofenkartoffeln",
-        "price": "9,10 €",
-        "description": "mit Gurkensalat und Kräuterquark",
+        "price": "8,60 €",
+        "description": "mit Gurkensalat und Kräuterdip",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Rote Linsencurry",
+        "name": "Nudel-Auflauf",
         "price": "8,90 €",
-        "description": "an Gewürzreis",
+        "description": "mit geräuchertem Tofu und veganem Käse überbacken",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -38,36 +38,36 @@
         "type": "meat"
       },
       {
-        "name": "Chili sin Carne mit Baguette",
-        "price": "6,80 €",
+        "name": "Salat-Gemüse Bowl mit Mozzarella Sticks",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Hähnchen Tikka Masala mit Gemüse und Reis",
+        "name": "Hähnchencurry mit Gemüse, dazu Reis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Karotten-Ingwercremesuppe",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Apfel Crumble mit Vanillesoße",
+        "price": "2,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Reibekuchen mit Apfelmus",
-        "price": "6,50 €",
+        "name": "Gemüsereispfanne mit Röstzwiebeln",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Brokkoli-Nudelauflauf",
-        "price": "7,50 €",
+        "name": "Geflügelbratwurst mit Currygemüse und Reis",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -81,30 +81,37 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
       },
       {
-        "name": "Wirsingsuppe mit Hähnchen und Kokos",
+        "name": "Kartoffelsuppe mit Debreziner",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Gnocchi mit Champignons und Blattspinat",
+        "name": "Gemüsebulette mit dunkle Sauce dazu Kartoffelstampf und Zucchini",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Frikadelle mit brauner Sauce dazu Kartoffelpüree und grüne Bohnen",
+        "name": "Gebackene Hähnchenflügel mit Pommes frites",
         "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Schweinefilet mit Pilzmischung dazu Spätzle A1und Brokkoli",
+        "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
@@ -112,25 +119,25 @@
     ],
     "tuesday": [
       {
-        "name": "Hähnchenschnitzel 'Hollandaise'",
-        "price": "9,90 €",
-        "description": "mit Buttergemüse und Rösti",
+        "name": "Königsberger Klöpse",
+        "price": "9,20 €",
+        "description": "mit Salzkartoffeln und Kapernsauce",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gemüsefrikadelle",
-        "price": "8,70 €",
-        "description": "mit Karottensalat und Salzkartoffeln",
+        "name": "Zweierlei gebackener Käse",
+        "price": "8,60 €",
+        "description": "mit Zitronencouscous und Limettendip",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Asiatische Reispfanne",
-        "price": "9,30 €",
-        "description": "mit Wokgemüse, Sprossen und mariniertem Tofu",
+        "name": "Gemüsepuffer",
+        "price": "8,90 €",
+        "description": "an Salzkartoffeln und Karottensalat",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -147,22 +154,22 @@
         "type": "meat"
       },
       {
-        "name": "Käse Spätzle mit Rohkostsalat",
-        "price": "6,80 €",
+        "name": "Gefüllte Teigtaschen auf gebackenem Ofengemüse und Hartkäse",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Backfisch mit Pommes und Remoulade",
+        "name": "Currywurst mit Pommes und Salat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Milchreis mit Apfelmus und Zimtzucker",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Kaiserschmarrn mit Apfelmus und Zimtzucker",
+        "price": "6,00 € (klein 4,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -175,7 +182,7 @@
         "type": "vegetarian"
       },
       {
-        "name": "Zucchinihackpfanne",
+        "name": "Gehackteststippe mit Erbsen, Möhren und Kartoffelbrei",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -190,36 +197,36 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
       },
       {
-        "name": "Meeresfrüchte Topf",
+        "name": "Frischkäse Pilz Suppe mit Schwarzbrot Croutons",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Weizenproteinbällchen in pikanter Tomaten-Gemüsesauce dazu Reis gemischt mit grünen Bohnen",
-        "price": "8,30 €",
+        "name": "Jackfruit Curry Wurst mit Pommes frites",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Cheeseburger mit Pommes frites",
+        "name": "Putenrollbraten mit Reis dazu Erbsen-Möhren-Gemüse",
         "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Kalbsrollbraten mit Mischgemüse dazu Eierspätzle",
+        "name": "Lammcurry mit breiten Bohnen dazu Tomaten Cous Cous",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -228,25 +235,25 @@
     ],
     "wednesday": [
       {
-        "name": "Rindergulasch",
-        "price": "9,70 €",
-        "description": "mit Champigons und Semmelknödel",
+        "name": "Herzhafte Bulette",
+        "price": "9,20 €",
+        "description": "an Kartoffelsalat",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Blumenkohl-Käse-Medallions",
-        "price": "8,70 €",
-        "description": "mit Petersilienkartoffeln",
+        "name": "Gebratener Halloumi Käse",
+        "price": "8,60 €",
+        "description": "mit herzhaftem Gemüse Bulgur",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Sojabolognese ' Arrabiata '",
-        "price": "8,70 €",
-        "description": "mit Nudeln",
+        "name": "Asiatische Reispfanne",
+        "price": "8,90 €",
+        "description": "mit Wokgemüse, Sprossen und mariniertem Tofu",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -263,36 +270,36 @@
         "type": "meat"
       },
       {
-        "name": "Tellerrösti gratiniert mit GemüseD, dazu Salat",
+        "name": "Kürbis-Zucchini-Lasagne mit Käsesoße",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchenbrustschnitzel mit geb. Rissolekartoffeln und Quarkdip",
-        "price": "8,00 €",
+        "name": "Wildlachsfilet in Kräuter-Eihülle mit Bandnudeln und Rote Beete Salat",
+        "price": "8,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Linseneintopf mit Bockwurstscheiben",
+        "name": "Soljanka",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Semmelknödel mit cremigem Blumenkohl",
+        "name": "Schopskasalat mit Schafskäse und Baguette",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Chili-Kokos-Hähnchen mit Mungosprossen und Kräuterreis",
-        "price": "8,00 €",
+        "name": "Hähnchen im Käsemantel mit mediterranem Gemüse und Reisnudeln",
+        "price": "8,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -306,63 +313,70 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
       },
       {
-        "name": "Süßkartoffel Kichererbsen Suppe",
+        "name": "Galicische Kichererbsensuppe",
         "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Vanille-Grießbrei mit Aprikosen",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Gebackener Camembert mit Preiselbeeren dazu Salat und Minibrötchen",
-        "price": "8,60 €",
+        "name": "Kartoffeln mit Kräuterquark dazu Gurkensalat",
+        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegetarian"
       },
       {
-        "name": "Chilenischer Rindfleischtopf mit schwarze Bohnen, Kartoffeln und Mangold",
+        "name": "Chili con carne mit Baguette Brot",
         "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Wildschweinbraten mit Möhrengemüse und Klöße",
+        "name": "Thunfischsteak mit Zitronensauce dazu Reis und Salat",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "meat"
+        "type": "fish"
       }
     ],
     "thursday": [
       {
-        "name": "Fischcurry",
-        "price": "9,80 €",
-        "description": "mit Fenchel, Karotte und Langkornreis",
+        "name": "Schlankwels",
+        "price": "9,20 €",
+        "description": "an Fenchelrahm und Erbsenreis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Kartoffel-Gemüseauflauf",
-        "price": "9,40 €",
-        "description": "mit Basilikumdip",
+        "name": "Polentaschnitte",
+        "price": "8,60 €",
+        "description": "an einem Blumenkohl-Brokkoli Ragout",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Meat-Balls 'Köfte'",
+        "name": "Tikka Masala",
         "price": "8,90 €",
-        "description": "mit Tomatensauce und Langkornreis",
+        "description": "mit Blumenkohlröschen, indischer Tomatensoße und Reis",
         "bistro": "Bio-City",
-        "type": "meat"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -379,39 +393,39 @@
         "type": "meat"
       },
       {
-        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
-        "price": "6,80 €",
+        "name": "Kartoffel-Mozzarella Röstis mit Salat und Dip",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Steak Strindberg mit Bohnengemüse und Kroketten",
+        "name": "Boulette mit Kartoffelpüree und Bohnen",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Apfel Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Schupfnudel-Gemüsepfanne",
+        "name": "Blumenkohl-Nudelauflauf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Kasseler mit Sauerkraut und Kartoffelragout",
+        "name": "Seelachsfilet mit Tomate und Mozzarella überbacken und Reis",
         "price": "8,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "AVOCADO QUINOA BOWL",
@@ -422,36 +436,36 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
       },
       {
-        "name": "Linseneintopf mit Bockwurstscheiben",
+        "name": "Tomatensuppe mit Ravioli",
         "price": "4,50 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Dinkelspirelli mit Kirschtomaten und Brokkoli in Pestosauce",
-        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Wildbratwurst mit Rotkohl und Kartoffelpüree",
+        "name": "Vollkorn-Spaghetti mit Linsen-Bolognese ( mit geriebenen Hartkäse )",
+        "price": "8,30 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegan"
+      },
+      {
+        "name": "Gebraten Fleischkäsescheibe mit Spiegelei dazu dunkle Sauce, Kartoffelpüree und Lauch-Karottengemüse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Hokifilet mit Shrimpssauce dazu Reis und Brokkoli",
+        "name": "Rindertafelspitz in Meerrettichsauce dazu Petersilienkartoffeln und Wirsinggemüse",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -462,33 +476,33 @@
       {
         "name": "Schlemmerbuffet",
         "price": "8,50 €",
-        "description": "Freitags schlemmen Sie sich durch unser großes Buffet — mit mehr Auswahl als sonst.",
+        "description": "Freitag heißt bei uns freie Wahl. Gehen Sie einmal die Linie entlang und stellen Sie sich zusammen, worauf Sie heute Lust haben. Wir freuen uns auf Sie.",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Langos mit Schmand, Gemüse und Käse, dazu Salatbeilage",
+        "name": "Omelette gefüllt mit Blattspinat und Käse",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Gyros mit Tomaten-Reis, Tzaziki und Salatbeilage",
-        "price": "8,00 €",
+        "name": "PutenleberF/Bratwurst mit Kartoffelpüree und Zwiebelsoße",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Spanischer Eierauflauf",
+        "name": "Gebackener Kürbis mit Erbsen-Kartoffelstampf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Rosenkohl-Gnocchiauflauf mit Speck",
+        "name": "Hähnchenkeulen mit Rotkraut und Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -503,30 +517,37 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Bratensauce, dazu Erbsen und Kartoffelstampf",
+        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "price": "2,90 €",
+        "description": "",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
       },
       {
-        "name": "/ - Rote Beete - Karotten - Suppe dazu Halloumiwürfel",
+        "name": "Linseneintopf",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Gemüsecurry mit Basmatireis",
+        "name": "Linseneintopf mit Bockwurstscheiben",
+        "price": "4,70 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Brokkoli Nussecke mit Spinatkartoffeln mit Kichererbsen",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Königsberger Klopse in Kapernsauce dazu Petersilienkartoffeln und Karottensalat",
-        "price": "8,30 €",
+        "name": "Spirelli dazu Hähnchengulasch mit Pfifferlinge",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
