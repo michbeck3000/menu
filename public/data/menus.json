@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T08:44:54.379Z",
+  "updatedAt": "2026-09-21T09:47:30.542Z",
   "days": {
     "monday": [
       {
@@ -73,17 +73,17 @@
         "type": "meat"
       },
       {
-        "name": "HÄHNCHEN „SÜSS-SAUER\"",
+        "name": "SCHNITZEL „WIENER ART“ MIT WALDPILZ-RAHMSAUCE",
         "price": "7,50 €",
-        "description": "asiatisch abgeschmeckte Sauce mit Ananas und Black Fungus, dazu Langkornreis",
+        "description": "dazu Salzkartoffeln und eine Salatbeilage",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
-        "price": "2,90 €",
-        "description": "",
+        "name": "PUTENGESCHNETZELTES „ZÜRICHER ART“",
+        "price": "8,90 €",
+        "description": "mit Butterspätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -189,17 +189,17 @@
         "type": "meat"
       },
       {
-        "name": "GNOCCHI MEDITERRANEO",
+        "name": "PAPPARDELLE „WALLNUSS & PESTO“",
         "price": "7,50 €",
-        "description": "Kartoffelgnocchis in Tomatensauce mit Zucchini, Gemüsepaprika, Zwiebeln und Oliven",
+        "description": "mit Kirschtomaten und grünem Pesto a la Genovese",
         "bistro": "Porta",
         "type": "vegetarian",
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
-        "price": "2,90 €",
-        "description": "",
+        "name": "PUTENGESCHNETZELTES „ZÜRICHER ART“",
+        "price": "8,90 €",
+        "description": "mit Butterspätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -305,7 +305,7 @@
         "type": "meat"
       },
       {
-        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
+        "name": "CURRYWURST MIT POMMES FRITES",
         "price": "7,50 €",
         "description": "",
         "bistro": "Porta",
@@ -313,9 +313,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
-        "price": "2,90 €",
-        "description": "",
+        "name": "PUTENGESCHNETZELTES „ZÜRICHER ART“",
+        "price": "8,90 €",
+        "description": "mit Butterspätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -428,17 +428,17 @@
         "type": "vegetarian"
       },
       {
-        "name": "AVOCADO QUINOA BOWL",
+        "name": "HERBST-BOWL MIT KÜRBIS-FALAFEL",
         "price": "7,50 €",
-        "description": "Quinoa Mix, Avocado, Kichererbsen, Gurke und Lollo Bionda",
+        "description": "Salatmix mit nussig-aromatischer Vinaigrette, dazu Quinoa-Mix mit Tomatenwürfeln, dicken Bohnen, Kichererbsen, grünem Curry, Paprikawürfeln und Kürbiskernen",
         "bistro": "Porta",
         "type": "vegan",
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
-        "price": "2,90 €",
-        "description": "",
+        "name": "PUTENGESCHNETZELTES „ZÜRICHER ART“",
+        "price": "8,90 €",
+        "description": "mit Butterspätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -509,7 +509,7 @@
         "type": "meat"
       },
       {
-        "name": "SEELACHSFILET MIT KARTOFFEL-GURKENSALAT",
+        "name": "SEELACHSFILET MIT POMMES FRITES UND REMOULADE",
         "price": "7,50 €",
         "description": "",
         "bistro": "Porta",
@@ -517,9 +517,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "THÜRINGER CURRYWURST MIT POMMES FRITES",
-        "price": "2,90 €",
-        "description": "",
+        "name": "PUTENGESCHNETZELTES „ZÜRICHER ART“",
+        "price": "8,90 €",
+        "description": "mit Butterspätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
