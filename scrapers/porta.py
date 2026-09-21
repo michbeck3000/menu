@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "ORIGINAL NÜRNBERGER ROSTBRATWÜRSTE",
-    "description": "mit Sauerkraut und Kartoffelstampf",
-    "price": "4,90 €",
+    "dish": "PUTENGESCHNETZELTES „ZÜRICHER ART"",
+    "description": "mit Butterspätzle",
+    "price": "8,90 €",
     "isWeeklySpecial": True
 }
 
