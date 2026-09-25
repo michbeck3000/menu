@@ -81,6 +81,8 @@ def strip_allergens(text):
         # Single letter at end: "SoßeD" -> "Soße"
         text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P]$', r'\1', text)
         text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P](?=\s)', r'\1', text)
+        # Single letter before slash: "PutenleberF/Bratwurst" -> "Putenleber/Bratwurst"
+        text = re.sub(r'([a-zäöüA-ZÄÖÜß])[A-P](?=[/])', r'\1', text)
         
         # Standard allergen pattern at end
         text = re.sub(r'([a-zäöüA-ZÄÖÜß])([A-P](?:,[A-P0-9])*|[0-9]+(?:,[0-9A-P]+)*)$', r'\1', text)
