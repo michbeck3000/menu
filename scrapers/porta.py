@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "PUTENGESCHNETZELTES \u201EZÜRICHER ART\u201C",
-    "description": "mit Butterspätzle",
-    "price": "8,90 €",
+    "dish": "LEBERKÄSE MIT BRATKARTOFFELN",
+    "description": "dazu Röstzwiebeln",
+    "price": "4,90 €",
     "isWeeklySpecial": True
 }
 
