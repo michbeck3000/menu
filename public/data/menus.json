@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T10:52:38.858Z",
+  "updatedAt": "2026-09-28T07:01:51.814Z",
   "days": {
     "monday": [
       {
@@ -52,14 +52,14 @@
         "type": "vegan"
       },
       {
-        "name": "Gemüsereispfanne mit Röstzwiebeln",
+        "name": "Senfeier mit Kartoffeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Geflügelbratwurst mit Currygemüse und Reis",
+        "name": "Weißwurst mit Brezel und Salat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -161,14 +161,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Rührei mit Spinat und Kartoffeln",
+        "name": "Spanischer Eierauflauf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Gehackteststippe mit Erbsen, Möhren und Kartoffelbrei",
+        "name": "Szegediner Gulasch mit Böhmischen Knödeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -270,14 +270,14 @@
         "type": "meat"
       },
       {
-        "name": "Schopskasalat mit Schafskäse und Baguette",
+        "name": "Überbackene Semmelknödel mit Mischgemüse",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchen im Käsemantel mit mediterranem Gemüse und Reisnudeln",
+        "name": "Knusprig überbackenes Fischfilet mit Karottencreme & Vollkornreis",
         "price": "8,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -379,18 +379,11 @@
         "type": "vegetarian"
       },
       {
-        "name": "Blumenkohl-Nudelauflauf",
-        "price": "7,50 €",
+        "name": "Pizzatag",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Seelachsfilet mit Tomate und Mozzarella überbacken und Reis",
-        "price": "8,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "HERBST-BOWL MIT KÜRBIS-FALAFEL",
@@ -460,15 +453,15 @@
         "type": "meat"
       },
       {
-        "name": "Gebackener Kürbis mit Erbsen-Kartoffelstampf",
+        "name": "Quiche mit Spinat, Feta und Tomaten",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchenkeulen mit Rotkraut und Kartoffeln",
-        "price": "8,00 €",
+        "name": "Nudel-Wurstauflauf",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
