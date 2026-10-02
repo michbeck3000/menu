@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T07:13:26.540Z",
+  "updatedAt": "2026-10-02T07:03:47.126Z",
   "days": {
     "monday": [
       {
@@ -339,9 +339,9 @@
       {
         "name": "Falafelbällchen",
         "price": "8,90 €",
-        "description": "mit orientalischem Bulgur und veganem Minzdip",
+        "description": "mit orientalischem Bulgur und frischem Minzdip",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
