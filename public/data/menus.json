@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-03T06:37:19.671Z",
+  "updatedAt": "2026-10-04T07:00:30.456Z",
   "days": {
     "monday": [
       {
-        "name": "Herzhaftes Hirschgulasch",
+        "name": "Chili con Carne",
         "price": "9,20 €",
-        "description": "mit Spätzle",
+        "description": "mit Langkornreis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gemüsefrikadelle",
-        "price": "8,60 €",
-        "description": "mit Karottensalat und Salzkartoffeln",
+        "name": "Meat Balls",
+        "price": "8,90 €",
+        "description": "mit Langkornreis und veganem Minzdip",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -112,18 +112,18 @@
     ],
     "tuesday": [
       {
-        "name": "Hähnchenschnitzel",
+        "name": "Mutzbraten",
         "price": "9,20 €",
-        "description": "mit Buttergemüse, Wedges und Sauce Hollandaise",
+        "description": "mit Sauerkraut und Kartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Meat-Balls 'Köfte'",
-        "price": "8,90 €",
-        "description": "mit Tomatensauce und Langkornreis",
+        "name": "Spinat Ricotta Knödel",
+        "price": "8,60 €",
+        "description": "an Champignonrahm",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
@@ -221,16 +221,16 @@
     ],
     "wednesday": [
       {
-        "name": "Gebratene Schweineminutensteaks",
+        "name": "Hähnchenschnitzel",
         "price": "9,20 €",
-        "description": "mit einer Pilzpfanne und gebackene Drillinge",
+        "description": "an gebackenen Drillingen und Paprikasauce",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Knusperschnitzel",
+        "name": "Kartoffel-Gemüse-Auflauf",
         "price": "8,60 €",
-        "description": "mit Rahmerbsen und Kräuterpüree",
+        "description": "",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -330,18 +330,18 @@
     ],
     "thursday": [
       {
-        "name": "Paniertes Schollenfilet",
+        "name": "Hähnchengeschnetzeltes (Züricher Art)",
         "price": "9,20 €",
-        "description": "an Kartoffelstampf und Dillrahmsauce",
+        "description": "mit Butterreis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Falafelbällchen",
+        "name": "Knusprige Falafelbällchen",
         "price": "8,90 €",
-        "description": "mit orientalischem Bulgur und frischem Minzdip",
+        "description": "an Gemüse-Couscous und Tomatencreme",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -432,11 +432,18 @@
     ],
     "friday": [
       {
-        "name": "Schlemmerbuffet",
-        "price": "8,50 €",
-        "description": "Freitag heißt bei uns freie Wahl. Gehen Sie einmal die Linie entlang und stellen Sie sich zusammen, worauf Sie heute Lust haben. Wir freuen uns auf Sie.",
+        "name": "Fischcurry",
+        "price": "9,20 €",
+        "description": "an Butterreis und Gemüse\n(L,F,Sj, Sl.)",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "Sojarahmgeschnetzeltes",
+        "price": "8,60 €",
+        "description": "mit Gemüse und Rissoléekartoffeln",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
       },
       {
         "name": "Gemüseschnitzel mit Süßkartoffelpommes und Kräuterdip",
