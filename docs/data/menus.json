@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T07:17:10.603Z",
+  "updatedAt": "2026-10-12T07:26:32.918Z",
   "days": {
     "monday": [
       {
@@ -31,21 +31,21 @@
         "type": "meat"
       },
       {
-        "name": "Ofenkartoffel mit Kräuterquark und Grillgemüse",
+        "name": "Spätzle-Gemüsepfanne mit Pesto Rosso und Hartkäse",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hühnerfrikassee mit Reis und Mischgemüse",
+        "name": "Wirsingroulade mit Kartoffelpüree",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "meat"
       },
       {
-        "name": "Vegane Kartoffelsuppe",
+        "name": "Tomatencremesuppe mit Croutons",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -140,22 +140,22 @@
         "type": "meat"
       },
       {
-        "name": "Schupfnudeln mit Schmorkraut und Kräuterdip",
+        "name": "Bandnudeln mit Zucchini-Champignongemüse und Käsesoße",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Schnitzel mit Pommes und Rahmchampignons",
+        "name": "Hähnchen Cordon Bleu mit Wedges, Blumenkohl und Sauce Hollandaise",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Pflaumen Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Milchreis mit Apfelmus und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -256,25 +256,25 @@
         "type": "meat"
       },
       {
-        "name": "Salat-Gemüse Bowl mit Rote Beete Sticks",
-        "price": "7,00 €",
+        "name": "Kartoffeltaschen mit Frischkäsefüllung, dazu Blattspinat",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Römerbraten mit Spiegelei, Bratkartoffeln und Bohnen",
+        "name": "Backfisch mit Pommes und Remoulde",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Hackfleisch-Käse-Laucheintopf",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Joghurtpfannkuchen mit Apfelmus und Zimtzucker",
+        "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Brokkoli mit holländischer Soße und Kartoffeln",
@@ -365,22 +365,22 @@
         "type": "meat"
       },
       {
-        "name": "Vollkorn-Spaghetti mit veganer Bolognese",
+        "name": "Süßkartoffel-Gemüse-Curry mit Reis",
         "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Hähnchenbrust Piccata Milanese mit Kroketten und Erbsen",
+        "name": "Spaghetti Bolognese mit Reibekäse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Grießbrei mit Kirschen und Zimtzucker",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Apfel Crumble mit Vanillesoße",
+        "price": "2,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -460,14 +460,14 @@
         "type": "vegan"
       },
       {
-        "name": "Gebratene Mie-Nudeln mit Mini-Frühlingsrollen",
-        "price": "7,00 €",
+        "name": "Schmetterlingsnudeln mit veganen Hackbällchen und Tomaten-Letschosoße",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hackbällchen in Tomatensoße mit gebackenem Reis und Krautsalat",
+        "name": "Mini Haxe mit Sauerkraut und Böhmischen Knödeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
@@ -520,13 +520,6 @@
       {
         "name": "Spirelli mit Putengulasch dazu Reibekäse",
         "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "meat"
-      },
-      {
-        "name": "Hirschbraten mit Preiselbeeren dazu Schupfnudeln und Mischgemüse",
-        "price": "11,20 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
