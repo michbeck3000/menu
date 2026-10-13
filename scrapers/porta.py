@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "LEBERKÄSE MIT BRATKARTOFFELN",
-    "description": "dazu Röstzwiebeln",
-    "price": "4,90 €",
+    "dish": "DEFTIGE KOHLROULADE",
+    "description": "mit Kartoffelstampf",
+    "price": "5,90 €",
     "isWeeklySpecial": True
 }
 
