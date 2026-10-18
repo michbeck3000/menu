@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-17T05:39:18.496Z",
+  "updatedAt": "2026-10-18T06:00:10.698Z",
   "days": {
     "monday": [
       {
-        "name": "Asiatische Reispfanne",
+        "name": "Rindergulasch",
         "price": "9,20 €",
-        "description": "mit Hähnchenstreifen, Sprossen ,Wokgemüse und Sojasauce",
+        "description": "mit Spirelli",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gebackene Gemüsefrikadelle",
+        "name": "Falafelbällchen",
         "price": "8,60 €",
-        "description": "mit Rissoléekartoffeln , Karottensalat und Kräuterquark",
+        "description": "an Gemüse Couscous und Limetten-Minz-Dip",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -107,16 +107,16 @@
       {
         "name": "Hähnchenschnitzel",
         "price": "9,20 €",
-        "description": "mit Kartoffelrösti und Zwiebelsauce",
+        "description": "mit Mischgemüse, Rahmsauce und Kartoffelecken",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Rote Beete Ragout",
-        "price": "8,90 €",
-        "description": "mit marinierten Räuchertofu und Basmatireis",
+        "name": "Kartoffel-Gemüse-Pfanne",
+        "price": "8,60 €",
+        "description": "mit Kräuterdip",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Salat klein/groß",
@@ -214,18 +214,18 @@
     ],
     "wednesday": [
       {
-        "name": "Hirschgulasch",
+        "name": "Gebratenes Hähnchen",
         "price": "9,20 €",
-        "description": "mit Herbstgemüse und Kartoffelklößen",
+        "description": "an Ratatouille und Gnocchis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Zweierlei gebackener Käse",
-        "price": "8,60 €",
-        "description": "mit Zwiebelpüree und Erbsen-Möhren Rahm",
+        "name": "Meat Balls",
+        "price": "8,90 €",
+        "description": "mit weißem Bohnenragout und Reis",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -323,18 +323,18 @@
     ],
     "thursday": [
       {
-        "name": "knuspriger Schweinebraten",
+        "name": "Pasta Bolognese",
         "price": "9,20 €",
-        "description": "mit Rotkraut und Salzkartoffen",
+        "description": "mit Penne und Reibekäse",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Mediterane Gnocchipfanne",
-        "price": "8,60 €",
-        "description": "mit Basilikumdip",
+        "name": "Süßkartoffelcurry",
+        "price": "8,90 €",
+        "description": "mit Erdnüssen Wokgemüse und Langkornreis",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Salat klein/groß",
@@ -425,18 +425,18 @@
     ],
     "friday": [
       {
-        "name": "Bratwurst",
+        "name": "Paniertes Schollenfilet",
         "price": "9,20 €",
-        "description": "mit fruchtiger Currysauce Kartoffelecken und Gurkensalat",
+        "description": "an Fenchelrahm und Salzkartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gemüselasagne",
-        "price": "8,90 €",
-        "description": "mit mediterranem Gemüse und Tomatensauce",
+        "name": "Semmelknödel",
+        "price": "8,60 €",
+        "description": "mit Rahm-Champignons",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Schmetterlingsnudeln mit veganen Hackbällchen und Tomaten-Letschosoße",
