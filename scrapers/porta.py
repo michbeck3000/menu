@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "DEFTIGE KOHLROULADE",
-    "description": "mit Kartoffelstampf",
-    "price": "5,90 €",
+    "dish": "SAUERBRATEN VOM RIND",
+    "description": "mit Wildpreiselbeeren und Spätzle",
+    "price": "9,90 €",
     "isWeeklySpecial": True
 }
 
