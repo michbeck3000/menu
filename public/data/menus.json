@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T06:00:10.698Z",
+  "updatedAt": "2026-10-18T10:44:57.205Z",
   "days": {
     "monday": [
       {
@@ -31,21 +31,21 @@
         "type": "meat"
       },
       {
-        "name": "Spätzle-Gemüsepfanne mit Pesto Rosso und Hartkäse",
+        "name": "Blumenkohl-Käse Medaillion mit Rissolekartoffeln, Salat und Quarkdip",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Wirsingroulade mit Kartoffelpüree",
-        "price": "8,00 €",
+        "name": "Nudeln mit Wurstgulasch und Reibekäse",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "meat"
+        "type": "vegan"
       },
       {
-        "name": "Tomatencremesuppe mit Croutons",
+        "name": "Vegane Kürbiscremesuppe mit Croutons",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -74,9 +74,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "DEFTIGE KOHLROULADE",
-        "price": "5,90 €",
-        "description": "mit Kartoffelstampf",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -133,22 +133,22 @@
         "type": "meat"
       },
       {
-        "name": "Bandnudeln mit Zucchini-Champignongemüse und Käsesoße",
+        "name": "Käse Spätzle mit Röstzwiebeln und Rohkostsalat",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchen Cordon Bleu mit Wedges, Blumenkohl und Sauce Hollandaise",
+        "name": "Currywurst mit Pommes und Salat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Milchreis mit Apfelmus und Zimtzucker",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Germknödel mit Schokofüllung und Vanillesoße",
+        "price": "3,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -176,9 +176,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "DEFTIGE KOHLROULADE",
-        "price": "5,90 €",
-        "description": "mit Kartoffelstampf",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -242,25 +242,25 @@
         "type": "meat"
       },
       {
-        "name": "Kartoffeltaschen mit Frischkäsefüllung, dazu Blattspinat",
-        "price": "6,80 €",
+        "name": "Tortellini-Gemüsepfanne mit Pesto",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Backfisch mit Pommes und Remoulde",
+        "name": "Hähnchen Curry Masala mit Basmatireis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Joghurtpfannkuchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Kartoffelsuppe mit Bockwurstscheiben",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "Pilzpfanne mit Kartoffeln und Dip",
@@ -285,9 +285,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "DEFTIGE KOHLROULADE",
-        "price": "5,90 €",
-        "description": "mit Kartoffelstampf",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -351,22 +351,22 @@
         "type": "meat"
       },
       {
-        "name": "Süßkartoffel-Gemüse-Curry mit Reis",
-        "price": "6,80 €",
+        "name": "Blumenkohl-Kartoffel-Gratin mit Käsesoße",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Spaghetti Bolognese mit Reibekäse",
+        "name": "Schnitzel Toscana mit Röstiecken und Pfannengemüse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Apfel Crumble mit Vanillesoße",
-        "price": "2,50 €",
+        "name": "Grießbrei mit Kirschen und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -387,9 +387,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "DEFTIGE KOHLROULADE",
-        "price": "5,90 €",
-        "description": "mit Kartoffelstampf",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -439,15 +439,22 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schmetterlingsnudeln mit veganen Hackbällchen und Tomaten-Letschosoße",
-        "price": "6,80 €",
+        "name": "Omelette gefüllt mit Blattspinat und Käse, dazu Salatbeilage",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Mini Haxe mit Sauerkraut und Böhmischen Knödeln",
-        "price": "8,00 €",
+        "name": "Putenleber mit Kartoffelpüree und Zwiebelsoße",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Bratwurst mit Sauerkraut und Kartoffelpüree",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
@@ -482,9 +489,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "DEFTIGE KOHLROULADE",
-        "price": "5,90 €",
-        "description": "mit Kartoffelstampf",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
