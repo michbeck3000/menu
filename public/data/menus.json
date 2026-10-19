@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T10:44:57.205Z",
+  "updatedAt": "2026-10-19T06:17:16.698Z",
   "days": {
     "monday": [
       {
@@ -52,14 +52,14 @@
         "type": "vegan"
       },
       {
-        "name": "Ofenkartoffeln mit Pfannengemüse und Kräuterdip",
+        "name": "Kartoffelgemüsepfanne",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Nürnberger Würstchen mit Schmorkraut und Kartoffelstampf",
+        "name": "Wiener Würstchen mit Kartoffelsalat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -154,18 +154,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schafskäse-Rotebeete-Nudelauflauf",
+        "name": "Gurkensalat mit Kartoffeln und Rührei",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Chili con Carne mit Reis",
-        "price": "7,50 €",
+        "name": "Putengeschnetzeltes mit Pilzen und Spätzle",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "PAPPARDELLE „WALLNUSS & PESTO“",
@@ -263,18 +263,18 @@
         "type": "meat"
       },
       {
-        "name": "Pilzpfanne mit Kartoffeln und Dip",
+        "name": "Eierfrikassee mit Gemüse und Reis",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schweinesteak mit Rahm-Bohnen und Spätzle",
+        "name": "Hühnerleber mit Schmorzwiebeln und Kartoffelbrei",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "CURRYWURST MIT POMMES FRITES",
@@ -372,11 +372,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gulaschtag Klassisch / Geflügel / Vegetarisch",
-        "price": "8,50 €",
+        "name": "Spinat-Gorgonzolanudelauflauf",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
+      },
+      {
+        "name": "Hackbraten mit mediterranem Gemüse und Reisnudeln",
+        "price": "8,00 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "meat"
       },
       {
         "name": "HERBST-BOWL MIT KÜRBIS-FALAFEL",
@@ -460,21 +467,14 @@
         "type": "meat"
       },
       {
-        "name": "Grießbrei mit Dicken Erdbeeren",
-        "price": "6,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "CousCous Taboulé mit gegrilltem Salat",
+        "name": "Kohlrabi mit Bratkloß und Sahnesoße",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
       {
-        "name": "CousCous Taboulé mit Hackbällchen",
+        "name": "Fischstäbchen mit Kartoffelbrei und Kräutersoße",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
