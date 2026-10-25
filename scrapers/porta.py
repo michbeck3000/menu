@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "SAUERBRATEN VOM RIND",
-    "description": "mit Wildpreiselbeeren und Spätzle",
-    "price": "9,90 €",
+    "dish": "GROBE BRATWURST",
+    "description": "mit Rotkohl und Kartoffelstampf",
+    "price": "5,90 €",
     "isWeeklySpecial": True
 }
 
