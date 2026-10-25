@@ -10,10 +10,10 @@ export async function scrapeBioCity(browser) {
 
         await page.goto(URL, { waitUntil: 'networkidle2', timeout: 30000 });
 
-        // Wait for the Elementor food menu items to load
+        // Wait for the weekly menu section to load
         try {
-            await page.waitForSelector('.pt-food-menu-item', { timeout: 10000 });
-        } catch (e) {
+            await page.waitForSelector('#wochenkarte .woche .tag', { timeout: 10000 });
+        } catch {
             console.log('Geschmackswerk menu selector not found, page structure may have changed.');
         }
 
@@ -27,59 +27,40 @@ export async function scrapeBioCity(browser) {
                 'freitag': 'friday'
             };
 
-            // REOPENING DATE: 2026-03-04 (Wednesday)
-            // We should only extract days that are >= this date.
-            const REOPENING_DATE = new Date('2026-03-04');
+            const cleanText = (text) => (text || '').replace(/\s+/g, ' ').trim();
 
-            const columns = document.querySelectorAll('.elementor-widget-wrap');
+            // Remove allergen strings like "(Sj, Sm)" or "(Gl,Ei,L)" from the end
+            const allergenRegex = /\s*\([a-zA-Z,\s]+\)$/;
+            // Diet markers are part of the description, e.g. "vegan, mit ..." or "vegetarisch, an ..."
+            const dietRegex = /^(vegan|vegetarisch|vegi)\b\s*[,:-]?\s*/i;
 
-            columns.forEach(column => {
-                const titleEl = column.querySelector('.pt-title');
-                const subtitleEl = column.querySelector('.pt-subtitle');
-                if (!titleEl) return;
-
-                // Parse the date from the subtitle (e.g., "02.03.2026")
-                const dateText = subtitleEl ? subtitleEl.textContent.trim() : '';
-                if (dateText) {
-                    const parts = dateText.split('.');
-                    if (parts.length === 3) {
-                        const itemDate = new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
-                        // Skip if the date is before the reopening date
-                        if (itemDate < REOPENING_DATE) return;
-                    }
-                }
-
-                // Match the day name
-                const dayText = titleEl.textContent.trim().toLowerCase();
+            document.querySelectorAll('#wochenkarte .woche .tag').forEach(tag => {
+                const dayText = cleanText(tag.querySelector('.tag-kopf strong')?.textContent).toLowerCase();
                 const dayKey = Object.keys(dayMapping).find(d => dayText.includes(d));
                 if (!dayKey) return;
 
                 const dishes = [];
-                const items = column.querySelectorAll('.pt-food-menu-item');
+                tag.querySelectorAll('.gericht').forEach(item => {
+                    const spans = item.querySelectorAll('.zeile span');
+                    const nameEl = spans[0];
+                    const priceEl = spans[spans.length - 1];
+                    const descEl = item.querySelector('small');
 
-                items.forEach(item => {
-                    const nameEl = item.querySelector('.pt-food-menu-title .title-wrap');
-                    const descEl = item.querySelector('.pt-food-menu-details');
-                    const priceEl = item.querySelector('.pt-food-menu-price');
-                    const labelEl = item.querySelector('.menu-label');
+                    let name = cleanText(nameEl?.textContent);
+                    let description = cleanText(descEl?.textContent);
+                    const price = cleanText(priceEl?.textContent);
 
-                    let name = nameEl ? nameEl.textContent.trim() : '';
-                    let description = descEl ? descEl.textContent.trim() : '';
-                    const price = priceEl ? priceEl.textContent.trim() : '';
-
-                    // Parse type from label (e.g., "vegan" or "vegetarisch")
                     let type = 'meat';
-                    if (labelEl) {
-                        const labelText = labelEl.textContent.trim().toLowerCase();
-                        if (labelText.includes('vegan')) type = 'vegan';
-                    else if (labelText.includes('vegi') || labelText.includes('vegetari')) type = 'vegetarian';
+                    const dietMatch = description.match(dietRegex);
+                    if (dietMatch) {
+                        type = dietMatch[1].toLowerCase() === 'vegan' ? 'vegan' : 'vegetarian';
                     }
 
-                    // Remove allergen strings like "(Sj, Sm)" or "(Gl,Ei,L)" from the end of name or description
-                    // Regex looks for a space followed by parentheses containing only letters, commas, and spaces.
-                    const allergenRegex = /\s*\([a-zA-Z,\s]+\)$/;
                     name = name.replace(allergenRegex, '').trim();
-                    description = description.replace(allergenRegex, '').trim();
+                    description = description
+                        .replace(dietRegex, '')
+                        .replace(allergenRegex, '')
+                        .trim();
 
                     if (name) {
                         dishes.push({
