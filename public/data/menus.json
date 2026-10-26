@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T22:23:02.753Z",
+  "updatedAt": "2026-10-26T06:22:02.404Z",
   "days": {
     "monday": [
       {
@@ -60,9 +60,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "GROBE BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Rotkohl und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -148,9 +148,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "GROBE BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Rotkohl und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -243,9 +243,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "GROBE BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Rotkohl und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -338,9 +338,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "GROBE BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Rotkohl und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -426,9 +426,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "GROBE BRATWURST",
+        "price": "5,90 €",
+        "description": "mit Rotkohl und Kartoffelstampf",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
