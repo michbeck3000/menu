@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T06:22:02.404Z",
+  "updatedAt": "2026-10-27T06:22:55.580Z",
   "days": {
     "monday": [
       {
@@ -38,14 +38,14 @@
         "type": "vegan"
       },
       {
-        "name": "Kartoffelgemüsepfanne",
+        "name": "Gebratene Schupfnudeln mit Pilz-Sahnesoße",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
-        "name": "Wiener Würstchen mit Kartoffelsalat",
+        "name": "Bratwurst mit Sauerkraut und Kartoffelbrei",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -126,18 +126,18 @@
         "type": "meat"
       },
       {
-        "name": "Gurkensalat mit Kartoffeln und Rührei",
+        "name": "Blumenkohl-Nudelauflauf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Putengeschnetzeltes mit Pilzen und Spätzle",
+        "name": "Hühnerfrikassee mit Gemüse und Reis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "PAPPARDELLE „WALLNUSS & PESTO“",
@@ -221,14 +221,14 @@
         "type": "meat"
       },
       {
-        "name": "Eierfrikassee mit Gemüse und Reis",
+        "name": "Reisnudelpfanne Olive und Feta mit Krautsalat und Dip",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hühnerleber mit Schmorzwiebeln und Kartoffelbrei",
+        "name": "Lasagne",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -316,14 +316,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Spinat-Gorgonzolanudelauflauf",
+        "name": "Tortelinisalat mit Brokkoli-Käsenuggets und Dip",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hackbraten mit mediterranem Gemüse und Reisnudeln",
+        "name": "Kasseler mit Sauerkraut und Kartoffelragout",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -404,14 +404,14 @@
         "type": "meat"
       },
       {
-        "name": "Kohlrabi mit Bratkloß und Sahnesoße",
+        "name": "Gemüse Bauernpfanne",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Fischstäbchen mit Kartoffelbrei und Kräutersoße",
+        "name": "Gehacktes Bauernpfanne",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
