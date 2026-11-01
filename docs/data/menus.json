@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-31T07:03:57.995Z",
+  "updatedAt": "2026-11-01T07:37:47.538Z",
   "days": {
     "monday": [
       {
-        "name": "Chili con Carne",
+        "name": "Hähnchengyros",
         "price": "9,20 €",
-        "description": "mit Langkornreis",
+        "description": "an Tomatenreis, Ofengemüse und Tzatziki",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Veganer Burrito",
-        "price": "8,90 €",
-        "description": "mit Soja-Limetten-Dip",
+        "name": "Pilzgulasch",
+        "price": "8,60 €",
+        "description": "mit Räuchertofu und Böhmischen Knödel",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Veganes Chili sin Carne mit Reis",
@@ -68,21 +68,21 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Weißer Bohnen Eintopf mit Gemüse",
+        "name": "Linseneintopf mit Bockwurstscheiben",
         "price": "4,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "meat"
+      },
+      {
+        "name": "Falafel mit Couscous und Salat dazu Joghurt-Minz-Sauce",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Omelett mit Spinatfülle dazu Schnittlauchsauce und Karotten-Kartoffel-Mix",
-        "price": "8,30 €",
-        "description": "",
-        "bistro": "Tafelwerk",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Spaghetti Bolognese dazu geriebener Hartkäse",
+        "name": "Rindergulasch mit Sauerkraut dazu Knödelscheiben",
         "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -91,16 +91,16 @@
     ],
     "tuesday": [
       {
-        "name": "Hähnchenschnitzel",
+        "name": "Hähnchen Cordon-Bleu",
         "price": "9,20 €",
-        "description": "an Champignonrahm und Kartoffelrösti",
+        "description": "mit Erbsen-Möhren-Gemüse und Kartoffelecken",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Sojageschnelztes",
+        "name": "Pflanzliche Hackbällchen",
         "price": "8,90 €",
-        "description": "mit Nudeln",
+        "description": "mit Ratatouille und Gnocchi",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -156,28 +156,35 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Fischsuppe mit Shrimps",
+        "name": "Grünen Bohneneintopf mit Rindfleisch",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "fish"
+        "type": "meat"
       },
       {
-        "name": "Green Hero Plant Chik Nuggets dazu Salat und Baguettebrot",
+        "name": "Vanille Grießbrei mit Heidelbeeren",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Tafelwerk",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Tellerrösti mit Gemüse-Kichererbsenmischung dazu Salatgarnitur",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Currywurst mit hausgemachter Barbecue Sauce dazu Pommes frites",
+        "name": "Rouladenpfanne mit Spätzle dazu Rotkohl",
         "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Rindergeschnetzeltes mit Reis dazu Rahmwirsing",
+        "name": "Lammrückenfilet mit Pestosauce dazu Gnocchi und Blattspinat",
         "price": "12,40 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -186,16 +193,16 @@
     ],
     "wednesday": [
       {
-        "name": "Schweinebraten",
+        "name": "Herzhafte Bulette",
         "price": "9,20 €",
-        "description": "mit Sauerkraut, Krstoffelpüree und Zwiebelsauce",
+        "description": "an Kartoffelsalat",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Knusperschnitzel",
+        "name": "Sojarahmgeschnetzeltes",
         "price": "8,60 €",
-        "description": "an Rahmgemüse und Zitronenreis",
+        "description": "mit Gemüse und Risoléekartoffeln",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -251,28 +258,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Kartoffelsuppe mit Bockwurstscheiben",
+        "name": "Gemüseeintopf mit Knacker",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "gemischte Gnocchi (Süßkartoffel / Kartoffel) A 1dazu Blattspinat und Gorgonzolasauce",
-        "price": "8,60 €",
+        "name": "Mini Frühlingsrollen A 1mit Wokgemüse dazu Jasmin Reis",
+        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Kohlroulade mit Schweinefleischfülle dazu Kartoffelpüree",
+        "name": "Hähnchenkeule mit Pommes frites dazu Coleslaw",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Rinderroulade mit Rotkohl dazu Kartoffelklöße",
+        "name": "Lachsfilet mit Bandnudel und Brokkoli dazu Currysauce",
         "price": "12,40 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -281,18 +288,18 @@
     ],
     "thursday": [
       {
-        "name": "Pochierter Schlankwels",
+        "name": "Gebratenes Zanderfilet",
         "price": "9,20 €",
-        "description": "an gebackene Kartoffeln und Mischgemüse-Rahm",
+        "description": "an Wirsingrahm und Risolée",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Zweierlei gebackener Käse",
-        "price": "8,60 €",
-        "description": "mit Gurkensalat und Kräutersauce",
+        "name": "Orientalische Paprikaschote",
+        "price": "8,90 €",
+        "description": "mit Gemüse Couscous und Hummus",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Rührei mit Rahmspinat und Kartoffeln",
@@ -346,28 +353,28 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Griechische Linsensuppe ( mit Joghurt )",
+        "name": "Mexikanischer Reistopf mit Hähnchen und Salami 1/3",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegan"
+        "type": "meat"
       },
       {
-        "name": "Quornbällchen mit Curry-Tomaten-Sauce dazu Reis und Wirsinggemüse",
-        "price": "8,60 €",
+        "name": "Kürbiscurry mit Mangold dazu Basmatireis",
+        "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Schweinekrustenbraten mit Rosenkohl dazu Knödelscheiben",
+        "name": "Nudeln mit Wurstgulasch dazu Reibekäse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
       },
       {
-        "name": "Forellenfilet mit Kräuterbutter dazu Petersilienkartoffeln dazu Blattspinat",
+        "name": "Hähnchenschnitzel mit gebackene Kartoffelecken und Bohnenmix",
         "price": "11,90 €",
         "description": "",
         "bistro": "Tafelwerk",
@@ -376,16 +383,16 @@
     ],
     "friday": [
       {
-        "name": "Königsberger Klöpse",
+        "name": "Hirschgulasch",
         "price": "9,20 €",
-        "description": "an Kapernsauce und Salzkartoffeln",
+        "description": "mit Pilzen und Spätzle",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Rote Beete Ragout",
+        "name": "Vegane Currywurst",
         "price": "8,90 €",
-        "description": "mit mariniertem Tofu und Cous-Cous",
+        "description": "an Kartoffelecken und einer fruchtigen Currysauce",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -434,22 +441,22 @@
         "isWeeklySpecial": true
       },
       {
-        "name": "Tomatensuppe mit Suppenklößchen und Nudeln",
+        "name": "Asiatische Gemüsesuppe mit Edamame und Glasnudeln",
         "price": "4,50 €",
         "description": "",
         "bistro": "Tafelwerk",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Kartoffelpfanne mit Kichererbsen und Cannellini-Bohnen",
+        "name": "Dinkelspirelli mit Tomatenragout mit Bohnen und Linsen ( mit geriebenem Hartkäse",
         "price": "8,30 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "vegan"
       },
       {
-        "name": "Hähnchenbrustfilet in Mandelsauce dazu Reis und Wok-Gemüse",
-        "price": "8,30 €",
+        "name": "Hirtenrolle (Hackfleisch mit Frischkäsefülle ) dazu Gebackene Kartoffelscheiben und Gemüse",
+        "price": "8,60 €",
         "description": "",
         "bistro": "Tafelwerk",
         "type": "meat"
