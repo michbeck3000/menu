@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "GROBE BRATWURST",
-    "description": "mit Rotkohl und Kartoffelstampf",
-    "price": "5,90 €",
+    "dish": "SCHNITZEL MIT SCHMORZWIEBELN",
+    "description": "dazu Pommes frites",
+    "price": "4,90 €",
     "isWeeklySpecial": True
 }
 
