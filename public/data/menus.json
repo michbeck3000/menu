@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T07:37:47.538Z",
+  "updatedAt": "2026-11-01T19:02:51.930Z",
   "days": {
     "monday": [
       {
@@ -17,22 +17,29 @@
         "type": "vegetarian"
       },
       {
-        "name": "Veganes Chili sin Carne mit Reis",
-        "price": "6,80 €",
+        "name": "Gnocchis mit Blattspinat und Gorgonzolasoße",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Hähnchenschnitzel - Tomate-Mozzarella mit Kroketten und Erbsen",
-        "price": "8,00 €",
+        "name": "Tiroler Gröstl (Bratkartoffeln mit Kasselerwürfel und 2 Spiegeleiern)",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Karotten-Ingwercremesuppe mit Croutons",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Hühner Nudeleintopf",
+        "price": "2,70 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegan"
+      },
+      {
+        "name": "Chicken Noodle Stew Vegan",
+        "price": "5,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
@@ -60,9 +67,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "GROBE BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Rotkohl und Kartoffelstampf",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -105,25 +112,25 @@
         "type": "vegan"
       },
       {
-        "name": "Mac&Cheese mit Rohkostsalat",
+        "name": "Salat-Gemüse Bowl mit gebackenem Kürbis und Falafelbällchen",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hamburger Schnitzel mit Pommes und Rohkostsalat",
+        "name": "Steak au Four mit Pommes und Erbsen",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Grießbrei mit Kirschen und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "Blumenkohl-Nudelauflauf",
@@ -148,9 +155,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "GROBE BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Rotkohl und Kartoffelstampf",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -207,21 +214,21 @@
         "type": "vegetarian"
       },
       {
-        "name": "Gebackener Hirtenkäse mit Couscous-Gemüse-Salat und Joghurtdip",
-        "price": "7,00 €",
+        "name": "Rotes Linsen-Gemüse Dal mit Reis",
+        "price": "6,80 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Marinierter Hering mit Kartoffeln",
-        "price": "7,80 €",
+        "name": "Spaghetti Bolognese mit Reibekäse",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Linseneintopf mit Bockwurstscheiben",
+        "name": "Erbseneintopf mit Bockwurstscheiben",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -250,9 +257,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "GROBE BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Rotkohl und Kartoffelstampf",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -302,22 +309,22 @@
         "type": "vegan"
       },
       {
-        "name": "Rührei mit Rahmspinat und Kartoffeln",
+        "name": "Vollkorn Spirelli mit Rahmchampingnons und Hartkäse",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Wildgulasch mit Rotkohl und Klößen",
-        "price": "9,00 €",
+        "name": "Lachsfilet mit gebackenen Kartoffeln und Kräuterquark",
+        "price": "9,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Milchreis mit Apfelmus und Zimtzucker",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Joghurtpfannkuchen mit Apfelmus und Zimtzucker",
+        "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -345,9 +352,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "GROBE BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Rotkohl und Kartoffelstampf",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -397,14 +404,14 @@
         "type": "vegan"
       },
       {
-        "name": "Spaghetti Pesto mit Rucola und Hartkäse",
+        "name": "Rote Beete Sticks mit Süßkartoffelpüree und Salatbeilage",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Hähnchenbrustschnitzel mit Rissole Kartoffeln und Kräuterquark",
+        "name": "Königsberger Klopse mit Kartoffeln und Mischgemüse",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
@@ -433,9 +440,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "GROBE BRATWURST",
-        "price": "5,90 €",
-        "description": "mit Rotkohl und Kartoffelstampf",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
