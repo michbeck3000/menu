@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T19:02:51.930Z",
+  "updatedAt": "2026-11-02T07:44:35.136Z",
   "days": {
     "monday": [
       {
@@ -45,14 +45,14 @@
         "type": "vegan"
       },
       {
-        "name": "Gebratene Schupfnudeln mit Pilz-Sahnesoße",
+        "name": "Maultaschen mit Gemüse",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
-        "name": "Bratwurst mit Sauerkraut und Kartoffelbrei",
+        "name": "Gebratene Blutwurst mit Zwiebel-Apfelragout und Kartoffelbrei",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -133,18 +133,18 @@
         "type": "vegetarian"
       },
       {
-        "name": "Blumenkohl-Nudelauflauf",
+        "name": "Ofenkartoffel mit Kräuterquark und Tomatensalat",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hühnerfrikassee mit Gemüse und Reis",
+        "name": "Zucchinihackpfanne",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "PAPPARDELLE „WALLNUSS & PESTO“",
@@ -235,18 +235,18 @@
         "type": "meat"
       },
       {
-        "name": "Reisnudelpfanne Olive und Feta mit Krautsalat und Dip",
+        "name": "Gebackener Kürbis mit Erbsen-Kartoffelstampf",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Lasagne",
+        "name": "Schweinebraten mit Mischgemüse und Spätzle",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "CURRYWURST MIT POMMES FRITES",
@@ -330,15 +330,8 @@
         "type": "vegetarian"
       },
       {
-        "name": "Tortelinisalat mit Brokkoli-Käsenuggets und Dip",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Kasseler mit Sauerkraut und Kartoffelragout",
-        "price": "8,00 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -418,14 +411,14 @@
         "type": "meat"
       },
       {
-        "name": "Gemüse Bauernpfanne",
+        "name": "Gemüsereispfanne mit Röstzwiebeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Gehacktes Bauernpfanne",
+        "name": "Schinken-Sahnenudelauflauf",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
