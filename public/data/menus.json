@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T06:42:11.326Z",
+  "updatedAt": "2026-11-05T07:56:56.115Z",
   "days": {
     "monday": [
       {
@@ -67,9 +67,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -155,9 +155,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -257,9 +257,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -345,9 +345,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -433,9 +433,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SAUERBRATEN VOM RIND",
-        "price": "9,90 €",
-        "description": "mit Wildpreiselbeeren und Spätzle",
+        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
+        "price": "4,90 €",
+        "description": "dazu Pommes frites",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
