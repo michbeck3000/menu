@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T07:33:28.958Z",
+  "updatedAt": "2026-11-05T06:42:11.326Z",
   "days": {
     "monday": [
       {
@@ -67,9 +67,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -155,9 +155,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -257,9 +257,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -330,9 +330,9 @@
         "type": "vegetarian"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
-        "description": "",
+        "name": "Schnitzel-Tag",
+        "price": "8,50 €",
+        "description": "Schwein / Geflügel / Gemüse",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
@@ -345,9 +345,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -433,9 +433,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "SAUERBRATEN VOM RIND",
+        "price": "9,90 €",
+        "description": "mit Wildpreiselbeeren und Spätzle",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
