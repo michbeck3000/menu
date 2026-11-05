@@ -40,7 +40,7 @@ export async function scrapeNationalbibliothek(browser) {
                 execSync(`${cmd} -c "import pdfplumber"`, { stdio: 'ignore' });
                 pythonCmd = cmd;
                 break;
-            } catch (e) {
+            } catch {
                 // Ignore
             }
         }
@@ -68,7 +68,7 @@ export async function scrapeNationalbibliothek(browser) {
                 return {};
             }
             return menuData;
-        } catch (parseError) {
+        } catch {
             console.warn('Nationalbibliothek: Failed to parse output:', resultRaw.substring(0, 100));
             return {};
         }

@@ -145,6 +145,16 @@ def parse_pdf(pdf_bytes):
             dishes = []
             current_name = ""
             current_price = None
+            current_description = []
+            pending_name = ""
+            using_pending_name = False
+
+            def add_dish(name, price, description):
+                dishes.append({
+                    'name': re.sub(r'-\s+', '-', re.sub(r'\s+', ' ', name).strip()),
+                    'price': add_surcharge(price),
+                    'description': re.sub(r'\s+', ' ', ' '.join(description)).strip()
+                })
 
             for line in lines:
                 text = ' '.join(w['text'] for w in line).strip()
@@ -162,41 +172,48 @@ def parse_pdf(pdf_bytes):
 
                 if has_cb:
                     if current_name and current_price is not None:
-                        dishes.append({
-                            'name': re.sub(r'-\s+', '-', re.sub(r'\s+', ' ', current_name).strip()),
-                            'price': add_surcharge(current_price)
-                        })
-                        current_name = ""
-                        current_price = None
+                        add_dish(current_name, current_price, current_description)
+
+                    current_name = ""
+                    current_price = None
+                    current_description = []
+                    using_pending_name = False
 
                     pm = re.search(r'(\d+,\d{2})\s*€', text)
                     if pm:
                         current_price = pm.group(0)
-                        rest = text
-                        for ch in ['☐', '☑', '☒']:
-                            rest = rest.replace(ch, '')
-                        rest = re.sub(r'\d+,\d{2}\s*€', '', rest).strip()
+
+                    rest = text
+                    for ch in ['☐', '☑', '☒']:
+                        rest = rest.replace(ch, '')
+                    rest = re.sub(r'\d+,\d{2}\s*€', '', rest).strip()
+
+                    if rest:
                         current_name = rest
-                    else:
-                        rest = text
-                        for ch in ['☐', '☑', '☒']:
-                            rest = rest.replace(ch, '')
-                        s = rest.strip()
-                        if s:
-                            current_name = s
+                        pending_name = ""
+                    elif pending_name:
+                        # Some days put the dish name on the line above the checkbox
+                        # (e.g. "Schnitzel-Tag" on Thursdays).
+                        current_name = pending_name
+                        pending_name = ""
+                        using_pending_name = True
                 elif current_name:
                     if current_price is None:
                         pm = re.search(r'(\d+,\d{2})\s*€', text)
                         if pm:
                             current_price = pm.group(0)
                             text = re.sub(r'\d+,\d{2}\s*€', '', text).strip()
-                    current_name += ' ' + text
+                    if not text:
+                        continue
+                    if using_pending_name:
+                        current_description.append(text)
+                    else:
+                        current_name += ' ' + text
+                else:
+                    pending_name = text
 
             if current_name and current_price is not None:
-                dishes.append({
-                    'name': re.sub(r'-\s+', '-', re.sub(r'\s+', ' ', current_name).strip()),
-                    'price': add_surcharge(current_price)
-                })
+                add_dish(current_name, current_price, current_description)
 
             return dishes
 
@@ -205,12 +222,13 @@ def parse_pdf(pdf_bytes):
             parsed = parse_breakfast(day_name)
             dishes_for_day = []
             for d in parsed:
+                description = d.get('description', '')
                 dishes_for_day.append({
                     'name': d['name'],
                     'price': d['price'],
-                    'description': '',
+                    'description': description,
                     'bistro': 'Nationalbibliothek',
-                    'type': detect_type(d['name'])
+                    'type': detect_type(d['name'] + ' ' + description)
                 })
             if dishes_for_day:
                 menu[eng_day] = dishes_for_day
