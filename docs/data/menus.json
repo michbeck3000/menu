@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-07T07:16:09.067Z",
+  "updatedAt": "2026-11-08T07:27:29.455Z",
   "days": {
     "monday": [
       {
-        "name": "Hähnchengyros",
+        "name": "Hähnchen-Nudel-Auflauf",
         "price": "9,20 €",
-        "description": "an Tomatenreis, Ofengemüse und Tzatziki",
+        "description": "auf Tomatenragout und Käse überbacken",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Pilzgulasch",
-        "price": "8,60 €",
-        "description": "mit Räuchertofu und Böhmischen Knödel",
+        "name": "Rotes Linsencurry",
+        "price": "8,90 €",
+        "description": "an Gewürzreis",
         "bistro": "Bio-City",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
         "name": "Gnocchis mit Blattspinat und Gorgonzolasoße",
@@ -98,18 +98,18 @@
     ],
     "tuesday": [
       {
-        "name": "Hähnchen Cordon-Bleu",
+        "name": "Hähnchenbrustfilet ,, Fuhrmann Art´´",
         "price": "9,20 €",
-        "description": "mit Erbsen-Möhren-Gemüse und Kartoffelecken",
+        "description": "an Butterrahmgemüse und Kroketten",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Pflanzliche Hackbällchen",
-        "price": "8,90 €",
-        "description": "mit Ratatouille und Gnocchi",
+        "name": "Blumenkohl-Falafel",
+        "price": "8,60 €",
+        "description": "an Zitronenreis und Korianderdip",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Salat-Gemüse Bowl mit gebackenem Kürbis und Falafelbällchen",
@@ -193,16 +193,16 @@
     ],
     "wednesday": [
       {
-        "name": "Herzhafte Bulette",
+        "name": "Szegediner Gulasch",
         "price": "9,20 €",
-        "description": "an Kartoffelsalat",
+        "description": "mit Sauerkraut und Salzkartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Sojarahmgeschnetzeltes",
+        "name": "Kartoffel-Gemüse-Pfanne",
         "price": "8,60 €",
-        "description": "mit Gemüse und Risoléekartoffeln",
+        "description": "mit Kräuterquark und vegetarischem Schnitzel",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -288,16 +288,16 @@
     ],
     "thursday": [
       {
-        "name": "Gebratenes Zanderfilet",
+        "name": "Pochiertes Rotbarschfilet",
         "price": "9,20 €",
-        "description": "an Wirsingrahm und Risolée",
+        "description": "auf Sellerierahmgemüse und gebackenen Kartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Orientalische Paprikaschote",
+        "name": "Meat Balls Köfte",
         "price": "8,90 €",
-        "description": "mit Gemüse Couscous und Hummus",
+        "description": "mit Tomatensauce und Langkornreis",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -376,16 +376,16 @@
     ],
     "friday": [
       {
-        "name": "Hirschgulasch",
+        "name": "Hähnchenragout",
         "price": "9,20 €",
-        "description": "mit Pilzen und Spätzle",
+        "description": "mit mediterranem Gemüse und Reis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Vegane Currywurst",
+        "name": "Klassisches Gemüsecurry",
         "price": "8,90 €",
-        "description": "an Kartoffelecken und einer fruchtigen Currysauce",
+        "description": "an Basmatireis und Räuchertofu",
         "bistro": "Bio-City",
         "type": "vegan"
       },
