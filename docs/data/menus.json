@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T08:03:57.158Z",
+  "updatedAt": "2026-11-09T08:15:16.640Z",
   "days": {
     "monday": [
       {
@@ -60,9 +60,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "HIRSCH-GULASCH MIT BUTTERSPÄTZLE",
+        "price": "9,90 €",
+        "description": "in einer Sauce mit Chompignons, Austernseitlingen, Stockschwämmchen, verfeinert mit Wildpreiselbeeren",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -148,9 +148,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "HIRSCH-GULASCH MIT BUTTERSPÄTZLE",
+        "price": "9,90 €",
+        "description": "in einer Sauce mit Chompignons, Austernseitlingen, Stockschwämmchen, verfeinert mit Wildpreiselbeeren",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -243,9 +243,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "HIRSCH-GULASCH MIT BUTTERSPÄTZLE",
+        "price": "9,90 €",
+        "description": "in einer Sauce mit Chompignons, Austernseitlingen, Stockschwämmchen, verfeinert mit Wildpreiselbeeren",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -338,9 +338,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "HIRSCH-GULASCH MIT BUTTERSPÄTZLE",
+        "price": "9,90 €",
+        "description": "in einer Sauce mit Chompignons, Austernseitlingen, Stockschwämmchen, verfeinert mit Wildpreiselbeeren",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
@@ -433,9 +433,9 @@
         "isWeeklySpecial": false
       },
       {
-        "name": "SCHNITZEL MIT SCHMORZWIEBELN",
-        "price": "4,90 €",
-        "description": "dazu Pommes frites",
+        "name": "HIRSCH-GULASCH MIT BUTTERSPÄTZLE",
+        "price": "9,90 €",
+        "description": "in einer Sauce mit Chompignons, Austernseitlingen, Stockschwämmchen, verfeinert mit Wildpreiselbeeren",
         "bistro": "Porta",
         "type": "meat",
         "isWeeklySpecial": true
