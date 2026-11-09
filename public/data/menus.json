@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T07:27:29.455Z",
+  "updatedAt": "2026-11-09T08:03:57.158Z",
   "days": {
     "monday": [
       {
@@ -17,46 +17,39 @@
         "type": "vegan"
       },
       {
-        "name": "Gnocchis mit Blattspinat und Gorgonzolasoße",
+        "name": "Vegane Bratwurst mit Sauerkraut und Kartoffel-Karottenpüree",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Tiroler Gröstl (Bratkartoffeln mit Kasselerwürfel und 2 Spiegeleiern)",
-        "price": "7,50 €",
+        "name": "Hühnerfrikassee mit Reis und Erbsen",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Hühner Nudeleintopf",
-        "price": "2,70 €",
+        "name": "Blumenkohl-Kokoscremesuppe mit Spinat-Maultaschen",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Chicken Noodle Stew Vegan",
-        "price": "5,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegan"
-      },
-      {
-        "name": "Maultaschen mit Gemüse",
+        "name": "Blumenkohl mit holländischer Soße und Kartoffeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Gebratene Blutwurst mit Zwiebel-Apfelragout und Kartoffelbrei",
+        "name": "Schmorpfanne mit Knacker, Wirsing und Kartoffeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "meat"
+        "type": "vegetarian"
       },
       {
         "name": "SCHNITZEL „WIENER ART“ MIT WALDPILZ-RAHMSAUCE",
@@ -112,35 +105,35 @@
         "type": "vegetarian"
       },
       {
-        "name": "Salat-Gemüse Bowl mit gebackenem Kürbis und Falafelbällchen",
+        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
         "price": "7,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegan"
-      },
-      {
-        "name": "Steak au Four mit Pommes und Erbsen",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Grießbrei mit Kirschen und Zimtzucker",
-        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Ofenkartoffel mit Kräuterquark und Tomatensalat",
+        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
+        "price": "7,00 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Quarkkeulchen mit Apfelmus und Zimtzucker",
+        "price": "4,00 € (klein 3,00 €)",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Schafskäse-Spinatlasagne",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Zucchinihackpfanne",
+        "name": "Hähnchenkeulen mit Krautsalat, gebackenen Kartoffeln und Dip",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -207,35 +200,35 @@
         "type": "vegetarian"
       },
       {
-        "name": "Rotes Linsen-Gemüse Dal mit Reis",
-        "price": "6,80 €",
+        "name": "Kartoffelrösti gefüllt mit Mozzarella, dazu Salat und Quarkdip",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Spaghetti Bolognese mit Reibekäse",
+        "name": "Zürcher Geschnetzeltes mit Reis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Erbseneintopf mit Bockwurstscheiben",
+        "name": "Soljanka",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Gebackener Kürbis mit Erbsen-Kartoffelstampf",
+        "name": "Semmelknödel mit Waldpilzen in Sahnesoße",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schweinebraten mit Mischgemüse und Spätzle",
+        "name": "Currywurst mit Ofenkartoffelecken und Salat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -302,30 +295,37 @@
         "type": "vegan"
       },
       {
-        "name": "Vollkorn Spirelli mit Rahmchampingnons und Hartkäse",
-        "price": "7,00 €",
+        "name": "Veganer Burger mit Pommes",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Lachsfilet mit gebackenen Kartoffeln und Kräuterquark",
-        "price": "9,50 €",
+        "name": "Schweinegulasch mit Spätzle und Rosenkohl/Rotkohl",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Joghurtpfannkuchen mit Apfelmus und Zimtzucker",
+        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
         "price": "4,00 € (klein 3,00 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Schnitzel-Tag",
-        "price": "8,50 €",
-        "description": "Schwein / Geflügel / Gemüse",
+        "name": "Spanischer Eierauflauf",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Schweinesteak mit Letschogemüse und Kartoffeln",
+        "price": "8,00 €",
+        "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
       },
@@ -390,28 +390,35 @@
         "type": "vegan"
       },
       {
-        "name": "Rote Beete Sticks mit Süßkartoffelpüree und Salatbeilage",
-        "price": "7,00 €",
+        "name": "Backcamembert mit Wedges und Kräuterquark",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Königsberger Klopse mit Kartoffeln und Mischgemüse",
-        "price": "8,00 €",
+        "name": "Grützwurst mit Kartoffeln und Sauerkraut",
+        "price": "7,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Gemüsereispfanne mit Röstzwiebeln",
+        "name": "Mini Haxe mit Kartoffelpüree und Sauerkraut",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "meat"
+      },
+      {
+        "name": "Mais-Käsepuffer mit Pfeffersoße und Möhrensalat ,",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schinken-Sahnenudelauflauf",
+        "name": "Leberragout mit Pilzen und Kartoffelstampf",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
