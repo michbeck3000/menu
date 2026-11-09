@@ -25,9 +25,9 @@ DAY_MAP = {
 }
 
 WEEKLY_SPECIAL = {
-    "dish": "SCHNITZEL MIT SCHMORZWIEBELN",
-    "description": "dazu Pommes frites",
-    "price": "4,90 €",
+    "dish": "HIRSCH-GULASCH MIT BUTTERSPÄTZLE",
+    "description": "in einer Sauce mit Chompignons, Austernseitlingen, Stockschwämmchen, verfeinert mit Wildpreiselbeeren",
+    "price": "9,90 €",
     "isWeeklySpecial": True
 }
 
