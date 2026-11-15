@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T07:55:22.347Z",
+  "updatedAt": "2026-11-15T14:08:11.726Z",
   "days": {
     "monday": [
       {
@@ -17,21 +17,21 @@
         "type": "vegan"
       },
       {
-        "name": "Vegane Bratwurst mit Sauerkraut und Kartoffel-Karottenpüree",
-        "price": "7,00 €",
+        "name": "Gemüseschnitzel mit Backkartoffel und Kräuterquark",
+        "price": "6,80 €",
+        "description": "",
+        "bistro": "Fraunhofer",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Hähnchen Cordon Bleu mit Kroketten und Erbsen",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegan"
       },
       {
-        "name": "Hühnerfrikassee mit Reis und Erbsen",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Blumenkohl-Kokoscremesuppe mit Spinat-Maultaschen",
+        "name": "Vegane Karotten-Ingwer-Kokossuppe",
         "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
@@ -105,22 +105,22 @@
         "type": "vegetarian"
       },
       {
-        "name": "Eier in Senfsoße mit Kartoffeln und Möhrenrohkostsalat",
+        "name": "Salat-Gemüse Bowl mit Mozzarella Sticks",
         "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
       },
       {
-        "name": "Jägerschnitzel mit Spirelli, Tomatensoße und Reibekäse",
-        "price": "7,00 €",
+        "name": "Backfisch mit Pommes und Remoulade",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Quarkkeulchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Apfel Crumble mit Vanillesoße",
+        "price": "2,50 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -193,22 +193,8 @@
         "type": "meat"
       },
       {
-        "name": "Kartoffelrösti gefüllt mit Mozzarella, dazu Salat und Quarkdip",
-        "price": "7,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Zürcher Geschnetzeltes mit Reis",
-        "price": "8,00 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Soljanka",
-        "price": "5,00 € (klein 2,70 €)",
+        "name": "Feiertag",
+        "price": "",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
@@ -288,22 +274,22 @@
         "type": "vegan"
       },
       {
-        "name": "Veganer Burger mit Pommes",
-        "price": "7,50 €",
+        "name": "Ofenkartoffel mit Kräuterquark und Grillgemüse",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
-        "name": "Schweinegulasch mit Spätzle und Rosenkohl/Rotkohl",
-        "price": "8,00 €",
+        "name": "Spirelli mit Wurstgulasch und Reibekäse",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
       },
       {
-        "name": "Eierkuchen mit Apfelmus und Zimtzucker",
-        "price": "4,00 € (klein 3,00 €)",
+        "name": "Grießbrei mit Kirschen und Zimtzucker",
+        "price": "5,00 € (klein 2,70 €)",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "vegetarian"
@@ -383,22 +369,15 @@
         "type": "vegetarian"
       },
       {
-        "name": "Backcamembert mit Wedges und Kräuterquark",
-        "price": "7,50 €",
+        "name": "Vegane Boulette mit Setzei, Kartoffelpüree und Salat",
+        "price": "7,00 €",
         "description": "",
         "bistro": "Fraunhofer",
-        "type": "vegetarian"
+        "type": "vegan"
       },
       {
-        "name": "Grützwurst mit Kartoffeln und Sauerkraut",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Fraunhofer",
-        "type": "meat"
-      },
-      {
-        "name": "Mini Haxe mit Kartoffelpüree und Sauerkraut",
-        "price": "7,50 €",
+        "name": "Gebratene Mie-Nudel mit Hähnchen-Frühlingsrolle, dazu Sweet Chili Soße",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Fraunhofer",
         "type": "meat"
