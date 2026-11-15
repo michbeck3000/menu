@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-14T07:38:57.149Z",
+  "updatedAt": "2026-11-15T07:55:22.347Z",
   "days": {
     "monday": [
       {
-        "name": "Hähnchen-Nudel-Auflauf",
+        "name": "Gebackener Burrito",
         "price": "9,20 €",
-        "description": "auf Tomatenragout und Käse überbacken",
+        "description": "mit Chili con Carne vom Rind und Avocado-Dip",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Rotes Linsencurry",
+        "name": "Erdnuss-Süßkartoffel-Curry",
         "price": "8,90 €",
-        "description": "an Gewürzreis",
+        "description": "mit Pak Choi und Gemüse Couscous",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -91,16 +91,16 @@
     ],
     "tuesday": [
       {
-        "name": "Hähnchenbrustfilet ,, Fuhrmann Art´´",
+        "name": "BBQ Pulled Chicken",
         "price": "9,20 €",
-        "description": "an Butterrahmgemüse und Kroketten",
+        "description": "an Krautsalat und Kartoffelecken",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Blumenkohl-Falafel",
+        "name": "Gemüse Köttbular",
         "price": "8,60 €",
-        "description": "an Zitronenreis und Korianderdip",
+        "description": "mit Blumenkohl-Brokkoli Ragout und Rösti",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -186,18 +186,11 @@
     ],
     "wednesday": [
       {
-        "name": "Szegediner Gulasch",
-        "price": "9,20 €",
-        "description": "mit Sauerkraut und Salzkartoffeln",
+        "name": "Buß- und Bettag",
+        "price": "",
+        "description": "Wir wünschen Ihnen einen schönen freien Tag. Am Donnerstag kochen wir wieder für Sie.",
         "bistro": "Bio-City",
         "type": "meat"
-      },
-      {
-        "name": "Kartoffel-Gemüse-Pfanne",
-        "price": "8,60 €",
-        "description": "mit Kräuterquark und vegetarischem Schnitzel",
-        "bistro": "Bio-City",
-        "type": "vegetarian"
       },
       {
         "name": "Kartoffelrösti gefüllt mit Mozzarella, dazu Salat und Quarkdip",
@@ -281,16 +274,16 @@
     ],
     "thursday": [
       {
-        "name": "Pochiertes Rotbarschfilet",
+        "name": "Paniertes Schollenfilet",
         "price": "9,20 €",
-        "description": "auf Sellerierahmgemüse und gebackenen Kartoffeln",
+        "description": "mit Fenchelrahm und Langkornreis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Meat Balls Köfte",
+        "name": "Meat-Balls",
         "price": "8,90 €",
-        "description": "mit Tomatensauce und Langkornreis",
+        "description": "an französisches Ratatouille und Langkornreis",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -376,18 +369,18 @@
     ],
     "friday": [
       {
-        "name": "Hähnchenragout",
+        "name": "Hähnchen-Kokos -Curry",
         "price": "9,20 €",
-        "description": "mit mediterranem Gemüse und Reis",
+        "description": "an Basmatireis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Klassisches Gemüsecurry",
-        "price": "8,90 €",
-        "description": "an Basmatireis und Räuchertofu",
+        "name": "Gebackener Käse",
+        "price": "8,60 €",
+        "description": "mit Gemüsepfanne und Kräuterdip",
         "bistro": "Bio-City",
-        "type": "vegan"
+        "type": "vegetarian"
       },
       {
         "name": "Backcamembert mit Wedges und Kräuterquark",
