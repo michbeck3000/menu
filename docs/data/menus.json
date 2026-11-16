@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T21:17:50.449Z",
+  "updatedAt": "2026-11-16T08:02:53.594Z",
   "days": {
     "monday": [
       {
@@ -38,18 +38,18 @@
         "type": "vegan"
       },
       {
-        "name": "Blumenkohl mit holländischer Soße und Kartoffeln",
+        "name": "Brokkoli mit holländischer Soße und Kartoffeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Schmorpfanne mit Knacker, Wirsing und Kartoffeln",
+        "name": "Geflügelbratwurst mit Currygemüse und Reis",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
+        "type": "meat"
       },
       {
         "name": "SCHNITZEL „WIENER ART“ MIT WALDPILZ-RAHMSAUCE",
@@ -133,14 +133,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Schafskäse-Spinatlasagne",
+        "name": "Senfeier mit Kartoffeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hähnchenkeulen mit Krautsalat, gebackenen Kartoffeln und Dip",
+        "name": "Szegediner Gulasch mit Böhmischen Knödeln",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -214,15 +214,8 @@
         "type": "meat"
       },
       {
-        "name": "Semmelknödel mit Waldpilzen in Sahnesoße",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Currywurst mit Ofenkartoffelecken und Salat",
-        "price": "8,00 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -281,15 +274,8 @@
         "type": "vegetarian"
       },
       {
-        "name": "Spanischer Eierauflauf",
-        "price": "7,50 €",
-        "description": "",
-        "bistro": "Nationalbibliothek",
-        "type": "vegetarian"
-      },
-      {
-        "name": "Schweinesteak mit Letschogemüse und Kartoffeln",
-        "price": "8,00 €",
+        "name": "Keine Daten vorhanden",
+        "price": "",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -369,14 +355,14 @@
         "type": "meat"
       },
       {
-        "name": "Mais-Käsepuffer mit Pfeffersoße und Möhrensalat ,",
+        "name": "Quiche mit Spinat, Feta und Tomaten",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Leberragout mit Pilzen und Kartoffelstampf",
+        "name": "Hackbällchen mit Tomatensoße und Nudelsalat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
