@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-21T08:20:17.460Z",
+  "updatedAt": "2026-11-22T08:04:24.528Z",
   "days": {
     "monday": [
       {
-        "name": "Gebackener Burrito",
+        "name": "Hähnchengeschnetzeltes",
         "price": "9,20 €",
-        "description": "mit Chili con Carne vom Rind und Avocado-Dip",
+        "description": "in Rotweinsoße und Langkornreis",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Erdnuss-Süßkartoffel-Curry",
+        "name": "Falafelbällchen",
         "price": "8,90 €",
-        "description": "mit Pak Choi und Gemüse Couscous",
+        "description": "mit Cous-Cous und Aubergine-Tomatenragout",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -98,16 +98,16 @@
     ],
     "tuesday": [
       {
-        "name": "BBQ Pulled Chicken",
+        "name": "Boeuf Bourguignon",
         "price": "9,20 €",
-        "description": "an Krautsalat und Kartoffelecken",
+        "description": "mit Herzoginkartoffeln und Schmorgemüse",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gemüse Köttbular",
+        "name": "Soja-Pilzgulasch",
         "price": "8,60 €",
-        "description": "mit Blumenkohl-Brokkoli Ragout und Rösti",
+        "description": "mit Semmelknödel",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
@@ -200,11 +200,18 @@
     ],
     "wednesday": [
       {
-        "name": "Buß- und Bettag",
-        "price": "",
-        "description": "Wir wünschen Ihnen einen schönen freien Tag. Am Donnerstag kochen wir wieder für Sie.",
+        "name": "Hähnchenschnitzel",
+        "price": "9,20 €",
+        "description": "an gebackenen Drillingen und Paprikasauce",
         "bistro": "Bio-City",
         "type": "meat"
+      },
+      {
+        "name": "Gnocchipfanne mediterranem Gemüse und Kräuterdip",
+        "price": "8,60 €",
+        "description": "",
+        "bistro": "Bio-City",
+        "type": "vegetarian"
       },
       {
         "name": "Feiertag",
@@ -239,16 +246,16 @@
     ],
     "thursday": [
       {
-        "name": "Paniertes Schollenfilet",
+        "name": "Matjes Hausfrauenart",
         "price": "9,20 €",
-        "description": "mit Fenchelrahm und Langkornreis",
+        "description": "mit Salzkartoffeln",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Meat-Balls",
+        "name": "Kichererbsen-Kürbis-Curry",
         "price": "8,90 €",
-        "description": "an französisches Ratatouille und Langkornreis",
+        "description": "mit Cous Cous und Erdnuss",
         "bistro": "Bio-City",
         "type": "vegan"
       },
@@ -327,16 +334,16 @@
     ],
     "friday": [
       {
-        "name": "Hähnchen-Kokos -Curry",
+        "name": "Rindergulasch",
         "price": "9,20 €",
-        "description": "an Basmatireis",
+        "description": "mit Champignons und Semmelknödel",
         "bistro": "Bio-City",
         "type": "meat"
       },
       {
-        "name": "Gebackener Käse",
+        "name": "Blumenkohl-Falafel",
         "price": "8,60 €",
-        "description": "mit Gemüsepfanne und Kräuterdip",
+        "description": "an Zitronenreis und Korianderdip",
         "bistro": "Bio-City",
         "type": "vegetarian"
       },
