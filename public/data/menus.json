@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T20:06:19.563Z",
+  "updatedAt": "2026-11-23T09:11:51.869Z",
   "days": {
     "monday": [
       {
@@ -38,14 +38,14 @@
         "type": "vegan"
       },
       {
-        "name": "Brokkoli mit holländischer Soße und Kartoffeln",
+        "name": "Chili sin Carne mit Reis (vegetarisch)",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Geflügelbratwurst mit Currygemüse und Reis",
+        "name": "Nürnberger Würstchen mit Schmorkraut und Kartoffelstampf",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -126,14 +126,14 @@
         "type": "vegetarian"
       },
       {
-        "name": "Senfeier mit Kartoffeln",
+        "name": "Rührei mit Spinat und Kartoffeln",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Szegediner Gulasch mit Böhmischen Knödeln",
+        "name": "Rosenkohl-Gnocchiauflauf mit Speck",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
@@ -221,8 +221,15 @@
         "type": "meat"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
+        "name": "Gnocchiauflauf mit Tomaten und Mozzarella",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Schweinesteak \"Hawaii\" Möhren & Kartoffeln",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -309,8 +316,15 @@
         "type": "vegetarian"
       },
       {
-        "name": "Keine Daten vorhanden",
-        "price": "",
+        "name": "Curry-Linsen-Gemüsepfanne mit Minz-Joghurtdip",
+        "price": "7,50 €",
+        "description": "",
+        "bistro": "Nationalbibliothek",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Wirsing-Kartoffel-Hackpfanne",
+        "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "meat"
@@ -397,14 +411,14 @@
         "type": "meat"
       },
       {
-        "name": "Quiche mit Spinat, Feta und Tomaten",
+        "name": "Brokkoli-Spätzle mit Käse überbacken",
         "price": "7,50 €",
         "description": "",
         "bistro": "Nationalbibliothek",
         "type": "vegetarian"
       },
       {
-        "name": "Hackbällchen mit Tomatensoße und Nudelsalat",
+        "name": "Gyrosreispfanne mit Tzaziki und Weißkrautsalat",
         "price": "8,00 €",
         "description": "",
         "bistro": "Nationalbibliothek",
